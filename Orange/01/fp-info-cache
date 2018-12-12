@@ -1,4 +1,4 @@
-15807527843090567
+15810616913272567
 Battery
 9VFemale
 
@@ -45913,16 +45913,16 @@ LED CREE XH
 8
 2
 LEDs
-LED_CREE-XHP35
+LED_Cree-XHP35
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
-LED CREE XHP35
+LED Cree XHP35
 0
 6
 3
 LEDs
-LED_Cree-XHP35
+LED_CREE-XHP35
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
-LED Cree XHP35
+LED CREE XHP35
 0
 6
 3
@@ -45983,16 +45983,16 @@ LED Cree XHP70
 15
 3
 LEDs
-LED_Cree-XP
-LED Cree-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
-LED Cree XP
+LED_CREE-XP
+LED CREE-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
+LED CREE XP
 0
 6
 3
 LEDs
-LED_CREE-XP
-LED CREE-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
-LED CREE XP
+LED_Cree-XP
+LED Cree-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
+LED Cree XP
 0
 6
 3
@@ -48790,15 +48790,29 @@ IR Receiver Vishay TSOP-xxxx MOLD
 3
 3
 orange
-orange2.All.01
-Imported from Base2.svg
+LED-RGB-5050-SMD
+
+
+0
+4
+4
+orange
+orange.All.01
+Imported from Base1.svg
 svg2mod
 0
 0
 0
 orange
-orange2.All.02
-Imported from Base2.svg
+orange.back.01
+Imported from Base1.svg
+svg2mod
+0
+0
+0
+orange
+orange.back.02
+Imported from Base1.svg
 svg2mod
 0
 0

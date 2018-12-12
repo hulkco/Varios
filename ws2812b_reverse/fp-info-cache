@@ -1,4 +1,4 @@
-15807527843090567
+15809072416275062
 Battery
 9VFemale
 
@@ -45885,16 +45885,16 @@ LED Cree PLCC-4
 4
 4
 LEDs
-LED_Cree-XB
+LED_CREE-XB
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
-LED Cree XB
+LED CREE XB
 0
 5
 3
 LEDs
-LED_CREE-XB
+LED_Cree-XB
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
-LED CREE XB
+LED Cree XB
 0
 5
 3
@@ -45913,16 +45913,16 @@ LED CREE XH
 8
 2
 LEDs
-LED_CREE-XHP35
+LED_Cree-XHP35
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
-LED CREE XHP35
+LED Cree XHP35
 0
 6
 3
 LEDs
-LED_Cree-XHP35
+LED_CREE-XHP35
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
-LED Cree XHP35
+LED CREE XHP35
 0
 6
 3
@@ -45955,13 +45955,6 @@ LED XHP50 Cree
 15
 3
 LEDs
-LED_Cree-XHP70_6V
-Cree XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
-LED Cree XHP70
-0
-17
-3
-LEDs
 LED_CREE-XHP70_6V
 CREE XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
 LED CREE XHP70
@@ -45969,16 +45962,23 @@ LED CREE XHP70
 15
 3
 LEDs
-LED_CREE-XHP70_12V
-CREE XHP70 LED, 12V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
-LED CREE XHP70
+LED_Cree-XHP70_6V
+Cree XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
+LED Cree XHP70
 0
-15
+17
 3
 LEDs
 LED_Cree-XHP70_12V
 Cree XHP70 LED, 12V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
 LED Cree XHP70
+0
+15
+3
+LEDs
+LED_CREE-XHP70_12V
+CREE XHP70 LED, 12V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
+LED CREE XHP70
 0
 15
 3
@@ -46018,16 +46018,16 @@ LED CREE XQ
 2
 2
 LEDs
-LED_Cree-XQ_HandSoldering
-LED Cree-XQ handsoldering pads http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
-LED Cree XQ
+LED_CREE-XQ_HandSoldering
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
+LED CREE XQ
 0
 2
 2
 LEDs
-LED_CREE-XQ_HandSoldering
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
-LED CREE XQ
+LED_Cree-XQ_HandSoldering
+LED Cree-XQ handsoldering pads http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
+LED Cree XQ
 0
 2
 2
@@ -48285,6 +48285,27 @@ mounting hole 8.4mm m8
 0
 9
 1
+neo-reverse
+LED-RGB-5050-SMD
+
+
+0
+4
+4
+neo-reverse
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+neo-reverse
+Pin_half-02x02_P2.54mm
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+8
+2
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -48789,20 +48810,6 @@ IR Receiver Vishay TSOP-xxxx MOLD
 0
 3
 3
-orange
-orange2.All.01
-Imported from Base2.svg
-svg2mod
-0
-0
-0
-orange
-orange2.All.02
-Imported from Base2.svg
-svg2mod
-0
-0
-0
 Oscillator
 Oscillator_DIP-8
 Oscillator, DIP8,http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf
