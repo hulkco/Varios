@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name constitution)(type KiCad)(uri ${KIPRJMOD}/constitution.pretty)(options "")(descr ""))
+)
