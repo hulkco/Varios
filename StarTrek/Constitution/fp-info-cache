@@ -1,4 +1,4 @@
-15807527835631262
+15815251842047262
 Battery
 9VFemale
 
@@ -38955,7 +38955,14 @@ MesurementPoint Square SMDPad 5mmx10mm
 1
 1
 constitution
-const.all.01
+Constitution.All.01
+Imported from Base.svg
+svg2mod
+0
+0
+0
+constitution
+Edge.Cuts.01
 Imported from Base.svg
 svg2mod
 0
@@ -38968,6 +38975,34 @@ Hole_Big
 0
 1
 1
+constitution
+LWT773Q2R25K8LZ
+TOPLED Reverse Gullwing_1
+LED
+0
+3
+3
+constitution
+Mask_Nave.01
+Imported from Base.svg
+svg2mod
+0
+0
+0
+constitution
+Reverse_LWT773Q2R25K8LZ
+TOPLED Reverse Gullwing_1
+LED
+0
+2
+2
+constitution
+SilkS.01
+Imported from Base.svg
+svg2mod
+0
+0
+0
 Converter_ACDC
 Converter_ACDC_Hahn_HS-400xx_THT
 ACDC-Converter, 3W, Hahn-HS-400xx, THT https://www.schukat.com/schukat/schukat_cms_de.nsf/index/FrameView?OpenDocument&art=HS40009&wg=M7942
@@ -45899,16 +45934,16 @@ LED Cree PLCC-4
 4
 4
 LEDs
-LED_Cree-XB
+LED_CREE-XB
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
-LED Cree XB
+LED CREE XB
 0
 5
 3
 LEDs
-LED_CREE-XB
+LED_Cree-XB
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
-LED CREE XB
+LED Cree XB
 0
 5
 3
@@ -45927,13 +45962,6 @@ LED CREE XH
 8
 2
 LEDs
-LED_Cree-XHP35
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
-LED Cree XHP35
-0
-6
-3
-LEDs
 LED_CREE-XHP35
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
 LED CREE XHP35
@@ -45941,11 +45969,11 @@ LED CREE XHP35
 6
 3
 LEDs
-LED_Cree-XHP50_6V
-Cree XHP50, 6V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
-LED Cree XHP50
+LED_Cree-XHP35
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
+LED Cree XHP35
 0
-17
+6
 3
 LEDs
 LED_CREE-XHP50_6V
@@ -45955,16 +45983,23 @@ LED CREE XHP50
 15
 3
 LEDs
-LED_Cree-XHP50_12V
-Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
-LED XHP50 Cree
+LED_Cree-XHP50_6V
+Cree XHP50, 6V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
+LED Cree XHP50
 0
-15
+17
 3
 LEDs
 LED_CREE-XHP50_12V
 CREE XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf 
 LED XHP50 CREE
+0
+15
+3
+LEDs
+LED_Cree-XHP50_12V
+Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
+LED XHP50 Cree
 0
 15
 3
@@ -45997,16 +46032,16 @@ LED Cree XHP70
 15
 3
 LEDs
-LED_CREE-XP
-LED CREE-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
-LED CREE XP
+LED_Cree-XP
+LED Cree-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
+LED Cree XP
 0
 6
 3
 LEDs
-LED_Cree-XP
-LED Cree-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
-LED Cree XP
+LED_CREE-XP
+LED CREE-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
+LED CREE XP
 0
 6
 3

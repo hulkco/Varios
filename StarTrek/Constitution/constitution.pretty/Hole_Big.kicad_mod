@@ -1,5 +1,5 @@
-(module Hole_Big (layer F.Cu) (tedit 5C0E7F67)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+(module Hole_Big (layer F.Cu) (tedit 5C126CE3)
+  (fp_text reference REF** (at 0 -5.8928) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Hole_Big (at 0 -0.5) (layer F.Fab)
