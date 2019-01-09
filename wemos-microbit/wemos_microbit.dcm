@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Microbit_01X25
+D Connector, single row, 01x25, pin header
+K connector
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,14 @@
+YELLOW 
+RGB(255, 255, 0)
+
+20 chicos
+
+5 Grandes
+
+Alto 2.5
+Ancho 0.80 * 4 = 3.2
+Espacio  1.27 - 0.80 = 0.47
+Total espacio = 0.47 * 3 = 1.41
+Total Ancho = 3.2 + 1.41 = 4.61
+
+
