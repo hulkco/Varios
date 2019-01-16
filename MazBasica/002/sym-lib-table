@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name bats-rescue)(type Legacy)(uri ${KIPRJMOD}/bats-rescue.lib)(options "")(descr ""))
+  (lib (name bats-cache)(type Legacy)(uri ${KIPRJMOD}/bats-cache.lib)(options "")(descr ""))
+)
