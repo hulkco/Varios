@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name neo-reverse)(type KiCad)(uri ${KIPRJMOD}/neo-reverse.pretty)(options "")(descr ""))
+)
