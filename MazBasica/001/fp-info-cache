@@ -1,4 +1,4 @@
-15815151663226268
+15856940570370115
 apa-106
 APA-106-F8
 APA-106-F8
@@ -45892,16 +45892,16 @@ LED Cree PLCC-4
 4
 4
 LEDs
-LED_CREE-XB
+LED_Cree-XB
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
-LED CREE XB
+LED Cree XB
 0
 5
 3
 LEDs
-LED_Cree-XB
+LED_CREE-XB
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
-LED Cree XB
+LED CREE XB
 0
 5
 3
@@ -45962,18 +45962,18 @@ LED XHP50 CREE
 15
 3
 LEDs
-LED_CREE-XHP70_6V
-CREE XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
-LED CREE XHP70
-0
-15
-3
-LEDs
 LED_Cree-XHP70_6V
 Cree XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
 LED Cree XHP70
 0
 17
+3
+LEDs
+LED_CREE-XHP70_6V
+CREE XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
+LED CREE XHP70
+0
+15
 3
 LEDs
 LED_CREE-XHP70_12V
@@ -46011,13 +46011,6 @@ LED Cree XP-G
 6
 3
 LEDs
-LED_Cree-XQ
-LED Cree-XQ http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
-LED Cree XQ
-0
-2
-2
-LEDs
 LED_CREE-XQ
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
 LED CREE XQ
@@ -46025,9 +46018,9 @@ LED CREE XQ
 2
 2
 LEDs
-LED_CREE-XQ_HandSoldering
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
-LED CREE XQ
+LED_Cree-XQ
+LED Cree-XQ http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
+LED Cree XQ
 0
 2
 2
@@ -46035,6 +46028,13 @@ LEDs
 LED_Cree-XQ_HandSoldering
 LED Cree-XQ handsoldering pads http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
 LED Cree XQ
+0
+2
+2
+LEDs
+LED_CREE-XQ_HandSoldering
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
+LED CREE XQ
 0
 2
 2
@@ -48292,6 +48292,181 @@ mounting hole 8.4mm m8
 0
 9
 1
+Nano-Play
+ALPS_EC12E24_encoder_incremental
+
+
+0
+5
+4
+Nano-Play
+ALP_RK09K111
+
+
+0
+5
+4
+Nano-Play
+Arduino_Nano
+
+
+0
+30
+30
+Nano-Play
+Barrel_Jack_Hembra_CLIFF_FC68148
+
+
+0
+3
+3
+Nano-Play
+CANAL_ELECTRONIC_DTSM-31N-B
+
+
+0
+2
+2
+Nano-Play
+C_0805
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+Nano-Play
+C_Radial_D5_L11_P2
+Radial Electrolytic Capacitor 5mm x Length 11mm, Pitch 2mm
+Electrolytic Capacitor
+0
+2
+2
+Nano-Play
+DFN-10-1EP_3x3mm_Pitch0.5mm
+10-Lead Plastic Dual Flat, No Lead Package (MF) - 3x3x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)
+DFN 0.5
+0
+10
+10
+Nano-Play
+DO-214AC
+
+
+0
+2
+2
+Nano-Play
+Gnd-Via
+
+
+0
+1
+1
+Nano-Play
+LDR_TOKEN_PGM5_Series
+
+
+0
+2
+2
+Nano-Play
+LED_RGB_5mm_G_B_COM_R_Anodo_comun
+
+
+0
+4
+4
+Nano-Play
+logo_HackLabAl
+
+
+0
+0
+0
+Nano-Play
+LOUDITY_LD-BZPN-1705
+
+
+0
+2
+2
+Nano-Play
+Matriz_Led_7X5
+
+
+0
+12
+12
+Nano-Play
+osh-logo
+
+
+0
+0
+0
+Nano-Play
+Pin_Header_Straight_1x03
+Through hole pin header
+pin header
+0
+3
+3
+Nano-Play
+R_0805
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+Nano-Play
+Socket_Strip_Straight_1x01
+Through hole socket strip
+socket strip
+0
+1
+1
+Nano-Play
+Socket_Strip_Straight_1x03
+Through hole socket strip
+socket strip
+0
+3
+3
+Nano-Play
+Socket_Strip_Straight_1x04
+Through hole socket strip
+socket strip
+0
+4
+4
+Nano-Play
+Socket_Strip_Straight_1x06
+Through hole socket strip
+socket strip
+0
+6
+6
+Nano-Play
+SOIC-16_3.9x9.9mm_Pitch1.27mm
+16-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+16
+16
+Nano-Play
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+Nano-Play
+TO-220_Neutral123_Vertical_LargePads
+TO-220, Neutral, Vertical, Large Pads,
+TO-220, Neutral, Vertical, Large Pads,
+0
+3
+3
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -60899,6 +61074,20 @@ DEV
 0
 1
 1
+Socket_Arduino_Uno
+DHT11_1x04_P2.54mm
+Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x04 2.54mm single row
+0
+4
+4
+Socket_Arduino_Uno
+PinSocket_1x04_P2.54mm_Vertical
+Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x04 2.54mm single row
+0
+4
+4
 Socket_Arduino_Uno
 PL9823
 
