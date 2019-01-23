@@ -1,4 +1,11 @@
-15809072416275062
+15860094812334411
+apa-106
+APA-106-F8
+APA-106-F8
+APA 106 F8 RGB LED 8mm
+0
+4
+4
 Battery
 9VFemale
 
@@ -45927,13 +45934,6 @@ LED CREE XHP35
 6
 3
 LEDs
-LED_CREE-XHP50_6V
-CREE XHP50, 6V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf 
-LED CREE XHP50
-0
-15
-3
-LEDs
 LED_Cree-XHP50_6V
 Cree XHP50, 6V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
 LED Cree XHP50
@@ -45941,9 +45941,9 @@ LED Cree XHP50
 17
 3
 LEDs
-LED_CREE-XHP50_12V
-CREE XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf 
-LED XHP50 CREE
+LED_CREE-XHP50_6V
+CREE XHP50, 6V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf 
+LED CREE XHP50
 0
 15
 3
@@ -45951,6 +45951,13 @@ LEDs
 LED_Cree-XHP50_12V
 Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
 LED XHP50 Cree
+0
+15
+3
+LEDs
+LED_CREE-XHP50_12V
+CREE XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf 
+LED XHP50 CREE
 0
 15
 3
@@ -46004,13 +46011,6 @@ LED Cree XP-G
 6
 3
 LEDs
-LED_Cree-XQ
-LED Cree-XQ http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
-LED Cree XQ
-0
-2
-2
-LEDs
 LED_CREE-XQ
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
 LED CREE XQ
@@ -46018,9 +46018,9 @@ LED CREE XQ
 2
 2
 LEDs
-LED_CREE-XQ_HandSoldering
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
-LED CREE XQ
+LED_Cree-XQ
+LED Cree-XQ http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
+LED Cree XQ
 0
 2
 2
@@ -46028,6 +46028,13 @@ LEDs
 LED_Cree-XQ_HandSoldering
 LED Cree-XQ handsoldering pads http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
 LED Cree XQ
+0
+2
+2
+LEDs
+LED_CREE-XQ_HandSoldering
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
+LED CREE XQ
 0
 2
 2
@@ -48285,6 +48292,188 @@ mounting hole 8.4mm m8
 0
 9
 1
+Nano-Play
+ALPS_EC12E24_encoder_incremental
+
+
+0
+5
+4
+Nano-Play
+ALP_RK09K111
+
+
+0
+5
+4
+Nano-Play
+Arduino_Nano
+
+
+0
+30
+30
+Nano-Play
+Barrel_Jack_Hembra_CLIFF_FC68148
+
+
+0
+3
+3
+Nano-Play
+CANAL_ELECTRONIC_DTSM-31N-B
+
+
+0
+2
+2
+Nano-Play
+C_0805
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+Nano-Play
+C_Radial_D5_L11_P2
+Radial Electrolytic Capacitor 5mm x Length 11mm, Pitch 2mm
+Electrolytic Capacitor
+0
+2
+2
+Nano-Play
+DFN-10-1EP_3x3mm_Pitch0.5mm
+10-Lead Plastic Dual Flat, No Lead Package (MF) - 3x3x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)
+DFN 0.5
+0
+10
+10
+Nano-Play
+DO-214AC
+
+
+0
+2
+2
+Nano-Play
+Gnd-Via
+
+
+0
+1
+1
+Nano-Play
+LDR_TOKEN_PGM5_Series
+
+
+0
+2
+2
+Nano-Play
+LED_RGB_5mm_G_B_COM_R_Anodo_comun
+
+
+0
+4
+4
+Nano-Play
+logo_HackLabAl
+
+
+0
+0
+0
+Nano-Play
+LOUDITY_LD-BZPN-1705
+
+
+0
+2
+2
+Nano-Play
+Matriz_Led_7X5
+
+
+0
+12
+12
+Nano-Play
+osh-logo
+
+
+0
+0
+0
+Nano-Play
+Pin_Header_Straight_1x03
+Through hole pin header
+pin header
+0
+3
+3
+Nano-Play
+R_0805
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+Nano-Play
+Socket_Strip_Straight_1x01
+Through hole socket strip
+socket strip
+0
+1
+1
+Nano-Play
+Socket_Strip_Straight_1x03
+Through hole socket strip
+socket strip
+0
+3
+3
+Nano-Play
+Socket_Strip_Straight_1x04
+Through hole socket strip
+socket strip
+0
+4
+4
+Nano-Play
+Socket_Strip_Straight_1x06
+Through hole socket strip
+socket strip
+0
+6
+6
+Nano-Play
+SOIC-16_3.9x9.9mm_Pitch1.27mm
+16-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+16
+16
+Nano-Play
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+Nano-Play
+TO-220_Neutral123_Vertical_LargePads
+TO-220, Neutral, Vertical, Large Pads,
+TO-220, Neutral, Vertical, Large Pads,
+0
+3
+3
+neo-reverse
+C_1206_3216Metric_Pad1.39x1.80mm_HandSolder
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
 neo-reverse
 LED-RGB-5050-SMD
 
@@ -48293,12 +48482,54 @@ LED-RGB-5050-SMD
 4
 4
 neo-reverse
+Neo-reverse_SMD_4Pin
+surface-mounted straight socket strip, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
+Surface mounted socket strip SMD 1x04 2.54mm single row style1 pin1 left
+0
+2
+2
+neo-reverse
+Neo-reverse_SMD_Pin1Left
+surface-mounted straight socket strip, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
+Surface mounted socket strip SMD 1x04 2.54mm single row style1 pin1 left
+0
+2
+2
+neo-reverse
+Neopixel_Reverse_P2.54mm
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+8
+2
+neo-reverse
 PinHeader_1x02_P2.54mm_Vertical
 Through hole straight pin header, 1x02, 2.54mm pitch, single row
 Through hole pin header THT 1x02 2.54mm single row
 0
 2
 2
+neo-reverse
+PinHeader_Only_P2.54mm
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+neo-reverse
+PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left
+surface-mounted straight socket strip, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
+Surface mounted socket strip SMD 1x04 2.54mm single row style1 pin1 left
+0
+4
+4
+neo-reverse
+PinSocket_1x04_P2.54mm_WeMos
+Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x04 2.54mm single row
+0
+4
+4
 neo-reverse
 Pin_half-02x02_P2.54mm
 Through hole straight pin header, 1x02, 2.54mm pitch, single row
