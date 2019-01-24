@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ws2812b_reverse-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -14,28 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L conn:CONN_01X02 J1
-U 1 1 5C103029
-P 3950 3950
-F 0 "J1" H 4050 3975 50  0000 L CNN
-F 1 "CONN_01X02" H 4050 3900 50  0000 L CNN
-F 2 "neo-reverse:Pin_half-02x02_P2.54mm" H 3950 3950 50  0001 C CNN
-F 3 "" H 3950 3950 50  0001 C CNN
-	1    3950 3950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L conn:CONN_01X02 J2
-U 1 1 5C106126
-P 6100 3925
-F 0 "J2" H 6200 3950 50  0000 L CNN
-F 1 "CONN_01X02" H 6200 3875 50  0000 L CNN
-F 2 "neo-reverse:Pin_half-02x02_P2.54mm" H 6100 3925 50  0001 C CNN
-F 3 "" H 6100 3925 50  0001 C CNN
-	1    6100 3925
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 4150 4800 4000
 Wire Wire Line
@@ -43,9 +21,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 4150 5800 3875
 Wire Wire Line
-	5800 3875 5900 3875
-Wire Wire Line
-	5900 4400 5900 3975
+	5900 4400 5900 4075
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5C10824A
@@ -134,9 +110,9 @@ Wire Wire Line
 Connection ~ 4575 3900
 Connection ~ 4275 3900
 Wire Wire Line
-	4275 3900 4150 3900
+	4275 3900 4200 3900
 Wire Wire Line
-	4150 4000 4800 4000
+	4150 4000 4200 4000
 Connection ~ 5625 4400
 Wire Wire Line
 	5625 4400 5900 4400
@@ -171,4 +147,54 @@ F 3 "" H 4575 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4575 3600 4575 3500
+$Comp
+L conn:CONN_01X04 J2
+U 1 1 5C48BCA6
+P 6150 3925
+F 0 "J2" H 6228 3966 50  0000 L CNN
+F 1 "CONN_01X04" H 6228 3875 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_WeMos" H 6150 3925 50  0001 C CNN
+F 3 "" H 6150 3925 50  0001 C CNN
+	1    6150 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:CONN_01X04 J1
+U 1 1 5C48DB49
+P 3950 3950
+F 0 "J1" H 3867 4315 50  0000 C CNN
+F 1 "CONN_01X04" H 3867 4224 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_WeMos" H 3950 3950 50  0001 C CNN
+F 3 "" H 3950 3950 50  0001 C CNN
+	1    3950 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3875 5950 3875
+Wire Wire Line
+	5950 3975 5900 3975
+Wire Wire Line
+	5950 3775 5800 3775
+Wire Wire Line
+	5800 3775 5800 3875
+Connection ~ 5800 3875
+Wire Wire Line
+	5950 4075 5900 4075
+Connection ~ 5900 4075
+Wire Wire Line
+	5900 4075 5900 3975
+Wire Wire Line
+	4150 3800 4200 3800
+Wire Wire Line
+	4200 3800 4200 3900
+Connection ~ 4200 3900
+Wire Wire Line
+	4200 3900 4150 3900
+Wire Wire Line
+	4150 4100 4200 4100
+Wire Wire Line
+	4200 4100 4200 4000
+Connection ~ 4200 4000
+Wire Wire Line
+	4200 4000 4800 4000
 $EndSCHEMATC
