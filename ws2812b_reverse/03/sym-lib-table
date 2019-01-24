@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ws2812b_reverse-rescue)(type Legacy)(uri ${KIPRJMOD}/ws2812b_reverse-rescue.lib)(options "")(descr ""))
+)
