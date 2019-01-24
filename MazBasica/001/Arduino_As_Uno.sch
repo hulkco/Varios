@@ -68,7 +68,7 @@ A5(SCL)
 Text Notes 8550 750  0    60   ~ 0
 Shield for Arduino that uses\nthe same pin disposition\nlike "Uno" board Rev 3.
 $Comp
-L conn:CONN_01X08 P1
+L Arduino_As_Uno-rescue:CONN_01X08-conn P1
 U 1 1 56D70129
 P 9600 1950
 F 0 "P1" H 9600 2400 50  0000 C CNN
@@ -125,7 +125,7 @@ F 3 "" H 10300 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X06 P2
+L Arduino_As_Uno-rescue:CONN_01X06-conn P2
 U 1 1 56D70DD8
 P 9600 2750
 F 0 "P2" H 9600 3100 50  0000 C CNN
@@ -136,7 +136,7 @@ F 3 "" H 9600 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X08 P4
+L Arduino_As_Uno-rescue:CONN_01X08-conn P4
 U 1 1 56D7164F
 P 10000 2650
 F 0 "P4" H 10000 3100 50  0000 C CNN
@@ -184,7 +184,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 3000 8900 3000
 $Comp
-L conn:CONN_01X10 P3
+L Arduino_As_Uno-rescue:CONN_01X10-conn P3
 U 1 1 56D721E0
 P 10000 1650
 F 0 "P3" H 10000 2200 50  0000 C CNN
@@ -245,7 +245,7 @@ Wire Wire Line
 Text Notes 9700 1600 0    60   ~ 0
 1
 $Comp
-L switches:SW_Push SW1
+L Arduino_As_Uno-rescue:SW_Push-switches SW1
 U 1 1 5C3FE3F4
 P 4900 950
 F 0 "SW1" H 4900 1235 50  0000 C CNN
@@ -256,7 +256,7 @@ F 3 "" H 4900 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW2
+L Arduino_As_Uno-rescue:SW_Push-switches SW2
 U 1 1 5C3FEF50
 P 4900 1450
 F 0 "SW2" H 4900 1735 50  0000 C CNN
@@ -267,7 +267,7 @@ F 3 "" H 4900 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pl9823:PL9823 LED2
+L Arduino_As_Uno-rescue:PL9823-pl9823 LED2
 U 1 1 5C4049A9
 P 2000 2275
 F 0 "LED2" H 2000 2762 60  0000 C CNN
@@ -278,7 +278,7 @@ F 3 "" V 1950 2275 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:RES_PHOTO_LDR R1
+L Arduino_As_Uno-rescue:RES_PHOTO_LDR-device R1
 U 1 1 5C40A3DE
 P 2025 4550
 F 0 "R1" H 2211 4575 50  0000 L CNN
@@ -299,7 +299,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 2075 2500 2075
 $Comp
-L pl9823:PL9823 LED3
+L Arduino_As_Uno-rescue:PL9823-pl9823 LED3
 U 1 1 5C40D6B4
 P 2000 3275
 F 0 "LED3" H 2000 3762 60  0000 C CNN
@@ -344,7 +344,7 @@ Wire Wire Line
 Text Label 1900 4150 2    60   ~ 0
 A0
 $Comp
-L device:R_Small R2
+L Arduino_As_Uno-rescue:R_Small-device R2
 U 1 1 5C41A6BC
 P 2250 4150
 F 0 "R2" V 2054 4150 50  0000 C CNN
@@ -404,7 +404,7 @@ F 3 "" H 2450 7450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R3
+L Arduino_As_Uno-rescue:R_Small-device R3
 U 1 1 5C435952
 P 2650 6725
 F 0 "R3" V 2454 6725 50  0000 C CNN
@@ -434,7 +434,7 @@ Wire Wire Line
 Wire Wire Line
 	2175 5750 2300 5750
 $Comp
-L device:POT RV1
+L Arduino_As_Uno-rescue:POT-device RV1
 U 1 1 5C4091EE
 P 2025 5750
 F 0 "RV1" H 1955 5796 50  0000 R CNN
@@ -509,7 +509,7 @@ Wire Wire Line
 	5225 950  5350 950 
 Connection ~ 5225 950 
 $Comp
-L device:R_Small R4
+L Arduino_As_Uno-rescue:R_Small-device R4
 U 1 1 5C4826B8
 P 5450 950
 F 0 "R4" V 5254 950 50  0000 C CNN
@@ -520,7 +520,7 @@ F 3 "" H 5450 950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R5
+L Arduino_As_Uno-rescue:R_Small-device R5
 U 1 1 5C4830EC
 P 5450 1450
 F 0 "R5" V 5254 1450 50  0000 C CNN
@@ -557,7 +557,7 @@ F 3 "" H 5675 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Buzzer BZ1
+L Arduino_As_Uno-rescue:Buzzer-device BZ1
 U 1 1 5C409638
 P 4800 2050
 F 0 "BZ1" H 4805 2340 50  0000 C CNN
@@ -583,7 +583,7 @@ F 3 "" H 5025 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pl9823:PL9823 LED1
+L Arduino_As_Uno-rescue:PL9823-pl9823 LED1
 U 1 1 5C403566
 P 2000 1275
 F 0 "LED1" H 2000 1762 60  0000 C CNN
@@ -666,7 +666,7 @@ F 3 "" H 10600 700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X04 J1
+L Arduino_As_Uno-rescue:CONN_01X04-conn J1
 U 1 1 5C438DD4
 P 2200 7000
 F 0 "J1" H 2200 7250 50  0000 C CNN
@@ -760,7 +760,7 @@ BUTTON A *
 Text Notes 8825 2875 2    79   ~ 16
 BUTTON B *
 $Comp
-L conn:CONN_01X03 J2
+L Arduino_As_Uno-rescue:CONN_01X03-conn J2
 U 1 1 5C4C4E51
 P 5200 3350
 F 0 "J2" H 5278 3391 50  0000 L CNN
@@ -771,7 +771,7 @@ F 3 "" H 5200 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X03 J3
+L Arduino_As_Uno-rescue:CONN_01X03-conn J3
 U 1 1 5C4C562B
 P 5200 3875
 F 0 "J3" H 5278 3916 50  0000 L CNN
@@ -838,7 +838,7 @@ Text Notes 11125 2525 0    79   ~ 16
 Text Notes 11125 2400 0    79   ~ 16
 * SERVO B
 $Comp
-L conn:CONN_01X06 J4
+L Arduino_As_Uno-rescue:CONN_01X06-conn J4
 U 1 1 5C4E57FD
 P 5800 5025
 F 0 "J4" H 5878 5066 50  0000 L CNN
@@ -849,7 +849,7 @@ F 3 "" H 5800 5025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X01 J5
+L Arduino_As_Uno-rescue:CONN_01X01-conn J5
 U 1 1 5C4E6C74
 P 5800 5500
 F 0 "J5" H 5878 5541 50  0000 L CNN
@@ -864,7 +864,7 @@ NoConn ~ 5600 5275
 Wire Wire Line
 	5600 5175 5225 5175
 $Comp
-L device:R_Small R7
+L Arduino_As_Uno-rescue:R_Small-device R7
 U 1 1 5C4F77B7
 P 5125 5175
 F 0 "R7" V 5200 5175 50  0000 C CNN
@@ -882,7 +882,7 @@ Wire Wire Line
 	4900 5175 4775 5175
 Connection ~ 4900 5175
 $Comp
-L device:R_Small R6
+L Arduino_As_Uno-rescue:R_Small-device R6
 U 1 1 5C5045D7
 P 4900 5400
 F 0 "R6" H 4800 5400 50  0000 C CNN
