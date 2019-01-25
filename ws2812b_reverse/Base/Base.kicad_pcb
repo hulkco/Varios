@@ -1,11 +1,11 @@
-(kicad_pcb (version 20171130) (host pcbnew 6.0.0-rc1-unknown-ebdc383~66~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 6.0.0-rc1-unknown-ebdc383~66~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
     (drawings 21)
     (tracks 0)
     (zones 0)
-    (modules 1)
+    (modules 3)
     (nets 1)
   )
 
@@ -106,6 +106,28 @@
     (via_drill 0.3302)
     (uvia_dia 0.6858)
     (uvia_drill 0.3302)
+  )
+
+  (module neo-reverse:Neo-reverse_Mask (layer B.Cu) (tedit 5C4A1D3F) (tstamp 5C4AB524)
+    (at 137.1854 95.5294 180)
+    (fp_text reference REF** (at 0 3.81 180) (layer B.Fab)
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value Neo-reverse_Mask (at 0 -3.81 180) (layer B.Fab)
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad "" connect circle (at 0 0 180) (size 5 5) (layers B.Mask))
+  )
+
+  (module neo-reverse:Neo-reverse_Mask (layer F.Cu) (tedit 5C4A1D3F) (tstamp 5C4AB50A)
+    (at 137.1854 95.5294)
+    (fp_text reference REF** (at 0 -3.81) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Neo-reverse_Mask (at 0 3.81) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" connect circle (at 0 0) (size 5 5) (layers F.Mask))
   )
 
   (module neo-reverse:Neo-reverse_SMD_4Pin (layer F.Cu) (tedit 5C4A31F9) (tstamp 5C4A72A6)

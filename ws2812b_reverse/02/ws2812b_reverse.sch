@@ -20,8 +20,6 @@ Wire Wire Line
 	4800 3750 4800 3900
 Wire Wire Line
 	5800 4150 5800 3875
-Wire Wire Line
-	5900 4400 5900 4075
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5C10824A
@@ -98,7 +96,7 @@ U 1 1 5C10CDA9
 P 4575 3750
 F 0 "C1" V 4323 3750 50  0000 C CNN
 F 1 "C" H 4725 3750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.39x1.80mm_HandSolder" H 4613 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4613 3600 50  0001 C CNN
 F 3 "" H 4575 3750 50  0000 C CNN
 	1    4575 3750
 	-1   0    0    1   
@@ -109,15 +107,11 @@ Wire Wire Line
 	4575 3900 4275 3900
 Connection ~ 4575 3900
 Connection ~ 4275 3900
-Wire Wire Line
-	4275 3900 4200 3900
-Wire Wire Line
-	4150 4000 4200 4000
 Connection ~ 5625 4400
 Wire Wire Line
 	5625 4400 5900 4400
 $Comp
-L wickerlib:LED-RGB-WS2812B-4SMD LED1
+L ws2812b_reverse-rescue:LED-RGB-WS2812B-4SMD-wickerlib LED1
 U 1 1 5C1015C7
 P 5250 3900
 F 0 "LED1" H 5300 4275 50  0000 C CNN
@@ -147,54 +141,36 @@ F 3 "" H 4575 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4575 3600 4575 3500
-$Comp
-L conn:CONN_01X04 J2
-U 1 1 5C48BCA6
-P 6150 3925
-F 0 "J2" H 6228 3966 50  0000 L CNN
-F 1 "CONN_01X04" H 6228 3875 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_WeMos" H 6150 3925 50  0001 C CNN
-F 3 "" H 6150 3925 50  0001 C CNN
-	1    6150 3925
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:CONN_01X04 J1
-U 1 1 5C48DB49
-P 3950 3950
-F 0 "J1" H 3867 4315 50  0000 C CNN
-F 1 "CONN_01X04" H 3867 4224 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_WeMos" H 3950 3950 50  0001 C CNN
-F 3 "" H 3950 3950 50  0001 C CNN
-	1    3950 3950
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5800 3875 5950 3875
 Wire Wire Line
 	5950 3975 5900 3975
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5C4A65E0
+P 6150 3875
+F 0 "J2" H 6178 3805 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 6178 3760 50  0001 L CNN
+F 2 "neo-reverse:Neo-reverser-PinSocket_1x2_P2.54mm" H 6150 3875 50  0001 C CNN
+F 3 "~" H 6150 3875 50  0001 C CNN
+	1    6150 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5C4A7F1A
+P 3950 3900
+F 0 "J1" H 3842 4085 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 4400 4025 50  0001 C CNN
+F 2 "neo-reverse:Neo-reverser-PinSocket_1x2_P2.54mm" H 3950 3900 50  0001 C CNN
+F 3 "~" H 3950 3900 50  0001 C CNN
+	1    3950 3900
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
-	5950 3775 5800 3775
+	5900 3975 5900 4400
 Wire Wire Line
-	5800 3775 5800 3875
-Connection ~ 5800 3875
+	4150 3900 4275 3900
 Wire Wire Line
-	5950 4075 5900 4075
-Connection ~ 5900 4075
-Wire Wire Line
-	5900 4075 5900 3975
-Wire Wire Line
-	4150 3800 4200 3800
-Wire Wire Line
-	4200 3800 4200 3900
-Connection ~ 4200 3900
-Wire Wire Line
-	4200 3900 4150 3900
-Wire Wire Line
-	4150 4100 4200 4100
-Wire Wire Line
-	4200 4100 4200 4000
-Connection ~ 4200 4000
-Wire Wire Line
-	4200 4000 4800 4000
+	4150 4000 4800 4000
 $EndSCHEMATC
