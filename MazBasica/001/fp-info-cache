@@ -1,4 +1,4 @@
-15856940570370115
+15894077954449517
 apa-106
 APA-106-F8
 APA-106-F8
@@ -42370,6 +42370,27 @@ Filter 5
 0
 5
 5
+Firma
+GReynaga.CuMask3
+Imported from SVG/GReynaga.svg
+svg2mod
+0
+0
+0
+Firma
+greynaga6-2
+
+
+0
+0
+0
+Firma
+greynaga6-2-cooper
+
+
+0
+0
+0
 Fuse
 BladeFuse-Mini_8mm_Pitch
 car blade fuse mini
@@ -45906,13 +45927,6 @@ LED CREE XB
 5
 3
 LEDs
-LED_CREE-XH
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XHB.pdf
-LED CREE XH
-0
-8
-2
-LEDs
 LED_Cree-XH
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XHB.pdf
 LED Cree XH
@@ -45920,16 +45934,23 @@ LED Cree XH
 8
 2
 LEDs
-LED_Cree-XHP35
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
-LED Cree XHP35
+LED_CREE-XH
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XHB.pdf
+LED CREE XH
 0
-6
-3
+8
+2
 LEDs
 LED_CREE-XHP35
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
 LED CREE XHP35
+0
+6
+3
+LEDs
+LED_Cree-XHP35
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
+LED Cree XHP35
 0
 6
 3
@@ -45948,16 +45969,16 @@ LED CREE XHP50
 15
 3
 LEDs
-LED_Cree-XHP50_12V
-Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
-LED XHP50 Cree
+LED_CREE-XHP50_12V
+CREE XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf 
+LED XHP50 CREE
 0
 15
 3
 LEDs
-LED_CREE-XHP50_12V
-CREE XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf 
-LED XHP50 CREE
+LED_Cree-XHP50_12V
+Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
+LED XHP50 Cree
 0
 15
 3
@@ -45976,16 +45997,16 @@ LED CREE XHP70
 15
 3
 LEDs
-LED_CREE-XHP70_12V
-CREE XHP70 LED, 12V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
-LED CREE XHP70
+LED_Cree-XHP70_12V
+Cree XHP70 LED, 12V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
+LED Cree XHP70
 0
 15
 3
 LEDs
-LED_Cree-XHP70_12V
-Cree XHP70 LED, 12V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
-LED Cree XHP70
+LED_CREE-XHP70_12V
+CREE XHP70 LED, 12V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
+LED CREE XHP70
 0
 15
 3
@@ -46011,16 +46032,16 @@ LED Cree XP-G
 6
 3
 LEDs
-LED_CREE-XQ
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
-LED CREE XQ
+LED_Cree-XQ
+LED Cree-XQ http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
+LED Cree XQ
 0
 2
 2
 LEDs
-LED_Cree-XQ
-LED Cree-XQ http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
-LED Cree XQ
+LED_CREE-XQ
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
+LED CREE XQ
 0
 2
 2
@@ -46375,6 +46396,13 @@ LED PLCC-2 SMD
 2
 2
 LEDs
+LED_PLCC-2-2
+LED PLCC-2 SMD package
+LED PLCC-2 SMD
+0
+2
+2
+LEDs
 LED_PLCC_2835
 http://www.everlight.com/file/ProductFile/67-21S-KK2C-H4040QAR32835Z15-2T.pdf
 LED
@@ -46570,6 +46598,27 @@ Matriz_Led_7X5
 0
 12
 12
+LEDs
+Sun.Led.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+LEDs
+Sun.Led.Mask_01
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+LEDs
+SunLed_PLCC_Reverse-2
+LED PLCC-2 SMD package
+LED PLCC-2 SMD
+0
+2
+2
 LED_SMD
 LED-L1T2_LUMILEDS
 http://www.lumileds.com/uploads/438/DS133-pdf
@@ -47557,6 +47606,125 @@ RFM92_95_96_98
 0
 16
 16
+Mazbasica
+Buzzer_12x9.5RM7.6
+Generic Buzzer, D12mm height 9.5mm with RM7.6mm
+buzzer
+0
+2
+2
+Mazbasica
+Logo.In.SilkS.01
+Imported from Logo_PuroSinaloa.svg
+svg2mod
+0
+0
+0
+Mazbasica
+Logo.out.SilkS.01
+Imported from Logo_PuroSinaloa.svg
+svg2mod
+0
+0
+0
+Mazbasica
+Logo.SilkS.01
+Imported from Logo_PuroSinaloa.svg
+svg2mod
+0
+0
+0
+Mazbasica
+PinHeader_1x01_P2.54mm_Vertical
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1
+Mazbasica
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+Mazbasica
+PinHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+Mazbasica
+PinHeader_1x06_P2.54mm_Vertical
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+Mazbasica
+PL9823
+
+
+0
+4
+4
+Mazbasica
+Potentiometer_Bourns_PTV09A-1_Single_Vertical
+Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf
+Potentiometer vertical Bourns PTV09A-1 Single
+0
+3
+3
+Mazbasica
+R_1206_3216Metric_Pad1.39x1.80mm_HandSolder
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Mazbasica
+R_LDR_4.9x4.2mm_P2.54mm_Vertical
+Resistor, LDR 4.9x4.2mm
+Resistor LDR4.9x4.2
+0
+2
+2
+Mazbasica
+SinaloaCuMask.01
+Imported from SinaloaCuMask.svg
+svg2mod
+0
+0
+0
+Mazbasica
+Socket_Strip_Arduino_1x06
+Through hole socket strip
+socket strip
+0
+6
+6
+Mazbasica
+Socket_Strip_Arduino_1x08
+Through hole socket strip
+socket strip
+0
+8
+8
+Mazbasica
+Socket_Strip_Arduino_1x10
+Through hole socket strip
+socket strip
+0
+10
+10
+Mazbasica
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
