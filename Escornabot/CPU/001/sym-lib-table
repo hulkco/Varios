@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Escorna_CPU_1_20-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Escorna_CPU_1_20-eagle-import.lib)(options "")(descr ""))
+)
