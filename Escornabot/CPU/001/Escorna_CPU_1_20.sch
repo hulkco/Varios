@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Escorna_CPU_1_20-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 12095 8630
@@ -785,17 +786,6 @@ F 3 "" H 900 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Escorna_CPU_1_20-eagle-import:DINA4_L #FRAME1
-U 2 0 AC7AE1DC73DA64C6
-P 7300 7800
-F 0 "#FRAME1" H 7300 7800 50  0001 C CNN
-F 1 "DINA4_L" H 7300 7800 50  0001 C CNN
-F 2 "" H 7300 7800 50  0001 C CNN
-F 3 "" H 7300 7800 50  0001 C CNN
-	2    7300 7800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Escorna_CPU_1_20-eagle-import:ULN2803A IC1
 U 1 0 4C65B4AA7FC93207
 P 8800 1900
@@ -1018,23 +1008,23 @@ $EndComp
 $Comp
 L Escorna_CPU_1_20-eagle-import:MOUNT-HOLE3.0 H3
 U 1 0 6195B2CB710F803C
-P 7400 5900
-F 0 "H3" H 7480 5923 59  0000 L BNN
-F 1 "H3.0" H 7480 5803 59  0000 L BNN
-F 2 "Escorna_CPU_1_20:3,0" H 7400 5900 50  0001 C CNN
-F 3 "" H 7400 5900 50  0001 C CNN
-	1    7400 5900
+P 7200 5900
+F 0 "H3" H 7280 5923 59  0000 L BNN
+F 1 "H3.0" H 7280 5803 59  0000 L BNN
+F 2 "Escorna_CPU_1_20:3,0" H 7200 5900 50  0001 C CNN
+F 3 "" H 7200 5900 50  0001 C CNN
+	1    7200 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Escorna_CPU_1_20-eagle-import:MOUNT-HOLE3.0 H4
 U 1 0 6459DA335DF9C99
-P 7400 6200
-F 0 "H4" H 7480 6223 59  0000 L BNN
-F 1 "H3.0" H 7480 6103 59  0000 L BNN
-F 2 "Escorna_CPU_1_20:3,0" H 7400 6200 50  0001 C CNN
-F 3 "" H 7400 6200 50  0001 C CNN
-	1    7400 6200
+P 7200 6200
+F 0 "H4" H 7280 6223 59  0000 L BNN
+F 1 "H3.0" H 7280 6103 59  0000 L BNN
+F 2 "Escorna_CPU_1_20:3,0" H 7200 6200 50  0001 C CNN
+F 3 "" H 7200 6200 50  0001 C CNN
+	1    7200 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1601,20 +1591,12 @@ Text Notes 3300 2200 0    59   ~ 0
 D10
 Text Notes 2800 2200 0    59   ~ 0
 D10
-Text Notes 8020 6550 0    73   ~ 0
-Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
 Text Notes 9100 5400 0    85   ~ 0
 WIFI 802.11
 Text Notes 1180 7760 0    59   ~ 0
 Choose one X.1 = SMD X = THT
-Text Notes 10720 7110 0    59   ~ 0
-XDeSIG
-Text Notes 8720 6800 0    85   ~ 0
-By XDeSIG
 Text Notes 8480 3560 0    59   ~ 0
 Choose one\nCx.1 = SMD\nCx = THT\n
-Text Notes 10900 7500 0    85   ~ 0
-000
 Text Notes 3500 4200 0    59   ~ 0
 SCL
 Text Notes 3500 4100 0    59   ~ 0
