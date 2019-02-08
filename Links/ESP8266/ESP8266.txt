@@ -1,0 +1,3 @@
+HTML Interface
+https://diyprojects.io/bootstrap-create-beautiful-web-interface-projects-esp8266/#.XF3CDqz0nmg
+https://tutorial.cytron.io/2015/07/30/esp8266-tutorial-part-iii-customise-your-web-server-with-arduino/
