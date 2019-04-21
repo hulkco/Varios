@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name wickerlib)(type Legacy)(uri /usr/share/kicad/library/wickerlib.lib)(options "")(descr ""))
+  (lib (name 001-rescue)(type Legacy)(uri /home/greynaga/Documents/KiCad/HackerGarage/001/001-rescue.lib)(options "")(descr ""))
+  (lib (name HG)(type Legacy)(uri ${KIPRJMOD}/HG.lib)(options "")(descr ""))
+  (lib (name HG_002-rescue)(type Legacy)(uri ${KIPRJMOD}/HG_002-rescue.lib)(options "")(descr ""))
+)

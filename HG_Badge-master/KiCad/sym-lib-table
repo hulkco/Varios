@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name 001-rescue)(type Legacy)(uri ${KIPRJMOD}/001-rescue.lib)(options "")(descr ""))
+  (lib (name wickerlib)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/wickerlib.lib)(options "")(descr ""))
+  (lib (name ESP8266)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/ESP8266.lib)(options "")(descr ""))
+  (lib (name connector)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/connector.lib)(options "")(descr ""))
+  (lib (name ws2812b)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/ws2812b.lib)(options "")(descr ""))
+  (lib (name SPX3819M5-L-1-8)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/SPX3819M5-L-1-8.lib)(options "")(descr ""))
+  (lib (name kmr2)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/kmr2.lib)(options "")(descr ""))
+)
