@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Taller_Badge_Kicad_Talent_Land_2019")(type "KiCad")(uri "${KIPRJMOD}/footprints/Taller_Badge_Kicad_Talent_Land_2019.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Taller_Badge_Kicad_Talent_Land_2019-rescue")(type "Legacy")(uri "${KIPRJMOD}/Taller_Badge_Kicad_Talent_Land_2019-rescue.lib")(options "")(descr ""))
+  (lib (name "special")(type "Legacy")(uri "${KICAD_SYMBOL_DIR}/special.lib")(options "")(descr ""))
+)
