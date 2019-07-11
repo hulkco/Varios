@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# wemos-01-rescue:ANT-Cats_GPSLoRa-cache
+# wemos-01-rescue_ANT-Cats_GPSLoRa-cache
 #
-DEF wemos-01-rescue:ANT-Cats_GPSLoRa-cache A 0 40 Y Y 1 F N
+DEF wemos-01-rescue_ANT-Cats_GPSLoRa-cache A 0 40 Y Y 1 F N
 F0 "A" 250 400 60 H V C CNN
-F1 "wemos-01-rescue:ANT-Cats_GPSLoRa-cache" 250 0 60 H V C CNN
+F1 "wemos-01-rescue_ANT-Cats_GPSLoRa-cache" 250 0 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -19,11 +19,11 @@ X ~ 5 700 150 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# wemos-01-rescue:CONN_01X08
+# wemos-01-rescue_CONN_01X08
 #
-DEF wemos-01-rescue:CONN_01X08 P 0 40 Y N 1 F N
+DEF wemos-01-rescue_CONN_01X08 P 0 40 Y N 1 F N
 F0 "P" 0 450 50 H V C CNN
-F1 "wemos-01-rescue:CONN_01X08" 100 0 50 V V C CNN
+F1 "wemos-01-rescue_CONN_01X08" 100 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -53,11 +53,11 @@ X P8 8 -200 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# wemos-01-rescue:CP1_Small-Device
+# wemos-01-rescue_CP1_Small-Device
 #
-DEF wemos-01-rescue:CP1_Small-Device C 0 10 N N 1 F N
+DEF wemos-01-rescue_CP1_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "wemos-01-rescue:CP1_Small-Device" 10 -80 50 H V L CNN
+F1 "wemos-01-rescue_CP1_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -73,11 +73,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# wemos-01-rescue:Conn_01x01-conn
+# wemos-01-rescue_Conn_01x01-conn
 #
-DEF wemos-01-rescue:Conn_01x01-conn J 0 40 Y N 1 F N
+DEF wemos-01-rescue_Conn_01x01-conn J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "wemos-01-rescue:Conn_01x01-conn" 0 -100 50 H V C CNN
+F1 "wemos-01-rescue_Conn_01x01-conn" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -95,11 +95,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# wemos-01-rescue:Conn_01x04-conn
+# wemos-01-rescue_Conn_01x04-conn
 #
-DEF wemos-01-rescue:Conn_01x04-conn J 0 40 Y N 1 F N
+DEF wemos-01-rescue_Conn_01x04-conn J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "wemos-01-rescue:Conn_01x04-conn" 0 -300 50 H V C CNN
+F1 "wemos-01-rescue_Conn_01x04-conn" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -123,11 +123,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# wemos-01-rescue:PWR_FLAG-power
+# wemos-01-rescue_PWR_FLAG-power
 #
-DEF ~wemos-01-rescue:PWR_FLAG-power #FLG 0 0 N N 1 F N
+DEF wemos-01-rescue_PWR_FLAG-power #FLG 0 0 N N 1 F N
 F0 "#FLG" 0 300 60 H I C CNN
-F1 "wemos-01-rescue:PWR_FLAG-power" 0 -50 40 H I C CNN
+F1 "wemos-01-rescue_PWR_FLAG-power" 0 -50 40 H I C CNN
 F2 "" -100 200 60 H I C CNN
 F3 "" 0 300 60 H I C CNN
 DRAW
@@ -136,11 +136,11 @@ X ~ ~ 0 0 150 U 45 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# wemos-01-rescue:RFM95W-915S2-RF_AM_FM
+# wemos-01-rescue_RFM95W-915S2-RF_AM_FM
 #
-DEF wemos-01-rescue:RFM95W-915S2-RF_AM_FM U 0 40 Y Y 1 F N
+DEF wemos-01-rescue_RFM95W-915S2-RF_AM_FM U 0 40 Y Y 1 F N
 F0 "U" -410 460 50 H V L CNN
-F1 "wemos-01-rescue:RFM95W-915S2-RF_AM_FM" 60 450 50 H V L CNN
+F1 "wemos-01-rescue_RFM95W-915S2-RF_AM_FM" 60 450 50 H V L CNN
 F2 "" -3300 1650 50 H I C CNN
 F3 "" -3300 1650 50 H I C CNN
 $FPLIST

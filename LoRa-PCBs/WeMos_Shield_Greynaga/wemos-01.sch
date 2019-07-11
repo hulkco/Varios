@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:wemos-01-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -270,29 +270,29 @@ Wire Wire Line
 $Comp
 L wemos-01-rescue:Conn_01x04-conn J1
 U 1 1 5AFDFE32
-P 7150 3700
-F 0 "J1" H 7150 4050 50  0000 C CNN
-F 1 "Conn_01x04" H 7150 3950 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_WeMos" H 7150 3700 50  0001 C CNN
-F 3 "~" H 7150 3700 50  0001 C CNN
-	1    7150 3700
+P 6800 1850
+F 0 "J1" H 6800 2200 50  0000 C CNN
+F 1 "Conn_01x04" H 6800 2100 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_WeMos" H 6800 1850 50  0001 C CNN
+F 3 "~" H 6800 1850 50  0001 C CNN
+	1    6800 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 3600 6800 3600
-Text Label 6800 3600 2    50   ~ 0
+	6600 1750 6450 1750
+Text Label 6450 1750 2    50   ~ 0
 G2
 Wire Wire Line
-	6950 3700 6800 3700
+	6600 1850 6450 1850
 Wire Wire Line
-	6950 3800 6800 3800
+	6600 1950 6450 1950
 Wire Wire Line
-	6950 3900 6800 3900
-Text Label 6800 3700 2    50   ~ 0
+	6600 2050 6450 2050
+Text Label 6450 1850 2    50   ~ 0
 G3
-Text Label 6800 3800 2    50   ~ 0
+Text Label 6450 1950 2    50   ~ 0
 G4
-Text Label 6800 3900 2    50   ~ 0
+Text Label 6450 2050 2    50   ~ 0
 G5
 Wire Wire Line
 	9300 2800 9300 2700
