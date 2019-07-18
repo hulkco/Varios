@@ -65,9 +65,9 @@
   (pad 1 smd rect (at 3.048 0 90) (size 1.016 2.032) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 2.032 -2.54 90) (size 1.524 4.064) (layers B.Cu B.Paste B.Mask))
   (pad 5 smd rect (at 2.032 2.54 90) (size 1.524 4.064) (layers B.Cu B.Paste B.Mask))
-  (model ${KISYS3DMOD}/Connectors.3dshapes/SMA_EDGE.wrl
-    (at (xyz 0 0 0))
+  (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SAMTEC_SMA-J-P-H-ST-EM1.STEP
+    (offset (xyz 0 0 -0.42))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 90))
   )
 )
