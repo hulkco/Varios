@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Hackster_Round")(type KiCad)(uri "$(KIPRJMOD)/Hackster_Round.pretty")(options "")(descr ""))
+)
