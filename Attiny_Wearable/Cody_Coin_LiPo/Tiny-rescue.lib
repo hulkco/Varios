@@ -1,0 +1,44 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CONN_01X02-001-rescue
+#
+DEF CONN_01X02-001-rescue P 0 40 Y N 1 F N
+F0 "P" 0 150 50 H V C CNN
+F1 "CONN_01X02-001-rescue" 100 0 50 V V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
+$ENDFPLIST
+DRAW
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 100 50 -100 0 1 0 N
+X P1 1 -200 50 150 R 50 50 1 1 P
+X P2 2 -200 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LM7805_TO220-001-rescue
+#
+DEF LM7805_TO220-001-rescue U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "LM7805_TO220-001-rescue" 0 125 50 H V L CNN
+F2 "TO_SOT_Packages_THT:TO-220_Vertical" 0 225 50 H I C CIN
+F3 "" 0 -50 50 H I C CNN
+$FPLIST
+ TO?220*
+$ENDFPLIST
+DRAW
+S -200 75 200 -200 0 1 10 f
+X VI 1 -300 0 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X VO 3 300 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

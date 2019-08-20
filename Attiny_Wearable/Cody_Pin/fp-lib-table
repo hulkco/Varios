@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Cody_Pin)(type KiCad)(uri ${KIPRJMOD}/Cody_Pin.pretty)(options "")(descr ""))
+)

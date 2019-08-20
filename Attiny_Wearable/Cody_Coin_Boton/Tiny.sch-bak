@@ -1,0 +1,547 @@
+EESchema Schematic File Version 4
+LIBS:Tiny-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2950 -3325 2950 -3000
+Wire Wire Line
+	4650 -3125 4450 -3125
+Text Label 4450 -3125 2    70   ~ 0
+T1
+Wire Wire Line
+	7275 -2850 6975 -2850
+Text Label 6975 -2850 2    70   ~ 0
+T1
+Wire Wire Line
+	4650 -3225 4450 -3225
+Text Label 4450 -3225 2    70   ~ 0
+T0
+Wire Wire Line
+	7275 -2950 6975 -2950
+Text Label 6975 -2950 2    70   ~ 0
+T0
+Text Label 4450 -3025 2    70   ~ 0
+T2
+Wire Wire Line
+	7275 -2750 6975 -2750
+Text Label 6975 -2750 2    70   ~ 0
+T2
+Wire Wire Line
+	4650 -2925 4450 -2925
+Text Label 4450 -2925 2    70   ~ 0
+T3
+Wire Wire Line
+	4650 -2825 4450 -2825
+Text Label 4450 -2825 2    70   ~ 0
+T4
+Wire Wire Line
+	7275 -3250 6975 -3250
+Wire Wire Line
+	7275 -3050 6975 -3050
+Text Label 6975 -3050 2    70   ~ 0
+RST
+Wire Wire Line
+	4650 -2725 4450 -2725
+Text Label 4450 -2725 2    70   ~ 0
+RST
+$Comp
+L Tiny-eagle-import:PINHD-1X6 JP5
+U 1 1 6716FC81
+P 7375 -2950
+F 0 "JP5" H 7125 -2525 59  0000 L BNN
+F 1 "PINHD-1X6" H 7125 -3350 59  0000 L BNN
+F 2 "Tiny:PogoPinSocket_2x03_P2.54mm" H 7375 -2950 50  0001 C CNN
+F 3 "" H 7375 -2950 50  0001 C CNN
+	1    7375 -2950
+	1    0    0    -1  
+$EndComp
+Text Notes 6875 -2350 0    59   ~ 0
+Programing Header
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5D559AEE
+P 4050 -3025
+F 0 "SW1" H 4050 -2740 50  0000 C CNN
+F 1 "SW_Push" H 4050 -2831 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 4050 -2825 50  0001 C CNN
+F 3 "~" H 4050 -2825 50  0001 C CNN
+	1    4050 -3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5D56831C
+P 8650 -5275
+F 0 "#PWR02" H 8650 -5525 50  0001 C CNN
+F 1 "GND" H 8655 -5448 50  0000 C CNN
+F 2 "" H 8650 -5275 50  0001 C CNN
+F 3 "" H 8650 -5275 50  0001 C CNN
+	1    8650 -5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V0 #PWR01
+U 1 1 5D5691C5
+P 8925 -5400
+F 0 "#PWR01" H 8925 -5550 50  0001 C CNN
+F 1 "+3V0" H 8940 -5227 50  0000 C CNN
+F 2 "" H 8925 -5400 50  0001 C CNN
+F 3 "" H 8925 -5400 50  0001 C CNN
+	1    8925 -5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5D56AC76
+P 8650 -5400
+F 0 "#FLG01" H 8650 -5325 50  0001 C CNN
+F 1 "PWR_FLAG" H 8650 -5227 50  0000 C CNN
+F 2 "" H 8650 -5400 50  0001 C CNN
+F 3 "~" H 8650 -5400 50  0001 C CNN
+	1    8650 -5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5D56B670
+P 8925 -5275
+F 0 "#FLG02" H 8925 -5200 50  0001 C CNN
+F 1 "PWR_FLAG" H 8925 -5102 50  0000 C CNN
+F 2 "" H 8925 -5275 50  0001 C CNN
+F 3 "~" H 8925 -5275 50  0001 C CNN
+	1    8925 -5275
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8925 -5400 8925 -5275
+Wire Wire Line
+	8650 -5275 8650 -5400
+$Comp
+L Switch:SW_Push_SPDT SW2
+U 1 1 5D573F77
+P 3150 -2425
+F 0 "SW2" H 3150 -2140 50  0000 C CNN
+F 1 "SW_Push_SPDT" H 3150 -2675 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPDT_PCM12" H 3150 -2425 50  0001 C CNN
+F 3 "~" H 3150 -2425 50  0001 C CNN
+	1    3150 -2425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_3V_Coin BT1
+U 1 1 5D584BA9
+P 2950 -3525
+F 0 "BT1" H 3202 -3479 50  0000 L CNN
+F 1 "Battery_3V_Coin" H 3202 -3570 50  0000 L CNN
+F 2 "Tiny:S8211R" V 2950 -3465 50  0001 C CNN
+F 3 "~" V 2950 -3465 50  0001 C CNN
+	1    2950 -3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 -3825 2950 -3725
+$Comp
+L Device:R R1
+U 1 1 5D591996
+P 3750 -2725
+F 0 "R1" H 3820 -2679 50  0000 L CNN
+F 1 "R" H 3820 -2770 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3680 -2725 50  0001 C CNN
+F 3 "~" H 3750 -2725 50  0001 C CNN
+	1    3750 -2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 -3025 3750 -2875
+Wire Wire Line
+	2075 -2575 2175 -2575
+Wire Wire Line
+	1475 -2575 1475 -2275
+Wire Wire Line
+	1475 -2275 2375 -2275
+Wire Wire Line
+	1475 -2275 1475 -2175
+Text Label 1475 -2175 2    70   ~ 0
+T4
+Text Notes 1375 -1975 0    59   ~ 0
+LED Connection header
+Connection ~ 1475 -2275
+Connection ~ 1475 -2575
+$Comp
+L Device:LED_Small_ALT D1
+U 1 1 5D5B9C0F
+P 1875 -3675
+F 0 "D1" H 1950 -3725 39  0000 C CNN
+F 1 "LED_Small_ALT" H 1875 -3789 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1875 -3675 50  0001 C CNN
+F 3 "~" V 1875 -3675 50  0001 C CNN
+	1    1875 -3675
+	-1   0    0    1   
+$EndComp
+Text Notes 2025 -3925 0    157  ~ 0
+-
+Text Notes 1675 -3925 0    157  ~ 0
++
+Connection ~ 2375 -2675
+Connection ~ 2375 -2875
+Connection ~ 2375 -3475
+Connection ~ 2375 -3675
+Connection ~ 1475 -2775
+Connection ~ 1475 -3375
+Connection ~ 1475 -3575
+Connection ~ 1475 -3875
+Wire Wire Line
+	2375 -2875 2375 -3075
+Wire Wire Line
+	2375 -2675 2375 -2875
+Wire Wire Line
+	2375 -2275 2375 -2675
+Wire Wire Line
+	1475 -2775 1475 -2575
+Wire Wire Line
+	1475 -2775 1475 -2975
+Text Label 1475 -3975 2    70   ~ 0
+T3
+Wire Wire Line
+	2375 -3475 2375 -3275
+Wire Wire Line
+	2375 -3675 2375 -3475
+Wire Wire Line
+	2375 -3875 2375 -3675
+Wire Wire Line
+	1475 -3875 2375 -3875
+Wire Wire Line
+	1475 -3975 1475 -3875
+Wire Wire Line
+	1475 -3575 1475 -3875
+Wire Wire Line
+	1475 -3375 1475 -3575
+Wire Wire Line
+	1475 -3175 1475 -3375
+Text Label 1675 -3675 2    70   ~ 0
+T2
+Wire Wire Line
+	1775 -3675 1675 -3675
+Text Label 2175 -3575 0    70   ~ 0
+T2
+Wire Wire Line
+	2075 -3575 2175 -3575
+Text Label 1675 -3075 2    70   ~ 0
+T2
+Wire Wire Line
+	1775 -3075 1675 -3075
+Text Label 2175 -2975 0    70   ~ 0
+T2
+Wire Wire Line
+	2075 -2975 2175 -2975
+Text Label 2175 -3175 0    70   ~ 0
+T0
+Wire Wire Line
+	2075 -3175 2175 -3175
+Text Label 1675 -3275 2    70   ~ 0
+T0
+Wire Wire Line
+	1775 -3275 1675 -3275
+Text Label 1675 -2675 2    70   ~ 0
+T0
+Wire Wire Line
+	1775 -2675 1675 -2675
+Text Label 2175 -2575 0    70   ~ 0
+T0
+Text Label 2175 -3375 0    70   ~ 0
+T1
+Wire Wire Line
+	2075 -3375 2175 -3375
+Text Label 1675 -3475 2    70   ~ 0
+T1
+Wire Wire Line
+	1775 -3475 1675 -3475
+Text Label 1675 -2875 2    70   ~ 0
+T1
+Wire Wire Line
+	1775 -2875 1675 -2875
+Text Label 2175 -2775 0    70   ~ 0
+T1
+Wire Wire Line
+	2075 -2775 2175 -2775
+$Comp
+L Device:LED_Small_ALT D2
+U 1 1 5D5CC153
+P 1975 -3575
+F 0 "D2" H 1900 -3625 39  0000 C CNN
+F 1 "LED_Small_ALT" H 1975 -3689 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1975 -3575 50  0001 C CNN
+F 3 "~" V 1975 -3575 50  0001 C CNN
+	1    1975 -3575
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D3
+U 1 1 5D5CCA2F
+P 1875 -3475
+F 0 "D3" H 1950 -3525 39  0000 C CNN
+F 1 "LED_Small_ALT" H 1875 -3589 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1875 -3475 50  0001 C CNN
+F 3 "~" V 1875 -3475 50  0001 C CNN
+	1    1875 -3475
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D4
+U 1 1 5D5CD0E2
+P 1975 -3375
+F 0 "D4" H 1900 -3425 39  0000 C CNN
+F 1 "LED_Small_ALT" H 1975 -3489 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1975 -3375 50  0001 C CNN
+F 3 "~" V 1975 -3375 50  0001 C CNN
+	1    1975 -3375
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D6
+U 1 1 5D5CEF8F
+P 1975 -3175
+F 0 "D6" H 1900 -3225 39  0000 C CNN
+F 1 "LED_Small_ALT" H 1975 -3289 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1975 -3175 50  0001 C CNN
+F 3 "~" V 1975 -3175 50  0001 C CNN
+	1    1975 -3175
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D8
+U 1 1 5D5CF52F
+P 1975 -2975
+F 0 "D8" H 1900 -3025 39  0000 C CNN
+F 1 "LED_Small_ALT" H 1975 -3089 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1975 -2975 50  0001 C CNN
+F 3 "~" V 1975 -2975 50  0001 C CNN
+	1    1975 -2975
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D10
+U 1 1 5D5D050B
+P 1975 -2775
+F 0 "D10" H 1900 -2825 39  0000 C CNN
+F 1 "LED_Small_ALT" H 1975 -2889 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1975 -2775 50  0001 C CNN
+F 3 "~" V 1975 -2775 50  0001 C CNN
+	1    1975 -2775
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D12
+U 1 1 5D5D0AA2
+P 1975 -2575
+F 0 "D12" H 1900 -2625 39  0000 C CNN
+F 1 "LED_Small_ALT" H 1975 -2689 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1975 -2575 50  0001 C CNN
+F 3 "~" V 1975 -2575 50  0001 C CNN
+	1    1975 -2575
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D5
+U 1 1 5D5D12FE
+P 1875 -3275
+F 0 "D5" H 1950 -3325 39  0000 C CNN
+F 1 "LED_Small_ALT" H 1875 -3389 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1875 -3275 50  0001 C CNN
+F 3 "~" V 1875 -3275 50  0001 C CNN
+	1    1875 -3275
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D7
+U 1 1 5D5D1BA2
+P 1875 -3075
+F 0 "D7" H 1950 -3125 39  0000 C CNN
+F 1 "LED_Small_ALT" H 1875 -3189 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1875 -3075 50  0001 C CNN
+F 3 "~" V 1875 -3075 50  0001 C CNN
+	1    1875 -3075
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D9
+U 1 1 5D5D2AFF
+P 1875 -2875
+F 0 "D9" H 1950 -2925 39  0000 C CNN
+F 1 "LED_Small_ALT" H 1875 -2989 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1875 -2875 50  0001 C CNN
+F 3 "~" V 1875 -2875 50  0001 C CNN
+	1    1875 -2875
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D11
+U 1 1 5D5D2FCB
+P 1875 -2675
+F 0 "D11" H 1950 -2725 39  0000 C CNN
+F 1 "LED_Small_ALT" H 1875 -2789 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1875 -2675 50  0001 C CNN
+F 3 "~" V 1875 -2675 50  0001 C CNN
+	1    1875 -2675
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1975 -3675 2375 -3675
+Wire Wire Line
+	1475 -3575 1875 -3575
+Wire Wire Line
+	1975 -3475 2375 -3475
+Wire Wire Line
+	1475 -3375 1875 -3375
+Wire Wire Line
+	1975 -3275 2375 -3275
+Wire Wire Line
+	1475 -3175 1875 -3175
+Wire Wire Line
+	1975 -3075 2375 -3075
+Wire Wire Line
+	1475 -2975 1875 -2975
+Wire Wire Line
+	1975 -2875 2375 -2875
+Wire Wire Line
+	1475 -2775 1875 -2775
+Wire Wire Line
+	1975 -2675 2375 -2675
+Wire Wire Line
+	1475 -2575 1875 -2575
+$Comp
+L power:GND #PWR04
+U 1 1 5D623E4E
+P 6675 -3150
+F 0 "#PWR04" H 6675 -3400 50  0001 C CNN
+F 1 "GND" H 6680 -3323 50  0000 C CNN
+F 2 "" H 6675 -3150 50  0001 C CNN
+F 3 "" H 6675 -3150 50  0001 C CNN
+	1    6675 -3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V0 #PWR03
+U 1 1 5D623E58
+P 6975 -3375
+F 0 "#PWR03" H 6975 -3525 50  0001 C CNN
+F 1 "+3V0" H 6990 -3202 50  0000 C CNN
+F 2 "" H 6975 -3375 50  0001 C CNN
+F 3 "" H 6975 -3375 50  0001 C CNN
+	1    6975 -3375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6975 -3250 6975 -3375
+Wire Wire Line
+	7275 -3150 6675 -3150
+NoConn ~ 2950 -2325
+$Comp
+L power:+3V0 #PWR05
+U 1 1 5D645255
+P 2950 -3825
+F 0 "#PWR05" H 2950 -3975 50  0001 C CNN
+F 1 "+3V0" H 2965 -3652 50  0000 C CNN
+F 2 "" H 2950 -3825 50  0001 C CNN
+F 3 "" H 2950 -3825 50  0001 C CNN
+	1    2950 -3825
+	1    0    0    -1  
+$EndComp
+Connection ~ 2950 -3825
+$Comp
+L power:GND #PWR06
+U 1 1 5D6470C1
+P 4425 -2250
+F 0 "#PWR06" H 4425 -2500 50  0001 C CNN
+F 1 "GND" H 4430 -2423 50  0000 C CNN
+F 2 "" H 4425 -2250 50  0001 C CNN
+F 3 "" H 4425 -2250 50  0001 C CNN
+	1    4425 -2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5D64D338
+P 2950 -3000
+F 0 "#PWR07" H 2950 -3250 50  0001 C CNN
+F 1 "GND" V 2955 -3128 50  0000 R CNN
+F 2 "" H 2950 -3000 50  0001 C CNN
+F 3 "" H 2950 -3000 50  0001 C CNN
+	1    2950 -3000
+	0    1    1    0   
+$EndComp
+Connection ~ 2950 -3000
+Wire Wire Line
+	2950 -3000 2950 -2525
+$Comp
+L MCU_Microchip_ATtiny:ATtiny85-20SU U1
+U 1 1 5D65357C
+P 5250 -2925
+F 0 "U1" H 4720 -2879 50  0000 R CNN
+F 1 "ATtiny85-20SU" H 4720 -2970 50  0000 R CNN
+F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 5250 -2925 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 5250 -2925 50  0001 C CNN
+	1    5250 -2925
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 -3525 5250 -3825
+Wire Wire Line
+	2950 -3825 5250 -3825
+Wire Wire Line
+	5250 -2325 5250 -2250
+Wire Wire Line
+	5250 -2250 4425 -2250
+Wire Wire Line
+	3350 -2250 3350 -2425
+Wire Wire Line
+	3750 -2575 3750 -2250
+Connection ~ 3750 -2250
+Wire Wire Line
+	3750 -2250 3350 -2250
+Connection ~ 4425 -2250
+Wire Wire Line
+	4425 -2250 3750 -2250
+Wire Wire Line
+	3750 -3025 3850 -3025
+Wire Wire Line
+	4250 -3025 4650 -3025
+Text Notes 2025 -2350 0    157  ~ 0
+-
+Text Notes 1675 -2350 0    157  ~ 0
++
+$Comp
+L Codi_Coin:Codi_Coin U2
+U 1 1 5D59D132
+P 9425 -5375
+F 0 "U2" H 9581 -5329 50  0000 L CNN
+F 1 "Codi_Coin" H 9581 -5420 50  0000 L CNN
+F 2 "Cody_Coin:Cody_Coin" H 9425 -5375 50  0001 C CNN
+F 3 "" H 9425 -5375 50  0001 C CNN
+	1    9425 -5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D5B4112
+P 8650 -4600
+F 0 "H1" H 8750 -4554 50  0000 L CNN
+F 1 "MountingHole" H 8750 -4645 50  0000 L CNN
+F 2 "Tiny:MountingHole_Codi_Coin" H 8650 -4600 50  0001 C CNN
+F 3 "~" H 8650 -4600 50  0001 C CNN
+	1    8650 -4600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
