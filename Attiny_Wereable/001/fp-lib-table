@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Tiny)(type KiCad)(uri "$(KIPRJMOD)/Tiny.pretty")(options "")(descr ""))
-)

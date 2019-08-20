@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Cody_Coin)(type KiCad)(uri ${KIPRJMOD}/Cody_Coin.pretty)(options "")(descr ""))
+)
