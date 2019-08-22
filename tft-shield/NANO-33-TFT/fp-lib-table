@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name NANO-33-TFT)(type KiCad)(uri ${KIPRJMOD}/NANO-33-TFT.pretty)(options "")(descr ""))
+)
