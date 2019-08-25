@@ -1,0 +1,12 @@
+(module H_CapSense (layer F.Cu) (tedit 5D615CEC)
+  (descr "Imported from HG.svg")
+  (tags svg2mod)
+  (attr smd)
+  (fp_text reference CAP1 (at 0 -27.566605) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (fp_text value HG_CAPSENSE_H (at 0 27.566605) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (pad 1 smd oval (at 0 0) (size 5 5) (layers F.Cu F.Paste F.Mask))
+)

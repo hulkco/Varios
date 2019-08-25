@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100.0mm"
+   height="100.0mm"
+   viewBox="0 0 100.0 100.0"
+   version="1.2"
+   id="svg59035"
+   sodipodi:docname="escorni-Touch_01_100mm.svg"
+   inkscape:version="0.92.4 (unknown)">
+  <metadata
+     id="metadata59039">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>FreeCAD SVG Export</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="957"
+     id="namedview59037"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.0910437"
+     inkscape:cx="120.16436"
+     inkscape:cy="194.86525"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g28522"
+     borderlayer="true"
+     inkscape:document-units="mm"
+     inkscape:snap-bbox="true"
+     inkscape:snap-global="false">
+    <inkscape:grid
+       spacingx="2.54"
+       spacingy="2.54"
+       empspacing="1"
+       type="xygrid"
+       units="mm"
+       id="grid28462" />
+    <inkscape:grid
+       id="grid28724"
+       units="mm"
+       type="xygrid"
+       empspacing="1"
+       spacingy="2.54"
+       spacingx="2.54" />
+  </sodipodi:namedview>
+  <title
+     id="title44669">FreeCAD SVG Export</title>
+  <desc
+     id="desc44671">Drawing page: Page exported from FreeCAD document: escornabot</desc>
+  <defs
+     id="defs44685">
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       cx="270.58301"
+       cy="33.900002"
+       r="19.5714"
+       fx="270.58301"
+       fy="33.900002"
+       xml:id="gradient1"
+       id="radialGradient44677">
+      <stop
+         offset="0"
+         stop-color="#ff6d0f"
+         stop-opacity="1"
+         id="stop44673" />
+      <stop
+         offset="1"
+         stop-color="#ff1000"
+         stop-opacity="1"
+         id="stop44675" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       cx="282.646"
+       cy="29.149"
+       r="19.5714"
+       fx="282.646"
+       fy="29.149"
+       xml:id="gradient2"
+       id="radialGradient44683">
+      <stop
+         offset="0"
+         stop-color="#71b2f8"
+         stop-opacity="1"
+         id="stop44679" />
+      <stop
+         offset="1"
+         stop-color="#002795"
+         stop-opacity="1"
+         id="stop44681" />
+    </radialGradient>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Base"
+     style="display:inline">
+    <path
+       style="fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:1.13266933;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d=""
+       id="path28329"
+       inkscape:connector-curvature="0"
+       transform="scale(2.6458333)" />
+  </g>
+  <g
+     inkscape:label="Relleno"
+     id="g28450"
+     inkscape:groupmode="layer"
+     style="display:inline">
+    <path
+       transform="scale(2.6458333)"
+       inkscape:connector-curvature="0"
+       id="path28410"
+       d=""
+       style="fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:1.13266933;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g28512"
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     inkscape:label="[fixed] BG"
+     style="display:inline">
+    <rect
+       id="rect28510"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       height="50"
+       width="50"
+       y="0"
+       x="0" />
+  </g>
+  <g
+     id="g28514"
+     inkscape:groupmode="layer"
+     inkscape:label="Edge.Cuts"
+     style="display:inline" />
+  <g
+     id="g28516"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Cu-disabled"
+     style="display:inline" />
+  <g
+     id="g28518"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Mask"
+     style="display:inline" />
+  <g
+     id="g28520"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Silk-disabled"
+     style="display:inline" />
+  <g
+     id="g28522"
+     inkscape:groupmode="layer"
+     inkscape:label="F.Cu"
+     style="display:inline">
+    <path
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.13385832;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 311.32261,299.12176 c -5.62001,-8.12648 -6.19977,-9.97991 -5.89748,-18.85391 0.2011,-5.90359 0.43011,-7.34562 1.82633,-11.5 4.84221,-14.40766 15.17128,-26.31268 25.66249,-29.57791 4.17345,-1.29893 7.38946,-0.6644 10.4972,2.07114 4.83385,4.25492 5.20197,12.89026 1.12951,26.49626 -1.40253,4.68582 -4.87916,10.79923 -9.59701,16.8757 -2.91098,3.74926 -18.27093,20.24932 -19.06872,20.48412 -0.18558,0.0546 -2.23412,-2.64331 -4.55232,-5.9954 z"
+       id="path29056"
+       inkscape:connector-curvature="0"
+       transform="scale(0.26458333)" />
+  </g>
+  <g
+     id="g28524"
+     inkscape:groupmode="layer"
+     inkscape:label="F.Mask"
+     style="display:inline" />
+  <g
+     id="g28526"
+     inkscape:groupmode="layer"
+     inkscape:label="F.Silk"
+     style="display:inline" />
+  <g
+     id="g28528"
+     inkscape:groupmode="layer"
+     inkscape:label="Drill"
+     style="display:inline" />
+</svg>

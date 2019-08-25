@@ -1,0 +1,470 @@
+100926937401122
+SMD_Packages
+1Pin
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+1
+1
+SMD_Packages
+BGA-48
+BGA-48 - pitch 0.8 mm
+
+0
+48
+48
+SMD_Packages
+BGA-64-0.8mm
+BGA-64 pitch 0.8mm
+
+0
+64
+64
+SMD_Packages
+BGA-90-0.8mm
+
+
+0
+90
+90
+SMD_Packages
+BGA-96_pitch0.8mm_dia0.4mm
+
+
+0
+96
+96
+SMD_Packages
+BGA-121-1mm
+BGA-121-1mm
+
+0
+121
+121
+SMD_Packages
+BGA-144-1mm
+BGA-144-1mm
+
+0
+144
+144
+SMD_Packages
+BGA-256
+
+
+0
+256
+256
+SMD_Packages
+BGA-256_pitch1mm_dia0.4mm
+
+
+0
+256
+256
+SMD_Packages
+BGA-352
+
+
+0
+352
+352
+SMD_Packages
+BGA-400-1mm
+
+
+0
+400
+400
+SMD_Packages
+BGA-484-1mm
+
+
+0
+484
+484
+SMD_Packages
+BGA-625_pitch0.8mm_dia0.4mm
+
+
+0
+625
+625
+SMD_Packages
+BGA-1023-1mm
+
+
+0
+1023
+1023
+SMD_Packages
+BGA-1156-1mm
+
+
+0
+1156
+1156
+SMD_Packages
+BGA-1295-1mm
+BGA-1295-1mm
+
+0
+1295
+1295
+SMD_Packages
+Ceramic_Filter
+Ceramic filter
+ceramic filter
+0
+6
+6
+SMD_Packages
+Conn-3
+
+
+0
+5
+3
+SMD_Packages
+Conn-3_Inv
+
+
+0
+5
+3
+SMD_Packages
+Conn-5
+
+
+0
+7
+5
+SMD_Packages
+Conn-5_Inv
+
+
+0
+7
+5
+SMD_Packages
+Conn-20
+
+
+0
+22
+20
+SMD_Packages
+DIP-8_SMD
+DIP-8_300 smd shape
+smd cms 8dip
+0
+8
+8
+SMD_Packages
+EMI_Filter
+EMI Filter
+emi filter
+0
+3
+3
+SMD_Packages
+Fuse_SMD
+
+
+0
+2
+2
+SMD_Packages
+LFCSP-40-1EP
+
+
+0
+41
+41
+SMD_Packages
+MLF-44_Atmel
+44M1 MICRO LEAD FRAME PACKAGE (MLF)
+44M1 MICRO LEAD FRAME PACKAGE (MLF)
+0
+44
+44
+SMD_Packages
+PLCC-28
+Support CMS Plcc 28 pins
+CMS PLCC
+0
+28
+28
+SMD_Packages
+PLCC-32
+Support CMS Plcc 32 pins
+CMS Plcc
+0
+32
+32
+SMD_Packages
+PLCC-44
+Support CMS Plcc 44 pins
+CMS Plcc
+0
+44
+44
+SMD_Packages
+PLCC-52
+Support CMS Plcc 52 pins
+CMS PLCC
+0
+52
+52
+SMD_Packages
+PLCC-68
+Support CMS Plcc 68 Pins
+CMS PLCC
+0
+68
+68
+SMD_Packages
+PLCC-84
+Support CMS Plcc 84 Pins
+CMS PLCC
+0
+84
+84
+SMD_Packages
+POT_SMD
+module CMS Potentiometre
+CMS POT
+0
+3
+3
+SMD_Packages
+PQFP-112
+module cms PQFP 112 pins
+PQFP CMS
+0
+112
+112
+SMD_Packages
+PQFP-132_M
+Module CMS Pqfp 132 pins
+CMS PQFP
+0
+132
+132
+SMD_Packages
+PQFP-132_i386
+Module SPECIAL upro Intel 386EX
+
+0
+132
+132
+SMD_Packages
+PQFP-160
+Module CMS Pqfp 160 pins
+CMS PQFP
+0
+160
+160
+SMD_Packages
+PQFP-208
+Module cms PQFP 208 pins
+PQFP CMS
+0
+208
+208
+SMD_Packages
+QFN-52-1EP_HandSoldering
+
+
+0
+53
+53
+SMD_Packages
+SMD-1206_Pol
+
+
+0
+2
+2
+SMD_Packages
+SMD-1210_Pol
+
+CMS SM
+0
+2
+2
+SMD_Packages
+SMD-2010_Pol
+
+CMS SMD
+0
+2
+2
+SMD_Packages
+SMD-2112_Pol
+
+
+0
+2
+2
+SMD_Packages
+SMD-2512_Pol
+
+CMS SM
+0
+2
+2
+SMD_Packages
+SMD-4032
+
+
+0
+2
+2
+SMD_Packages
+SO-8_PowerPAK_Vishay_Single
+PowerPAK SO-8 (see Vishay AN821)
+PowerPAK SO-8
+0
+9
+5
+SMD_Packages
+SO-16-L
+
+
+0
+16
+16
+SMD_Packages
+SO-16-N
+Module CMS SOJ 16 pins large
+CMS SOJ
+0
+16
+16
+SMD_Packages
+SO-16-W
+Module CMS SOJ 16 pins tres large
+CMS SOJ
+0
+16
+16
+SMD_Packages
+SOIC-8-N
+Module Narrow CMS SOJ 8 pins large
+CMS SOJ
+0
+8
+8
+SMD_Packages
+SOIC-14_N
+Module CMS SOJ 14 pins Large
+CMS SOJ
+0
+14
+14
+SMD_Packages
+SOIC-24
+
+
+0
+24
+24
+SMD_Packages
+SOIC-28
+Module CMS SOJ 28 pins large
+CMS SOJ
+0
+28
+28
+SMD_Packages
+SOJ-28-W
+Module CMS SOJ 32 pins large
+CMS SOJ
+0
+28
+28
+SMD_Packages
+SOJ-32
+Module CMS SOJ 32 pins
+CMS SOJ
+0
+32
+32
+SMD_Packages
+SOJ-32-W
+Module CMS SOJ 32 pins large
+CMS SOJ
+0
+32
+32
+SMD_Packages
+SOJ-40
+module CMS SOJ 40 pins
+
+0
+40
+40
+SMD_Packages
+SOJ-42
+Module CMS SOJ 42 pins
+CMS SOJ
+0
+42
+42
+SMD_Packages
+SSOP-14
+
+
+0
+14
+14
+SMD_Packages
+SSOP-20
+SSOP 20 pins
+CMS SSOP SMD
+0
+20
+20
+SMD_Packages
+SUPSOJ40
+Support CMS SOJ 40 pins
+CMS SOJ
+0
+40
+40
+SMD_Packages
+TSOP32SP
+Module CMS TSOP 32 pins
+CMS TSOP
+0
+32
+32
+SMD_Packages
+VLM0806_Housing
+VLM0806, Housing, Rohm,
+VLM0806, Housing, Rohm,
+0
+3
+3
+SMD_Packages
+VLM0806_Housing_Handsoldering
+VLM0806, Housing, Rohm,
+VLM0806, Housing, Rohm,
+0
+6
+3
+SMD_Packages
+VQFP-240
+Module CMS Vqfp 240 pins
+CMS VQFP
+0
+240
+240
+SMD_Packages
+powermite3
+PowerMite3
+
+0
+3
+3

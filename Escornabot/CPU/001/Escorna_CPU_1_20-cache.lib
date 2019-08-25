@@ -37,7 +37,7 @@ ENDDEF
 #
 # Escorna_CPU_1_20-eagle-import_B5B-XH-A
 #
-DEF ~Escorna_CPU_1_20-eagle-import_B5B-XH-A ~ 0 40 Y Y 5 L N
+DEF Escorna_CPU_1_20-eagle-import_B5B-XH-A ~ 0 40 Y Y 5 L N
 F0 "" 40 -30 51 H V L BNN
 F1 "Escorna_CPU_1_20-eagle-import_B5B-XH-A" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -154,7 +154,7 @@ ENDDEF
 #
 # Escorna_CPU_1_20-eagle-import_DINA4_L
 #
-DEF ~Escorna_CPU_1_20-eagle-import_DINA4_L #FRAME 0 40 Y Y 2 L N
+DEF Escorna_CPU_1_20-eagle-import_DINA4_L #FRAME 0 40 Y Y 2 L N
 F0 "#FRAME" 0 0 50 H I C CNN
 F1 "Escorna_CPU_1_20-eagle-import_DINA4_L" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN

@@ -1,0 +1,9 @@
+(module escorni-Touch_02_100mm (layer F.Cu) (tedit 5D61B8DB)
+  (fp_text reference Ref** (at 0 -9.525) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value Val** (at 0 11.43) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (pad 1 smd circle (at 0 0) (size 10 10) (layers F.Cu))
+)
