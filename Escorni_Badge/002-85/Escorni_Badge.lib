@@ -1,0 +1,17 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Escorni_Touch
+#
+DEF Escorni_Touch CAP 0 40 N N 1 F N
+F0 "CAP" -100 -300 60 H V L CNN
+F1 "Escorni_Touch" -400 300 60 H V L CNN
+F2 "Escorni_Touch" -75 300 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 0 206 0 1 0 F
+X Touch 1 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

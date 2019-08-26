@@ -1,0 +1,332 @@
+EESchema Schematic File Version 4
+LIBS:NANO33IoTV2.0-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0101
+U 1 1 595C807D
+P 2210 3175
+F 0 "#PWR0101" H 2210 2925 50  0001 C CNN
+F 1 "GND" H 2215 3002 50  0000 C CNN
+F 2 "" H 2210 3175 50  0001 C CNN
+F 3 "" H 2210 3175 50  0001 C CNN
+	1    2210 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L wickerlib:LED-RGB-WS2812B-4SMD LED5
+U 1 1 595D0515
+P 7890 3650
+F 0 "LED5" H 7940 4025 50  0000 C CNN
+F 1 "WS2812B" H 7940 3934 50  0000 C CNN
+F 2 "002:WS2812B" H 7890 3300 50  0001 C CIN
+F 3 "http://www.adafruit.com/datasheets/WS2812B.pdf" H 7890 3650 5   0001 C CNN
+F 4 "LED RGB WS2812B W/DVR 4SMD" H 7890 3300 50  0001 C CIN "Description"
+F 5 "Adafruit" H 7890 3300 50  0001 C CIN "MF_Name"
+F 6 "1655" H 7890 3300 50  0001 C CIN "MF_PN"
+F 7 "Digikey" H 7890 3300 50  0001 C CIN "S1_Name"
+F 8 "1528-1104-ND" H 7890 3300 50  0001 C CIN "S1_PN"
+	1    7890 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L wickerlib:LED-RGB-WS2812B-4SMD LED4
+U 1 1 595D08CE
+P 6740 3650
+F 0 "LED4" H 6790 4025 50  0000 C CNN
+F 1 "WS2812B" H 6790 3934 50  0000 C CNN
+F 2 "002:WS2812B" H 6740 3300 50  0001 C CIN
+F 3 "http://www.adafruit.com/datasheets/WS2812B.pdf" H 6740 3650 5   0001 C CNN
+F 4 "LED RGB WS2812B W/DVR 4SMD" H 6740 3300 50  0001 C CIN "Description"
+F 5 "Adafruit" H 6740 3300 50  0001 C CIN "MF_Name"
+F 6 "1655" H 6740 3300 50  0001 C CIN "MF_PN"
+F 7 "Digikey" H 6740 3300 50  0001 C CIN "S1_Name"
+F 8 "1528-1104-ND" H 6740 3300 50  0001 C CIN "S1_PN"
+	1    6740 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L wickerlib:LED-RGB-WS2812B-4SMD LED3
+U 1 1 595D1904
+P 5465 3650
+F 0 "LED3" H 5515 4025 50  0000 C CNN
+F 1 "WS2812B" H 5515 3934 50  0000 C CNN
+F 2 "002:WS2812B" H 5465 3300 50  0001 C CIN
+F 3 "http://www.adafruit.com/datasheets/WS2812B.pdf" H 5465 3650 5   0001 C CNN
+F 4 "LED RGB WS2812B W/DVR 4SMD" H 5465 3300 50  0001 C CIN "Description"
+F 5 "Adafruit" H 5465 3300 50  0001 C CIN "MF_Name"
+F 6 "1655" H 5465 3300 50  0001 C CIN "MF_PN"
+F 7 "Digikey" H 5465 3300 50  0001 C CIN "S1_Name"
+F 8 "1528-1104-ND" H 5465 3300 50  0001 C CIN "S1_PN"
+	1    5465 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L wickerlib:LED-RGB-WS2812B-4SMD LED2
+U 1 1 595D190F
+P 4215 3650
+F 0 "LED2" H 4265 4025 50  0000 C CNN
+F 1 "WS2812B" H 4265 3934 50  0000 C CNN
+F 2 "002:WS2812B" H 4215 3300 50  0001 C CIN
+F 3 "http://www.adafruit.com/datasheets/WS2812B.pdf" H 4215 3650 5   0001 C CNN
+F 4 "LED RGB WS2812B W/DVR 4SMD" H 4215 3300 50  0001 C CIN "Description"
+F 5 "Adafruit" H 4215 3300 50  0001 C CIN "MF_Name"
+F 6 "1655" H 4215 3300 50  0001 C CIN "MF_PN"
+F 7 "Digikey" H 4215 3300 50  0001 C CIN "S1_Name"
+F 8 "1528-1104-ND" H 4215 3300 50  0001 C CIN "S1_PN"
+	1    4215 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 8805 4360 2    50   Input ~ 0
++5V
+$Comp
+L pspice:R R1
+U 1 1 597EC094
+P 4320 7610
+F 0 "R1" H 4388 7656 50  0000 L CNN
+F 1 "1k" H 4388 7565 50  0000 L CNN
+F 2 "001:R_1206_HandSoldering" H 4320 7610 50  0001 C CNN
+F 3 "" H 4320 7610 50  0001 C CNN
+	1    4320 7610
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NANO33IoTV2.0-rescue:LED-RESCUE-001-001-rescue-HG_002-rescue-001-rescue D1
+U 1 1 597EC09A
+P 4820 7610
+F 0 "D1" V 4860 7430 50  0000 R CNN
+F 1 "ON" V 4770 7435 50  0000 R CNN
+F 2 "002:LED_1206_HandSoldering" H 4820 7610 50  0001 C CNN
+F 3 "" H 4820 7610 50  0001 C CNN
+	1    4820 7610
+	-1   0    0    1   
+$EndComp
+Text Label 3970 7610 2    50   ~ 0
++5V
+$Comp
+L power:GND #PWR0102
+U 1 1 597EE12E
+P 5070 7610
+F 0 "#PWR0102" H 5070 7360 50  0001 C CNN
+F 1 "GND" H 5075 7437 50  0000 C CNN
+F 2 "" H 5070 7610 50  0001 C CNN
+F 3 "" H 5070 7610 50  0001 C CNN
+	1    5070 7610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2490 3900 2390 3900
+Wire Wire Line
+	3490 3900 3765 3900
+Wire Wire Line
+	4765 3900 5015 3900
+Wire Wire Line
+	6015 3900 6290 3900
+Wire Wire Line
+	7290 3900 7440 3900
+Wire Wire Line
+	6290 3500 6165 3500
+Wire Wire Line
+	6165 3500 6165 3175
+Connection ~ 6165 3175
+Wire Wire Line
+	5015 3500 4890 3500
+Wire Wire Line
+	4890 3500 4890 3175
+Connection ~ 4890 3175
+Wire Wire Line
+	3765 3500 3640 3500
+Wire Wire Line
+	3640 3500 3640 3175
+Connection ~ 3640 3175
+Wire Wire Line
+	2990 4150 2990 4360
+Wire Wire Line
+	4265 4150 4265 4360
+Wire Wire Line
+	5515 4360 5515 4150
+Wire Wire Line
+	6790 4360 6790 4150
+Wire Wire Line
+	4570 7610 4670 7610
+Wire Wire Line
+	4070 7610 3970 7610
+Wire Wire Line
+	4970 7610 5070 7610
+Wire Wire Line
+	7440 3175 7440 3500
+Wire Wire Line
+	7940 4360 7940 4150
+Wire Wire Line
+	2415 3175 3640 3175
+Text Notes 5920 2990 0    50   ~ 0
+NEOPIXELS
+Wire Wire Line
+	2990 4360 4265 4360
+Connection ~ 6790 4360
+Connection ~ 5515 4360
+Connection ~ 4265 4360
+$Comp
+L power:GND #PWR0103
+U 1 1 59894DC3
+P 8530 4660
+F 0 "#PWR0103" H 8530 4410 50  0001 C CNN
+F 1 "GND" H 8535 4487 50  0000 C CNN
+F 2 "" H 8530 4660 50  0001 C CNN
+F 3 "" H 8530 4660 50  0001 C CNN
+	1    8530 4660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2490 3500 2415 3500
+Wire Wire Line
+	8440 3900 8640 3900
+Text GLabel 8640 3900 2    50   Input ~ 0
+4-A2
+Text Notes 4200 7095 0    50   ~ 0
+POWER LED
+Wire Wire Line
+	6165 3175 7440 3175
+Wire Wire Line
+	4890 3175 6165 3175
+Wire Wire Line
+	3640 3175 4890 3175
+Wire Wire Line
+	6790 4360 7940 4360
+Wire Wire Line
+	5515 4360 6790 4360
+Wire Wire Line
+	4265 4360 5515 4360
+Wire Wire Line
+	2415 3500 2415 3175
+Text Notes 6505 7120 0    50   ~ 0
+Escornabot Art
+Wire Notes Line
+	495  2950 470  2950
+$Comp
+L NANO33IoTV2.0-rescue:HG_SilKs_2-HG-001-rescue SilKs1
+U 1 1 5BD9DD96
+P 6665 7430
+F 0 "SilKs1" H 6843 7476 50  0000 L CNN
+F 1 "Escorni_Art" H 6843 7385 50  0000 L CNN
+F 2 "002-Nano:escorni-badge-new_05_Nano_100mm" H 6665 7430 50  0001 C CNN
+F 3 "" H 6665 7430 50  0001 C CNN
+	1    6665 7430
+	1    0    0    -1  
+$EndComp
+$Comp
+L wickerlib:LED-RGB-WS2812B-4SMD LED1
+U 1 1 595D1F1E
+P 2940 3650
+F 0 "LED1" H 2990 4025 50  0000 C CNN
+F 1 "WS2812B" H 2990 3934 50  0000 C CNN
+F 2 "002:WS2812B" H 2940 3300 50  0001 C CIN
+F 3 "http://www.adafruit.com/datasheets/WS2812B.pdf" H 2940 3650 5   0001 C CNN
+	1    2940 3650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2390 3900
+Connection ~ 7940 4360
+$Comp
+L Device:C C1
+U 1 1 5D6867E5
+P 8530 4510
+F 0 "C1" H 8645 4556 50  0000 L CNN
+F 1 "22nF" H 8645 4465 50  0000 L CNN
+F 2 "002:C_1206_HandSoldering" H 8568 4360 50  0001 C CNN
+F 3 "~" H 8530 4510 50  0001 C CNN
+	1    8530 4510
+	1    0    0    -1  
+$EndComp
+Connection ~ 8530 4360
+Wire Wire Line
+	8530 4360 8805 4360
+Wire Wire Line
+	7940 4360 8530 4360
+Wire Wire Line
+	2415 3175 2210 3175
+Connection ~ 2415 3175
+Text Label 8975 575  2    50   ~ 0
+SCK
+$Comp
+L Arduino:Arduino-NANO-33 J1
+U 1 1 5D67EDF7
+P 9475 1275
+F 0 "J1" H 9475 2340 50  0000 C CNN
+F 1 "Arduino-NANO-33" H 9475 2249 50  0000 C CNN
+F 2 "Arduino:NANO_33_Socket_Castell" H 9150 1175 50  0001 C CNN
+F 3 "~" H 9150 1175 50  0001 C CNN
+	1    9475 1275
+	1    0    0    -1  
+$EndComp
+Text Label 8975 675  2    50   ~ 0
++3V3
+Text Label 8975 775  2    50   ~ 0
+AREF
+Text Label 8975 875  2    50   ~ 0
+A0
+Text Label 8975 975  2    50   ~ 0
+A1
+Text Label 8975 1175 2    50   ~ 0
+A3
+Text Label 8975 1275 2    50   ~ 0
+A4-SDA
+Text Label 8975 1375 2    50   ~ 0
+A5-SCL
+Text Label 8975 1475 2    50   ~ 0
+A6
+Text Label 8975 1575 2    50   ~ 0
+A7
+Text Label 8975 1675 2    50   ~ 0
+VUSB
+Text Label 8975 1775 2    50   ~ 0
+RESET
+Text Label 8975 1875 2    50   ~ 0
+GND
+Text Label 8975 1975 2    50   ~ 0
+VIN
+Text Label 9975 1975 0    50   ~ 0
+TX
+Text Label 9975 1875 0    50   ~ 0
+RX
+Text Label 9975 1775 0    50   ~ 0
+RESET
+Text Label 9975 1675 0    50   ~ 0
+GND
+Text Label 9975 1575 0    50   ~ 0
+D2
+Text Label 9975 1475 0    50   ~ 0
+D3-
+Text Label 9975 1375 0    50   ~ 0
+D4
+Text Label 9975 1275 0    50   ~ 0
+D5-
+Text Label 9975 1175 0    50   ~ 0
+D6-
+Text Label 9975 1075 0    50   ~ 0
+D7
+Text Label 9975 975  0    50   ~ 0
+D8
+Text Label 9975 875  0    50   ~ 0
+D9-
+Text Label 9975 775  0    50   ~ 0
+D10-
+Text Label 9975 675  0    50   ~ 0
+MOSI
+Text Label 9975 575  0    50   ~ 0
+MISO-
+Text Label 8975 1075 2    50   ~ 0
+A2
+$EndSCHEMATC
