@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name Arduino_As_Uno-rescue)(type Legacy)(uri ${KIPRJMOD}/Arduino_As_Uno-rescue.lib)(options "")(descr ""))
+  (lib (name Maz-ONE)(type Legacy)(uri ${KIPRJMOD}/Maz-ONE.lib)(options "")(descr ""))
 )

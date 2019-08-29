@@ -1,4 +1,4 @@
-16378660058735026
+16355328383679080
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -5949,6 +5949,104 @@ capacitor tantalum
 0
 2
 2
+Codi-Arduino-Shield
+Buzzer_12x9.5RM7.6
+Generic Buzzer, D12mm height 9.5mm with RM7.6mm
+buzzer
+0
+2
+2
+Codi-Arduino-Shield
+PL9823
+
+
+0
+4
+4
+Codi-Arduino-Shield
+PinHeader_1x01_P2.54mm_Vertical
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1
+Codi-Arduino-Shield
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+Codi-Arduino-Shield
+PinHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+Codi-Arduino-Shield
+PinHeader_1x06_P2.54mm_Vertical
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+Codi-Arduino-Shield
+Potentiometer_Bourns_PTV09A-1_Single_Vertical
+Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf
+Potentiometer vertical Bourns PTV09A-1 Single
+0
+3
+3
+Codi-Arduino-Shield
+R_1206_3216Metric_Pad1.39x1.80mm_HandSolder
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Codi-Arduino-Shield
+R_LDR_4.9x4.2mm_P2.54mm_Vertical
+Resistor, LDR 4.9x4.2mm
+Resistor LDR4.9x4.2
+0
+2
+2
+Codi-Arduino-Shield
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
+Codi-Arduino-Shield
+Socket_Strip_Arduino_1x06
+Through hole socket strip
+socket strip
+0
+6
+6
+Codi-Arduino-Shield
+Socket_Strip_Arduino_1x08
+Through hole socket strip
+socket strip
+0
+8
+8
+Codi-Arduino-Shield
+Socket_Strip_Arduino_1x10
+Through hole socket strip
+socket strip
+0
+10
+10
+Codi-Arduino-Shield
+cody-arduino
+
+
+0
+0
+0
 Connector
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill
@@ -49720,157 +49818,10 @@ socket strip
 0
 10
 10
-Mazbasica
-Buzzer_12x9.5RM7.6
-Generic Buzzer, D12mm height 9.5mm with RM7.6mm
-buzzer
-0
-2
-2
-Mazbasica
-IntLetters.01
-Imported from Logo_PuroSinaloa.svg
-svg2mod
-0
-0
-0
-Mazbasica
-PL9823
+Maz-ONE
+cody-arduino
 
 
-0
-4
-4
-Mazbasica
-PinHeader_1x01_P2.54mm_Vertical
-Through hole straight pin header, 1x01, 2.54mm pitch, single row
-Through hole pin header THT 1x01 2.54mm single row
-0
-1
-1
-Mazbasica
-PinHeader_1x03_P2.54mm_Vertical
-Through hole straight pin header, 1x03, 2.54mm pitch, single row
-Through hole pin header THT 1x03 2.54mm single row
-0
-3
-3
-Mazbasica
-PinHeader_1x04_P2.54mm_Vertical
-Through hole straight pin header, 1x04, 2.54mm pitch, single row
-Through hole pin header THT 1x04 2.54mm single row
-0
-4
-4
-Mazbasica
-PinHeader_1x06_P2.54mm_Vertical
-Through hole straight pin header, 1x06, 2.54mm pitch, single row
-Through hole pin header THT 1x06 2.54mm single row
-0
-6
-6
-Mazbasica
-Potentiometer_Bourns_PTV09A-1_Single_Vertical
-Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf
-Potentiometer vertical Bourns PTV09A-1 Single
-0
-3
-3
-Mazbasica
-Puro.01
-Imported from Logo_PuroSinaloa.svg
-svg2mod
-0
-0
-0
-Mazbasica
-R_1206_3216Metric_Pad1.39x1.80mm_HandSolder
-Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-resistor handsolder
-0
-2
-2
-Mazbasica
-R_LDR_4.9x4.2mm_P2.54mm_Vertical
-Resistor, LDR 4.9x4.2mm
-Resistor LDR4.9x4.2
-0
-2
-2
-Mazbasica
-SW_PUSH_6mm
-https://www.omron.com/ecb/products/pdf/en-b3f.pdf
-tact sw push 6mm
-0
-4
-2
-Mazbasica
-SinaloaCuMask.01
-Imported from SinaloaCuMask.svg
-svg2mod
-0
-0
-0
-Mazbasica
-Socket_Strip_Arduino_1x06
-Through hole socket strip
-socket strip
-0
-6
-6
-Mazbasica
-Socket_Strip_Arduino_1x08
-Through hole socket strip
-socket strip
-0
-8
-8
-Mazbasica
-Socket_Strip_Arduino_1x10
-Through hole socket strip
-socket strip
-0
-10
-10
-Mazbasica
-demo_win
-Imported from .\dt-logo.svg
-svg2mod
-0
-0
-0
-Mazbasica
-logoSin.01
-Imported from Logo_PuroSinaloa.svg
-svg2mod
-0
-0
-0
-Mazbasica
-logoSin.02
-Imported from Logo_PuroSinaloa.svg
-svg2mod
-0
-0
-0
-Mazbasica
-logoSin.03
-Imported from Logo_PuroSinaloa.svg
-svg2mod
-0
-0
-0
-Mazbasica
-logoSinIn.01
-Imported from Logo_PuroSinaloa.svg
-svg2mod
-0
-0
-0
-Mazbasica
-logoSinOut.01
-Imported from Logo_PuroSinaloa.svg
-svg2mod
 0
 0
 0
@@ -67129,62 +67080,6 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
-Socket_Arduino_Uno
-Arduino_1pin
-module 1 pin (ou trou mecanique de percage)
-DEV
-0
-1
-1
-Socket_Arduino_Uno
-DHT11_1x04_P2.54mm
-Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x04 2.54mm single row
-0
-4
-4
-Socket_Arduino_Uno
-PL9823
-
-
-0
-4
-4
-Socket_Arduino_Uno
-PL9823-SYSMATT-V4
-
-
-0
-4
-4
-Socket_Arduino_Uno
-PinSocket_1x04_P2.54mm_Vertical
-Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x04 2.54mm single row
-0
-4
-4
-Socket_Arduino_Uno
-Socket_Strip_Arduino_1x06
-Through hole socket strip
-socket strip
-0
-6
-6
-Socket_Arduino_Uno
-Socket_Strip_Arduino_1x08
-Through hole socket strip
-socket strip
-0
-8
-8
-Socket_Arduino_Uno
-Socket_Strip_Arduino_1x10
-Through hole socket strip
-socket strip
-0
-10
-10
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking

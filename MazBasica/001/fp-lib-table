@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Socket_Arduino_Uno)(type KiCad)(uri ${KIPRJMOD}/Socket_Arduino_Uno.pretty)(options "")(descr ""))
   (lib (name Mazbasica)(type KiCad)(uri ${KIPRJMOD}/Mazbasica.pretty)(options "")(descr ""))
+  (lib (name Maz-ONE)(type KiCad)(uri ${KIPRJMOD}/Maz-ONE.pretty)(options "")(descr ""))
 )

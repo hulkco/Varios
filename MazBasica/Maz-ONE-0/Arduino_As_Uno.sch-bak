@@ -1,0 +1,1002 @@
+EESchema Schematic File Version 4
+LIBS:Arduino_As_Uno-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "lun. 30 mars 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 8025 1475 1    60   ~ 0
+Vin
+Text Label 8425 1475 1    60   ~ 0
+IOREF
+Text Label 7975 2525 0    60   ~ 0
+A0
+Text Label 7975 2625 0    60   ~ 0
+A1
+Text Label 7975 2725 0    60   ~ 0
+A2
+Text Label 7975 2825 0    60   ~ 0
+A3
+Text Label 7975 2925 0    60   ~ 0
+A4(SDA)
+Text Label 7975 3025 0    60   ~ 0
+A5(SCL)
+Text Label 9625 3025 0    60   ~ 0
+0(Rx)
+Text Label 9625 2825 0    60   ~ 0
+2
+Text Label 9625 2925 0    60   ~ 0
+1(Tx)
+Text Label 9625 2725 0    60   ~ 0
+3(**)
+Text Label 9625 2625 0    60   ~ 0
+4
+Text Label 9625 2525 0    60   ~ 0
+5(**)
+Text Label 9625 2425 0    60   ~ 0
+6(**)
+Text Label 9625 2325 0    60   ~ 0
+7
+Text Label 9625 2125 0    60   ~ 0
+8
+Text Label 9625 2025 0    60   ~ 0
+9(**)
+Text Label 9625 1925 0    60   ~ 0
+10(**/SS)
+Text Label 9625 1825 0    60   ~ 0
+11(**/MOSI)
+Text Label 9625 1725 0    60   ~ 0
+12(MISO)
+Text Label 9625 1625 0    60   ~ 0
+13(SCK)
+Text Label 9625 1425 0    60   ~ 0
+AREF
+NoConn ~ 8475 1625
+Text Label 9625 1325 0    60   ~ 0
+A4(SDA)
+Text Label 9625 1225 0    60   ~ 0
+A5(SCL)
+Text Notes 7625 775  0    60   ~ 0
+Shield for Arduino that uses\nthe same pin disposition\nlike "Uno" board Rev 3.
+$Comp
+L Arduino_As_Uno-rescue:CONN_01X08-conn P1
+U 1 1 56D70129
+P 8675 1975
+F 0 "P1" H 8675 2425 50  0000 C CNN
+F 1 "Power" V 8775 1975 50  0000 C CNN
+F 2 "Maz-ONE:Socket_Strip_Arduino_1x08" V 8825 1975 20  0001 C CNN
+F 3 "" H 8675 1975 50  0000 C CNN
+	1    8675 1975
+	1    0    0    -1  
+$EndComp
+Text Label 7725 1825 0    60   ~ 0
+Reset
+$Comp
+L power:+3.3V #PWR01
+U 1 1 56D70538
+P 8225 1475
+F 0 "#PWR01" H 8225 1325 50  0001 C CNN
+F 1 "+3.3V" H 8225 1615 50  0000 C CNN
+F 2 "" H 8225 1475 50  0000 C CNN
+F 3 "" H 8225 1475 50  0000 C CNN
+	1    8225 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 56D707BB
+P 8125 1375
+F 0 "#PWR02" H 8125 1225 50  0001 C CNN
+F 1 "+5V" H 8125 1515 50  0000 C CNN
+F 2 "" H 8125 1375 50  0000 C CNN
+F 3 "" H 8125 1375 50  0000 C CNN
+	1    8125 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 56D70CC2
+P 8375 3175
+F 0 "#PWR03" H 8375 2925 50  0001 C CNN
+F 1 "GND" H 8375 3025 50  0000 C CNN
+F 2 "" H 8375 3175 50  0000 C CNN
+F 3 "" H 8375 3175 50  0000 C CNN
+	1    8375 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 56D70CFF
+P 9375 3175
+F 0 "#PWR04" H 9375 2925 50  0001 C CNN
+F 1 "GND" H 9375 3025 50  0000 C CNN
+F 2 "" H 9375 3175 50  0000 C CNN
+F 3 "" H 9375 3175 50  0000 C CNN
+	1    9375 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_As_Uno-rescue:CONN_01X06-conn P2
+U 1 1 56D70DD8
+P 8675 2775
+F 0 "P2" H 8675 3125 50  0000 C CNN
+F 1 "Analog" V 8775 2775 50  0000 C CNN
+F 2 "Maz-ONE:Socket_Strip_Arduino_1x06" V 8825 2825 20  0001 C CNN
+F 3 "" H 8675 2775 50  0000 C CNN
+	1    8675 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_As_Uno-rescue:CONN_01X08-conn P4
+U 1 1 56D7164F
+P 9075 2675
+F 0 "P4" H 9075 3125 50  0000 C CNN
+F 1 "Digital" V 9175 2675 50  0000 C CNN
+F 2 "Maz-ONE:Socket_Strip_Arduino_1x08" V 9225 2625 20  0001 C CNN
+F 3 "" H 9075 2675 50  0000 C CNN
+	1    9075 2675
+	-1   0    0    -1  
+$EndComp
+Wire Notes Line
+	7600 850  9000 850 
+Wire Notes Line
+	9000 850  9000 500 
+Wire Wire Line
+	8425 1475 8425 1725
+Wire Wire Line
+	8425 1725 8475 1725
+Wire Wire Line
+	8475 1925 8225 1925
+Wire Wire Line
+	8475 2025 8125 2025
+Wire Wire Line
+	8475 2325 8025 2325
+Wire Wire Line
+	8475 2125 8375 2125
+Wire Wire Line
+	8475 2225 8375 2225
+Connection ~ 8375 2225
+Wire Wire Line
+	8025 2325 8025 1475
+Wire Wire Line
+	8125 2025 8125 1375
+Wire Wire Line
+	8225 1925 8225 1475
+Wire Wire Line
+	8475 2525 7975 2525
+Wire Wire Line
+	8475 2625 7975 2625
+Wire Wire Line
+	8475 2725 7975 2725
+Wire Wire Line
+	8475 2825 7975 2825
+Wire Wire Line
+	8475 2925 7975 2925
+Wire Wire Line
+	8475 3025 7975 3025
+$Comp
+L Arduino_As_Uno-rescue:CONN_01X10-conn P3
+U 1 1 56D721E0
+P 9075 1675
+F 0 "P3" H 9075 2225 50  0000 C CNN
+F 1 "Digital" V 9175 1675 50  0000 C CNN
+F 2 "Maz-ONE:Socket_Strip_Arduino_1x10" V 9225 1675 20  0001 C CNN
+F 3 "" H 9075 1675 50  0000 C CNN
+	1    9075 1675
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9275 2125 9625 2125
+Wire Wire Line
+	9275 2025 9625 2025
+Wire Wire Line
+	9275 1925 9625 1925
+Wire Wire Line
+	9275 1825 9625 1825
+Wire Wire Line
+	9275 1725 9625 1725
+Wire Wire Line
+	9275 1625 9625 1625
+Wire Wire Line
+	9275 1425 9625 1425
+Wire Wire Line
+	9275 1325 9625 1325
+Wire Wire Line
+	9275 1225 9625 1225
+Wire Wire Line
+	9275 3025 9625 3025
+Wire Wire Line
+	9275 2925 9625 2925
+Wire Wire Line
+	9275 2825 9625 2825
+Wire Wire Line
+	9275 2725 9625 2725
+Wire Wire Line
+	9275 2625 9625 2625
+Wire Wire Line
+	9275 2525 9625 2525
+Wire Wire Line
+	9275 2425 9625 2425
+Wire Wire Line
+	9275 2325 9625 2325
+Wire Wire Line
+	9275 1525 9375 1525
+Wire Wire Line
+	9375 1525 9375 3175
+Wire Wire Line
+	8375 2125 8375 2225
+Wire Wire Line
+	8375 2225 8375 3175
+Wire Wire Line
+	8475 1825 7725 1825
+Text Notes 8775 1625 0    60   ~ 0
+1
+$Comp
+L Arduino_As_Uno-rescue:SW_Push-switches SW1
+U 1 1 5C3FE3F4
+P 4900 950
+F 0 "SW1" H 4900 1235 50  0000 C CNN
+F 1 "SW_Push" H 4900 1144 50  0000 C CNN
+F 2 "Maz-ONE:SW_PUSH_6mm" H 4900 1150 50  0001 C CNN
+F 3 "" H 4900 1150 50  0001 C CNN
+	1    4900 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_As_Uno-rescue:SW_Push-switches SW2
+U 1 1 5C3FEF50
+P 4900 1450
+F 0 "SW2" H 4900 1735 50  0000 C CNN
+F 1 "SW_Push" H 4900 1644 50  0000 C CNN
+F 2 "Maz-ONE:SW_PUSH_6mm" H 4900 1650 50  0001 C CNN
+F 3 "" H 4900 1650 50  0001 C CNN
+	1    4900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_As_Uno-rescue:PL9823-pl9823 LED2
+U 1 1 5C4049A9
+P 2000 2275
+F 0 "LED2" H 2000 2762 60  0000 C CNN
+F 1 "PL9823" H 2000 2656 60  0000 C CNN
+F 2 "Maz-ONE:PL9823" V 1950 2275 60  0001 C CNN
+F 3 "" V 1950 2275 60  0000 C CNN
+	1    2000 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_As_Uno-rescue:RES_PHOTO_LDR-device R1
+U 1 1 5C40A3DE
+P 2025 4550
+F 0 "R1" H 2211 4575 50  0000 L CNN
+F 1 "RES_PHOTO_LDR" H 2211 4504 24  0000 L CNN
+F 2 "Maz-ONE:R_LDR_4.9x4.2mm_P2.54mm_Vertical" H 2025 4550 60  0001 C CNN
+F 3 "" H 2025 4550 60  0000 C CNN
+	1    2025 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1475 1375 1475
+Wire Wire Line
+	1375 1475 1375 1750
+Wire Wire Line
+	1375 1750 2650 1750
+Wire Wire Line
+	2650 1750 2650 2075
+Wire Wire Line
+	2650 2075 2500 2075
+$Comp
+L Arduino_As_Uno-rescue:PL9823-pl9823 LED3
+U 1 1 5C40D6B4
+P 2000 3275
+F 0 "LED3" H 2000 3762 60  0000 C CNN
+F 1 "PL9823" H 2000 3656 60  0000 C CNN
+F 2 "Maz-ONE:PL9823" V 1950 3275 60  0001 C CNN
+F 3 "" V 1950 3275 60  0000 C CNN
+	1    2000 3275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1375 2475 1375 2750
+Wire Wire Line
+	1375 2750 2650 2750
+Wire Wire Line
+	2650 2750 2650 3075
+Wire Wire Line
+	2650 3075 2500 3075
+Wire Wire Line
+	1500 2475 1375 2475
+Wire Wire Line
+	1500 1075 1250 1075
+Wire Wire Line
+	1250 1075 1250 2075
+Wire Wire Line
+	1250 3075 1500 3075
+Wire Wire Line
+	1500 2075 1250 2075
+Connection ~ 1250 2075
+Wire Wire Line
+	1250 2075 1250 3075
+Wire Wire Line
+	2500 1475 2825 1475
+Wire Wire Line
+	2825 1475 2825 2475
+Wire Wire Line
+	2825 3475 2500 3475
+Wire Wire Line
+	2500 2475 2825 2475
+Connection ~ 2825 2475
+Wire Wire Line
+	2825 2475 2825 3475
+Text Label 1900 4150 2    60   ~ 0
+A0
+$Comp
+L Arduino_As_Uno-rescue:R_Small-device R2
+U 1 1 5C41A6BC
+P 2250 4150
+F 0 "R2" V 2054 4150 50  0000 C CNN
+F 1 "10k" V 2145 4150 50  0000 C CNN
+F 2 "Maz-ONE:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" H 2250 4150 50  0001 C CNN
+F 3 "" H 2250 4150 50  0001 C CNN
+	1    2250 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2025 4300 2025 4150
+Wire Wire Line
+	2025 4150 1900 4150
+Wire Wire Line
+	2150 4150 2025 4150
+Connection ~ 2025 4150
+Wire Wire Line
+	2350 4150 2475 4150
+$Comp
+L power:+5V #PWR010
+U 1 1 5C42070D
+P 2475 4150
+F 0 "#PWR010" H 2475 4000 50  0001 C CNN
+F 1 "+5V" H 2475 4290 50  0000 C CNN
+F 2 "" H 2475 4150 50  0000 C CNN
+F 3 "" H 2475 4150 50  0000 C CNN
+	1    2475 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5C421CA2
+P 2025 4925
+F 0 "#PWR05" H 2025 4675 50  0001 C CNN
+F 1 "GND" H 2025 4775 50  0000 C CNN
+F 2 "" H 2025 4925 50  0000 C CNN
+F 3 "" H 2025 4925 50  0000 C CNN
+	1    2025 4925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2025 4800 2025 4925
+Text Label 2625 1075 0    60   ~ 0
+9(**)
+Wire Wire Line
+	2625 1075 2500 1075
+NoConn ~ 1500 3475
+$Comp
+L power:GND #PWR09
+U 1 1 5C4324D5
+P 2450 7450
+F 0 "#PWR09" H 2450 7200 50  0001 C CNN
+F 1 "GND" H 2450 7300 50  0000 C CNN
+F 2 "" H 2450 7450 50  0000 C CNN
+F 3 "" H 2450 7450 50  0000 C CNN
+	1    2450 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_As_Uno-rescue:R_Small-device R3
+U 1 1 5C435952
+P 2650 6725
+F 0 "R3" V 2454 6725 50  0000 C CNN
+F 1 "10k" V 2545 6725 50  0000 C CNN
+F 2 "Maz-ONE:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" H 2650 6725 50  0001 C CNN
+F 3 "" H 2650 6725 50  0001 C CNN
+	1    2650 6725
+	-1   0    0    1   
+$EndComp
+Text Label 2775 6950 0    60   ~ 0
+2
+$Comp
+L power:+5V #PWR08
+U 1 1 5C43D066
+P 2525 6500
+F 0 "#PWR08" H 2525 6350 50  0001 C CNN
+F 1 "+5V" H 2525 6640 50  0000 C CNN
+F 2 "" H 2525 6500 50  0000 C CNN
+F 3 "" H 2525 6500 50  0000 C CNN
+	1    2525 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2025 5600 2025 5475
+Wire Wire Line
+	2025 5900 2025 6025
+Wire Wire Line
+	2175 5750 2300 5750
+$Comp
+L Arduino_As_Uno-rescue:POT-device RV1
+U 1 1 5C4091EE
+P 2025 5750
+F 0 "RV1" H 1955 5796 50  0000 R CNN
+F 1 "POT" H 1955 5705 50  0000 R CNN
+F 2 "Maz-ONE:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 2025 5750 50  0001 C CNN
+F 3 "" H 2025 5750 50  0001 C CNN
+	1    2025 5750
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR06
+U 1 1 5C44DC2F
+P 2025 5475
+F 0 "#PWR06" H 2025 5325 50  0001 C CNN
+F 1 "+5V" H 2025 5615 50  0000 C CNN
+F 2 "" H 2025 5475 50  0000 C CNN
+F 3 "" H 2025 5475 50  0000 C CNN
+	1    2025 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5C44D729
+P 2025 6025
+F 0 "#PWR07" H 2025 5775 50  0001 C CNN
+F 1 "GND" H 2025 5875 50  0000 C CNN
+F 2 "" H 2025 6025 50  0000 C CNN
+F 3 "" H 2025 6025 50  0000 C CNN
+	1    2025 6025
+	1    0    0    -1  
+$EndComp
+Text Label 2300 5750 0    60   ~ 0
+A1
+Wire Wire Line
+	5100 950  5225 950 
+Wire Wire Line
+	5225 1450 5100 1450
+Wire Wire Line
+	4700 1450 4575 1450
+Wire Wire Line
+	4700 950  4575 950 
+$Comp
+L power:+5V #PWR012
+U 1 1 5C47693F
+P 4575 1450
+F 0 "#PWR012" H 4575 1300 50  0001 C CNN
+F 1 "+5V" H 4575 1590 50  0000 C CNN
+F 2 "" H 4575 1450 50  0000 C CNN
+F 3 "" H 4575 1450 50  0000 C CNN
+	1    4575 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 5C476FB9
+P 4575 950
+F 0 "#PWR011" H 4575 800 50  0001 C CNN
+F 1 "+5V" H 4575 1090 50  0000 C CNN
+F 2 "" H 4575 950 50  0000 C CNN
+F 3 "" H 4575 950 50  0000 C CNN
+	1    4575 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5225 950  5225 825 
+Wire Wire Line
+	5225 1450 5225 1325
+Wire Wire Line
+	5225 1450 5350 1450
+Connection ~ 5225 1450
+Wire Wire Line
+	5225 950  5350 950 
+Connection ~ 5225 950 
+$Comp
+L Arduino_As_Uno-rescue:R_Small-device R4
+U 1 1 5C4826B8
+P 5450 950
+F 0 "R4" V 5254 950 50  0000 C CNN
+F 1 "330" V 5345 950 50  0000 C CNN
+F 2 "Maz-ONE:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" H 5450 950 50  0001 C CNN
+F 3 "" H 5450 950 50  0001 C CNN
+	1    5450 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L Arduino_As_Uno-rescue:R_Small-device R5
+U 1 1 5C4830EC
+P 5450 1450
+F 0 "R5" V 5254 1450 50  0000 C CNN
+F 1 "330" V 5345 1450 50  0000 C CNN
+F 2 "Maz-ONE:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" H 5450 1450 50  0001 C CNN
+F 3 "" H 5450 1450 50  0001 C CNN
+	1    5450 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 950  5675 950 
+Wire Wire Line
+	5550 1450 5675 1450
+$Comp
+L power:GND #PWR015
+U 1 1 5C488FA0
+P 5675 1450
+F 0 "#PWR015" H 5675 1200 50  0001 C CNN
+F 1 "GND" H 5675 1300 50  0000 C CNN
+F 2 "" H 5675 1450 50  0000 C CNN
+F 3 "" H 5675 1450 50  0000 C CNN
+	1    5675 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5C489863
+P 5675 950
+F 0 "#PWR014" H 5675 700 50  0001 C CNN
+F 1 "GND" H 5675 800 50  0000 C CNN
+F 2 "" H 5675 950 50  0000 C CNN
+F 3 "" H 5675 950 50  0000 C CNN
+	1    5675 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_As_Uno-rescue:Buzzer-device BZ1
+U 1 1 5C409638
+P 4800 2050
+F 0 "BZ1" H 4805 2340 50  0000 C CNN
+F 1 "Buzzer" H 4805 2249 50  0000 C CNN
+F 2 "Maz-ONE:Buzzer_12x9.5RM7.6" V 4775 2150 50  0001 C CNN
+F 3 "" V 4775 2150 50  0001 C CNN
+	1    4800 2050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5025 1950 4900 1950
+Wire Wire Line
+	4900 2150 5025 2150
+$Comp
+L power:GND #PWR016
+U 1 1 5C415C06
+P 5025 2150
+F 0 "#PWR016" H 5025 1900 50  0001 C CNN
+F 1 "GND" H 5025 2000 50  0000 C CNN
+F 2 "" H 5025 2150 50  0000 C CNN
+F 3 "" H 5025 2150 50  0000 C CNN
+	1    5025 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_As_Uno-rescue:PL9823-pl9823 LED1
+U 1 1 5C403566
+P 2000 1275
+F 0 "LED1" H 2000 1762 60  0000 C CNN
+F 1 "PL9823" H 2000 1656 60  0000 C CNN
+F 2 "Maz-ONE:PL9823" V 1950 1275 60  0001 C CNN
+F 3 "" V 1950 1275 60  0000 C CNN
+	1    2000 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5C41494B
+P 10100 750
+F 0 "#FLG0101" H 10100 825 50  0001 C CNN
+F 1 "PWR_FLAG" H 10100 923 50  0000 C CNN
+F 2 "" H 10100 750 50  0001 C CNN
+F 3 "" H 10100 750 50  0001 C CNN
+	1    10100 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 750  10100 875 
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5C41801B
+P 9225 850
+F 0 "#FLG0102" H 9225 925 50  0001 C CNN
+F 1 "PWR_FLAG" H 9225 1023 50  0000 C CNN
+F 2 "" H 9225 850 50  0001 C CNN
+F 3 "" H 9225 850 50  0001 C CNN
+	1    9225 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9225 850  9225 725 
+$Comp
+L power:GND #PWR0101
+U 1 1 5C41E8B4
+P 10100 875
+F 0 "#PWR0101" H 10100 625 50  0001 C CNN
+F 1 "GND" H 10100 725 50  0000 C CNN
+F 2 "" H 10100 875 50  0000 C CNN
+F 3 "" H 10100 875 50  0000 C CNN
+	1    10100 875 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5C41EC9A
+P 9225 725
+F 0 "#PWR0102" H 9225 575 50  0001 C CNN
+F 1 "+5V" H 9225 865 50  0000 C CNN
+F 2 "" H 9225 725 50  0000 C CNN
+F 3 "" H 9225 725 50  0000 C CNN
+	1    9225 725 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5C41F6B0
+P 9675 850
+F 0 "#FLG0103" H 9675 925 50  0001 C CNN
+F 1 "PWR_FLAG" H 9675 1023 50  0000 C CNN
+F 2 "" H 9675 850 50  0001 C CNN
+F 3 "" H 9675 850 50  0001 C CNN
+	1    9675 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9675 850  9675 725 
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5C423127
+P 9675 725
+F 0 "#PWR0103" H 9675 575 50  0001 C CNN
+F 1 "+3.3V" H 9675 865 50  0000 C CNN
+F 2 "" H 9675 725 50  0000 C CNN
+F 3 "" H 9675 725 50  0000 C CNN
+	1    9675 725 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_As_Uno-rescue:CONN_01X04-conn J1
+U 1 1 5C438DD4
+P 2200 7000
+F 0 "J1" H 2200 7250 50  0000 C CNN
+F 1 "CONN_01X04" H 2500 6850 50  0001 C CNN
+F 2 "Maz-ONE:PinHeader_1x04_P2.54mm_Vertical" H 2200 7000 50  0001 C CNN
+F 3 "" H 2200 7000 50  0001 C CNN
+	1    2200 7000
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 2400 7050
+Wire Wire Line
+	2400 7150 2450 7150
+Wire Wire Line
+	2450 7150 2450 7450
+Wire Wire Line
+	2400 6850 2525 6850
+Wire Wire Line
+	2525 6500 2525 6575
+Wire Wire Line
+	2650 6950 2650 6825
+Wire Wire Line
+	2400 6950 2650 6950
+Wire Wire Line
+	2650 6625 2650 6575
+Wire Wire Line
+	2650 6575 2525 6575
+Connection ~ 2525 6575
+Wire Wire Line
+	2525 6575 2525 6850
+Wire Wire Line
+	2650 6950 2775 6950
+Connection ~ 2650 6950
+Wire Wire Line
+	1250 1075 1250 950 
+Connection ~ 1250 1075
+$Comp
+L power:+5V #PWR0104
+U 1 1 5C481D96
+P 1250 950
+F 0 "#PWR0104" H 1250 800 50  0001 C CNN
+F 1 "+5V" H 1250 1090 50  0000 C CNN
+F 2 "" H 1250 950 50  0000 C CNN
+F 3 "" H 1250 950 50  0000 C CNN
+	1    1250 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 3475 2825 3600
+Connection ~ 2825 3475
+$Comp
+L power:GND #PWR0105
+U 1 1 5C4857BF
+P 2825 3600
+F 0 "#PWR0105" H 2825 3350 50  0001 C CNN
+F 1 "GND" H 2825 3450 50  0000 C CNN
+F 2 "" H 2825 3600 50  0000 C CNN
+F 3 "" H 2825 3600 50  0000 C CNN
+	1    2825 3600
+	1    0    0    -1  
+$EndComp
+Text Notes 1175 4700 0    157  ~ 31
+LDR
+Text Notes 1175 5900 0    157  ~ 31
+POT
+Text Notes 1200 7100 0    157  ~ 31
+DHT11
+Text Notes 1275 725  0    157  ~ 31
+NEOPIXEL
+Text Notes 3250 1000 0    157  ~ 31
+BUTTON A
+Text Notes 3250 1525 0    157  ~ 31
+BUTTON B
+Text Notes 3275 2150 0    157  ~ 31
+BUZZER
+Text Notes 10225 2050 0    79   ~ 16
+* NEOPIXEL
+Text Label 5025 1950 0    60   ~ 0
+3(**)
+Text Notes 10200 2750 0    79   ~ 16
+* BUZZER
+Text Label 5225 825  0    60   ~ 0
+A2
+Text Label 5225 1325 0    60   ~ 0
+A3
+Text Notes 7900 2525 2    79   ~ 16
+LDR *
+Text Notes 7900 2650 2    79   ~ 16
+POT *
+Text Notes 7900 2775 2    79   ~ 16
+BUTTON A *
+Text Notes 7900 2900 2    79   ~ 16
+BUTTON B *
+$Comp
+L Arduino_As_Uno-rescue:CONN_01X03-conn J2
+U 1 1 5C4C4E51
+P 5500 4800
+F 0 "J2" H 5578 4841 50  0000 L CNN
+F 1 "CONN_01X03" H 5578 4750 50  0000 L CNN
+F 2 "Maz-ONE:PinHeader_1x03_P2.54mm_Vertical" H 5500 4800 50  0001 C CNN
+F 3 "" H 5500 4800 50  0001 C CNN
+	1    5500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_As_Uno-rescue:CONN_01X03-conn J3
+U 1 1 5C4C562B
+P 5500 5325
+F 0 "J3" H 5578 5366 50  0000 L CNN
+F 1 "CONN_01X03" H 5578 5275 50  0000 L CNN
+F 2 "Maz-ONE:PinHeader_1x03_P2.54mm_Vertical" H 5500 5325 50  0001 C CNN
+F 3 "" H 5500 5325 50  0001 C CNN
+	1    5500 5325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4700 5050 4700
+Wire Wire Line
+	5300 5225 5050 5225
+Text Label 5050 4700 2    60   ~ 0
+5(**)
+Text Label 5050 5225 2    60   ~ 0
+6(**)
+Wire Wire Line
+	5300 4800 5175 4800
+Wire Wire Line
+	5175 4800 5175 4525
+Wire Wire Line
+	5300 5325 5175 5325
+Wire Wire Line
+	5175 5325 5175 4800
+Connection ~ 5175 4800
+Wire Wire Line
+	5300 4900 5225 4900
+Wire Wire Line
+	5225 4900 5225 5425
+Wire Wire Line
+	5225 5425 5300 5425
+Wire Wire Line
+	5225 5425 5225 5550
+Connection ~ 5225 5425
+$Comp
+L power:GND #PWR018
+U 1 1 5C4DB5A8
+P 5225 5550
+F 0 "#PWR018" H 5225 5300 50  0001 C CNN
+F 1 "GND" H 5225 5400 50  0000 C CNN
+F 2 "" H 5225 5550 50  0000 C CNN
+F 3 "" H 5225 5550 50  0000 C CNN
+	1    5225 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR013
+U 1 1 5C4DC0CB
+P 5175 4525
+F 0 "#PWR013" H 5175 4375 50  0001 C CNN
+F 1 "+5V" H 5175 4665 50  0000 C CNN
+F 2 "" H 5175 4525 50  0000 C CNN
+F 3 "" H 5175 4525 50  0000 C CNN
+	1    5175 4525
+	1    0    0    -1  
+$EndComp
+Text Notes 3600 4825 0    157  ~ 31
+SERVO A
+Text Notes 3600 5450 0    157  ~ 31
+SERVO B
+Text Notes 10200 2550 0    79   ~ 16
+* SERVO A
+Text Notes 10200 2425 0    79   ~ 16
+* SERVO B
+$Comp
+L Arduino_As_Uno-rescue:CONN_01X06-conn J4
+U 1 1 5C4E57FD
+P 5975 3200
+F 0 "J4" H 5925 3550 50  0000 L CNN
+F 1 "CONN_01X06" H 6075 2950 50  0000 L CNN
+F 2 "Maz-ONE:PinHeader_1x06_P2.54mm_Vertical" H 5975 3200 50  0001 C CNN
+F 3 "" H 5975 3200 50  0001 C CNN
+	1    5975 3200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5775 2950
+NoConn ~ 5775 3450
+Wire Wire Line
+	5775 3350 5400 3350
+$Comp
+L Arduino_As_Uno-rescue:R_Small-device R7
+U 1 1 5C4F77B7
+P 5300 3350
+F 0 "R7" V 5375 3350 50  0000 C CNN
+F 1 "1k" V 5225 3350 50  0000 C CNN
+F 2 "Maz-ONE:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" H 5300 3350 50  0001 C CNN
+F 3 "" H 5300 3350 50  0001 C CNN
+	1    5300 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 3350 5075 3350
+Wire Wire Line
+	5075 3350 5075 3475
+Wire Wire Line
+	5075 3350 4950 3350
+Connection ~ 5075 3350
+$Comp
+L Arduino_As_Uno-rescue:R_Small-device R6
+U 1 1 5C5045D7
+P 5075 3575
+F 0 "R6" H 4975 3575 50  0000 C CNN
+F 1 "2k2" H 5175 3575 50  0000 C CNN
+F 2 "Maz-ONE:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" H 5075 3575 50  0001 C CNN
+F 3 "" H 5075 3575 50  0001 C CNN
+	1    5075 3575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 3675 5075 3800
+$Comp
+L power:GND #PWR017
+U 1 1 5C509699
+P 5075 3800
+F 0 "#PWR017" H 5075 3550 50  0001 C CNN
+F 1 "GND" H 5075 3650 50  0000 C CNN
+F 2 "" H 5075 3800 50  0000 C CNN
+F 3 "" H 5075 3800 50  0000 C CNN
+	1    5075 3800
+	1    0    0    -1  
+$EndComp
+Text Label 4950 3350 2    60   ~ 0
+1(Tx)
+Text Label 5650 3250 2    60   ~ 0
+0(Rx)
+Wire Wire Line
+	5775 3250 5650 3250
+$Comp
+L power:GND #PWR020
+U 1 1 5C51FCD2
+P 5700 3800
+F 0 "#PWR020" H 5700 3550 50  0001 C CNN
+F 1 "GND" H 5700 3650 50  0000 C CNN
+F 2 "" H 5700 3800 50  0000 C CNN
+F 3 "" H 5700 3800 50  0000 C CNN
+	1    5700 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5775 3150 5700 3150
+Wire Wire Line
+	5700 3150 5700 3800
+Wire Wire Line
+	5775 3050 5700 3050
+Wire Wire Line
+	5700 3050 5700 2775
+$Comp
+L power:+5V #PWR019
+U 1 1 5C52DBBD
+P 5700 2775
+F 0 "#PWR019" H 5700 2625 50  0001 C CNN
+F 1 "+5V" H 5700 2915 50  0000 C CNN
+F 2 "" H 5700 2775 50  0000 C CNN
+F 3 "" H 5700 2775 50  0000 C CNN
+	1    5700 2775
+	1    0    0    -1  
+$EndComp
+Text Notes 3275 3425 0    157  ~ 31
+BLUETOOTH
+Text Notes 10200 2950 0    79   ~ 16
+* BLUETOOTH 1
+Text Notes 10200 3075 0    79   ~ 16
+* BLUETOOTH 0
+$Comp
+L Arduino_As_Uno-rescue:CONN_01X08-conn P5
+U 1 1 5D6879D5
+P 9050 5025
+F 0 "P5" H 9050 5475 50  0000 C CNN
+F 1 "TFT Port" V 9150 5025 50  0000 C CNN
+F 2 "Maz-ONE:Socket_Strip_Arduino_1x08" V 9200 4975 20  0001 C CNN
+F 3 "" H 9050 5025 50  0000 C CNN
+	1    9050 5025
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 4675 9375 4675
+Wire Wire Line
+	9250 4875 9375 4875
+Wire Wire Line
+	9250 4975 9375 4975
+Wire Wire Line
+	9250 5075 9375 5075
+Wire Wire Line
+	9250 5175 9375 5175
+Wire Wire Line
+	9250 5275 9375 5275
+Wire Wire Line
+	9250 5375 9375 5375
+Text Label 9375 4675 0    50   ~ 0
+GND
+$Comp
+L power:+5V #PWR021
+U 1 1 5D6B25D9
+P 9650 4700
+F 0 "#PWR021" H 9650 4550 50  0001 C CNN
+F 1 "+5V" H 9650 4840 50  0000 C CNN
+F 2 "" H 9650 4700 50  0000 C CNN
+F 3 "" H 9650 4700 50  0000 C CNN
+	1    9650 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 4775 9650 4700
+Wire Wire Line
+	9250 4775 9650 4775
+Text Label 9375 4875 0    60   ~ 0
+13(SCK)
+Text Label 9375 4975 0    60   ~ 0
+11(**/MOSI)
+Text Label 9375 5275 0    60   ~ 0
+10(**/SS)
+Text Label 9375 5075 0    60   ~ 0
+8
+Text Label 9375 5175 0    60   ~ 0
+7
+NoConn ~ 9375 5375
+Text Notes 8650 4400 0    157  ~ 31
+TFT PORT
+Text Notes 6025 3375 0    50   ~ 0
+RXD
+Text Notes 6025 3275 0    50   ~ 0
+TXD
+Text Notes 6025 3175 0    50   ~ 0
+GND
+Text Notes 6025 3075 0    50   ~ 0
+VCC
+Wire Notes Line
+	7150 500  7150 3475
+Wire Notes Line
+	7150 3475 11225 3475
+$EndSCHEMATC

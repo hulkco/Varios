@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Maz-ONE_Buzzer-device
+# Arduino_As_Uno-rescue_Buzzer-device
 #
-DEF Maz-ONE_Buzzer-device BZ 0 1 Y N 1 F N
+DEF Arduino_As_Uno-rescue_Buzzer-device BZ 0 1 Y N 1 F N
 F0 "BZ" 150 50 50 H V L CNN
-F1 "Maz-ONE_Buzzer-device" 150 -50 50 H V L CNN
+F1 "Arduino_As_Uno-rescue_Buzzer-device" 150 -50 50 H V L CNN
 F2 "" -25 100 50 V I C CNN
 F3 "" -25 100 50 V I C CNN
 $FPLIST
@@ -21,31 +21,11 @@ X + 2 -100 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Maz-ONE_CONN_01X01-conn
+# Arduino_As_Uno-rescue_CONN_01X03-conn
 #
-DEF Maz-ONE_CONN_01X01-conn J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Maz-ONE_CONN_01X01-conn" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Pin_Header_Straight_1X*
- Pin_Header_Angled_1X*
- Socket_Strip_Straight_1X*
- Socket_Strip_Angled_1X*
-$ENDFPLIST
-DRAW
-S -50 5 10 -5 0 1 0 N
-S -50 50 50 -50 0 1 0 N
-X P1 1 -200 0 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Maz-ONE_CONN_01X03-conn
-#
-DEF Maz-ONE_CONN_01X03-conn J 0 40 Y N 1 F N
+DEF Arduino_As_Uno-rescue_CONN_01X03-conn J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Maz-ONE_CONN_01X03-conn" 100 0 50 V V C CNN
+F1 "Arduino_As_Uno-rescue_CONN_01X03-conn" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -65,11 +45,11 @@ X P3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Maz-ONE_CONN_01X04-conn
+# Arduino_As_Uno-rescue_CONN_01X04-conn
 #
-DEF Maz-ONE_CONN_01X04-conn J 0 40 Y N 1 F N
+DEF Arduino_As_Uno-rescue_CONN_01X04-conn J 0 40 Y N 1 F N
 F0 "J" 0 250 50 H V C CNN
-F1 "Maz-ONE_CONN_01X04-conn" 100 0 50 V V C CNN
+F1 "Arduino_As_Uno-rescue_CONN_01X04-conn" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -91,11 +71,11 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Maz-ONE_CONN_01X06-conn
+# Arduino_As_Uno-rescue_CONN_01X06-conn
 #
-DEF Maz-ONE_CONN_01X06-conn J 0 40 Y N 1 F N
+DEF Arduino_As_Uno-rescue_CONN_01X06-conn J 0 40 Y N 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "Maz-ONE_CONN_01X06-conn" 100 0 50 V V C CNN
+F1 "Arduino_As_Uno-rescue_CONN_01X06-conn" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -121,11 +101,11 @@ X P6 6 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Maz-ONE_CONN_01X08-conn
+# Arduino_As_Uno-rescue_CONN_01X08-conn
 #
-DEF Maz-ONE_CONN_01X08-conn J 0 40 Y N 1 F N
+DEF Arduino_As_Uno-rescue_CONN_01X08-conn J 0 40 Y N 1 F N
 F0 "J" 0 450 50 H V C CNN
-F1 "Maz-ONE_CONN_01X08-conn" 100 0 50 V V C CNN
+F1 "Arduino_As_Uno-rescue_CONN_01X08-conn" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -155,11 +135,11 @@ X P8 8 -200 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Maz-ONE_CONN_01X10-conn
+# Arduino_As_Uno-rescue_CONN_01X10-conn
 #
-DEF Maz-ONE_CONN_01X10-conn J 0 40 Y N 1 F N
+DEF Arduino_As_Uno-rescue_CONN_01X10-conn J 0 40 Y N 1 F N
 F0 "J" 0 550 50 H V C CNN
-F1 "Maz-ONE_CONN_01X10-conn" 100 0 50 V V C CNN
+F1 "Arduino_As_Uno-rescue_CONN_01X10-conn" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -193,11 +173,11 @@ X P9 9 -200 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Maz-ONE_PL9823-pl9823
+# Arduino_As_Uno-rescue_PL9823-pl9823
 #
-DEF Maz-ONE_PL9823-pl9823 LED 0 40 Y Y 1 F N
+DEF Arduino_As_Uno-rescue_PL9823-pl9823 LED 0 40 Y Y 1 F N
 F0 "LED" 0 -400 60 H V C CNN
-F1 "Maz-ONE_PL9823-pl9823" 0 400 60 H V C CNN
+F1 "Arduino_As_Uno-rescue_PL9823-pl9823" 0 400 60 H V C CNN
 F2 "" -50 0 60 V V C CNN
 F3 "" -50 0 60 V V C CNN
 DRAW
@@ -218,11 +198,11 @@ X DOUT 4 -500 -200 197 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# Maz-ONE_POT-device
+# Arduino_As_Uno-rescue_POT-device
 #
-DEF Maz-ONE_POT-device RV 0 40 Y N 1 F N
+DEF Arduino_As_Uno-rescue_POT-device RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "Maz-ONE_POT-device" -100 0 50 V V C CNN
+F1 "Arduino_As_Uno-rescue_POT-device" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -238,11 +218,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Maz-ONE_RES_PHOTO_LDR-device
+# Arduino_As_Uno-rescue_RES_PHOTO_LDR-device
 #
-DEF Maz-ONE_RES_PHOTO_LDR-device R 0 0 N N 1 F N
+DEF Arduino_As_Uno-rescue_RES_PHOTO_LDR-device R 0 0 N N 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Maz-ONE_RES_PHOTO_LDR-device" 0 0 24 V V C CNN
+F1 "Arduino_As_Uno-rescue_RES_PHOTO_LDR-device" 0 0 24 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -266,11 +246,11 @@ X 2 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Maz-ONE_R_Small-device
+# Arduino_As_Uno-rescue_R_Small-device
 #
-DEF Maz-ONE_R_Small-device R 0 10 N N 1 F N
+DEF Arduino_As_Uno-rescue_R_Small-device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "Maz-ONE_R_Small-device" 30 -40 50 H V L CNN
+F1 "Arduino_As_Uno-rescue_R_Small-device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -283,11 +263,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Maz-ONE_SW_Push-switches
+# Arduino_As_Uno-rescue_SW_Push-switches
 #
-DEF Maz-ONE_SW_Push-switches SW 0 40 N N 1 F N
+DEF Arduino_As_Uno-rescue_SW_Push-switches SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Maz-ONE_SW_Push-switches" 0 -60 50 H V C CNN
+F1 "Arduino_As_Uno-rescue_SW_Push-switches" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
