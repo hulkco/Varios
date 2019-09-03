@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name 001-rescue)(type Legacy)(uri /home/greynaga/Github/Varios/Escorni_Badge/002-85/001-rescue.lib)(options "")(descr ""))
+  (lib (name 001-cache)(type Legacy)(uri ${KIPRJMOD}/001-cache.lib)(options "")(descr "")(disabled))
+  (lib (name 001-rescue)(type Legacy)(uri /home/greynaga/Github/Varios/Escorni_Badge/001-85/001-rescue.lib)(options "")(descr ""))
 )
