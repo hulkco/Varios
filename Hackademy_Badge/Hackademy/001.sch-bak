@@ -1,0 +1,473 @@
+EESchema Schematic File Version 4
+LIBS:001-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATtiny:ATtiny85-20SU U1
+U 1 1 5D6B27A7
+P 3975 3400
+F 0 "U1" H 3446 3446 50  0000 R CNN
+F 1 "ATtiny85-20SU" H 3446 3355 50  0000 R CNN
+F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 3975 3400 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 3975 3400 50  0001 C CNN
+	1    3975 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4575 3100 4700 3100
+Wire Wire Line
+	4575 3200 4700 3200
+Wire Wire Line
+	4575 3300 4700 3300
+Wire Wire Line
+	4575 3600 4700 3600
+Wire Wire Line
+	3975 4000 3975 4125
+Wire Wire Line
+	4575 3400 4700 3400
+Wire Wire Line
+	4575 3500 4700 3500
+$Comp
+L Device:C_Small C1
+U 1 1 5D6B5CB9
+P 3675 2450
+F 0 "C1" H 3875 2375 50  0000 L CNN
+F 1 "C_Small" H 3775 2525 50  0000 L CNN
+F 2 "Hackademy:C_0805" H 3675 2450 50  0001 C CNN
+F 3 "~" H 3675 2450 50  0001 C CNN
+	1    3675 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3675 2550 3675 2625
+$Comp
+L power:GND #PWR01
+U 1 1 5D6B8517
+P 3675 2625
+F 0 "#PWR01" H 3675 2375 50  0001 C CNN
+F 1 "GND" H 3680 2452 50  0000 C CNN
+F 2 "" H 3675 2625 50  0001 C CNN
+F 3 "" H 3675 2625 50  0001 C CNN
+	1    3675 2625
+	1    0    0    -1  
+$EndComp
+Text GLabel 4700 3100 2    50   Input ~ 0
+PB0
+Text GLabel 4700 3200 2    50   Input ~ 0
+PB1
+Text GLabel 4700 3300 2    50   Input ~ 0
+PB2
+$Comp
+L AP2112k:R_Small R1
+U 1 1 5D6BC90E
+P 5875 2975
+F 0 "R1" V 5679 2975 50  0000 C CNN
+F 1 "22 ohms" V 5770 2975 50  0000 C CNN
+F 2 "Hackademy:R_0805" V 5771 2975 50  0001 C CNN
+F 3 "" H 5875 2975 50  0000 C CNN
+	1    5875 2975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5775 2975 5700 2975
+Wire Wire Line
+	5775 3400 5700 3400
+Wire Wire Line
+	5775 3850 5700 3850
+Text GLabel 5700 2975 0    50   Input ~ 0
+PB0
+Text GLabel 5700 3400 0    50   Input ~ 0
+PB1
+Text GLabel 5700 3850 0    50   Input ~ 0
+PB2
+$Comp
+L Device:LED_Small_ALT D1
+U 1 1 5D6C0EFD
+P 6100 3175
+F 0 "D1" V 6100 3107 50  0000 R CNN
+F 1 "LED_Small_ALT" V 6055 3107 50  0001 R CNN
+F 2 "Hackademy:LED_0805" V 6100 3175 50  0001 C CNN
+F 3 "~" V 6100 3175 50  0001 C CNN
+	1    6100 3175
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5975 2975 6100 2975
+Connection ~ 6100 2975
+Wire Wire Line
+	5975 3400 6100 3400
+Wire Wire Line
+	6100 3275 6100 3400
+Connection ~ 6100 3400
+Wire Wire Line
+	6100 2975 6100 3075
+$Comp
+L Device:LED_Small_ALT D3
+U 1 1 5D6CAE02
+P 6100 3625
+F 0 "D3" V 6100 3557 50  0000 R CNN
+F 1 "LED_Small_ALT" V 6055 3557 50  0001 R CNN
+F 2 "Hackademy:LED_0805" V 6100 3625 50  0001 C CNN
+F 3 "~" V 6100 3625 50  0001 C CNN
+	1    6100 3625
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 3400 6100 3525
+Wire Wire Line
+	5975 3850 6100 3850
+Wire Wire Line
+	6100 3725 6100 3850
+Connection ~ 6100 3850
+Wire Wire Line
+	6350 3075 6350 2975
+Wire Wire Line
+	6100 2975 6350 2975
+Wire Wire Line
+	6350 3400 6350 3275
+Wire Wire Line
+	6100 3400 6350 3400
+Wire Wire Line
+	6350 3400 6350 3525
+Connection ~ 6350 3400
+Wire Wire Line
+	6350 3850 6350 3725
+Wire Wire Line
+	6100 3850 6350 3850
+Wire Wire Line
+	6350 2975 6625 2975
+Wire Wire Line
+	6875 2975 6875 3300
+Connection ~ 6350 2975
+Wire Wire Line
+	6875 3500 6875 3850
+Wire Wire Line
+	6875 3850 6625 3850
+Connection ~ 6350 3850
+Wire Wire Line
+	6625 3500 6625 3850
+Connection ~ 6625 3850
+Wire Wire Line
+	6625 3850 6350 3850
+Wire Wire Line
+	6625 3300 6625 2975
+Connection ~ 6625 2975
+Wire Wire Line
+	6625 2975 6875 2975
+$Comp
+L AP2112k:R_Small R2
+U 1 1 5D6D6B91
+P 5875 3400
+F 0 "R2" V 5679 3400 50  0000 C CNN
+F 1 "22 ohms" V 5770 3400 50  0000 C CNN
+F 2 "Hackademy:R_0805" V 5771 3400 50  0001 C CNN
+F 3 "" H 5875 3400 50  0000 C CNN
+	1    5875 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L AP2112k:R_Small R3
+U 1 1 5D6D7600
+P 5875 3850
+F 0 "R3" V 5679 3850 50  0000 C CNN
+F 1 "22 ohms" V 5770 3850 50  0000 C CNN
+F 2 "Hackademy:R_0805" V 5771 3850 50  0001 C CNN
+F 3 "" H 5875 3850 50  0000 C CNN
+	1    5875 3850
+	0    1    1    0   
+$EndComp
+Text GLabel 4700 3400 2    50   Input ~ 0
+PB3
+Text GLabel 7850 3450 0    50   Input ~ 0
+PB3
+$Comp
+L power:GND #PWR06
+U 1 1 5D6E9190
+P 8700 3500
+F 0 "#PWR06" H 8700 3250 50  0001 C CNN
+F 1 "GND" H 8705 3327 50  0000 C CNN
+F 2 "" H 8700 3500 50  0001 C CNN
+F 3 "" H 8700 3500 50  0001 C CNN
+	1    8700 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3450 8700 3500
+$Comp
+L power:GND #PWR07
+U 1 1 5D6ECD99
+P 3975 4125
+F 0 "#PWR07" H 3975 3875 50  0001 C CNN
+F 1 "GND" H 3980 3952 50  0000 C CNN
+F 2 "" H 3975 4125 50  0001 C CNN
+F 3 "" H 3975 4125 50  0001 C CNN
+	1    3975 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 5D6EEED0
+P 5050 1950
+F 0 "BT1" H 5158 1996 50  0000 L CNN
+F 1 "Battery" H 5158 1905 50  0000 L CNN
+F 2 "Hackademy:S8211R" V 5050 2010 50  0001 C CNN
+F 3 "~" V 5050 2010 50  0001 C CNN
+	1    5050 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1750 5050 1675
+Wire Wire Line
+	5050 2150 5050 2225
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5D6F17AD
+P 6325 1900
+F 0 "#FLG01" H 6325 1975 50  0001 C CNN
+F 1 "PWR_FLAG" H 6325 2073 50  0000 C CNN
+F 2 "" H 6325 1900 50  0001 C CNN
+F 3 "~" H 6325 1900 50  0001 C CNN
+	1    6325 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 1900 6325 2025
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5D6F31E1
+P 5850 2025
+F 0 "#FLG02" H 5850 2100 50  0001 C CNN
+F 1 "PWR_FLAG" H 5850 2198 50  0000 C CNN
+F 2 "" H 5850 2025 50  0001 C CNN
+F 3 "~" H 5850 2025 50  0001 C CNN
+	1    5850 2025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 2025 5850 1900
+$Comp
+L power:+3.3V #PWR02
+U 1 1 5D6F513C
+P 5050 1675
+F 0 "#PWR02" H 5050 1525 50  0001 C CNN
+F 1 "+3.3V" H 5065 1848 50  0000 C CNN
+F 2 "" H 5050 1675 50  0001 C CNN
+F 3 "" H 5050 1675 50  0001 C CNN
+	1    5050 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR03
+U 1 1 5D6F5D11
+P 5850 1900
+F 0 "#PWR03" H 5850 1750 50  0001 C CNN
+F 1 "+3.3V" H 5865 2073 50  0000 C CNN
+F 2 "" H 5850 1900 50  0001 C CNN
+F 3 "" H 5850 1900 50  0001 C CNN
+	1    5850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5D6FAAE6
+P 6325 2025
+F 0 "#PWR04" H 6325 1775 50  0001 C CNN
+F 1 "GND" H 6330 1852 50  0000 C CNN
+F 2 "" H 6325 2025 50  0001 C CNN
+F 3 "" H 6325 2025 50  0001 C CNN
+	1    6325 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5D6FE84C
+P 5050 2225
+F 0 "#PWR05" H 5050 1975 50  0001 C CNN
+F 1 "GND" H 5055 2052 50  0000 C CNN
+F 2 "" H 5050 2225 50  0001 C CNN
+F 3 "" H 5050 2225 50  0001 C CNN
+	1    5050 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J1
+U 1 1 5D704D79
+P 3975 4900
+F 0 "J1" H 4025 5125 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 4025 5126 50  0001 C CNN
+F 2 "Hackademy:PogoPinSocket_2x03_P2.54mm" H 3975 4900 50  0001 C CNN
+F 3 "~" H 3975 4900 50  0001 C CNN
+	1    3975 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4275 4800 4400 4800
+Wire Wire Line
+	4275 4900 4400 4900
+Wire Wire Line
+	4275 5000 4400 5000
+Wire Wire Line
+	3775 4800 3650 4800
+Wire Wire Line
+	3775 4900 3650 4900
+Wire Wire Line
+	3775 5000 3650 5000
+Text GLabel 4400 4900 2    50   Input ~ 0
+PB0
+Text GLabel 3650 4800 0    50   Input ~ 0
+PB1
+Text GLabel 3650 4900 0    50   Input ~ 0
+PB2
+Text GLabel 4700 3600 2    50   Input ~ 0
+PB5
+Text GLabel 3650 5000 0    50   Input ~ 0
+PB5
+$Comp
+L power:+3.3V #PWR08
+U 1 1 5D7189BA
+P 4400 4725
+F 0 "#PWR08" H 4400 4575 50  0001 C CNN
+F 1 "+3.3V" H 4415 4898 50  0000 C CNN
+F 2 "" H 4400 4725 50  0001 C CNN
+F 3 "" H 4400 4725 50  0001 C CNN
+	1    4400 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5D71C7A0
+P 4400 5075
+F 0 "#PWR09" H 4400 4825 50  0001 C CNN
+F 1 "GND" H 4405 4902 50  0000 C CNN
+F 2 "" H 4400 5075 50  0001 C CNN
+F 3 "" H 4400 5075 50  0001 C CNN
+	1    4400 5075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5000 4400 5075
+Wire Wire Line
+	4400 4800 4400 4725
+Text Notes 4625 4925 0    50   ~ 0
+MOSI
+Text Notes 3425 4825 2    50   ~ 0
+MISO
+Text Notes 3425 4925 2    50   ~ 0
+SCK
+Text Notes 3425 5025 2    50   ~ 0
+RESET
+NoConn ~ 4700 3500
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 5D725D2C
+P 4350 2250
+F 0 "#PWR0101" H 4350 2100 50  0001 C CNN
+F 1 "+3.3V" H 4365 2423 50  0000 C CNN
+F 2 "" H 4350 2250 50  0001 C CNN
+F 3 "" H 4350 2250 50  0001 C CNN
+	1    4350 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3975 2250 3675 2250
+Wire Wire Line
+	3675 2250 3675 2350
+Wire Wire Line
+	3975 2250 3975 2800
+Connection ~ 3975 2250
+Wire Wire Line
+	3975 2250 4350 2250
+$Comp
+L Device:LED_Small_ALT D6
+U 1 1 5D6D0FD0
+P 6875 3400
+F 0 "D6" V 6875 3498 50  0000 L CNN
+F 1 "LED_Small_ALT" V 6830 3332 50  0001 R CNN
+F 2 "Hackademy:LED_0805" V 6875 3400 50  0001 C CNN
+F 3 "~" V 6875 3400 50  0001 C CNN
+	1    6875 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D5
+U 1 1 5D6D0663
+P 6625 3400
+F 0 "D5" V 6625 3332 50  0000 R CNN
+F 1 "LED_Small_ALT" V 6580 3332 50  0001 R CNN
+F 2 "Hackademy:LED_0805" V 6625 3400 50  0001 C CNN
+F 3 "~" V 6625 3400 50  0001 C CNN
+	1    6625 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D4
+U 1 1 5D6CF680
+P 6350 3625
+F 0 "D4" V 6350 3723 50  0000 L CNN
+F 1 "LED_Small_ALT" V 6305 3557 50  0001 R CNN
+F 2 "Hackademy:LED_0805" V 6350 3625 50  0001 C CNN
+F 3 "~" V 6350 3625 50  0001 C CNN
+	1    6350 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D2
+U 1 1 5D6CD7D5
+P 6350 3175
+F 0 "D2" V 6350 3273 50  0000 L CNN
+F 1 "LED_Small_ALT" V 6305 3107 50  0001 R CNN
+F 2 "Hackademy:LED_0805" V 6350 3175 50  0001 C CNN
+F 3 "~" V 6350 3175 50  0001 C CNN
+	1    6350 3175
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5D750FE0
+P 8275 3450
+F 0 "SW1" H 8275 3735 50  0000 C CNN
+F 1 "SW_Push" H 8275 3644 50  0000 C CNN
+F 2 "Hackademy:SW_SPST_B3U-1000P" H 8275 3650 50  0001 C CNN
+F 3 "~" H 8275 3650 50  0001 C CNN
+	1    8275 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3450 8075 3450
+Wire Wire Line
+	8475 3450 8700 3450
+$Comp
+L Device:Module Ref1
+U 1 1 5D6DBE4A
+P 5925 4800
+F 0 "Ref1" H 6159 4853 60  0000 L CNN
+F 1 "Edge.Cuts" H 6159 4747 60  0000 L CNN
+F 2 "Hackademy:Hackademy_01" H 6475 4800 60  0001 C CNN
+F 3 "" H 5925 4800 60  0000 C CNN
+	1    5925 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Module Ref2
+U 1 1 5D6DF5AF
+P 5925 5400
+F 0 "Ref2" H 6159 5453 60  0000 L CNN
+F 1 "PinPad" H 6159 5347 60  0000 L CNN
+F 2 "Hackademy:Pin_Pad_D5.0mm" H 6475 5400 60  0001 C CNN
+F 3 "" H 5925 5400 60  0000 C CNN
+	1    5925 5400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

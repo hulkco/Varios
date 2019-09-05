@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name mcp73831t)(type Legacy)(uri ${KIPRJMOD}/project_libs/mcp73831t.lib)(options "")(descr ""))
+  (lib (name acs712)(type Legacy)(uri ${KIPRJMOD}/project_libs/acs712.lib)(options "")(descr ""))
+)

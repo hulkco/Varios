@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Hackademy)(type KiCad)(uri ${KIPRJMOD}/Hackademy.pretty)(options "")(descr ""))
+)
