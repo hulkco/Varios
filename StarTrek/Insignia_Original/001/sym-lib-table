@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name 001-cache)(type Legacy)(uri ${KIPRJMOD}/001-cache.lib)(options "")(descr ""))
+  (lib (name MF-Jalisco)(type Legacy)(uri ${KIPRJMOD}/MF-Jalisco.lib)(options "")(descr ""))
+  (lib (name 001-rescue)(type Legacy)(uri ${KIPRJMOD}/001-rescue.lib)(options "")(descr ""))
+)
