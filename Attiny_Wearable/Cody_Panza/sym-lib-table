@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Tiny-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Tiny-eagle-import.lib)(options "")(descr ""))
+  (lib (name Tiny-rescue)(type Legacy)(uri ${KIPRJMOD}/Tiny-rescue.lib)(options "")(descr ""))
 )

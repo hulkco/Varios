@@ -93,7 +93,7 @@ F 3 "" H 1815 7385 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 1465 7385 2    50   ~ 0
-+5V
++3V3
 $Comp
 L power:GND #PWR02
 U 1 1 597EE12E
@@ -105,8 +105,6 @@ F 3 "" H 2565 7385 50  0001 C CNN
 	1    2565 7385
 	1    0    0    -1  
 $EndComp
-Text GLabel 4240 5960 2    50   Input ~ 0
-+5V
 Text GLabel 7100 900  1    50   Input ~ 0
 VBAT
 $Comp
@@ -207,8 +205,6 @@ Text GLabel 1940 1525 0    50   Input ~ 0
 MISO-1-PWM
 Text GLabel 1940 1425 0    50   Input ~ 0
 MOSI-0-PWM
-Text GLabel 1940 1725 0    50   Input ~ 0
-3-A3
 Text GLabel 1940 1825 0    50   Input ~ 0
 4-A2
 Text GLabel 1940 1925 0    50   Input ~ 0
@@ -436,8 +432,6 @@ Wire Wire Line
 	9600 3750 8525 3750
 Wire Wire Line
 	7250 3750 7250 3950
-Wire Wire Line
-	8525 3925 8525 3750
 Connection ~ 8525 3750
 Wire Wire Line
 	8525 3750 7250 3750
@@ -564,4 +558,21 @@ Wire Wire Line
 	7550 4250 8225 4250
 Wire Wire Line
 	8825 4250 9300 4250
+Wire Wire Line
+	8525 3750 8525 3950
+NoConn ~ 9900 4250
+$Comp
+L power:GND #PWR08
+U 1 1 5D911307
+P 8525 4725
+F 0 "#PWR08" H 8525 4475 50  0001 C CNN
+F 1 "GND" H 8530 4552 50  0000 C CNN
+F 2 "" H 8525 4725 50  0001 C CNN
+F 3 "" H 8525 4725 50  0001 C CNN
+	1    8525 4725
+	1    0    0    -1  
+$EndComp
+Text GLabel 4240 5960 2    50   Input ~ 0
+VCC
+NoConn ~ 1940 1725
 $EndSCHEMATC
