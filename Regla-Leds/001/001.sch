@@ -157,8 +157,6 @@ F 3 "~" H 10325 1125 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10325 1125 10325 1000
-Text Label 10325 1000 2    50   ~ 0
-VCC
 Wire Wire Line
 	5925 3450 5775 3450
 Wire Wire Line
@@ -383,6 +381,17 @@ F 1 "PCB" H 7749 3405 50  0000 L CNN
 F 2 "Reverse_Mount_Leds:Regla_Leds" H 7650 3450 50  0001 C CNN
 F 3 "" H 7650 3450 50  0001 C CNN
 	1    7650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR09
+U 1 1 5D91B027
+P 10325 1000
+F 0 "#PWR09" H 10325 850 50  0001 C CNN
+F 1 "VCC" H 10342 1173 50  0000 C CNN
+F 2 "" H 10325 1000 50  0001 C CNN
+F 3 "" H 10325 1000 50  0001 C CNN
+	1    10325 1000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
