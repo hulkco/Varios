@@ -384,14 +384,25 @@ F 3 "" H 7650 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR09
 U 1 1 5D91B027
 P 10325 1000
-F 0 "#PWR?" H 10325 850 50  0001 C CNN
+F 0 "#PWR09" H 10325 850 50  0001 C CNN
 F 1 "VCC" H 10342 1173 50  0000 C CNN
 F 2 "" H 10325 1000 50  0001 C CNN
 F 3 "" H 10325 1000 50  0001 C CNN
 	1    10325 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Reverse_mount_leds:PCB U?
+U 1 1 5D927C25
+P 7650 3675
+F 0 "U?" H 7749 3721 50  0000 L CNN
+F 1 "Firma" H 7749 3630 50  0000 L CNN
+F 2 "Reverse_Mount_Leds:firma_Cu_Mask" H 7650 3675 50  0001 C CNN
+F 3 "" H 7650 3675 50  0001 C CNN
+	1    7650 3675
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
