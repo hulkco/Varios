@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Reverse_mount_leds:WS2812B-Normal LED1
+L 001-rescue:WS2812B-Normal-Reverse_mount_leds LED1
 U 1 1 5D90F91C
 P 4450 1575
 F 0 "LED1" H 4500 1950 50  0000 C CNN
@@ -51,7 +51,7 @@ Wire Wire Line
 Text Label 4375 2200 2    50   ~ 0
 VCC
 $Comp
-L Reverse_mount_leds:WS2812B-Normal LED2
+L 001-rescue:WS2812B-Normal-Reverse_mount_leds LED2
 U 1 1 5D91778C
 P 6050 1575
 F 0 "LED2" H 6100 1950 50  0000 C CNN
@@ -85,7 +85,7 @@ Port_B
 Wire Wire Line
 	6100 2075 6100 2200
 $Comp
-L Reverse_mount_leds:WS2812B-Normal LED3
+L 001-rescue:WS2812B-Normal-Reverse_mount_leds LED3
 U 1 1 5D91A7C4
 P 7600 1575
 F 0 "LED3" H 7650 1950 50  0000 C CNN
@@ -373,7 +373,7 @@ F 3 "" H 6100 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Reverse_mount_leds:PCB U1
+L 001-rescue:PCB-Reverse_mount_leds U1
 U 1 1 5D912D99
 P 7650 3450
 F 0 "U1" H 7749 3496 50  0000 L CNN
@@ -395,7 +395,7 @@ F 3 "" H 10325 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Reverse_mount_leds:PCB U2
+L 001-rescue:PCB-Reverse_mount_leds U2
 U 1 1 5D927C25
 P 7650 3675
 F 0 "U2" H 7749 3721 50  0000 L CNN

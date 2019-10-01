@@ -395,10 +395,10 @@ F 3 "" H 10325 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Reverse_mount_leds:PCB U?
+L Reverse_mount_leds:PCB U2
 U 1 1 5D927C25
 P 7650 3675
-F 0 "U?" H 7749 3721 50  0000 L CNN
+F 0 "U2" H 7749 3721 50  0000 L CNN
 F 1 "Firma" H 7749 3630 50  0000 L CNN
 F 2 "Reverse_Mount_Leds:firma_Cu_Mask" H 7650 3675 50  0001 C CNN
 F 3 "" H 7650 3675 50  0001 C CNN
