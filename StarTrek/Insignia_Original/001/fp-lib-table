@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name MF-Jalisco)(type KiCad)(uri ${KIPRJMOD}/MF-Jalisco.pretty)(options "")(descr ""))
+  (lib (name StarTrek_original)(type KiCad)(uri ${KIPRJMOD}/StarTrek_original.pretty)(options "")(descr ""))
+)
