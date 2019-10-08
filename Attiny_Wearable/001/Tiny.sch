@@ -140,7 +140,7 @@ F 3 "~" H 4500 4600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_3V_Coin BT1
+L Tiny-rescue:Battery_3V_Coin-Device BT1
 U 1 1 5D584BA9
 P 4300 3500
 F 0 "BT1" H 4552 3546 50  0000 L CNN

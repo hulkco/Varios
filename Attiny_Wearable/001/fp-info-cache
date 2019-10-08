@@ -1,4 +1,25 @@
-17275521972686036
+17564467065782053
+Arduino
+NANO_33_Footprint_SMD_Castell
+Through hole straight socket strip, 1x15, 2.54mm pitch
+Through hole socket strip THT 1x15 2.54mm single row
+0
+30
+30
+Arduino
+NANO_33_Single_Socket
+Through hole straight socket strip, 1x15, 2.54mm pitch
+Through hole socket strip THT 1x15 2.54mm single row
+0
+30
+30
+Arduino
+NANO_33_Socket_Castell
+Through hole straight socket strip, 1x15, 2.54mm pitch
+Through hole socket strip THT 1x15 2.54mm single row
+0
+90
+30
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -10584,16 +10605,16 @@ connector JST AUH side entry
 7
 6
 Connector_JST
-JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical
-JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
-connector JST EH vertical
+JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical
+JST EH series connector, B02B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH side entry
 0
 2
 2
 Connector_JST
-JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical
-JST EH series connector, B02B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
-connector JST EH side entry
+JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical
+JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH vertical
 0
 2
 2
@@ -10682,16 +10703,16 @@ connector JST EH side entry
 8
 8
 Connector_JST
-JST_EH_B09B-EH-A_1x09_P2.50mm_Vertical
-JST EH series connector, B09B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
-connector JST EH side entry
+JST_EH_B9B-EH-A_1x09_P2.50mm_Vertical
+JST EH series connector, B9B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH vertical
 0
 9
 9
 Connector_JST
-JST_EH_B9B-EH-A_1x09_P2.50mm_Vertical
-JST EH series connector, B9B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
-connector JST EH vertical
+JST_EH_B09B-EH-A_1x09_P2.50mm_Vertical
+JST EH series connector, B09B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH side entry
 0
 9
 9
@@ -10759,13 +10780,6 @@ connector JST EH horizontal
 2
 2
 Connector_JST
-JST_EH_S03B-EH_1x03_P2.50mm_Horizontal
-JST EH series connector, S03B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
-connector JST EH top entry
-0
-3
-3
-Connector_JST
 JST_EH_S3B-EH_1x03_P2.50mm_Horizontal
 JST EH series connector, S3B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
 connector JST EH horizontal
@@ -10773,16 +10787,23 @@ connector JST EH horizontal
 3
 3
 Connector_JST
-JST_EH_S4B-EH_1x04_P2.50mm_Horizontal
-JST EH series connector, S4B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
-connector JST EH horizontal
+JST_EH_S03B-EH_1x03_P2.50mm_Horizontal
+JST EH series connector, S03B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH top entry
 0
-4
-4
+3
+3
 Connector_JST
 JST_EH_S04B-EH_1x04_P2.50mm_Horizontal
 JST EH series connector, S04B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
 connector JST EH top entry
+0
+4
+4
+Connector_JST
+JST_EH_S4B-EH_1x04_P2.50mm_Horizontal
+JST EH series connector, S4B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH horizontal
 0
 4
 4
@@ -10843,16 +10864,16 @@ connector JST EH horizontal
 8
 8
 Connector_JST
-JST_EH_S09B-EH_1x09_P2.50mm_Horizontal
-JST EH series connector, S09B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
-connector JST EH top entry
+JST_EH_S9B-EH_1x09_P2.50mm_Horizontal
+JST EH series connector, S9B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH horizontal
 0
 9
 9
 Connector_JST
-JST_EH_S9B-EH_1x09_P2.50mm_Horizontal
-JST EH series connector, S9B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
-connector JST EH horizontal
+JST_EH_S09B-EH_1x09_P2.50mm_Horizontal
+JST EH series connector, S09B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH top entry
 0
 9
 9
@@ -13062,13 +13083,6 @@ connector JST XH side entry
 3
 3
 Connector_JST
-JST_XH_B04B-XH-AM_1x04_P2.50mm_Vertical
-JST XH series connector, B04B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH side entry boss
-0
-4
-4
-Connector_JST
 JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical
 JST XH series connector, B4B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH vertical boss
@@ -13076,9 +13090,9 @@ connector JST XH vertical boss
 4
 4
 Connector_JST
-JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical
-JST XH series connector, B04B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH side entry
+JST_XH_B04B-XH-AM_1x04_P2.50mm_Vertical
+JST XH series connector, B04B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH side entry boss
 0
 4
 4
@@ -13086,6 +13100,13 @@ Connector_JST
 JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
 JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH vertical
+0
+4
+4
+Connector_JST
+JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical
+JST XH series connector, B04B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH side entry
 0
 4
 4
@@ -13104,13 +13125,6 @@ connector JST XH side entry boss
 5
 5
 Connector_JST
-JST_XH_B05B-XH-A_1x05_P2.50mm_Vertical
-JST XH series connector, B05B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH side entry
-0
-5
-5
-Connector_JST
 JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical
 JST XH series connector, B5B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH vertical
@@ -13118,12 +13132,12 @@ connector JST XH vertical
 5
 5
 Connector_JST
-JST_XH_B06B-XH-AM_1x06_P2.50mm_Vertical
-JST XH series connector, B06B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH side entry boss
+JST_XH_B05B-XH-A_1x05_P2.50mm_Vertical
+JST XH series connector, B05B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH side entry
 0
-6
-6
+5
+5
 Connector_JST
 JST_XH_B6B-XH-AM_1x06_P2.50mm_Vertical
 JST XH series connector, B6B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
@@ -13132,9 +13146,9 @@ connector JST XH vertical boss
 6
 6
 Connector_JST
-JST_XH_B06B-XH-A_1x06_P2.50mm_Vertical
-JST XH series connector, B06B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH side entry
+JST_XH_B06B-XH-AM_1x06_P2.50mm_Vertical
+JST XH series connector, B06B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH side entry boss
 0
 6
 6
@@ -13142,6 +13156,13 @@ Connector_JST
 JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical
 JST XH series connector, B6B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH vertical
+0
+6
+6
+Connector_JST
+JST_XH_B06B-XH-A_1x06_P2.50mm_Vertical
+JST XH series connector, B06B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH side entry
 0
 6
 6
@@ -13160,16 +13181,16 @@ connector JST XH vertical boss
 7
 7
 Connector_JST
-JST_XH_B07B-XH-A_1x07_P2.50mm_Vertical
-JST XH series connector, B07B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH side entry
+JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical
+JST XH series connector, B7B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical
 0
 7
 7
 Connector_JST
-JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical
-JST XH series connector, B7B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH vertical
+JST_XH_B07B-XH-A_1x07_P2.50mm_Vertical
+JST XH series connector, B07B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH side entry
 0
 7
 7
@@ -13216,16 +13237,16 @@ connector JST XH vertical boss
 9
 9
 Connector_JST
-JST_XH_B9B-XH-A_1x09_P2.50mm_Vertical
-JST XH series connector, B9B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH vertical
+JST_XH_B09B-XH-A_1x09_P2.50mm_Vertical
+JST XH series connector, B09B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH side entry
 0
 9
 9
 Connector_JST
-JST_XH_B09B-XH-A_1x09_P2.50mm_Vertical
-JST XH series connector, B09B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH side entry
+JST_XH_B9B-XH-A_1x09_P2.50mm_Vertical
+JST XH series connector, B9B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical
 0
 9
 9
@@ -13307,16 +13328,16 @@ connector JST XH side entry
 20
 20
 Connector_JST
-JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal
-JST XH series connector, S02B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH top entry
+JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal
+JST XH series connector, S2B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH horizontal
 0
 2
 2
 Connector_JST
-JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal
-JST XH series connector, S2B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH horizontal
+JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal
+JST XH series connector, S02B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH top entry
 0
 2
 2
@@ -13335,13 +13356,6 @@ connector JST XH top entry
 2
 2
 Connector_JST
-JST_XH_S03B-XH-A-1_1x03_P2.50mm_Horizontal
-JST XH series connector, S03B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH top entry
-0
-3
-3
-Connector_JST
 JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal
 JST XH series connector, S3B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH horizontal
@@ -13349,8 +13363,8 @@ connector JST XH horizontal
 3
 3
 Connector_JST
-JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal
-JST XH series connector, S03B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+JST_XH_S03B-XH-A-1_1x03_P2.50mm_Horizontal
+JST XH series connector, S03B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH top entry
 0
 3
@@ -13363,12 +13377,12 @@ connector JST XH horizontal
 3
 3
 Connector_JST
-JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal
-JST XH series connector, S04B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal
+JST XH series connector, S03B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH top entry
 0
-4
-4
+3
+3
 Connector_JST
 JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal
 JST XH series connector, S4B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
@@ -13377,8 +13391,8 @@ connector JST XH horizontal
 4
 4
 Connector_JST
-JST_XH_S04B-XH-A_1x04_P2.50mm_Horizontal
-JST XH series connector, S04B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal
+JST XH series connector, S04B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH top entry
 0
 4
@@ -13391,16 +13405,23 @@ connector JST XH horizontal
 4
 4
 Connector_JST
-JST_XH_S5B-XH-A-1_1x05_P2.50mm_Horizontal
-JST XH series connector, S5B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH horizontal
+JST_XH_S04B-XH-A_1x04_P2.50mm_Horizontal
+JST XH series connector, S04B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH top entry
 0
-5
-5
+4
+4
 Connector_JST
 JST_XH_S05B-XH-A-1_1x05_P2.50mm_Horizontal
 JST XH series connector, S05B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH top entry
+0
+5
+5
+Connector_JST
+JST_XH_S5B-XH-A-1_1x05_P2.50mm_Horizontal
+JST XH series connector, S5B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH horizontal
 0
 5
 5
@@ -13475,13 +13496,6 @@ connector JST XH horizontal
 7
 7
 Connector_JST
-JST_XH_S8B-XH-A-1_1x08_P2.50mm_Horizontal
-JST XH series connector, S8B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH horizontal
-0
-8
-8
-Connector_JST
 JST_XH_S08B-XH-A-1_1x08_P2.50mm_Horizontal
 JST XH series connector, S08B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH top entry
@@ -13489,9 +13503,9 @@ connector JST XH top entry
 8
 8
 Connector_JST
-JST_XH_S08B-XH-A_1x08_P2.50mm_Horizontal
-JST XH series connector, S08B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH top entry
+JST_XH_S8B-XH-A-1_1x08_P2.50mm_Horizontal
+JST XH series connector, S8B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH horizontal
 0
 8
 8
@@ -13503,12 +13517,12 @@ connector JST XH horizontal
 8
 8
 Connector_JST
-JST_XH_S09B-XH-A-1_1x09_P2.50mm_Horizontal
-JST XH series connector, S09B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+JST_XH_S08B-XH-A_1x08_P2.50mm_Horizontal
+JST XH series connector, S08B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH top entry
 0
-9
-9
+8
+8
 Connector_JST
 JST_XH_S9B-XH-A-1_1x09_P2.50mm_Horizontal
 JST XH series connector, S9B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
@@ -13517,8 +13531,8 @@ connector JST XH horizontal
 9
 9
 Connector_JST
-JST_XH_S09B-XH-A_1x09_P2.50mm_Horizontal
-JST XH series connector, S09B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+JST_XH_S09B-XH-A-1_1x09_P2.50mm_Horizontal
+JST XH series connector, S09B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH top entry
 0
 9
@@ -13527,6 +13541,13 @@ Connector_JST
 JST_XH_S9B-XH-A_1x09_P2.50mm_Horizontal
 JST XH series connector, S9B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH horizontal
+0
+9
+9
+Connector_JST
+JST_XH_S09B-XH-A_1x09_P2.50mm_Horizontal
+JST XH series connector, S09B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH top entry
 0
 9
 9
@@ -35665,13 +35686,6 @@ Through hole angled socket strip THT 1x05 2.54mm single row
 5
 5
 Connector_PinSocket_2.54mm
-PinSocket_1x05_P2.54mm_Vertical
-Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x05 2.54mm single row
-0
-5
-5
-Connector_PinSocket_2.54mm
 PinSocket_1x05_P2.54mm_Vertical_SMD_Pin1Left
 surface-mounted straight socket strip, 1x05, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
 Surface mounted socket strip SMD 1x05 2.54mm single row style1 pin1 left
@@ -36361,13 +36375,6 @@ Connector_PinSocket_2.54mm
 PinSocket_1x30_P2.54mm_Horizontal
 Through hole angled socket strip, 1x30, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated
 Through hole angled socket strip THT 1x30 2.54mm single row
-0
-30
-30
-Connector_PinSocket_2.54mm
-PinSocket_1x30_P2.54mm_Vertical
-Through hole straight socket strip, 1x30, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x30 2.54mm single row
 0
 30
 30
@@ -37505,6 +37512,20 @@ Surface mounted socket strip SMD 2x40 2.54mm double row
 0
 80
 80
+Connector_PinSocket_2.54mm
+Socket_1x05_P2.54mm_Vertical
+Socket_1x05_P2.54mm_Vertical
+Socket_1x05_P2.54mm_Vertical
+0
+5
+5
+Connector_PinSocket_2.54mm
+Socket_1x30_P2.54mm_Protoboard
+Socket_1x30_P2.54mm_Protoboard
+Socket_1x30_P2.54mm_Protoboard
+0
+360
+30
 Connector_RJ
 RJ12_Amphenol_54601
 RJ12 connector  https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0082.pdf
@@ -47543,6 +47564,13 @@ Inductor WE-TPC Wuerth SMD
 0
 10
 2
+Inductor_SMD
+P9823_Reverse_Mount_Short_Pin
+
+
+0
+4
+4
 Inductor_THT
 Choke_EPCOS_B82722A
 Current-Compensated Ring Core Double Chokes, EPCOS, B82722A, 22.3mmx22.7mm, https://en.tdk.eu/inf/30/db/ind_2008/b82722a_j.pdf
@@ -49924,11 +49952,46 @@ LED
 2
 2
 LED_SMD
-WS2812_2020
+P9823_Reverse_Mount
 
 
 0
 4
+4
+LED_SMD
+WS2812B
+
+
+0
+4
+4
+LED_SMD
+WS2812B-2020
+
+
+0
+4
+4
+LED_SMD
+WS2812B-2020_Hand_Solder
+
+
+0
+4
+4
+LED_SMD
+WS2812B_
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
+0
+4
+4
+LED_SMD
+WS2812B_Module_Back
+
+
+0
+6
 4
 LED_THT
 LED_BL-FL7680RGB
@@ -50501,6 +50564,692 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
+0
+2
+2
+LEDs
+LED-L1T2_LUMILEDS
+http://www.lumileds.com/uploads/438/DS133-pdf
+LUMILEDS LUXEON TX L1T2 LED
+0
+3
+3
+LEDs
+LED_1W_3W_R8
+https://www.gme.cz/data/attachments/dsh.518-234.1.pdf
+LED 1W 3W 5W
+0
+3
+3
+LEDs
+LED_0402
+LED 0402 smd package
+LED led 0402 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+2
+2
+LEDs
+LED_0603
+LED 0603 smd package
+LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+2
+2
+LEDs
+LED_0603_HandSoldering
+LED SMD 0603, hand soldering
+LED 0603
+0
+2
+2
+LEDs
+LED_0606
+LED 0606 smd package
+led 0606 1616 smd
+0
+2
+2
+LEDs
+LED_0805
+LED 0805 smd package
+LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+2
+2
+LEDs
+LED_0805_HandSoldering
+Resistor SMD 0805, hand soldering
+resistor 0805
+0
+2
+2
+LEDs
+LED_1206
+LED 1206 smd package
+LED led 1206 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+2
+2
+LEDs
+LED_1206_HandSoldering
+LED SMD 1206, hand soldering
+LED 1206
+0
+2
+2
+LEDs
+LED_BL-FL7680RGB
+'Piranha' RGB LED, through hole, common anode, 7.62x7.62mm, BGRA pin order, https://cdn-shop.adafruit.com/datasheets/BL-FL7680RGB.pdf
+RGB LED Piranha Super-Flux BetLux
+0
+4
+4
+LEDs
+LED_Cree-PLCC4_2x2mm_CW
+2.0mm x 2.0mm PLCC4 LED, http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/HB/Data-Sheets/CLMVBFKA.pdf
+LED Cree PLCC-4
+0
+4
+4
+LEDs
+LED_Cree-PLCC4_3.2x2.8mm_CCW
+3.2mm x 2.8mm PLCC4 LED, http://www.cree.com/led-components/media/documents/CLV1AFKB(874).pdf
+LED Cree PLCC-4
+0
+4
+4
+LEDs
+LED_Cree-PLCC4_5x5mm_CW
+5.0mm x 5.0mm PLCC4 LED
+LED Cree PLCC-4
+0
+4
+4
+LEDs
+LED_Cree-XB
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
+LED Cree XB
+0
+5
+3
+LEDs
+LED_Cree-XH
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XHB.pdf
+LED Cree XH
+0
+8
+2
+LEDs
+LED_Cree-XHP35
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
+LED Cree XHP35
+0
+6
+3
+LEDs
+LED_Cree-XHP50_6V
+Cree XHP50, 6V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
+LED Cree XHP50
+0
+17
+3
+LEDs
+LED_Cree-XHP50_12V
+Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
+LED XHP50 Cree
+0
+15
+3
+LEDs
+LED_Cree-XHP70_6V
+Cree XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
+LED Cree XHP70
+0
+17
+3
+LEDs
+LED_Cree-XHP70_12V
+Cree XHP70 LED, 12V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
+LED Cree XHP70
+0
+15
+3
+LEDs
+LED_Cree-XP
+LED Cree-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
+LED Cree XP
+0
+6
+3
+LEDs
+LED_Cree-XP-G
+LED Cree-XP-G http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPG.pdf
+LED Cree XP-G
+0
+6
+3
+LEDs
+LED_Cree-XQ
+LED Cree-XQ http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
+LED Cree XQ
+0
+2
+2
+LEDs
+LED_Cree-XQ_HandSoldering
+LED Cree-XQ handsoldering pads http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
+LED Cree XQ
+0
+2
+2
+LEDs
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z1.6mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins
+0
+2
+2
+LEDs
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z4.9mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins
+0
+2
+2
+LEDs
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z8.2mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm 2 pins
+0
+2
+2
+LEDs
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z1.6mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins
+0
+2
+2
+LEDs
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z4.9mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins
+0
+2
+2
+LEDs
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm 2 pins
+0
+2
+2
+LEDs
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O6.35mm_Z1.6mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins
+0
+2
+2
+LEDs
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O6.35mm_Z4.9mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins
+0
+2
+2
+LEDs
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O6.35mm_Z8.2mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm 2 pins
+0
+2
+2
+LEDs
+LED_D1.8mm_W3.3mm_H2.4mm
+LED, Round,  Rectangular size 3.3x2.4mm^2 diameter 1.8mm, 2 pins
+LED Round  Rectangular size 3.3x2.4mm^2 diameter 1.8mm 2 pins
+0
+2
+2
+LEDs
+LED_D2.0mm_W4.0mm_H2.8mm_FlatTop
+LED, Round, FlatTop,  Rectangular size 4.0x2.8mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-1034IDT(Ver.9A).pdf
+LED Round FlatTop  Rectangular size 4.0x2.8mm^2 diameter 2.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D2.0mm_W4.8mm_H2.5mm_FlatTop
+LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf
+LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D3.0mm
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D3.0mm-3
+LED, diameter 3.0mm, 2 pins, diameter 3.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-3VSURKCGKC(Ver.8A).pdf
+LED diameter 3.0mm 2 pins diameter 3.0mm 3 pins
+0
+3
+3
+LEDs
+LED_D3.0mm_FlatTop
+LED, Round, FlatTop, diameter 3.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-47XEC(Ver.9A).pdf
+LED Round FlatTop diameter 3.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D3.0mm_Horizontal_O1.27mm_Z10.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 10.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 10.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D3.0mm_Horizontal_O3.81mm_Z6.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D3.0mm_Horizontal_O3.81mm_Z10.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 10.0mm, 2 pins, diameter 3.0mm z-position of LED center 10.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 10.0mm 2 pins diameter 3.0mm z-position of LED center 10.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D3.0mm_Horizontal_O6.35mm_Z2.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D3.0mm_Horizontal_O6.35mm_Z10.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 10.0mm, 2 pins, diameter 3.0mm z-position of LED center 10.0mm, 2 pins, diameter 3.0mm z-position of LED center 10.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 10.0mm 2 pins diameter 3.0mm z-position of LED center 10.0mm 2 pins diameter 3.0mm z-position of LED center 10.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D4.0mm
+LED, diameter 4.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-43GD(Ver.12B).pdf
+LED diameter 4.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D5.0mm
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D5.0mm-3
+LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf
+LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins
+0
+3
+3
+LEDs
+LED_D5.0mm-4
+LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf
+LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins
+0
+4
+4
+LEDs
+LED_D5.0mm_FlatTop
+LED, Round, FlatTop, diameter 5.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-483GDT(Ver.15B).pdf
+LED Round FlatTop diameter 5.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D5.0mm_Horizontal_O1.27mm_Z9.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D5.0mm_Horizontal_O1.27mm_Z15.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 15.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 15.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D5.0mm_Horizontal_O3.81mm_Z9.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D5.0mm_Horizontal_O3.81mm_Z15.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 15.0mm, 2 pins, diameter 5.0mm z-position of LED center 15.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 15.0mm 2 pins diameter 5.0mm z-position of LED center 15.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D5.0mm_Horizontal_O6.35mm_Z9.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D5.0mm_Horizontal_O6.35mm_Z15.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 15.0mm, 2 pins, diameter 5.0mm z-position of LED center 15.0mm, 2 pins, diameter 5.0mm z-position of LED center 15.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 15.0mm 2 pins diameter 5.0mm z-position of LED center 15.0mm 2 pins diameter 5.0mm z-position of LED center 15.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D8.0mm
+LED, diameter 8.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LED8MMGE_LED8MMGN_LED8MMRT%23KIN.pdf
+LED diameter 8.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D8.0mm-3
+LED, diameter 8.0mm, 2 pins, diameter 8.0mm, 3 pins
+LED diameter 8.0mm 2 pins diameter 8.0mm 3 pins
+0
+3
+3
+LEDs
+LED_D10.0mm
+LED, diameter 10.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LED10-4500RT%23KIN.pdf
+LED diameter 10.0mm 2 pins
+0
+2
+2
+LEDs
+LED_D10.0mm-3
+LED, diameter 10.0mm, 2 pins, diameter 10.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-819EGW(Ver.14A).pdf
+LED diameter 10.0mm 2 pins diameter 10.0mm 3 pins
+0
+3
+3
+LEDs
+LED_D20.0mm
+LED, diameter 20.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/DLC2-6GD%28V6%29.pdf
+LED diameter 20.0mm 2 pins
+0
+2
+2
+LEDs
+LED_Normandled_WS2813-06_5.0x5.0mm_Pitch1.6mm
+http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf
+LED RGB PLCC-6
+0
+6
+6
+LEDs
+LED_Oval_W5.2mm_H3.8mm
+LED_Oval, Oval,  Oval size 5.2x3.8mm^2, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-5603QBC-D(Ver.12B).pdf
+LED_Oval Oval  Oval size 5.2x3.8mm^2 2 pins
+0
+2
+2
+LEDs
+LED_PLCC-2
+LED PLCC-2 SMD package
+LED PLCC-2 SMD
+0
+2
+2
+LEDs
+LED_PLCC_2835
+http://www.everlight.com/file/ProductFile/67-21S-KK2C-H4040QAR32835Z15-2T.pdf
+LED
+0
+2
+2
+LEDs
+LED_PLCC_2835_Handsoldering
+http://www.everlight.com/file/ProductFile/67-21S-KK2C-H4040QAR32835Z15-2T.pdf
+LED
+0
+2
+2
+LEDs
+LED_RGB_1210
+RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
+LED 3227
+0
+4
+4
+LEDs
+LED_RGB_5050-6
+http://cdn.sparkfun.com/datasheets/Components/LED/5060BRG4.pdf
+RGB LED 5050-6
+0
+6
+6
+LEDs
+LED_RGB_Getian_GT-P6PRGB4303
+https://www.gme.sk/img/cache/doc/518/177/vykonova-led-getian-gt-p6prgb4303-datasheet-1.pdf
+LED RGB 
+0
+7
+7
+LEDs
+LED_RGB_PLCC-6
+RGB LED PLCC-6
+RGB LED PLCC-6
+0
+6
+6
+LEDs
+LED_Rectangular_W3.0mm_H2.0mm
+LED_Rectangular, Rectangular,  Rectangular size 3.0x2.0mm^2, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-169XCGDK(Ver.9B).pdf
+LED_Rectangular Rectangular  Rectangular size 3.0x2.0mm^2 2 pins
+0
+2
+2
+LEDs
+LED_Rectangular_W3.9mm_H1.8mm
+LED_Rectangular, Rectangular,  Rectangular size 3.9x1.8mm^2, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-2774GD(Ver.7B).pdf
+LED_Rectangular Rectangular  Rectangular size 3.9x1.8mm^2 2 pins
+0
+2
+2
+LEDs
+LED_Rectangular_W3.9mm_H1.8mm_FlatTop
+LED_Rectangular, Rectangular,  Rectangular size 3.9x1.8mm^2, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-2774GD(Ver.7B).pdf
+LED_Rectangular Rectangular  Rectangular size 3.9x1.8mm^2 2 pins
+0
+2
+2
+LEDs
+LED_Rectangular_W3.9mm_H1.9mm
+LED_Rectangular, Rectangular,  Rectangular size 3.9x1.9mm^2, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-144GDT(Ver.14B).pdf
+LED_Rectangular Rectangular  Rectangular size 3.9x1.9mm^2 2 pins
+0
+2
+2
+LEDs
+LED_Rectangular_W5.0mm_H2.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-169XCGDK(Ver.9B).pdf
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 2 pins
+0
+2
+2
+LEDs
+LED_Rectangular_W5.0mm_H2.0mm-3pins
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-169XCGDK(Ver.9B).pdf
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 3 pins
+0
+3
+3
+LEDs
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O1.27mm_Z1.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins
+0
+2
+2
+LEDs
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O1.27mm_Z3.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins
+0
+2
+2
+LEDs
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O1.27mm_Z5.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm 2 pins
+0
+2
+2
+LEDs
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O3.81mm_Z1.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins
+0
+2
+2
+LEDs
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O3.81mm_Z3.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins
+0
+2
+2
+LEDs
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O3.81mm_Z5.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm 2 pins
+0
+2
+2
+LEDs
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O6.35mm_Z1.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins
+0
+2
+2
+LEDs
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O6.35mm_Z3.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins
+0
+2
+2
+LEDs
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O6.35mm_Z5.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm 2 pins
+0
+2
+2
+LEDs
+LED_Rectangular_W5.0mm_H5.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x5.0mm^2, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-169XCGDK(Ver.9B).pdf
+LED_Rectangular Rectangular  Rectangular size 5.0x5.0mm^2 2 pins
+0
+2
+2
+LEDs
+LED_SideEmitter_Rectangular_W4.5mm_H1.6mm
+LED_SideEmitter_Rectangular, Rectangular, SideEmitter,  Rectangular size 4.5x1.6mm^2, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LED15MMGE_LED15MMGN%23KIN.pdf
+LED_SideEmitter_Rectangular Rectangular SideEmitter  Rectangular size 4.5x1.6mm^2 2 pins
+0
+2
+2
+LEDs
+LED_WS2812-PLCC6
+http://www.world-semi.com/en/Driver/Lighting/WS2811/WS212B/WS2822S/, http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/HB/Data-Sheets/CLX6AFKB.pdf
+LED RGB PLCC-6
+0
+6
+6
+LEDs
+LED_WS2812B-PLCC4
+http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf
+LED NeoPixel
+0
+4
+4
+LEDs
+LED_miniPLCC_2315
+https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DAV02-2205EN_DS_ASMT-TxBM_2014-05-09.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430858274704&ssbinary=true
+LED
+0
+2
+2
+LEDs
+LED_miniPLCC_2315_Handsoldering
+https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DAV02-2205EN_DS_ASMT-TxBM_2014-05-09.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430858274704&ssbinary=true
+LED
 0
 2
 2
@@ -67591,6 +68340,475 @@ rotary encoder
 0
 5
 4
+SMD_Packages
+1Pin
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+1
+1
+SMD_Packages
+BGA-48
+BGA-48 - pitch 0.8 mm
+
+0
+48
+48
+SMD_Packages
+BGA-64-0.8mm
+BGA-64 pitch 0.8mm
+
+0
+64
+64
+SMD_Packages
+BGA-90-0.8mm
+
+
+0
+90
+90
+SMD_Packages
+BGA-96_pitch0.8mm_dia0.4mm
+
+
+0
+96
+96
+SMD_Packages
+BGA-121-1mm
+BGA-121-1mm
+
+0
+121
+121
+SMD_Packages
+BGA-144-1mm
+BGA-144-1mm
+
+0
+144
+144
+SMD_Packages
+BGA-256
+
+
+0
+256
+256
+SMD_Packages
+BGA-256_pitch1mm_dia0.4mm
+
+
+0
+256
+256
+SMD_Packages
+BGA-352
+
+
+0
+352
+352
+SMD_Packages
+BGA-400-1mm
+
+
+0
+400
+400
+SMD_Packages
+BGA-484-1mm
+
+
+0
+484
+484
+SMD_Packages
+BGA-625_pitch0.8mm_dia0.4mm
+
+
+0
+625
+625
+SMD_Packages
+BGA-1023-1mm
+
+
+0
+1023
+1023
+SMD_Packages
+BGA-1156-1mm
+
+
+0
+1156
+1156
+SMD_Packages
+BGA-1295-1mm
+BGA-1295-1mm
+
+0
+1295
+1295
+SMD_Packages
+Ceramic_Filter
+Ceramic filter
+ceramic filter
+0
+6
+6
+SMD_Packages
+Conn-3
+
+
+0
+5
+3
+SMD_Packages
+Conn-3_Inv
+
+
+0
+5
+3
+SMD_Packages
+Conn-5
+
+
+0
+7
+5
+SMD_Packages
+Conn-5_Inv
+
+
+0
+7
+5
+SMD_Packages
+Conn-20
+
+
+0
+22
+20
+SMD_Packages
+DIP-8_SMD
+DIP-8_300 smd shape
+smd cms 8dip
+0
+8
+8
+SMD_Packages
+EMI_Filter
+EMI Filter
+emi filter
+0
+3
+3
+SMD_Packages
+Fuse_SMD
+
+
+0
+2
+2
+SMD_Packages
+LFCSP-40-1EP
+
+
+0
+41
+41
+SMD_Packages
+MLF-44_Atmel
+44M1 MICRO LEAD FRAME PACKAGE (MLF)
+44M1 MICRO LEAD FRAME PACKAGE (MLF)
+0
+44
+44
+SMD_Packages
+PLCC-28
+Support CMS Plcc 28 pins
+CMS PLCC
+0
+28
+28
+SMD_Packages
+PLCC-32
+Support CMS Plcc 32 pins
+CMS Plcc
+0
+32
+32
+SMD_Packages
+PLCC-44
+Support CMS Plcc 44 pins
+CMS Plcc
+0
+44
+44
+SMD_Packages
+PLCC-52
+Support CMS Plcc 52 pins
+CMS PLCC
+0
+52
+52
+SMD_Packages
+PLCC-68
+Support CMS Plcc 68 Pins
+CMS PLCC
+0
+68
+68
+SMD_Packages
+PLCC-84
+Support CMS Plcc 84 Pins
+CMS PLCC
+0
+84
+84
+SMD_Packages
+POT_SMD
+module CMS Potentiometre
+CMS POT
+0
+3
+3
+SMD_Packages
+PQFP-112
+module cms PQFP 112 pins
+PQFP CMS
+0
+112
+112
+SMD_Packages
+PQFP-132_M
+Module CMS Pqfp 132 pins
+CMS PQFP
+0
+132
+132
+SMD_Packages
+PQFP-132_i386
+Module SPECIAL upro Intel 386EX
+
+0
+132
+132
+SMD_Packages
+PQFP-160
+Module CMS Pqfp 160 pins
+CMS PQFP
+0
+160
+160
+SMD_Packages
+PQFP-208
+Module cms PQFP 208 pins
+PQFP CMS
+0
+208
+208
+SMD_Packages
+QFN-52-1EP_HandSoldering
+
+
+0
+53
+53
+SMD_Packages
+SMD-1206_Pol
+
+
+0
+2
+2
+SMD_Packages
+SMD-1210_Pol
+
+CMS SM
+0
+2
+2
+SMD_Packages
+SMD-2010_Pol
+
+CMS SMD
+0
+2
+2
+SMD_Packages
+SMD-2112_Pol
+
+
+0
+2
+2
+SMD_Packages
+SMD-2512_Pol
+
+CMS SM
+0
+2
+2
+SMD_Packages
+SMD-4032
+
+
+0
+2
+2
+SMD_Packages
+SO-8_PowerPAK_Vishay_Single
+PowerPAK SO-8 (see Vishay AN821)
+PowerPAK SO-8
+0
+9
+5
+SMD_Packages
+SO-16-L
+
+
+0
+16
+16
+SMD_Packages
+SO-16-N
+Module CMS SOJ 16 pins large
+CMS SOJ
+0
+16
+16
+SMD_Packages
+SO-16-W
+Module CMS SOJ 16 pins tres large
+CMS SOJ
+0
+16
+16
+SMD_Packages
+SOIC-8-N
+Module Narrow CMS SOJ 8 pins large
+CMS SOJ
+0
+8
+8
+SMD_Packages
+SOIC-14_N
+Module CMS SOJ 14 pins Large
+CMS SOJ
+0
+14
+14
+SMD_Packages
+SOIC-24
+
+
+0
+24
+24
+SMD_Packages
+SOIC-28
+Module CMS SOJ 28 pins large
+CMS SOJ
+0
+28
+28
+SMD_Packages
+SOJ-28-W
+Module CMS SOJ 32 pins large
+CMS SOJ
+0
+28
+28
+SMD_Packages
+SOJ-32
+Module CMS SOJ 32 pins
+CMS SOJ
+0
+32
+32
+SMD_Packages
+SOJ-32-W
+Module CMS SOJ 32 pins large
+CMS SOJ
+0
+32
+32
+SMD_Packages
+SOJ-40
+module CMS SOJ 40 pins
+
+0
+40
+40
+SMD_Packages
+SOJ-42
+Module CMS SOJ 42 pins
+CMS SOJ
+0
+42
+42
+SMD_Packages
+SSOP-14
+
+
+0
+14
+14
+SMD_Packages
+SSOP-20
+SSOP 20 pins
+CMS SSOP SMD
+0
+20
+20
+SMD_Packages
+SUPSOJ40
+Support CMS SOJ 40 pins
+CMS SOJ
+0
+40
+40
+SMD_Packages
+TSOP32SP
+Module CMS TSOP 32 pins
+CMS TSOP
+0
+32
+32
+SMD_Packages
+VLM0806_Housing
+VLM0806, Housing, Rohm,
+VLM0806, Housing, Rohm,
+0
+3
+3
+SMD_Packages
+VLM0806_Housing_Handsoldering
+VLM0806, Housing, Rohm,
+VLM0806, Housing, Rohm,
+0
+6
+3
+SMD_Packages
+VQFP-240
+Module CMS Vqfp 240 pins
+CMS VQFP
+0
+240
+240
+SMD_Packages
+powermite3
+PowerMite3
+
+0
+3
+3
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -72712,4626 +73930,4635 @@ Tiny
 0204_5
 <b>RESISTOR</b><p>
 type 0204, grid 5 mm
-0
+
 0
 2
 2
 Tiny
 255SB
 <b>SLIDING SWITCH</b><p>
-0
-0
+distributor Buerklin, 11G810
+
 0
 3
 3
 Tiny
 B3F-10XX
-0
-0
+<b>OMRON SWITCH</b>
+
 0
 4
 4
 Tiny
 DIL08
-0
-0
+<B>Dual In Line</B>
+
 0
 8
 8
 Tiny
 PogoPinSocket_2x03_P2.54mm
-0
-0
+PogoPinSocket_2x03_P2.54mm
+PogoPinSocket_2x03_P2.54mm
 0
 6
 6
 Tiny
 S8211R
-0
-0
+
+
 0
 3
 2
 Tiny
 cody
-0
-0
+
+
 0
 0
 0
 Transformer_SMD
 Pulse_P0926NL
-0
-0
+SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
+pulse pa0926nl
 0
 6
 6
 Transformer_SMD
 Pulse_PA1323NL
-0
-0
+SMT Gate Drive Transformer, 1:1, 9.5x7.1x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
+pulse pa1323nl
 0
 6
 6
 Transformer_SMD
 Pulse_PA2001NL
-0
-0
+SMT Gate Drive Transformer, 1:1, 8.6x6.7x2.5mm (https://productfinder.pulseeng.com/products/datasheets/P663.pdf)
+pulse pa2001nl pe-68386nl
 0
 4
 4
 Transformer_SMD
 Pulse_PA2002NL-PA2008NL-PA2009NL
-0
-0
+SMT Gate Drive Transformer, 1:1:1 or 2:1:1 or 2.5:1:1 or 1:1, 9.0x8.6x7.6mm (https://productfinder.pulseeng.com/products/datasheets/P663.pdf)
+pulse pa2002nl pa2008nl pa2009nl p0544nl pa0184nl pa0297nl pa0510nl
 0
 6
 6
 Transformer_SMD
 Pulse_PA2004NL
-0
-0
+SMT Gate Drive Transformer, 1:1:1, 8.6x6.7x3.6mm (https://productfinder.pulseeng.com/products/datasheets/P663.pdf)
+pulse pa2004nl pa0264nl
 0
 6
 6
 Transformer_SMD
 Pulse_PA2005NL
-0
-0
+SMT Gate Drive Transformer, 1:1:1, 11.8x8.8x4.0mm (https://productfinder.pulseeng.com/products/datasheets/P663.pdf)
+pulse pa2005nl pa0173nl
 0
 6
 6
 Transformer_SMD
 Pulse_PA2006NL
-0
-0
+SMT Gate Drive Transformer, 1:1, 11.8x8.8x4.0mm (https://productfinder.pulseeng.com/products/datasheets/P663.pdf)
+pulse pa2006nl pa0186nl
 0
 4
 4
 Transformer_SMD
 Pulse_PA2007NL
-0
-0
+SMT Gate Drive Transformer, 1:1, 9.0x8.6x7.6mm (https://productfinder.pulseeng.com/products/datasheets/P663.pdf)
+pulse pa2007nl
 0
 4
 4
 Transformer_SMD
 Pulse_PA2777NL
-0
-0
+SMT Gate Drive Transformer, 1:1, 7.1x6.1x5.5mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
+pulse pa2777nl
 0
 8
 8
 Transformer_SMD
 Pulse_PA3493NL
-0
-0
+SMT Gate Drive Transformer, 1.25:1, 10.9x9.7x2.7mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
+pulse pa3493nl
 0
 4
 4
 Transformer_SMD
 Transformer_Coilcraft_CST1
-0
-0
+Current sense transformer, SMD, 8.0x8.13x5.3mm (https://www.coilcraft.com/pdfs/cst.pdf)
+Transformer current sense SMD
 0
 8
 8
 Transformer_SMD
 Transformer_Coilcraft_CST2
-0
-0
+Current sense transformer, SMD, 8.0x8.13x5.3mm (https://www.coilcraft.com/pdfs/cst.pdf)
+Transformer current sense SMD
 0
 8
 8
 Transformer_SMD
 Transformer_Coilcraft_CST2010
-0
-0
+Current sense transformer, SMD, 14.55x19.91x10.50mm (https://www.coilcraft.com/pdfs/cst2010.pdf)
+Transformer current sense SMD
 0
 12
 12
 Transformer_SMD
 Transformer_CurrentSense_8.4x7.2mm
-0
-0
+Transformer current sense SMD 8.4x7.2mm
+Transformer current sense SMD
 0
 8
 8
 Transformer_SMD
 Transformer_Ethernet_Bel_S558-5999-T7-F
-0
-0
+Ethernet Transformer, Bel S558-5999-T7-F, https://www.belfuse.com/resources/ICMs/lan-/S558-5999-T7-F.pdf
+Ethernet Transformer
 0
 16
 16
 Transformer_SMD
 Transformer_Ethernet_Bourns_PT61017PEL
-0
-0
+https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf
+Transformer Ethernet Single Center-Tap
 0
 16
 16
 Transformer_SMD
 Transformer_Ethernet_HALO_TG111-MSC13
-0
-0
+Transformer Ethernet SMD, https://www.haloelectronics.com/pdf/discrete-genesus.pdf
+Transformer Ethernet SMD
 0
 24
 24
 Transformer_SMD
 Transformer_MACOM_SM-22
-0
-0
+https://cdn.macom.com/datasheets/ETC1-1-13.pdf
+RF Transformer
 0
 5
 5
 Transformer_SMD
 Transformer_NF_ETAL_P2781
-0
-0
+NF-Transformer, ETAL, P2781, SMD,
+NF-Transformer ETAL P2781 SMD 
 0
 8
 7
 Transformer_SMD
 Transformer_NF_ETAL_P2781_HandSoldering
-0
-0
+NF-Transformer, ETAL, P2781, SMD, Handsoldering
+NF-Transformer ETAL P2781 SMD Handsoldering 
 0
 8
 7
 Transformer_SMD
 Transformer_NF_ETAL_P3000
-0
-0
+NF-Reansformer, ETAL, P3000, SMD,
+NF-Reansformer ETAL P3000 SMD 
 0
 15
 13
 Transformer_SMD
 Transformer_NF_ETAL_P3000_HandSoldering
-0
-0
+NF-Reansformer, ETAL, P3000, SMD, Handsoldering,
+NF-Reansformer ETAL P3000 SMD Handsoldering 
 0
 15
 13
 Transformer_SMD
 Transformer_NF_ETAL_P3181
-0
-0
+NF-Transformer, ETAL, P3181, SMD,
+NF-Transformer ETAL P3181 SMD 
 0
 7
 6
 Transformer_SMD
 Transformer_NF_ETAL_P3181_HandSoldering
-0
-0
+NF-Transformer, ETAL, P3181, SMD, Hand Soldering,
+NF-Transformer ETAL P3181 SMD Hand Soldering 
 0
 7
 6
 Transformer_SMD
 Transformer_NF_ETAL_P3188
-0
-0
+NF-Transformer, ETAL, P3188, SMD,
+NF-Transformer ETAL P3188 SMD 
 0
 8
 6
 Transformer_SMD
 Transformer_NF_ETAL_P3188_HandSoldering
-0
-0
+NF-Transformer, ETAL, P3188, SMD, Handsoldering,
+NF-Transformer ETAL P3188 SMD Handsoldering 
 0
 8
 6
 Transformer_SMD
 Transformer_NF_ETAL_P3191
-0
-0
+NF-Transformer, ETAL, P3191, SMD,
+NF-Transformer ETAL P3191 SMD 
 0
 8
 6
 Transformer_SMD
 Transformer_NF_ETAL_P3191_HandSoldering
-0
-0
+NF-Transformer, ETAL, P3191, SMD, Handsoldering,
+NF-Transformer ETAL P3191 SMD Handsoldering 
 0
 8
 6
 Transformer_SMD
 Transformer_Pulse_H1100NL
-0
-0
+For H1100NL, H1101NL, H1102NL, H1121NL, H1183NL, H1199NL, HX1188NL, HX1198NL and H1302NL. https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/H1102NL/doc_part/H1102NL.pdf
+H1100NL H1101NL H1102NL H1121NL H1183NL H1199NL HX1188NL HX1198NL H1302N
 0
 16
 16
 Transformer_THT
 Autotransformer_Toroid_1Tap_Horizontal_D9.0mm_Amidon-T30
-0
-0
+Autotransformer, Toroid, horizontal, laying, 1 Tap, Diameter 9mm, Amidon T30,
+Autotransformer Toroid horizontal laying 1 Tap Diameter 9mm Amidon T30 
 0
 3
 3
 Transformer_THT
 Autotransformer_Toroid_1Tap_Horizontal_D10.5mm_Amidon-T37
-0
-0
+Autotransformer, Toroid, horizontal, laying, 1 Tap, Diameter 10,5mm, Amidon T37,
+Autotransformer Toroid horizontal laying 1 Tap Diameter 10 5mm Amidon T37 
 0
 3
 3
 Transformer_THT
 Autotransformer_Toroid_1Tap_Horizontal_D12.5mm_Amidon-T44
-0
-0
+Autotransformer, Toroid, horizontal, laying, 1 Tap, Diameter 12,5mm, Amidon T44,
+Autotransformer Toroid horizontal laying 1 Tap Diameter 12 5mm Amidon T44 
 0
 3
 3
 Transformer_THT
 Autotransformer_Toroid_1Tap_Horizontal_D14.0mm_Amidon-T50
-0
-0
+Choke, Inductance, Autotransformer, Toroid, horizontal, laying, 1 Tap, Diameter 14mm, Amidon T50,
+Choke Inductance Autotransformer Toroid horizontal laying 1 Tap Diameter 14mm Amidon T50 
 0
 3
 3
 Transformer_THT
 Autotransformer_ZS1052-AC
-0
-0
+Ignition coil for xenon flash, http://www.excelitas.com/downloads/ZS1052ACH.pdf
+ignition coil autotransformer
 0
 3
 3
 Transformer_THT
 Transformer_37x44
-0
-0
+transformer 37x44mm²
+transformer 37x44mm²
 0
 12
 4
 Transformer_THT
 Transformer_Breve_TEZ-22x24
-0
-0
+http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
+TEZ PCB Transformer
 0
 7
 7
 Transformer_THT
 Transformer_Breve_TEZ-28x33
-0
-0
+http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
+TEZ PCB Transformer
 0
 9
 9
 Transformer_THT
 Transformer_Breve_TEZ-35x42
-0
-0
+http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
+TEZ PCB Transformer
 0
 9
 9
 Transformer_THT
 Transformer_Breve_TEZ-38x45
-0
-0
+http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
+TEZ PCB Transformer
 0
 9
 9
 Transformer_THT
 Transformer_Breve_TEZ-44x52
-0
-0
+http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
+TEZ PCB Transformer
 0
 10
 10
 Transformer_THT
 Transformer_Breve_TEZ-47x57
-0
-0
+http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
+TEZ PCB Transformer
 0
 13
 13
 Transformer_THT
 Transformer_CHK_EI30-2VA_1xSec
-0
-0
+Trafo, Printtrafo, CHK, EI30, 2VA, 1x Sec,http://www.eratransformers.com/downloads/030-7585.0.pdf
+Trafo Printtrafo CHK EI30 2VA 1x Sec 
 0
 10
 10
 Transformer_THT
 Transformer_CHK_EI30-2VA_2xSec
-0
-0
+Trafo, Printtrafo, CHK, EI30, 2VA, 2x Sec,
+Trafo Printtrafo CHK EI30 2VA 2x Sec 
 0
 10
 10
 Transformer_THT
 Transformer_CHK_EI30-2VA_Neutral
-0
-0
+Trafo, Printtrafo, CHK, EI30, 2VA, neutral,
+Trafo Printtrafo CHK EI30 2VA neutral 
 0
 10
 10
 Transformer_THT
 Transformer_CHK_EI38-3VA_1xSec
-0
-0
+Trafo, Printtrafo, CHK, EI38, 3VA, 1x Sec, http://www.eratransformers.com/product-detail/20
+Trafo Printtrafo CHK EI38 3VA 1x Sec 
 0
 10
 10
 Transformer_THT
 Transformer_CHK_EI38-3VA_2xSec
-0
-0
+Trafo, Printtrafo, CHK, EI38, 3VA, 2x Sec, http://www.eratransformers.com/product-detail/20
+Trafo Printtrafo CHK EI38 3VA 2x Sec 
 0
 10
 10
 Transformer_THT
 Transformer_CHK_EI38-3VA_Neutral
-0
-0
+Trafo, Printtrafo, CHK, EI38, 3VA, neutral, http://www.eratransformers.com/product-detail/20
+Trafo Printtrafo CHK EI42 3VA neutral 
 0
 10
 10
 Transformer_THT
 Transformer_CHK_EI42-5VA_1xSec
-0
-0
+Trafo, Printtrafo, CHK, EI42, 5VA, 1x Sec,
+Trafo Printtrafo CHK EI42 5VA 1x Sec 
 0
 10
 10
 Transformer_THT
 Transformer_CHK_EI42-5VA_2xSec
-0
-0
+Trafo, Printtrafo, CHK, EI42, 5VA, 2x Sec,
+Trafo Printtrafo CHK EI42 5VA 2x Sec 
 0
 10
 10
 Transformer_THT
 Transformer_CHK_EI42-5VA_Neutral
-0
-0
+Trafo, Printtrafo, CHK, EI42, 5VA, neutral,
+Trafo Printtrafo CHK EI42 5VA neutral 
 0
 10
 10
 Transformer_THT
 Transformer_CHK_EI48-8VA_1xSec
-0
-0
+Trafo, Printtrafo, CHK, EI48, 8VA, 1x Sec, http://www.eratransformers.com/product-detail/18
+Trafo Printtrafo CHK EI48 8VA 1x Sec 
 0
 12
 12
 Transformer_THT
 Transformer_CHK_EI48-8VA_2xSec
-0
-0
+Trafo, Printtrafo, CHK, EI48, 8VA, 2x Sec, http://www.eratransformers.com/product-detail/18
+Trafo Printtrafo CHK EI48 8VA 2x Sec 
 0
 12
 12
 Transformer_THT
 Transformer_CHK_EI48-8VA_Neutral
-0
-0
+Trafo, Printtrafo, CHK, EI48, 8VA, neutral, http://www.eratransformers.com/product-detail/18
+Trafo Printtrafo CHK EI48 8VA neutral 
 0
 12
 12
 Transformer_THT
 Transformer_CHK_EI48-10VA_1xSec
-0
-0
+Trafo, Printtrafo, CHK, EI48, 10VA, 1x Sec,
+Trafo Printtrafo CHK EI48 10VA 1x Sec 
 0
 12
 12
 Transformer_THT
 Transformer_CHK_EI48-10VA_2xSec
-0
-0
+Trafo, Printtrafo, CHK, EI48, 10VA, 2x Sec, http://www.eratransformers.com/product-detail/18
+Trafo Printtrafo CHK EI48 10VA 2x Sec 
 0
 12
 12
 Transformer_THT
 Transformer_CHK_EI48-10VA_Neutral
-0
-0
+Trafo, Printtrafo, CHK, EI48, 10VA, neutral, http://www.eratransformers.com/product-detail/18
+Trafo Printtrafo CHK EI48 10VA neutral 
 0
 12
 12
 Transformer_THT
 Transformer_CHK_EI54-12VA_1xSec
-0
-0
+Trafo, Printtrafo, CHK, EI54, 12VA, 1x Sec,http://www.eratransformers.com/product-detail/19
+Trafo Printtrafo CHK EI54 12VA 1x Sec 
 0
 14
 14
 Transformer_THT
 Transformer_CHK_EI54-12VA_2xSec
-0
-0
+Trafo, Printtrafo, CHK, EI54, 12VA, 2x Sec,http://www.eratransformers.com/product-detail/19
+Trafo Printtrafo CHK EI54 12VA 2x Sec 
 0
 14
 14
 Transformer_THT
 Transformer_CHK_EI54-12VA_Neutral
-0
-0
+Trafo, Printtrafo, CHK, EI54, 12VA, neutral,http://www.eratransformers.com/product-detail/19
+Trafo Printtrafo CHK EI54 12VA neutral 
 0
 14
 14
 Transformer_THT
 Transformer_CHK_EI54-16VA_1xSec
-0
-0
+Trafo, Printtrafo, CHK, EI54, 16VA, 1x Sec,http://www.eratransformers.com/product-detail/19
+Trafo Printtrafo CHK EI54 16VA 1x Sec 
 0
 14
 14
 Transformer_THT
 Transformer_CHK_EI54-16VA_2xSec
-0
-0
+Trafo, Printtrafo, CHK, EI54, 16VA, 2x Sec,http://www.eratransformers.com/product-detail/19
+Trafo Printtrafo CHK EI54 16VA 2x Sec 
 0
 14
 14
 Transformer_THT
 Transformer_CHK_EI54-16VA_Neutral
-0
-0
+Trafo, Printtrafo, CHK, EI54, 16VA, neutral,http://www.eratransformers.com/product-detail/19
+Trafo Printtrafo CHK EI54 16VA neutral 
 0
 14
 14
 Transformer_THT
 Transformer_CHK_UI30-4VA_Flat
-0
-0
+Trafo, Flattrafo, CHK, UI30, 4VA,
+Trafo Flattrafo CHK UI30 4VA 
 0
 16
 16
 Transformer_THT
 Transformer_CHK_UI39-10VA_Flat
-0
-0
+Trafo, Flattrafo, CHK, UI39, 10VA,
+Trafo Flattrafo CHK UI39 10VA 
 0
 20
 20
 Transformer_THT
 Transformer_Coilcraft_Q4434-B_Rhombus-T1311
-0
-0
+Transformator, Transformer, Flyback, Coilcraft Q4434-B, Rgombus T1311,
+Transformator Transformer Flyback Coilcraft Q4434-B Rgombus T1311 
 0
 8
 8
 Transformer_THT
 Transformer_EPCOS_B66359A1013T_Horizontal
-0
-0
+Transformer, Transformator, ETD29, 13 Pin, Horizontal, EPCOS-B66359A1013T,
+Transformer Transformator ETD29 13 Pin Horizontal EPCOS-B66359A1013T 
 0
 13
 13
 Transformer_THT
 Transformer_EPCOS_B66359J1014T_Vertical
-0
-0
+Transformer, Transformator, ETD29, 14 Pin, Vertical, EPCOS-B66359J1014T,
+Transformer Transformator ETD29 14 Pin Vertical EPCOS-B66359J1014T 
 0
 14
 14
 Transformer_THT
 Transformer_Microphone_Lundahl_LL1538
-0
-0
+AUDIO TRAFO LUNDAHL, https://www.lundahltransformers.com/wp-content/uploads/datasheets/1538_8xl.pdf
+AUDIO TRAFO LUNDAHL
 0
 7
 7
 Transformer_THT
 Transformer_Microphone_Lundahl_LL1587
-0
-0
+AUDIO TRAFO LUNDAHL, https://www.lundahltransformers.com/wp-content/uploads/datasheets/1587.pdf
+AUDIO TRAFO LUNDAHL
 0
 7
 7
 Transformer_THT
 Transformer_Myrra_74040_Horizontal
-0
-0
+Transformer, Transformator, ETD29, 13 Pin, Horizontal, Myrra-74040,
+Transformer Transformator ETD29 13 Pin Horizontal Myrra-74040 
 0
 13
 13
 Transformer_THT
 Transformer_Myrra_EF20_7408x
-0
-0
+EF20 flyback transformer,http://myrra.com/wp-content/uploads/2017/09/Datasheet-74087-74088-74089-rev-A.pdf
+transformer flyback SMPS
 0
 9
 9
 Transformer_THT
 Transformer_NF_ETAL_1-1_P1200
-0
-0
+NF-Transformer, 1:1, ETAL P1200,http://www.etalgroup.com/sites/default/files/products/P1200_April_2005.pdf
+NF-Transformer 1to1 ETAL P1200 
 0
 4
 4
 Transformer_THT
 Transformer_NF_ETAL_P1165
-0
-0
+NF-Transformer,  ETAL, P1165,http://www.etalgroup.com/sites/default/files/products/P1165_February_2006.pdf
+NF-Transformer ETAL P1165 
 0
 4
 4
 Transformer_THT
 Transformer_NF_ETAL_P3324
-0
-0
+NF-Transformer, ETAL P3324,http://www.etalgroup.com/sites/default/files/products/P3324_April_2005.pdf
+NF-Transformer ETAL P3324 
 0
 4
 4
 Transformer_THT
 Transformer_NF_ETAL_P3356
-0
-0
+NF-Transformer, ETAL P3356, http://www.etalgroup.com/sites/default/files/products/P3356_December_2005.pdf
+NF-Transformer ETAL P3356 
 0
 4
 4
 Transformer_THT
 Transformer_Toroid_Horizontal_D9.0mm_Amidon-T30
-0
-0
+Transformer, Toroid, horizontal, laying, Diameter 9mm, Amidon, T30,
+Transformer Toroid horizontal laying Diameter 9mm Amidon T30 
 0
 4
 4
 Transformer_THT
 Transformer_Toroid_Horizontal_D10.5mm_Amidon-T37
-0
-0
+Transformer, Toroid, horizontal, laying, Diameter 10,5mm, Amidon T37,
+Transformer Toroid horizontal laying Diameter 10 5mm Amidon T37 
 0
 4
 4
 Transformer_THT
 Transformer_Toroid_Horizontal_D12.5mm_Amidon-T44
-0
-0
+Transformer, Toroid, horizontal, laying, Diameter 12,5mm, Amidon T44,
+Transformer Toroid horizontal laying Diameter 12 5mm Amidon T44 
 0
 4
 4
 Transformer_THT
 Transformer_Toroid_Horizontal_D14.0mm_Amidon-T50
-0
-0
+Transformer, Toroid, horizontal, laying, Diameter 14mm, Amidon T50,
+Transformer Toroid horizontal laying Diameter 14mm Amidon T50 
 0
 4
 4
 Transformer_THT
 Transformer_Toroid_Horizontal_D18.0mm
-0
-0
+Transformer, Toroid, tapped, horizontal, laying, Diameter 18mm, 
+Transformer Toroid tapped horizontal laying Diameter 18mm 
 0
 5
 4
 Transformer_THT
 Transformer_Toroid_Tapped_Horizontal_D9.0mm_Amidon-T30
-0
-0
+Transformer, Toroid, tapped, horizontal, laying, Diameter 9mm, Amidon, T30,
+Transformer Toroid tapped horizontal laying Diameter 9mm Amidon T30 
 0
 6
 6
 Transformer_THT
 Transformer_Toroid_Tapped_Horizontal_D10.5mm_Amidon-T37
-0
-0
+Transformer, Toroid, tapped, horizontal, laying, Diameter 10,5mm, Amidon, T37,
+Transformer Toroid tapped horizontal laying Diameter 10 5mm Amidon T37 
 0
 6
 6
 Transformer_THT
 Transformer_Toroid_Tapped_Horizontal_D12.5mm_Amidon-T44
-0
-0
+Transformer, Toroid, tapped, horizontal, laying, Diameter 12,5mm, Amidon, T44,
+Transformer Toroid tapped horizontal laying Diameter 12 5mm Amidon T44 
 0
 6
 6
 Transformer_THT
 Transformer_Toroid_Tapped_Horizontal_D14.0mm_Amidon-T50
-0
-0
+Transformer, Toroid, tapped, horizontal, laying, Diameter 14mm, Amidon T50,
+Transformer Toroid tapped horizontal laying Diameter 14mm Amidon T50 
 0
 6
 6
 Transformer_THT
 Transformer_Wuerth_750343373
-0
-0
+Transformer, horizontal core with bobbin, 10 pin, 3.81mm pitch, 15.24mm row spacing, 22x23x17.53mm (https://katalog.we-online.com/ctm/datasheet/750343373.pdf)
+transformer flyback
 0
 10
 10
 Valve
 Valve_ECC-83-1
-0
-0
+Valve ECC-83-1 round pins
+Valve ECC-83-1 round pins
 0
 9
 9
 Valve
 Valve_ECC-83-2
-0
-0
+Valve ECC-83-2 flat pins
+Valve ECC-83-2 flat pins
 0
 10
 9
 Valve
 Valve_EURO
-0
-0
+Valve Euro
+Valve Euro
 0
 7
 5
 Valve
 Valve_Glimm
-0
-0
+Valve Glimm
+Valve Glimm
 0
 2
 2
 Valve
 Valve_Mini_G
-0
-0
+Valve mini G
+Valve mini G
 0
 9
 7
 Valve
 Valve_Mini_P
-0
-0
+Valve mini P
+Valve mini P
 0
 7
 7
 Valve
 Valve_Mini_Pentode_Linear
-0
-0
+Mini-Pentode, 5-pin, e.g. JAN6418
+Valve Mini-Pentode 5-pin JAN6418
 0
 5
 5
 Valve
 Valve_Noval_G
-0
-0
+Valve NOVAL G
+Valve NOVAL G
 0
 11
 9
 Valve
 Valve_Noval_P
-0
-0
+Valve NOVAL P
+Valve NOVAL P
 0
 9
 9
 Valve
 Valve_Octal
-8
-0
+8-pin round valve
+valve
 0
 9
 8
 Varistor
 RV_Disc_D7mm_W3.4mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 3.4mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D7mm_W3.5mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 3.5mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D7mm_W3.6mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 3.6mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D7mm_W3.7mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 3.7mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D7mm_W3.8mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 3.8mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D7mm_W3.9mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 3.9mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D7mm_W4.2mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 4.2mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D7mm_W4.3mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 4.3mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D7mm_W4.5mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 4.5mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D7mm_W4.8mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 4.8mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D7mm_W4.9mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 4.9mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D7mm_W4mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 4mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D7mm_W5.1mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 5.1mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D7mm_W5.4mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 5.4mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D7mm_W5.5mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 5.5mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D7mm_W5.7mm_P5mm
-0
-0
+Varistor, diameter 7mm, width 5.7mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W3.3mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 3.3mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W3.4mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 3.4mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W3.5mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 3.5mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W3.6mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 3.6mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W3.7mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 3.7mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W3.8mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 3.8mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W3.9mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 3.9mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W4.1mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 4.1mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W4.2mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 4.2mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W4.4mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 4.4mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W4.5mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 4.5mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W4.8mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 4.8mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W4mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 4mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W5.2mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 5.2mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W5.4mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 5.4mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W5.5mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 5.5mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D9mm_W5.7mm_P5mm
-0
-0
+Varistor, diameter 9mm, width 5.7mm, pitch 5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W3.9mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 3.9mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W4.2mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 4.2mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W4.3mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 4.3mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W4.4mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 4.4mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W4.5mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 4.5mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W4.6mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 4.6mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W4.7mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 4.7mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W4.8mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 4.8mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W4mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 4mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W5.1mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 5.1mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W5.4mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 5.4mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W5.8mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 5.8mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W5mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 5mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W6.1mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 6.1mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W6.2mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 6.2mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W6.3mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 6.3mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W6.7mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 6.7mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W7.1mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 7.1mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W7.5mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 7.5mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D12mm_W7.9mm_P7.5mm
-0
-0
+Varistor, diameter 12mm, width 7.9mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W3.9mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 3.9mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W4.2mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 4.2mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W4.3mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 4.3mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W4.4mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 4.4mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W4.5mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 4.5mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W4.6mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 4.6mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W4.7mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 4.7mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W4.8mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 4.8mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W4.9mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 4.9mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W4mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 4mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W5.2mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 5.2mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W5.4mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 5.4mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W5.9mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 5.9mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W5mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 5mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W6.1mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 6.1mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W6.3mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 6.3mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W6.4mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 6.4mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W6.8mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 6.8mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W7.2mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 7.2mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W7.5mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 7.5mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W8mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 8mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D15.5mm_W11mm_P7.5mm
-0
-0
+Varistor, diameter 15.5mm, width 11mm, pitch 7.5mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W4.3mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 4.3mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W4.4mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 4.4mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W4.5mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 4.5mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W4.6mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 4.6mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W4.7mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 4.7mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W4.8mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 4.8mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W4.9mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 4.9mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W5.1mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 5.1mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W5.3mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 5.3mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W5.4mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 5.4mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W5.6mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 5.6mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W5.8mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 5.8mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W5mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 5mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W6.1mm_P7.5mm
-0
-0
+varistor
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W6.3mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 6.3mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W6.5mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 6.5mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W6.7mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 6.7mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W6.8mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 6.8mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W7.1mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 7.1mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W7.5mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 7.5mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W7.9mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 7.9mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W8.4mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 8.4mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 Varistor
 RV_Disc_D21.5mm_W11.4mm_P10mm
-0
-0
+Varistor, diameter 21.5mm, width 11.4mm, pitch 10mm
+varistor SIOV
 0
 2
 2
 digikey-footprints
 3-SIP_Module_TM1000Q
-0
-0
+
+
 0
 3
 3
 digikey-footprints
 3-SIP_Module_V7805-500
-0
-0
+http://www.cui.com/product/resource/v78-500.pdf
+
 0
 3
 3
 digikey-footprints
 3-SIP_Module_V7805-1000
-0
-0
+http://www.cui.com/product/resource/v78xx-1000.pdf
+
 0
 3
 3
 digikey-footprints
 4-SMD_2.35x2.95mm
-0
-0
+
+
 0
 4
 4
 digikey-footprints
 6-DFN_3x3mm
-0
-0
+
+
 0
 7
 7
 digikey-footprints
 6-PLCC_3.5x3.5mm
-0
-0
+
+
 0
 6
 6
 digikey-footprints
 0603
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 0805
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 1206
-0
-0
+http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf
+
 0
 2
 2
 digikey-footprints
 1210
-0
-0
+http://www.murata-ps.com/data/magnetics/kmp_8200c.pdf
+
 0
 2
 2
 digikey-footprints
 2320
-0
-0
+
+
 0
 4
 4
 digikey-footprints
 AS-MLV-P2_9.1x9.1mm
-0
-0
+
+
 0
 4
 4
 digikey-footprints
 Air_Quality_Module_IAQ-CORE_P
-0
-0
+
+
 0
 6
 6
 digikey-footprints
 Altimeter_MS580314BA
-0
-0
+http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5803-14BA&DocType=Data+Sheet&DocLang=English
+
 0
 8
 8
 digikey-footprints
 Ambient_Prox_APDS-9960
-0
-0
+file:///C:/Users/chad_rosencrans/Downloads/AV02-4191EN_DS_Ambient_Prox_APDS-9960_2015-11-13.pdf
+
 0
 8
 8
 digikey-footprints
 Antenna_1.6x3.2mm_2450AT18A100E
-0
-0
+https://www.johansontechnology.com/datasheets/antennas/2450AT18A100.pdf
+
 0
 2
 2
 digikey-footprints
 BME680
-0
-0
+https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf
+
 0
 8
 8
 digikey-footprints
 BMI160
-0
-0
+https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000-07.pdf
+
 0
 14
 14
 digikey-footprints
 Barrel_Jack_5.5mmODx2.1mmID_PJ-102A
-0
-0
+
+
 0
 3
 3
 digikey-footprints
 Barrel_Jack_5.5mmODx2.1mmID_PJ-202A
-0
-0
+
+
 0
 3
 3
 digikey-footprints
 Battery_Holder_9V_BC9VPC-ND
-0
-0
+http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf
+
 0
 2
 2
 digikey-footprints
 Battery_Holder_Coin_2032_BS-7
-0
-0
+http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf
+
 0
 2
 2
 digikey-footprints
 Bluetooth_Module_450-0064
-0
-0
+http://www.lsr.com/downloads/products/330-0087.pdf
+
 0
 165
 53
 digikey-footprints
 Bluetooth_Module_BC118
-0
-0
+
+
 0
 35
 35
 digikey-footprints
 Bluetooth_Module_BC127
-0
-0
+https://www.bluecreation.com/userfiles/DataSheet-BC127-latest3.pdf
+
 0
 51
 51
 digikey-footprints
 Bluetooth_Module_BL600-SA
-0
-0
+https://assets.lairdtech.com/home/brandworld/files/Datasheet%20-%20BL600.pdf
+
 0
 44
 44
 digikey-footprints
 Bluetooth_Module_BLE112-A-V1
-0
-0
+http://media.digikey.com/pdf/Data%20Sheets/BlueGiga%20PDFs/BLE112.pdf
+
 0
 30
 30
 digikey-footprints
 Bluetooth_Module_BLE113-A-M256K
-0
-0
+
+
 0
 36
 36
 digikey-footprints
 Bluetooth_Module_BLE113-A-V1
-0
-0
+
+
 0
 36
 36
 digikey-footprints
 Bluetooth_Module_BLE121LR-A-M256K
-0
-0
+
+
 0
 36
 36
 digikey-footprints
 Bluetooth_Module_BM77
-0
-0
+
+
 0
 33
 33
 digikey-footprints
 Bluetooth_Module_BMD-300
-0
-0
+
+
 0
 47
 47
 digikey-footprints
 Bluetooth_Module_CYBLE-022001-00
-0
-0
+
+
 0
 21
 21
 digikey-footprints
 Bluetooth_Module_RFD22301
-0
-0
+
+
 0
 19
 19
 digikey-footprints
 Bluetooth_Module_RFD77101
-0
-0
+
+
 0
 45
 45
 digikey-footprints
 Bluetooth_Module_RN42
-0
-0
+
+
 0
 36
 33
 digikey-footprints
 Bluetooth_Module_RN42-I_RM
-0
-0
+
+
 0
 36
 33
 digikey-footprints
 Bluetooth_Module_RN52-IRM
-0
-0
+
+
 0
 50
 50
 digikey-footprints
 Bluetooth_Module_RN4020
-0
-0
+http://ww1.microchip.com/downloads/en/DeviceDoc/50002279B.pdf
+
 0
 22
 22
 digikey-footprints
 Bluetooth_Module_RN4677-VRM100
-0
-0
+
+
 0
 33
 33
 digikey-footprints
 Bluetooth_Module_WT12-A-AI5
-0
-0
+http://www.digikey.com/products/en?keywords=Bluetooth_Module_WT12-A-AI5
+
 0
 31
 31
 digikey-footprints
 Bluetooth_Module_WT32I-A-AI6
-0
-0
+
+
 0
 50
 50
 digikey-footprints
 CB-5_Formed_Leads
-0
-0
+
+
 0
 29
 5
 digikey-footprints
 Cellular_Breakout_2542
-0
-0
+
+
 0
 16
 16
 digikey-footprints
 Cellular_Modem_NL-SW-EVDO-V
-0
-0
+
+
 0
 20
 20
 digikey-footprints
 Cellular_Modem_NL-SW-LTE-GELS3-C
-0
-0
+http://nimbelink.com/Documentation/Skywire/4G_LTE_Cat_1/30122_NL-SW-LTE-GELS3_Datasheet.pdf
+
 0
 20
 20
 digikey-footprints
 Cellular_Modem_NL-SW-LTE-TSVG
-0
-0
+
+
 0
 20
 20
 digikey-footprints
 Coax_Conn_U.FL
-0
-0
+https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf
+
 0
 3
 2
 digikey-footprints
 DFN-6_3x3mm_EP1
-0
-0
+
+
 0
 7
 7
 digikey-footprints
 DFN-10_2x2mm
-0
-0
+https://media.digikey.com/pdf/Data%20Sheets/NXP%20PDFs/MMA8652FC.pdf
+
 0
 10
 10
 digikey-footprints
 DFN-10_3x3mm
-0
-0
+http://cache.freescale.com/files/sensors/doc/data_sheet/MMA7660FC.pdf
+
 0
 10
 10
 digikey-footprints
 DFN-12-1EP_3x3mm
-0
-0
+http://www.ftdichip.com/Support/Documents/TechnicalNotes/TN_166%20FTDI%20Example%20IC%20PCB%20Footprints.pdf
+
 0
 13
 13
 digikey-footprints
 DIP-4_W7.62mm
-0
-0
+http://optoelectronics.liteon.com/upload/download/DS70-2001-026/MOC306X%20series%20201606.pdf
+
 0
 4
 4
 digikey-footprints
 DIP-6_W7.62mm
-0
-0
+http://optoelectronics.liteon.com/upload/download/DS70-2001-026/MOC306X%20series%20201606.pdf
+
 0
 6
 6
 digikey-footprints
 DIP-8_W7.62mm
-0
-0
+http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/6N137%20Series.pdf
+
 0
 8
 8
 digikey-footprints
 DIP-10_W10.16mm
-0
-0
+
+
 0
 10
 10
 digikey-footprints
 DIP-14_W3mm
-0
-0
+
+
 0
 14
 14
 digikey-footprints
 DIP-16_W7.62mm
-0
-0
+
+
 0
 16
 16
 digikey-footprints
 DIP-18_W7.62mm
-0
-0
+http://www.ti.com/lit/ds/symlink/tpic6b595.pdf
+
 0
 18
 18
 digikey-footprints
 DIP-20_W7.62mm
-0
-0
+http://www.digikey.com/products/en?formaction=on&lang=en&site=us&KeyWords=296-1956-5-ND
+
 0
 20
 20
 digikey-footprints
 DIP-28_W7.62mm
-0
-0
+http://www.digikey.com/products/en?formaction=on&lang=en&site=us&KeyWords=296-1956-5-ND
+
 0
 28
 28
 digikey-footprints
 DIP-40_W15.24mm
-0
-0
+http://www.ti.com/lit/ds/symlink/tpic6b595.pdf
+
 0
 40
 40
 digikey-footprints
 DO-35
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 DO-35_NK
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 DO-41
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 DO-214AB
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 DO-214AC
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 DSBGA-8_1.6x1.6mm
-0
-0
+http://www.ti.com/lit/ds/symlink/tmp006.pdf
+
 0
 9
 8
 digikey-footprints
 DSUB-9_Jack_5747840-3
-0
-0
+http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5747840&DocType=Customer+Drawing&DocLang=English
+
 0
 11
 10
 digikey-footprints
 DSUB-9_Receptical_A-DF_09_A_KG-T2S
-0
-0
+http://www.assmann-wsw.com/fileadmin/datasheets/ASS_4888_CO.pdf
+
 0
 11
 10
 digikey-footprints
 DVI_Female_74320-9004
-0
-0
+
+
 0
 26
 25
 digikey-footprints
 DVI_Female_74320-9010
-0
-0
+
+
 0
 32
 30
 digikey-footprints
 Diode_DO-35_P10mm
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 DisplayPort_2040210-1
-0
-0
+
+
 0
 25
 21
 digikey-footprints
 DisplayPort_Mini_2129320-3
-0
-0
+
+
 0
 24
 21
 digikey-footprints
 ESP32-WROOM-32D
-0
-0
+
+
 0
 39
 39
 digikey-footprints
 Ethernet_Jack_54602-908LF
-0
-0
+http://portal.fciconnect.com/Comergent//fci/drawing/c-bmj-0102.pdf
+
 0
 8
 8
 digikey-footprints
 Ethernet_Jack_ARJC02-111008B
-0
-0
+http://www.abracon.com/Magnetics/lan/Ethernet_Jack_ARJC02-111008B.PDF
+
 0
 12
 12
 digikey-footprints
 Ethernet_Jack_RJLSE4208101T
-0
-0
+https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJLSE4X0XX01X.pdf
+
 0
 10
 9
 digikey-footprints
 FLIR_Lepton_Socket_1050281001
-0
-0
+
+
 0
 68
 33
 digikey-footprints
 GSM_Module_17.8x16.5mm_A2235-H
-0
-0
+
+
 0
 30
 23
 digikey-footprints
 Gas_Sensor_110-109
-0
-0
+
+
 0
 10
 10
 digikey-footprints
 Gas_Sensor_110-202
-0
-0
+http://www.spec-sensors.com/wp-content/uploads/2016/02/3SP_Ethanol_1000-P-Package-Gas_Sensor_110-202.pdf
+
 0
 6
 6
 digikey-footprints
 HDMI_A_Female_2000-1-2-41-00-BK
-0
-0
+http://media.digikey.com/pdf/Data%20Sheets/CNC%20Tech%20PDFs/HDMI_A_Female_2000-1-2-41-00-BK_Dwg.pdf
+
 0
 25
 20
 digikey-footprints
 HDMI_Female_DC3RX19JA3R1700
-0
-0
+
+
 0
 23
 20
 digikey-footprints
 HDMI_Mini_Female_2001-1-2-21-00-BK
-0
-0
+
+
 0
 23
 20
 digikey-footprints
 HTQFP-100_14x14mm
-0
-0
+
+
 0
 182
 101
 digikey-footprints
 Hall_Sensor_SIP-3_A132_LUA-T
-0
-0
+file:///C:/Users/chad_rosencrans/Downloads/A1324-5-6-Datasheet%20(1).pdf
+
 0
 3
 3
 digikey-footprints
 HeaderPin_2x2_P4.2_Drill1.4mm
-0
-0
+http://www.molex.com/pdm_docs/sd/039281043_sd.pdf
+
 0
 4
 4
 digikey-footprints
 Headphone_Jack_2.5mm_SJ1-2503A
-0
-0
+http://www.cui.com/product/resource/sj1-2503a.pdf
+
 0
 4
 4
 digikey-footprints
 Headphone_Jack_3.5mm_SJ1-3523N
-0
-0
+http://www.cui.com/product/resource/sj1-352xn-series.pdf
+
 0
 3
 3
 digikey-footprints
 Headphone_Jack_6.35mm_RA49B14B
-0
-0
+
+
 0
 5
 5
 digikey-footprints
 Headphone_Jack_6.35mm_SN49B12B
-0
-0
+
+
 0
 3
 3
 digikey-footprints
 Humidity_HIH-4030
-0
-0
+
+
 0
 4
 4
 digikey-footprints
 Humidity_HIH61xx
-0
-0
+
+
 0
 8
 8
 digikey-footprints
 Humidity_SHT15
-0
-0
+https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Sensirion_Humidity_Sensors_SHT1x_Datasheet_V5.pdf
+
 0
 8
 8
 digikey-footprints
 ICL_THT_P7.8mm
-0
-0
+https://www.ametherm.com/datasheetspdf/SL322R025.pdf
+
 0
 2
 2
 digikey-footprints
 ICL_THT_P17.1mm
-0
-0
+https://www.ametherm.com/datasheets/as322r025
+
 0
 2
 2
 digikey-footprints
 IMU_Module_SEN0140
-0
-0
+
+
 0
 4
 4
 digikey-footprints
 IR_Receiver_TSOP38238
-0
-0
+
+
 0
 3
 3
 digikey-footprints
 Inductor_13R106C
-0
-0
+http://www.murata-ps.com/data/magnetics/kmp_1300r.pdf
+
 0
 2
 2
 digikey-footprints
 Jumper_Micro-Miniature_P5.31mm
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 Jumper_Micro-Miniature_P5.375mm
-0
-0
+file:///C:/Users/chad_rosencrans/Downloads/5102.pdf
+
 0
 2
 2
 digikey-footprints
 Jumper_Tin_P5.32mm
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 Jumper_Tin_P5.38mm
-0
-0
+https://cdn.harwin.com/pdfs/S1911R.pdf
+
 0
 2
 2
 digikey-footprints
 Jumper_Tin_P10.9mm
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 LED_2-SMD_Gull_Wing_4.4x3.85mm
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 LED_2-SMD_No_Lead_1.7x0.8mm
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 LED_3mm_Radial
-0
-0
+http://optoelectronics.liteon.com/upload/download/DS20-2000-343/1CHKxKNN.pdf
+
 0
 2
 2
 digikey-footprints
 LED_5mm_Radial
-0
-0
+http://optoelectronics.liteon.com/upload/download/DS20-2000-343/1CHKxKNN.pdf
+
 0
 2
 2
 digikey-footprints
 LED_7Seg_VAOS-C402S9-BW_50
-0
-0
+
+
 0
 10
 10
 digikey-footprints
 LED_0603
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 LED_Bar_Graph_LTA-1000
-0
-0
+
+
 0
 20
 20
 digikey-footprints
 LED_Breakout_Parallax_WS2812B
-0
-0
+https://www.parallax.com/product/28086
+
 0
 6
 6
 digikey-footprints
 LED_Dual0603
-0
-0
+http://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf
+
 0
 4
 4
 digikey-footprints
 LED_IR_TSAL6100
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 LED_RGB_WP154A4SUREQBFZGC
-0
-0
+http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf
+
 0
 4
 4
 digikey-footprints
 LFQFN-16-1EP_3x3mm
-0
-0
+
+
 0
 17
 17
 digikey-footprints
 LFQFN-16-1EP_4x4mm
-0
-0
+
+
 0
 17
 17
 digikey-footprints
 LGA-8_2x2.5mm_BMP280
-0
-0
+
+
 0
 8
 8
 digikey-footprints
 LGA-12_4.8x2.8_VL6180
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/11/28/86/e6/26/44/b3/DM00112632.pdf/files/DM00112632.pdf/jcr:content/translations/en.DM00112632.pdf
+
 0
 12
 12
 digikey-footprints
 LGA-12_9x9mm_LSM303C
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/59/aa/fb/3b/85/9e/4e/0a/DM00089896.pdf/files/DM00089896.pdf/jcr:content/translations/en.DM00089896.pdf
+
 0
 12
 12
 digikey-footprints
 LGA-14L_2.5x3mm__LSM6DS3
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/a3/f5/4f/ae/8e/44/41/d7/DM00133076.pdf/files/DM00133076.pdf/jcr:content/translations/en.DM00133076.pdf
+
 0
 14
 14
 digikey-footprints
 LGA-14_2x2mm
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/c1/e1/62/31/d2/b1/4d/bb/DM00042751.pdf/files/DM00042751.pdf/jcr:content/translations/en.DM00042751.pdf
+
 0
 14
 14
 digikey-footprints
 LGA-14_3x5mm_RevA
-0
-0
+http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf
+
 0
 14
 14
 digikey-footprints
 LGA-24_3x3.5mm_LSM9DS1
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf
+
 0
 24
 24
 digikey-footprints
 LGA-28_5.2x3.8mm_BNO0055
-0
-0
+
+
 0
 28
 28
 digikey-footprints
 LLC-36_9x9mm_HMC6343
-0
-0
+
+
 0
 36
 36
 digikey-footprints
 LLGA-10_2.5x2.5mm_LPS25HB
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/9a/4c/aa/72/1f/45/4e/24/DM00141379.pdf/files/DM00141379.pdf/jcr:content/translations/en.DM00141379.pdf
+
 0
 10
 10
 digikey-footprints
 LORA_Module_RM103
-0
-0
+http://ww1.microchip.com/downloads/en/DeviceDoc/50002346C.pdf
+
 0
 47
 47
 digikey-footprints
 LQFP-32_7x7mm
-0
-0
+
+
 0
 32
 32
 digikey-footprints
 LQFP-48_7x7mm
-0
-0
+http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:w5500_ds_v106e_141230.pdf
+
 0
 48
 48
 digikey-footprints
 LQFP-64_10x10mm
-0
-0
+
+
 0
 64
 64
 digikey-footprints
 LQFP-100_14x14mm
-0
-0
+
+
 0
 100
 100
 digikey-footprints
 LSOJ-6_W3.76mm
-0
-0
+http://pdfserv.maximintegrated.com/package_dwgs/21-0382.PDF
+
 0
 6
 6
 digikey-footprints
 LSSOP-24_W5.6mm
-0
-0
+file:///C:/Users/alex_wegscheid/Downloads/TB6612FNG_datasheet_en_20141001%20(7).pdf
+
 0
 24
 24
 digikey-footprints
 Light_to_Freq_TSL235R-LF
-0
-0
+file:///C:/Users/alex_wegscheid/Downloads/TSL235R_DS000120_2-00%20(6).pdf
+
 0
 3
 3
 digikey-footprints
 MSOP-8-1EP_W3mm
-0
-0
+http://www.ti.com/lit/ds/symlink/tpa2005d1-q1.pdf
+
 0
 14
 9
 digikey-footprints
 MSOP-8_W2.80mm
-0
-0
+
+
 0
 8
 8
 digikey-footprints
 MSOP-10-1EP_W3mm
-0
-0
+
+
 0
 11
 11
 digikey-footprints
 MSOP-10_W3mm
-0
-0
+
+
 0
 10
 10
 digikey-footprints
 MSOP-12-1EP_W3mm
-0
-0
+
+
 0
 13
 13
 digikey-footprints
 Mag_Jack_Module_WIZ820IO
-0
-0
+http://wiznethome.cafe24.com/wp-content/uploads/wiznethome/Network%20Module/WIZ820io/Document/WIZ820io_User_Manual_V1.0.pdf
+
 0
 12
 12
 digikey-footprints
 Mic_CMA-4544PF-W
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 MicroSD_2908-05WB-MG
-0
-0
+
+
 0
 12
 9
 digikey-footprints
 Molex_734120114_UMC_RF_CONN_Vertical
-0
-0
+
+
 0
 4
 2
 digikey-footprints
 Multiwatt-11
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/ab/d6/fa/99/84/36/49/ee/CD00000017.pdf/files/CD00000017.pdf/jcr:content/translations/en.CD00000017.pdf
+
 0
 11
 11
 digikey-footprints
 Multiwatt-15
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/ab/d6/fa/99/84/36/49/ee/CD00000017.pdf/files/CD00000017.pdf/jcr:content/translations/en.CD00000017.pdf
+
 0
 15
 15
 digikey-footprints
 OLED_128x32_Folded
-0
-0
+
+
 0
 15
 15
 digikey-footprints
 OPLGA-6_VEML6070
-0
-0
+http://www.vishay.com/docs/84277/veml6070.pdf
+
 0
 6
 6
 digikey-footprints
 Oscillator_FXO-LC73
-0
-0
+http://www.foxonline.com/pdfs/FXO_LC73.pdf
+
 0
 6
 6
 digikey-footprints
 Oscillator_MEMS_SIT1533AI-H4-DCC-32.768E
-0
-0
+https://www.sitime.com/products/datasheets/sit1533/SiT1533-datasheet.pdf
+
 0
 4
 4
 digikey-footprints
 Oscillator_XLH536025.000000I
-0
-0
+
+
 0
 4
 4
 digikey-footprints
 Oscillator_XLH736022.579200I
-0
-0
+
+
 0
 4
 4
 digikey-footprints
 PC_TEST-POINT_MINI_3.43x1.78mm
-0
-0
+
+
 0
 1
 1
 digikey-footprints
 PC_TEST_POINT_SMD
-0
-0
+
+
 0
 1
 1
 digikey-footprints
 PC_Test_Point_Mini_3.8x2.03mm
-0
-0
+file:///C:/Users/chad_rosencrans/Downloads/5029.PDF
+
 0
 1
 1
 digikey-footprints
 PROBE_PAD_0603
-0
-0
+
+
 0
 1
 1
 digikey-footprints
 PROBE_PAD_0805
-0
-0
+
+
 0
 1
 1
 digikey-footprints
 PROBE_PAD_1206
-0
-0
+
+
 0
 1
 1
 digikey-footprints
 Particle_Photon
-0
-0
+
+
 0
 24
 24
 digikey-footprints
 Phone_Jack_87180-062LF
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 Photodiode_3mm_Radial
-0
-0
+http://optoelectronics.liteon.com/upload/download/DS20-2000-343/1CHKxKNN.pdf
+
 0
 2
 2
 digikey-footprints
 Photodiode_5mm_Radial
-0
-0
+http://optoelectronics.liteon.com/upload/download/DS20-2000-343/1CHKxKNN.pdf
+
 0
 2
 2
 digikey-footprints
 Photodiode_1206
-0
-0
+http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf
+
 0
 2
 2
 digikey-footprints
 Photodiode_Radial_5.1x3mm_P2.54mm
-0
-0
+http://www.osram-os.com/Graphics/XPic1/00211421_0.pdf
+
 0
 2
 2
 digikey-footprints
 Photodiode_THT_BPW34
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 Phototransistor_4.4x1.5mm_P2.54_Radial
-0
-0
+http://optoelectronics.liteon.com/upload/download/DS20-2000-343/1CHKxKNN.pdf
+
 0
 2
 2
 digikey-footprints
 Phototransistor_SMD_4x2mm_TEMT6000X01
-0
-0
+
+
 0
 3
 3
 digikey-footprints
 Piezo_9x9mm_PKMCS0909E4000-R1
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 Piezo_Transducer_THT_PS1240P02BT
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 PinHeader_1x2_P2.5mm_Drill1.1mm
-0
-0
+http://www.jst-mfg.com/product/pdf/eng/eXH.pdf
+
 0
 2
 2
 digikey-footprints
 PinHeader_1x2_P2.54mm
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 PinHeader_1x2_P2.54mm_Drill1.02mm
-0
-0
+http://www.molex.com/pdm_docs/sd/022232031_sd.pdf
+
 0
 2
 2
 digikey-footprints
 PinHeader_1x2_P2mm
-0
-0
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+
 0
 4
 2
 digikey-footprints
 PinHeader_1x2_P2mm_Drill1mm
-0
-0
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+
 0
 2
 2
 digikey-footprints
 PinHeader_1x2_P2mm_Drill1mm_RA
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 PinHeader_1x2_P3.96mm_Drill1.6mm
-0
-0
+http://www.jst-mfg.com/product/pdf/eng/eVH.pdf
+
 0
 2
 2
 digikey-footprints
 PinHeader_1x3_P2.5mm_Drill1.1mm
-0
-0
+http://www.jst-mfg.com/product/pdf/eng/eXH.pdf
+
 0
 3
 3
 digikey-footprints
 PinHeader_1x3_P2.54_Drill1.1mm
-0
-0
+
+
 0
 3
 3
 digikey-footprints
 PinHeader_1x3_P2.54mm_Drill1.02mm
-0
-0
+http://www.molex.com/pdm_docs/sd/022232031_sd.pdf
+
 0
 3
 3
 digikey-footprints
 PinHeader_1x3_P2mm_Drill1mm
-0
-0
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+
 0
 3
 3
 digikey-footprints
 PinHeader_1x4_P2.5mm_Drill1.1mm
-0
-0
+http://www.jst-mfg.com/product/pdf/eng/eXH.pdf
+
 0
 4
 4
 digikey-footprints
 PinHeader_1x4_P2.54mm_Drill1.02mm
-0
-0
+http://www.molex.com/pdm_docs/sd/022232031_sd.pdf
+
 0
 4
 4
 digikey-footprints
 PinHeader_1x4_P2mm_Drill1mm
-0
-0
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+
 0
 4
 4
 digikey-footprints
 PinHeader_1x5_P2.5mm_Drill1.1mm
-0
-0
+http://www.jst-mfg.com/product/pdf/eng/eXH.pdf
+
 0
 5
 5
 digikey-footprints
 PinHeader_1x40_P2.54_Drill1mm
-0
-0
+https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf
+
 0
 40
 40
 digikey-footprints
 PinHeader_2x1mm_P2mm_SMD_RA
-0
-0
+
+
 0
 4
 2
 digikey-footprints
 PinHeader_2x5_P1.27_SMD
-0
-0
+http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-footprint.pdf
+
 0
 10
 10
 digikey-footprints
 PinHeader_2x5_P1.27mm
-0
-0
+https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf
+
 0
 10
 10
 digikey-footprints
 PinHeader_2x5_P1.27mm_Drill.7mm
-0
-0
+http://cnctech.us/pdfs/3220-XX-0100-00.pdf
+
 0
 10
 10
 digikey-footprints
 PinHeader_2x5_P2.54mm_Drill1.2mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/302-sxxx.pdf
+
 0
 10
 10
 digikey-footprints
 PinHeader_2x6_P2.54mm_Vertical_SMD
-0
-0
+http://www.molex.com/pdm_docs/sd/015912120_sd.pdf
+
 0
 12
 12
 digikey-footprints
 PinHeader_2x7_P2mm_Drill1mm
-0
-0
+
+
 0
 14
 14
 digikey-footprints
 PinHeader_2x7_P2mm_SMD
-0
-0
+http://www.molex.com/pdm_docs/sd/878322620_sd.pdf
+
 0
 14
 14
 digikey-footprints
 PinHeader_6x2_P2.54mm_Horizontal
-0
-0
+http://portal.fciconnect.com/Comergent//fci/drawing/68020.pdf
+
 0
 12
 12
 digikey-footprints
 PinHeader_6x2_P2.54mm_Vertical
-0
-0
+http://portal.fciconnect.com/Comergent//fci/drawing/68020.pdf
+
 0
 12
 12
 digikey-footprints
 Potentiometer_P120PK-Y25BR10K
-0
-0
+
+
 0
 5
 4
 digikey-footprints
 PowerSOIC-8_W3.9mm
-0
-0
+
+
 0
 16
 9
 digikey-footprints
 Pressure_Sensor_LGA-8_2.5x2.5mm_BME280
-0
-0
+
+
 0
 8
 8
 digikey-footprints
 PushButton_12x12mm_THT_GPTS203211B
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 PushButton_Round_D12mm_THT_KS-01Q-01
-0
-0
+http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf
+
 0
 4
 4
 digikey-footprints
 QFN-20-1EP_3x3mm
-0
-0
+
+
 0
 37
 21
 digikey-footprints
 QFN-20-1EP_4x4mm
-0
-0
+
+
 0
 37
 21
 digikey-footprints
 QFN-20-1EP_4x4mm_RevA
-0
-0
+
+
 0
 21
 21
 digikey-footprints
 QFN-24-1EP_3x3mm
-0
-0
+
+
 0
 25
 25
 digikey-footprints
 QFN-24-1EP_4x4mm
-0
-0
+
+
 0
 24
 24
 digikey-footprints
 QFN-32-1EP_5x5mm
-0
-0
+
+
 0
 42
 33
 digikey-footprints
 QFN-48-1EP_6x6mm
-0
-0
+https://www.decawave.com/sites/default/files/resources/DW1000-Datasheet-V2.12.pdf
+
 0
 49
 49
 digikey-footprints
 QFN-48-1EP_7x7mm
-0
-0
+
+
 0
 74
 49
 digikey-footprints
 RF_ISM_Module_MRF89XAM9A
-0
-0
+
+
 0
 12
 12
 digikey-footprints
 RF_Location_Tracking_DWM1000
-0
-0
+https://www.decawave.com/sites/default/files/resources/DWM1000-Datasheet-V1.6.pdf
+
 0
 24
 24
 digikey-footprints
 RF_Module_COM-13909
-0
-0
+https://cdn.sparkfun.com/datasheets/Wireless/General/RFM69HCW-V1.1.pdf
+
 0
 16
 16
 digikey-footprints
 RF_Module_RXM-418-LR
-0
-0
+https://www.linxtechnologies.com/wp/wp-content/uploads/rxm-fff-lr.pdf
+
 0
 16
 16
 digikey-footprints
 RF_Module_RXM-433-LR
-0
-0
+https://www.linxtechnologies.com/wp/wp-content/uploads/rxm-fff-lr.pdf
+
 0
 16
 16
 digikey-footprints
 RF_Module_SPBT2632C2A.AT2
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/2c/4e/6f/76/81/4f/4b/d4/DM00048919.pdf/files/DM00048919.pdf/jcr:content/translations/en.DM00048919.pdf
+
 0
 22
 17
 digikey-footprints
 RF_Module_SPWF01SA.11
-0
-0
+
+
 0
 30
 30
 digikey-footprints
 RF_Module_TXM-433-LR
-0
-0
+
+
 0
 8
 8
 digikey-footprints
 RF_SMA_BoardEdge_142-0701-801
-0
-0
+https://belfuse.com/resources/Johnson/productinformation/pi-142-0701-801.pdf
+
 0
 5
 2
 digikey-footprints
 RF_SMA_Receptical_Vertical_CONSMA001-SMD-G
-0
-0
+
+
 0
 5
 2
 digikey-footprints
 RF_SMA_RightAngle_5-1814400-1
-0
-0
+http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1814400&DocType=Customer+Drawing&DocLang=English
+
 0
 5
 2
 digikey-footprints
 RF_SMA_Vertical_5-1814832-1
-0
-0
+
+
 0
 5
 2
 digikey-footprints
 RJ45_Female_RB1-125BAG1A
-0
-0
+https://www.shopwiznet.com/index.php/lanotattachments/download/file/id/95/store/1/
+
 0
 14
 13
 digikey-footprints
 Reflective_Sensor_QRD1114
-0
-0
+https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf
+
 0
 4
 4
 digikey-footprints
 Reflective_Sensor_QRE1113
-0
-0
+
+
 0
 4
 4
 digikey-footprints
 Relay_JSM1-12V-5
-0
-0
+
+
 0
 5
 5
 digikey-footprints
 Relay_Reed_9007-05-00
-0
-0
+https://media.digikey.com/pdf/Data%20Sheets/Coto%20Technology%20PDFS/9000_Spartan_Series.pdf
+
 0
 4
 4
 digikey-footprints
 Relay_THT_EC2
-0
-0
+
+
 0
 8
 8
 digikey-footprints
 Relay_THT_G5LE-14
-0
-0
+
+
 0
 5
 5
 digikey-footprints
 Relay_THT_G5V-1
-0
-0
+
+
 0
 6
 6
 digikey-footprints
 Relay_THT_G5V-2
-0
-0
+
+
 0
 8
 8
 digikey-footprints
 Rotary_Encoder_Switched_PEC11R
-0
-0
+
+
 0
 7
 6
 digikey-footprints
 SC-70-5
-0
-0
+
+
 0
 5
 5
 digikey-footprints
 SC-74
-0
-0
+https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf
+
 0
 6
 6
 digikey-footprints
 SD_Holder_787231001
-0
-0
+
+
 0
 14
 9
 digikey-footprints
 SIM_473080001
-0
-0
+
+
 0
 10
 7
 digikey-footprints
 SIM_Nano_5045200691
-0
-0
+
+
 0
 16
 7
 digikey-footprints
 SIP-3_P2.54mm
-0
-0
+
+
 0
 3
 3
 digikey-footprints
 SIP-3_P2.54mm_OKI-78SR-5_1.5-W36-C
-0
-0
+https://power.murata.com/data/power/oki-78sr.pdf
+
 0
 3
 3
 digikey-footprints
 SIP-4_W3.81mm
-0
-0
+https://www.diodes.com/assets/Datasheets/ds21203.pdf
+
 0
 4
 4
 digikey-footprints
 SIP-9_P2.54mm
-0
-0
+http://www.bourns.com/docs/Product-Datasheets/4600x.pdf
+
 0
 9
 9
 digikey-footprints
 SMD-2_3.2x1.5mm
-0
-0
+http://www.ecsxtal.com/store/pdf/ecx-31b.pdf
+
 0
 2
 2
 digikey-footprints
 SMD-2_3.2x2.5mm
-0
-0
+http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf
+
 0
 2
 2
 digikey-footprints
 SMD-4_3.3x2.8_PD15-22C_TR8
-0
-0
+
+
 0
 4
 2
 digikey-footprints
 SMD-4_3.4x2.7mm_P1.8mm
-0
-0
+https://www.fairchildsemi.com/datasheets/QR/QRE1113.pdf
+
 0
 4
 4
 digikey-footprints
 SMD-4_4.4x3.85mm_P2.54mm
-0
-0
+http://optoelectronics.liteon.com/upload/download/DS70-2001-010/LTV-356T%20series%20201610.pdf
+
 0
 4
 4
 digikey-footprints
 SMD-4_4.6x7.62mm_P2.54mm
-0
-0
+https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTV-816_826_846.pdf
+
 0
 4
 4
 digikey-footprints
 SMD-4_5x4.4mm_P4mm
-0
-0
+https://www.fairchildsemi.com/datasheets/MD/MDB10S.pdf
+
 0
 4
 4
 digikey-footprints
 SMD-5-6_3.83x2.79mm
-0
-0
+
+
 0
 5
 5
 digikey-footprints
 SMD-5-6_R_3.83x2.79mm
-0
-0
+
+
 0
 5
 5
 digikey-footprints
 SMD-8_5x3mm
-0
-0
+http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5607-02BA03&DocType=Data+Sheet&DocLang=English
+
 0
 8
 8
 digikey-footprints
 SMD-8_7x5mm
-0
-0
+
+
 0
 8
 8
 digikey-footprints
 SMD-14_Grideye
-0
-0
+https://industrial.panasonic.com/content/data/CP/PDF/built-in_sensor_catalog_e.pdf
+
 0
 14
 14
 digikey-footprints
 SOCKET_DIP-6_7.62mm_Conn
-0
-0
+http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf
+
 0
 6
 6
 digikey-footprints
 SOCKET_DIP-8_7.62mm_Conn
-0
-0
+http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf
+
 0
 8
 8
 digikey-footprints
 SOD-80
-0
-0
+
+
 0
 6
 2
 digikey-footprints
 SOD-123
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 SOD-323
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 SOD-323F
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 SOD-523
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 SOIC-6-5_W4.55mm
-0
-0
+
+
 0
 5
 5
 digikey-footprints
 SOIC-7-8_W3.9mm
-0
-0
+
+
 0
 7
 7
 digikey-footprints
 SOIC-8-1EP_W3.9mm
-0
-0
+
+
 0
 9
 9
 digikey-footprints
 SOIC-8_W3.9mm
-0
-0
+
+
 0
 8
 8
 digikey-footprints
 SOIC-8_W5.3mm
-0
-0
+http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet-Summary.pdf
+
 0
 8
 8
 digikey-footprints
 SOIC-8_W5.6mm
-0
-0
+
+
 0
 8
 8
 digikey-footprints
 SOIC-14_W3.9mm
-0
-0
+
+
 0
 14
 14
 digikey-footprints
 SOIC-16_W3.90mm
-0
-0
+
+
 0
 16
 16
 digikey-footprints
 SOIC-16_W7.5mm
-0
-0
+https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e
+
 0
 16
 16
 digikey-footprints
 SOIC-18_W7.5mm
-0
-0
+http://www.ti.com/lit/ds/symlink/uln2803a.pdf
+
 0
 18
 18
 digikey-footprints
 SOIC-20_W7.5mm
-0
-0
+
+
 0
 20
 20
 digikey-footprints
 SOIC-24_W7.50mm
-0
-0
+
+
 0
 24
 24
 digikey-footprints
 SOIC-28_W7.5mm
-0
-0
+
+
 0
 28
 28
 digikey-footprints
 SOP-4_W3.81mm
-0
-0
+
+
 0
 4
 4
 digikey-footprints
 SOT-3
-0
-0
+http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf
+
 0
 3
 3
 digikey-footprints
 SOT-23-3
-0
-0
+
+
 0
 3
 3
 digikey-footprints
 SOT-23-6
-0
-0
+
+
 0
 6
 6
 digikey-footprints
 SOT-23-8
-0
-0
+http://www.ti.com/lit/ds/symlink/ina219.pdf
+
 0
 8
 8
 digikey-footprints
 SOT-23W
-0
-0
+file:///C:/Users/alex_wegscheid/Downloads/A1324-5-6-Datasheet%20(2).pdf
+
 0
 3
 3
 digikey-footprints
 SOT-143-4
-0
-0
+http://datasheets.maximintegrated.com/en/ds/MAX6816-MAX6818.pdf
+
 0
 4
 4
 digikey-footprints
 SOT-223
-0
-0
+
+
 0
 4
 4
 digikey-footprints
 SOT-223-4
-0
-0
+
+
 0
 4
 4
 digikey-footprints
 SOT-323
-0
-0
+https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf
+
 0
 3
 3
 digikey-footprints
 SOT-353
-0
-0
+
+
 0
 5
 5
 digikey-footprints
 SOT-363
-0
-0
+
+
 0
 6
 6
 digikey-footprints
 SOT-523
-0
-0
+
+
 0
 3
 3
 digikey-footprints
 SOT-553
-0
-0
+
+
 0
 5
 5
 digikey-footprints
 SOT-563
-0
-0
+
+
 0
 6
 6
 digikey-footprints
 SOT-753
-0
-0
+
+
 0
 5
 5
 digikey-footprints
 SOT23-6L
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/9a/e6/1c/4f/b6/9a/44/e6/CD00047494.pdf/files/CD00047494.pdf/jcr:content/translations/en.CD00047494.pdf
+
 0
 6
 6
 digikey-footprints
 SPH0645LM4H-B
-0
-0
+http://www.digikey.com/products/en?keywords=423-1405-1-ND
+
 0
 9
 6
 digikey-footprints
 SSOP-16_W3.90mm
-0
-0
+
+
 0
 16
 16
 digikey-footprints
 SSOP-20_W3.9mm
-0
-0
+http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
+
 0
 20
 20
 digikey-footprints
 SSOP-20_W5.3mm
-0
-0
+http://ww1.microchip.com/downloads/en/DeviceDoc/41606B.pdf
+
 0
 20
 20
 digikey-footprints
 SSOP-24_W5.30mm
-0
-0
+
+
 0
 24
 24
 digikey-footprints
 SSOP-28_W5.30mm
-0
-0
+
+
 0
 28
 28
 digikey-footprints
 SiTIME_SMD-6-1EP
-0
-0
+https://www.sitime.com/products/datasheets/sit9102/SiT9102-datasheet.pdf
+
 0
 7
 7
 digikey-footprints
 Smoke_Sensor_MAX30105EFD+
-0
-0
+http://datasheets.maximintegrated.com/en/ds/MAX30105.pdf
+
 0
 14
 14
 digikey-footprints
 Socket_DIP-14_7.62mm_Conn
-0
-0
+http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf
+
 0
 14
 14
 digikey-footprints
 Socket_DIP-16_7.62mm_Conn
-0
-0
+http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf
+
 0
 16
 16
 digikey-footprints
 Socket_DIP-18_7.62mm_Conn
-0
-0
+http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf
+
 0
 18
 18
 digikey-footprints
 Socket_DIP-20_7.62mm_Conn
-0
-0
+http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf
+
 0
 20
 20
 digikey-footprints
 Socket_DIP-24_7.62mm_Conn
-0
-0
+http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf
+
 0
 24
 24
 digikey-footprints
 Socket_DIP-24_15.24mm_Conn
-0
-0
+http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf
+
 0
 24
 24
 digikey-footprints
 Socket_DIP-28_15.24mm_Conn
-0
-0
+http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf
+
 0
 28
 28
 digikey-footprints
 Socket_DIP-32_15.24mm_Conn
-0
-0
+http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf
+
 0
 32
 32
 digikey-footprints
 Socket_DIP-40_15.24mm_Conn
-0
-0
+http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf
+
 0
 40
 40
 digikey-footprints
 Switch_Nav_12.4x12.4mm_SMD_JS5208
-0
-0
+
+
 0
 6
 6
 digikey-footprints
 Switch_Slide_11.6x4mm_EG1218
-0
-0
+http://spec_sheets.e-switch.com/specs/P040040.pdf
+
 0
 3
 3
 digikey-footprints
 Switch_Slide_11.6x4mm_SJ-3523-SMT
-0
-0
+
+
 0
 3
 3
 digikey-footprints
 Switch_Slide_JS202011SCQN
-0
-0
+
+
 0
 6
 6
 digikey-footprints
 Switch_Tactile_SMD_4.5x4.5mm_TL3315NF160Q
-0
-0
+http://spec_sheets.e-switch.com/specs/P010337.pdf
+
 0
 8
 4
 digikey-footprints
 Switch_Tactile_SMD_6x6mm
-0
-0
+
+
 0
 4
 4
 digikey-footprints
 Switch_Tactile_SMD_6x6mm_PTS645
-0
-0
+http://www.ckswitches.com/media/1471/pts645.pdf
+
 0
 4
 4
 digikey-footprints
 Switch_Tactile_SMD_B3U-1000P
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 Switch_Tactile_THT_6x6mm
-0
-0
+http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English
+
 0
 4
 4
 digikey-footprints
 Switch_Tactile_THT_6x6mm_MJTP1230
-0
-0
+http://media.digikey.com/pdf/Data%20Sheets/APEM%20Components%20PDFs/MJTP%20Series-6MM.pdf
+
 0
 4
 4
 digikey-footprints
 Switch_Tactile_THT_B3F-1xxx
-0
-0
+http://www.omron.com/ecb/products/pdf/en-b3f.pdf
+
 0
 4
 4
 digikey-footprints
 Switch_Toggle_ATE1D-2M3-10-Z
-0
-0
+https://www.nidec-copal-electronics.com/e/catalog/switch/ate.pdf
+
 0
 3
 3
 digikey-footprints
 TCO_5.5mm_Radial
-0
-0
+http://optoelectronics.liteon.com/upload/download/DS20-2000-343/1CHKxKNN.pdf
+
 0
 2
 2
 digikey-footprints
 TDFN-8-1EP
-0
-0
+file:///C:/Users/alex_wegscheid/Downloads/EST02896_MR25H256-MR25H256A_Combined%20Datasheet_Rev1.4%20020117%20(5).pdf
+
 0
 8
 8
 digikey-footprints
 TERM_BLOCK_1x3_P5.08MM
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf
+
 0
 3
 3
 digikey-footprints
 TFLGA-16_3x3.25mm
-0
-0
+http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL362.pdf
+
 0
 16
 16
 digikey-footprints
 TFLGA-16_3x3mm
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/3e/48/02/c7/a4/e6/41/bb/DM00053090.pdf/files/DM00053090.pdf/jcr:content/translations/en.DM00053090.pdf
+
 0
 16
 16
 digikey-footprints
 TFQFN-24-1EP_4x4mm
-0
-0
+
+
 0
 34
 25
 digikey-footprints
 TFSOP-12-16_W3.00mm
-0
-0
+
+
 0
 12
 12
 digikey-footprints
 TFSOP-16_W3.00mm
-0
-0
+
+
 0
 16
 16
 digikey-footprints
 TLGA-8_3x5
-0
-0
+http://www.nxp.com/docs/en/data-sheet/MPL115A1.pdf
+
 0
 8
 8
 digikey-footprints
 TO-3P-5
-0
-0
+
+
 0
 3
 3
 digikey-footprints
 TO-18-3
-0
-0
+
+
 0
 3
 3
 digikey-footprints
 TO-39-3
-0
-0
+
+
 0
 3
 3
 digikey-footprints
 TO-39-4
-0
-0
+file:///C:/Users/alex_wegscheid/Downloads/MLX90614-Datasheet-Melexis%20(2).pdf
+
 0
 4
 4
 digikey-footprints
 TO-92-3
-0
-0
+http://www.ti.com/lit/ds/symlink/tl431a.pdf
+
 0
 3
 3
 digikey-footprints
 TO-92-3_Formed_Leads
-0
-0
+http://www.ti.com/lit/ds/symlink/tl431a.pdf
+
 0
 3
 3
 digikey-footprints
 TO-204AA
-0
-0
+
+
 0
 4
 3
 digikey-footprints
 TO-220-3
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/f9/ed/f5/44/26/b9/43/a4/CD00000911.pdf/files/CD00000911.pdf/jcr:content/translations/en.CD00000911.pdf
+
 0
 3
 3
 digikey-footprints
 TO-220-5
-0
-0
+http://www.ti.com/lit/ds/symlink/lm1875.pdf
+
 0
 5
 5
 digikey-footprints
 TO-220-11
-0
-0
+http://www.ti.com/lit/ds/symlink/lm3886.pdf
+
 0
 11
 11
 digikey-footprints
 TO-225AA
-0
-0
+https://www.fairchildsemi.com/datasheets/KS/KSA1220A.pdf
+
 0
 3
 3
 digikey-footprints
 TO-243AA
-0
-0
+http://www.digikey.com/products/en?keywords=863-1063-1-ND
+
 0
 4
 4
 digikey-footprints
 TO-247-3
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/ec/61/1c/fd/4c/fe/48/b5/CD00000914.pdf/files/CD00000914.pdf/jcr:content/translations/en.CD00000914.pdf
+
 0
 3
 3
 digikey-footprints
 TO-252-3
-0
-0
+http://www.digikey.com/products/en?keywords=MC7805BDTRKGOSCT-ND
+
 0
 3
 3
 digikey-footprints
 TO-253-4
-0
-0
+https://www.digikey.com/products/en?keywords=1727-3884-1
+
 0
 4
 4
 digikey-footprints
 TO-261-4
-0
-0
+http://cds.linear.com/docs/en/datasheet/3092fc.pdf
+
 0
 4
 4
 digikey-footprints
 TO-269AA
-0
-0
+http://www.mccsemi.com/up_pdf/MB05S-MB10S(MBS-1).pdf
+
 0
 4
 4
 digikey-footprints
 TOP-3_Vertical_Insulated
-0
-0
+
+
 0
 3
 3
 digikey-footprints
 TQFN-20-1EP_5x5mm
-0
-0
+
+
 0
 21
 21
 digikey-footprints
 TQFN-44-1EP_7x7mm
-0
-0
+http://datasheets.maximintegrated.com/en/ds/MAX9744.pdf
+
 0
 45
 45
 digikey-footprints
 TQFP-32_7x7mm
-0
-0
+http://www.atmel.com/Images/Atmel-8826-SEEPROM-PCB-Mounting-Guidelines-Surface-Mount-Packages-ApplicationNote.pdf
+
 0
 32
 32
 digikey-footprints
 TQFP-44_10x10mm
-0
-0
+http://www.atmel.com/Images/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+
 0
 44
 44
 digikey-footprints
 TQFP-48_7x7mm
-0
-0
+http://ww1.microchip.com/downloads/en/DeviceDoc/40001884A.pdf
+
 0
 48
 48
 digikey-footprints
 TQFP-64_7x7mm
-0
-0
+http://www.nuvoton.com/resource-files/DS_NUC100_120%28DN%29_Series_EN_V1.02.pdf
+
 0
 64
 64
 digikey-footprints
 TQFP-100_12x12mm
-0
-0
+http://ww1.microchip.com/downloads/en/DeviceDoc/100L_TQFP_12x12_PT_C04-0100B.pdf
+
 0
 100
 100
 digikey-footprints
 TQFP-100_14x14mm
-0
-0
+http://www.atmel.com/Images/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
+
 0
 100
 100
 digikey-footprints
 TSSOP-8_W3mm
-0
-0
+http://www.ti.com/lit/ds/symlink/ina333.pdf
+
 0
 8
 8
 digikey-footprints
 TSSOP-8_W4.4mm
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/0d/30/c2/1a/92/03/48/cb/CD00287506.pdf/files/CD00287506.pdf/jcr:content/translations/en.CD00287506.pdf
+
 0
 8
 8
 digikey-footprints
 TSSOP-14_W4.4mm
-0
-0
+http://pdfserv.maximintegrated.com/land_patterns/90-0113.PDF
+
 0
 14
 14
 digikey-footprints
 TSSOP-16-1EP_W4.40mm
-0
-0
+
+
 0
 25
 17
 digikey-footprints
 TSSOP-20-1EP_W4.4mm
-0
-0
+
+
 0
 40
 21
 digikey-footprints
 TSSOP-20_W4.4mm
-0
-0
+http://www.ti.com/lit/ds/symlink/txb0108.pdf
+
 0
 20
 20
 digikey-footprints
 TSSOP-24_W4.40mm
-0
-0
+http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+
 0
 24
 24
 digikey-footprints
 TSSOP-28-1EP_W4.40mm
-0
-0
+http://www.ti.com/lit/ds/symlink/tlc5940.pdf
+
 0
 54
 29
 digikey-footprints
 TSSOP-28_W4.40mm
-0
-0
+http://www.ti.com/lit/ds/symlink/tlc5940.pdf
+
 0
 28
 28
 digikey-footprints
 TSSOP-28_W5.60mm
-0
-0
+http://www.cypress.com/file/139881/download
+
 0
 28
 28
 digikey-footprints
 Term_Block_1x2_P5.08MM
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf
+
 0
 2
 2
 digikey-footprints
 Term_Block_1x2_P5mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf
+
 0
 2
 2
 digikey-footprints
 Term_Block_1x2_P10.16mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf
+
 0
 2
 2
 digikey-footprints
 Term_Block_1x3_P5mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf
+
 0
 3
 3
 digikey-footprints
 Term_Block_1x4_P5.08mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf
+
 0
 4
 4
 digikey-footprints
 Term_Block_1x4_P5mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf
+
 0
 4
 4
 digikey-footprints
 Term_Block_1x5_P5.08mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf
+
 0
 5
 5
 digikey-footprints
 Term_Block_1x5_P5mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf
+
 0
 5
 5
 digikey-footprints
 Term_Block_1x6_P5.08mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf
+
 0
 6
 6
 digikey-footprints
 Term_Block_1x6_P5mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf
+
 0
 6
 6
 digikey-footprints
 Term_Block_1x7_P5.08mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf
+
 0
 7
 7
 digikey-footprints
 Term_Block_1x7_P5mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf
+
 0
 7
 7
 digikey-footprints
 Term_Block_1x8_P5.08mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf
+
 0
 8
 8
 digikey-footprints
 Term_Block_1x8_P5mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf
+
 0
 8
 8
 digikey-footprints
 Term_Block_1x10_P5.08mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf
+
 0
 10
 10
 digikey-footprints
 Term_Block_1x12_P5.08mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf
+
 0
 12
 12
 digikey-footprints
 Term_Block_1x12_P5mm
-0
-0
+http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf
+
 0
 12
 12
 digikey-footprints
 Terminal_Block_D1.3mm_P5mm
-0
-0
+https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf
+
 0
 2
 2
 digikey-footprints
 Test-Point-Pin_Drill2.79mm
-0
-0
+
+
 0
 1
 1
 digikey-footprints
 Test_Jack_Horiz
-0
-0
+https://belfuse.com/resources/Johnson/drawings/dr-1051101001.pdf
+
 0
 2
 1
 digikey-footprints
 Test_Point_2.67x1.02mm
-0
-0
+
+
 0
 1
 1
 digikey-footprints
 Test_Point_3.43x1.78mm
-0
-0
+
+
 0
 1
 1
 digikey-footprints
 Test_Point_D1.02mm
-0
-0
+
+
 0
 1
 1
 digikey-footprints
 Thermocouple_Connector_PCC-SMP-K
-0
-0
+
+
 0
 4
 2
 digikey-footprints
 Tilt_Switch_RB-220-07A_R
-0
-0
+http://media.digikey.com/pdf/Data%20Sheets/C&K/RB-220-07A_R.pdf
+
 0
 2
 2
 digikey-footprints
 Toggle_Switch_100SP1T1B4M2QE
-0
-0
+http://spec_sheets.e-switch.com/specs/T111597.pdf
+
 0
 3
 3
 digikey-footprints
 Toggle_Switch_100SP1T2B4M6QE
-0
-0
+
+
 0
 5
 4
 digikey-footprints
 Trans_SOT-223-4
-0
-0
+
+
 0
 4
 3
 digikey-footprints
 Trimpot_3.8mmx3.6mm_TC33X-2-103E
-0
-0
+http://www.bourns.com/docs/Product-Datasheets/TC33.pdf
+
 0
 3
 3
 digikey-footprints
 UDFN-6-1EP_2x2mm
-0
-0
+http://datasheets.maximintegrated.com/en/ds/MAX44009.pdf
+
 0
 7
 7
 digikey-footprints
 UDFN-6-1EP_2x2mm_USON
-0
-0
+
+
 0
 9
 7
 digikey-footprints
 UFBGA_WLCSP-62
-0
-0
+https://www.nordicsemi.com/eng/nordic/download_resource/62726/14/67410332/13358
+
 0
 62
 62
 digikey-footprints
 UFDFN-6_1.45x1mm
-0
-0
+
+
 0
 6
 6
 digikey-footprints
 UFDFN-10_2.5x1mm
-0
-0
+http://www.semtech.com/images/datasheet/rclamp0522p_0524p.pdf
+
 0
 10
 10
 digikey-footprints
 UFQFN-28-1EP_4x4mm
-0
-0
+http://www.semtech.com/images/datasheet/sx150x_89b.pdf
+
 0
 29
 29
 digikey-footprints
 UFQFN-32-1EP_5x5mm
-0
-0
+file:///C:/Users/alex_wegscheid/Downloads/csr1010-data-sheet%20(4).pdf
+
 0
 33
 33
 digikey-footprints
 UMCoax_Pin_1909763-1
-0
-0
+
+
 0
 3
 2
 digikey-footprints
 USB-C_Female_12401X
-0
-0
+https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/12401610E4%232A_Dwg.pdf
+
 0
 28
 25
 digikey-footprints
 USB-C_Female_CX70M-24P1
-0
-0
+
+
 0
 42
 25
 digikey-footprints
 USB-C_Female_E8124-015-01
-0
-0
+https://www.digikey.com/product-detail/en/pulse-electronics-network/E8124-015-01/553-3195-2-ND/5800435
+
 0
 32
 25
 digikey-footprints
 USB-C_Female_Vert_DX07S024WJ3R400
-0
-0
+
+
 0
 28
 25
 digikey-footprints
 USB-C_Male_EdgeMnt_DX07P024AJ1R1500
-0
-0
+
+
 0
 30
 25
 digikey-footprints
 USB-C_Male_EdgeMnt_DX07P024MJ1R1500
-0
-0
+http://www.jae.com/z-en/pdf_download_exec.cfm?param=MB-0301-2E_DX07_PLUG.pdf
+
 0
 32
 25
 digikey-footprints
 USB-C_Rugged_RA_MUSBRM1C1M0
-0
-0
+https://www.amphenolcanada.com/ProductSearch/Drawings/AC/MUSBRM1C1XX.pdf
+
 0
 32
 26
 digikey-footprints
 USB_A_Female_AU-Y1006-3
-0
-0
+
+
 0
 13
 10
 digikey-footprints
 USB_A_Female_E8199-001-01
-0
-0
+file:///C:/Users/chad_rosencrans/Downloads/USB_A_Female_E8199-001-01.pdf
+
 0
 11
 10
 digikey-footprints
 USB_A_Female_UE27AC54100
-0
-0
+
+
 0
 6
 5
 digikey-footprints
 USB_A_Female_Vertical_RA_73725-0110BLF
-0
-0
+http://portal.fciconnect.com/Comergent//fci/drawing/73725.pdf
+
 0
 8
 5
 digikey-footprints
 USB_Male_A_UP2-AH-1-TH
-0
-0
+http://www.cui.com/product/resource/up2-ah-th.pdf
+
 0
 8
 5
 digikey-footprints
 USB_Micro_AB_Female_0475890001
-0
-0
+http://www.molex.com/pdm_docs/sd/475890001_sd.pdf
+
 0
 17
 6
 digikey-footprints
 USB_Micro_A_3.1_Female_GSB443T33HR
-0
-0
+http://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/USB_Micro_A_3.1_Female_GSB443T33HR_Dwg.pdf
+
 0
 16
 11
 digikey-footprints
 USB_Micro_B_Female_10103594-0001LF
-0
-0
+https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
+
 0
 13
 6
 digikey-footprints
 USB_Micro_B_Female_10118192
-0
-0
+http://portal.fciconnect.com/Comergent//fci/drawing/10118192.pdf
+
 0
 11
 6
 digikey-footprints
 USB_Micro_B_Female_10118193-0001LF
-0
-0
+http://portal.fciconnect.com/Comergent//fci/drawing/10118193.pdf
+
 0
 11
 6
 digikey-footprints
 USB_Micro_B_Female_10118194-0001LF
-0
-0
+http://portal.fciconnect.com/Comergent//fci/drawing/10118194.pdf
+
 0
 9
 6
 digikey-footprints
 USB_Micro_B_Female_0473460001
-0
-0
+http://www.molex.com/pdm_docs/sd/473460001_sd.pdf
+
 0
 11
 6
 digikey-footprints
 USB_Micro_B_Female_1050170001
-0
-0
+
+
 0
 17
 6
 digikey-footprints
 USB_Micro_B_Female_Vert_1051330001
-0
-0
+http://www.molex.com/pdm_docs/sd/1051330001_sd.pdf
+
 0
 8
 6
 digikey-footprints
 USB_Micro_B_Male_UJ2-MIBH-4-SMT-TR
-0
-0
+
+
 0
 11
 6
 digikey-footprints
 USB_Mini_B_Female_690-005-299-043
-0
-0
+http://files.edac.net/USB_Mini_B_Female_690-005-299-043.pdf
+
 0
 9
 6
 digikey-footprints
 USB_Mini_B_Female_548190519
-0
-0
+
+
 0
 7
 6
 digikey-footprints
 USB_Mini_B_Female_UJ2-MBH-1-SMT-TR
-0
-0
+
+
 0
 11
 6
 digikey-footprints
 USB_Mini_B_Female_UX60-MB-5ST
-0
-0
+
+
 0
 11
 6
 digikey-footprints
 VFLGA-12_2x2mm
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/54/2a/85/76/e3/97/42/18/DM00075867.pdf/files/DM00075867.pdf/jcr:content/translations/en.DM00075867.pdf
+
 0
 12
 12
 digikey-footprints
 VFLGA-16_3x3mm
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/3c/ae/50/85/d6/b1/46/fe/CD00274221.pdf/files/CD00274221.pdf/jcr:content/translations/en.CD00274221.pdf
+
 0
 16
 16
 digikey-footprints
 VFQFN-16-1EP_3x3mm
-0
-0
+http://www.psemi.com/pdf/datasheets/pe42423ds.pdf
+
 0
 17
 17
 digikey-footprints
 VFQFN-28-1EP_5x5mm
-0
-0
+
+
 0
 29
 29
 digikey-footprints
 VFQFN-40-1EP_6x6mm
-0
-0
+http://www.ti.com/lit/ds/symlink/cc2650.pdf
+
 0
 41
 41
 digikey-footprints
 VFQFN-64-1EP_9x9mm
-0
-0
+http://www.ti.com/lit/ds/symlink/cc3200.pdf
+
 0
 65
 65
 digikey-footprints
 VL53L0CXV0DH_1
-0
-0
+http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/b2/1e/33/77/c6/92/47/6b/DM00279086/files/DM00279086.pdf/jcr:content/translations/en.DM00279086.pdf
+
 0
 12
 12
 digikey-footprints
 VOC_Sensor_LGA-10-1EP-2.7x4mm_CCS811B
-0
-0
+
+
 0
 11
 11
 digikey-footprints
 VQFN-16_3x3mm
-0
-0
+
+
 0
 16
 16
 digikey-footprints
 VQFN-28-1EP_6x6mm
-0
-0
+http://www.semtech.com/images/datasheet/sx1272.pdf
+
 0
 29
 29
 digikey-footprints
 VSON-10-1EP_3x3mm
-0
-0
+
+
 0
 30
 11
 digikey-footprints
 WFDFN-6_1.5x1.5mm
-0
-0
+
+
 0
 6
 6
 digikey-footprints
 WFDFN-8-1EP_3x3mm
-0
-0
+
+
 0
 9
 9
 digikey-footprints
 WFDFN-14-1EP_3x3mm
-0
-0
+http://pdfserv.maximintegrated.com/land_patterns/90-0063.PDF
+
 0
 15
 15
 digikey-footprints
 WFQFN-10_2x2mm
-0
-0
+
+
 0
 10
 10
 digikey-footprints
 WFQFN-38-1EP_5x7mm
-0
-0
+http://cds.linear.com/docs/en/datasheet/4020fd.pdf
+
 0
 39
 39
 digikey-footprints
 WIFI_Module_ATWINC1500-MR210PB
-0
-0
+http://ww1.microchip.com/downloads/en/DeviceDoc/70005304A.pdf
+
 0
 29
 29
 digikey-footprints
 WIFI_Module_ESP8266_2491
-0
-0
+http://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/ESP-12S_UM%20_Rev1.0_8-1-16.pdf
+
 0
 16
 16
 digikey-footprints
 WIFI_Module_WF111-E-V1
-0
-0
+http://media.digikey.com/pdf/Data%20Sheets/BlueGiga%20PDFs/WF111.pdf
+
 0
 33
 33
 digikey-footprints
 WIFI_Module_WF121-A-V2
-0
-0
+
+
 0
 55
 55
 digikey-footprints
 WQFN-16-1EP_4x4mm
-0
-0
+http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf
+
 0
 17
 17
 digikey-footprints
 WQFN-20-1EP_4x4mm
-0
-0
+http://www.ti.com/lit/ds/symlink/tpa2016d2.pdf
+
 0
 50
 21
 digikey-footprints
 WQFN-24-1EP_4x4mm
-0
-0
+
+
 0
 25
 25
 digikey-footprints
+WS2812B
+
+
+0
+4
+4
+digikey-footprints
 WSON-8_2x2mm
-0
-0
+http://www.ti.com/lit/ds/symlink/drv8837.pdf
+
 0
 11
 9
 digikey-footprints
 WiFi_Module_MRF24WG0MA
-0
-0
+
+
 0
 36
 36
 digikey-footprints
 Wifi_Module_ESP8266_WRL-13678
-0
-0
+
+
 0
 8
 8
 digikey-footprints
 Wifi_Module_RN171
-0
-0
+
+
 0
 52
 50
 digikey-footprints
 WizNet_Module_WIZ810MJ
-0
-0
+http://wiznethome.cafe24.com/wp-content/uploads/wiznethome/Network%20Module/WIZ8XXMJ/Document/WIZ810MJ_DS_V130E.pdf
+
 0
 56
 56
 digikey-footprints
 XBEE-20_THT
-0
-0
+https://www.digi.com/pdf/ds_xbeemultipointmodules.pdf
+
 0
 20
 20
 digikey-footprints
 XBEE_PRO-20_THT
-0
-0
+
+
 0
 20
 20
 digikey-footprints
 XBEE_and_XBEE-PRO_37_SMD
-0
-0
+
+
 0
 74
 37
 digikey-footprints
 XDFN-2_1x0.60mm
-0
-0
+
+
 0
 2
 2
 digikey-footprints
 Zigbee_Module_MRF24J40MA
-0
-0
+http://ww1.microchip.com/downloads/en/DeviceDoc/70329b.pdf
+
 0
 12
 12
 digikey-footprints
 Zigbee_Module_MRF24J40MD
+
+
 0
-0
-0
+12
+12

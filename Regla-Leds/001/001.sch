@@ -167,7 +167,7 @@ Wire Wire Line
 	5925 3750 5775 3750
 Wire Wire Line
 	5925 4150 5775 4150
-Text Label 5775 3450 2    50   ~ 0
+Text Label 5275 4075 2    50   ~ 0
 VCC
 $Comp
 L power:GND #PWR05
@@ -182,11 +182,11 @@ F 3 "" H 5775 4200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5775 4150 5775 4200
-Text Label 5775 3550 2    50   ~ 0
+Text Label 5775 3450 2    50   ~ 0
 Port_A
-Text Label 5775 3650 2    50   ~ 0
+Text Label 5775 3550 2    50   ~ 0
 Port_B
-Text Label 5775 3750 2    50   ~ 0
+Text Label 5775 3650 2    50   ~ 0
 Port_C
 Text Notes 1725 850  0    79   ~ 0
 Leds
@@ -262,22 +262,11 @@ F 3 "~" H 1400 2175 50  0001 C CNN
 	1    1400 2175
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J2
-U 1 1 5D9985A9
-P 6125 3750
-F 0 "J2" H 6205 3742 50  0000 L CNN
-F 1 "Conn_01x08" H 6205 3651 50  0000 L CNN
-F 2 "Reverse_Mount_Leds:1x08_P2.54mm_Vertical" H 6125 3750 50  0001 C CNN
-F 3 "~" H 6125 3750 50  0001 C CNN
-	1    6125 3750
-	1    0    0    -1  
-$EndComp
-Text Label 5925 3850 2    50   ~ 0
+Text Label 5775 3750 2    50   ~ 0
 Led_1
-Text Label 5925 3950 2    50   ~ 0
+Text Label 5775 3850 2    50   ~ 0
 Led_2
-Text Label 5925 4050 2    50   ~ 0
+Text Label 5775 3950 2    50   ~ 0
 Led_3
 Text Notes 5700 900  0    79   ~ 0
 Neo Pixels
@@ -405,4 +394,21 @@ F 3 "" H 7650 3675 50  0001 C CNN
 	1    7650 3675
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 5D99DEAA
+P 6125 3850
+F 0 "J?" H 6205 3892 50  0000 L CNN
+F 1 "Conn_01x09" H 6205 3801 50  0000 L CNN
+F 2 "" H 6125 3850 50  0001 C CNN
+F 3 "~" H 6125 3850 50  0001 C CNN
+	1    6125 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5925 3850 5775 3850
+Wire Wire Line
+	5925 3950 5775 3950
+Wire Wire Line
+	5925 4050 5775 4050
 $EndSCHEMATC

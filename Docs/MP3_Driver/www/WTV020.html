@@ -1,0 +1,891 @@
+
+<!DOCTYPE html>
+<html lang="en-US"
+	itemscope 
+	itemtype="http://schema.org/WebSite" 
+	prefix="og: http://ogp.me/ns#" >
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://www.toughdev.com/content/xmlrpc.php" />
+<title>Experimenting with the WTV020 voice playback module | ToughDev</title>
+          <script>
+            (function(d){
+              var js, id = 'powr-js', ref = d.getElementsByTagName('script')[0];
+              if (d.getElementById(id)) {return;}
+              js = d.createElement('script'); js.id = id; js.async = true;
+              js.src = '//www.powr.io/powr.js';
+              js.setAttribute('powr-token','QgTnqKYA0w1457078354');
+              js.setAttribute('external-type','wordpress');
+              ref.parentNode.insertBefore(js, ref);
+            }(document));
+          </script>
+          
+<!-- All in One SEO Pack 2.3.9.2 by Michael Torbert of Semper Fi Web Design[349,418] -->
+<meta name="description"  content="I recently bought a WTV020 module from eBay, advertised as 'MP3 VOICE SD CARD VOICE MODULE U-DISK AUDIO PLAYER WTV020-SD' in one of the ads, in the hope that it" />
+
+<link rel="canonical" href="http://www.toughdev.com/content/2013/03/experimenting-with-the-wtv020-voice-playback-module/" />
+<meta property="og:title" content="Experimenting with the WTV020 voice playback module | ToughDev" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.toughdev.com/content/2013/03/experimenting-with-the-wtv020-voice-playback-module/" />
+<meta property="og:image" content="http://www.toughdev.com/content/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png" />
+<meta property="og:site_name" content="ToughDev" />
+<meta property="og:description" content="I recently bought a WTV020 module from eBay, advertised as &#039;MP3 VOICE SD CARD VOICE MODULE U-DISK AUDIO PLAYER WTV020-SD&#039; in one of the ads, in the hope that it would allow me to develop my own SD-card MP3 player using a PIC18/PIC24 micro-controller. Unfortunately, I was in for a disappointment as soon as I read the datasheet...The module works on 3.3V and has two operating modes. The first is a propietary serial mode where commands are sent via a 2-line (DATA, CLOCK) serial connection. And the second mode is referred to the datasheet as an &#039;MP3&#039; mode, which allows the usage of the module for playback without the need of a micro-controller:Basically this mode allows the module to be operated directly just by connecting signals to the volume, next/previous, play/pause pins. The module would look up the supported tracks (either WAV or AD4) on the SD card and play them in order. This mode makes the module look like an MP3 player (or so the seller thought), and therefore the item is" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Experimenting with the WTV020 voice playback module | ToughDev" />
+<meta name="twitter:description" content="I recently bought a WTV020 module from eBay, advertised as &#039;MP3 VOICE SD CARD VOICE MODULE U-DISK AUDIO PLAYER WTV020-SD&#039; in one of the ads, in the hope that it would allow me to develop my own SD-card MP3 player using a PIC18/PIC24 micro-controller. Unfortunately, I was in for a disappointment as soon as I read the datasheet...The module works on 3.3V and has two operating modes. The first is a propietary serial mode where commands are sent via a 2-line (DATA, CLOCK) serial connection. And the second mode is referred to the datasheet as an &#039;MP3&#039; mode, which allows the usage of the module for playback without the need of a micro-controller:Basically this mode allows the module to be operated directly just by connecting signals to the volume, next/previous, play/pause pins. The module would look up the supported tracks (either WAV or AD4) on the SD card and play them in order. This mode makes the module look like an MP3 player (or so the seller thought), and therefore the item is" />
+<meta name="twitter:image" content="http://www.toughdev.com/content/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png" />
+<meta itemprop="image" content="http://www.toughdev.com/content/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png" />
+<!-- /all in one seo pack -->
+<link rel="alternate" type="application/rss+xml" title="ToughDev &raquo; Feed" href="http://www.toughdev.com/content/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ToughDev &raquo; Comments Feed" href="http://www.toughdev.com/content/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ToughDev &raquo; Experimenting with the WTV020 voice playback module Comments Feed" href="http://www.toughdev.com/content/2013/03/experimenting-with-the-wtv020-voice-playback-module/feed/" />
+<link rel='stylesheet' id='TheStyleSheets-css'  href='http://www.toughdev.com/content/wp-content/plugins/asm-brush/style.css?ver=4.1.27' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-language-css'  href='http://www.toughdev.com/content/wp-content/plugins/wordpress-language/res/css/style.css?ver=1.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ap-front-styles-css'  href='http://www.toughdev.com/content/wp-content/plugins/accesspress-anonymous-post/css/frontend-style.css?ver=2.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='lightbox-css'  href='http://www.toughdev.com/content/wp-content/plugins/accesspress-instagram-feed/css/lightbox.css?ver=2.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-theme-css'  href='http://www.toughdev.com/content/wp-content/plugins/accesspress-instagram-feed/css/owl.theme.css?ver=2.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='http://www.toughdev.com/content/wp-content/plugins/accesspress-instagram-feed/css/owl.carousel.css?ver=2.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='apif-frontend-css-css'  href='http://www.toughdev.com/content/wp-content/plugins/accesspress-instagram-feed/css/frontend.css?ver=2.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='apsc-font-awesome-css'  href='http://www.toughdev.com/content/wp-content/plugins/accesspress-instagram-feed/css/font-awesome.min.css?ver=2.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='apif-gridrotator-css'  href='http://www.toughdev.com/content/wp-content/plugins/accesspress-instagram-feed/css/gridrotator.css?ver=2.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='apsc-frontend-css-css'  href='http://www.toughdev.com/content/wp-content/plugins/accesspress-social-counter/css/frontend.css?ver=1.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='aps-animate-css-css'  href='http://www.toughdev.com/content/wp-content/plugins/accesspress-social-icons/css/animate.css?ver=1.4.9' type='text/css' media='all' />
+<link rel='stylesheet' id='aps-frontend-css-css'  href='http://www.toughdev.com/content/wp-content/plugins/accesspress-social-icons/css/frontend.css?ver=1.4.9' type='text/css' media='all' />
+<link rel='stylesheet' id='apss-font-awesome-css'  href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css?ver=4.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='apss-font-opensans-css'  href='//fonts.googleapis.com/css?family=Open+Sans&#038;ver=4.1.27' type='text/css' media='all' />
+<link rel='stylesheet' id='apss-frontend-css-css'  href='http://www.toughdev.com/content/wp-content/plugins/accesspress-social-share/css/frontend.css?ver=4.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='aptf-bxslider-css'  href='http://www.toughdev.com/content/wp-content/plugins/accesspress-twitter-feed/css/jquery.bxslider.css?ver=1.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='aptf-front-css-css'  href='http://www.toughdev.com/content/wp-content/plugins/accesspress-twitter-feed/css/frontend.css?ver=1.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='aptf-font-css-css'  href='http://www.toughdev.com/content/wp-content/plugins/accesspress-twitter-feed/css/fonts.css?ver=1.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.toughdev.com/content/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://www.toughdev.com/content/wp-includes/css/dashicons.min.css?ver=4.1.27' type='text/css' media='all' />
+<link rel='stylesheet' id='post-views-counter-frontend-css'  href='http://www.toughdev.com/content/wp-content/plugins/post-views-counter/css/frontend.css?ver=4.1.27' type='text/css' media='all' />
+<link rel='stylesheet' id='tiptipcss-css'  href='http://www.toughdev.com/content/wp-content/plugins/pricing-table/css/site/tipTip.css?ver=4.1.27' type='text/css' media='all' />
+<link rel='stylesheet' id='rfw-style-css'  href='http://www.toughdev.com/content/wp-content/plugins/rss-feed-widget/style.css?ver=4.1.27' type='text/css' media='all' />
+<link rel='stylesheet' id='rfw-slider-style-css'  href='http://www.toughdev.com/content/wp-content/plugins/rss-feed-widget/jquery.bxslider.css?ver=4.1.27' type='text/css' media='all' />
+<link rel='stylesheet' id='sswpds-styles-css'  href='http://www.toughdev.com/content/wp-content/plugins/social-share-by-wp-dev-shed/sswpds-style.css?ver=4.1.27' type='text/css' media='all' />
+<link rel='stylesheet' id='ufbl-custom-select-css-css'  href='http://www.toughdev.com/content/wp-content/plugins/ultimate-form-builder-lite/css/jquery.selectbox.css?ver=1.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='ufbl-front-css-css'  href='http://www.toughdev.com/content/wp-content/plugins/ultimate-form-builder-lite/css/frontend.css?ver=1.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wsi-css'  href='http://www.toughdev.com/content/wp-content/plugins/wp-social-invitations/public/assets/css/wsi-public.css?ver=2.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='colormag_google_fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C600&#038;ver=4.1.27' type='text/css' media='all' />
+<link rel='stylesheet' id='colormag_style-css'  href='http://www.toughdev.com/content/wp-content/themes/colormag/style.css?ver=4.1.27' type='text/css' media='all' />
+<link rel='stylesheet' id='colormag-fontawesome-css'  href='http://www.toughdev.com/content/wp-content/themes/colormag/fontawesome/css/font-awesome.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='recent-posts-widget-with-thumbnails-public-style-css'  href='http://www.toughdev.com/content/wp-content/plugins/recent-posts-widget-with-thumbnails/public.css?ver=4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='arpw-style-css'  href='http://www.toughdev.com/content/wp-content/plugins/advanced-random-posts-widget/assets/css/arpw-frontend.css?ver=4.1.27' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-popular-posts-css'  href='http://www.toughdev.com/content/wp-content/plugins/wordpress-popular-posts/style/wpp.css?ver=3.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='post-ratings-raty-css'  href='http://www.toughdev.com/content/wp-content/plugins/post-ratings/assets/jquery.raty.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://www.toughdev.com/content/wp-content/plugins/jetpack/css/jetpack.css?ver=3.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/accesspress-instagram-feed/js/modernizr.custom.26633.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/accesspress-instagram-feed/js/jquery.gridrotator.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/accesspress-instagram-feed/js/owl.carousel.js?ver=4.1.27'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/accesspress-instagram-feed/js/frontend.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/accesspress-social-icons/js/frontend.js?ver=1.4.9'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/accesspress-twitter-feed/js/jquery.bxslider.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/accesspress-twitter-feed/js/frontend.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/pricing-table/js/site/icon.js?ver=4.1.27'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/pricing-table/js/site/jquery.tipTip.minified.js?ver=4.1.27'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/rss-feed-widget/functions.js?ver=4.1.27'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/rss-feed-widget/jquery.bxslider.js?ver=4.1.27'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/social-share-by-wp-dev-shed/js/sswpds-scripts.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/ultimate-form-builder-lite/js/jquery.selectbox-0.2.min.js?ver=1.1.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var frontend_js_obj = {"default_error_message":"This field is required","ajax_url":"http:\/\/www.toughdev.com\/content\/wp-admin\/admin-ajax.php","ajax_nonce":"0473e8abcd"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/ultimate-form-builder-lite/js/frontend.js?ver=1.1.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WsiMyAjax = {"login_url":"http:\/\/www.toughdev.com\/content\/wp-login.php","site_url":"http:\/\/www.toughdev.com\/content\/","admin_url":"http:\/\/www.toughdev.com\/content\/wp-admin\/admin-ajax.php","nonce":"c50a8413b5","locale":"en-US","appId":"368730756639229","fburl":"site_url","fbCustomurl":"","redirect_url":"","wsi_obj_id":"2263","current_url":"http:\/\/www.toughdev.com\/content\/2013\/03\/experimenting-with-the-wtv020-voice-playback-module\/","user_id":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/wp-social-invitations/public/assets/js/wsi-public.js?ver=2.0.2'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/themes/colormag/js/colormag-custom.js?ver=4.1.27'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.toughdev.com/content/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.toughdev.com/content/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.1.27" />
+<link rel='shortlink' href='http://wp.me/p5TiUW-Av' />
+
+<style type="text/css">
+
+.related_posts_rpw_main_image {
+
+	
+	float:left;
+	
+	margin: 0px 10px 0px 0px;    padding: 0px;
+}
+
+.related_posts_rpw_main_image img{
+
+    background: none repeat scroll 0 0 #FFFFFF;
+
+    margin: 0px 0px 0px 0px;
+
+    padding: 0px;
+
+}
+
+.related_posts_rpw_main_image a img{
+
+//border: 3px solid #f5f5f5;
+
+}
+
+
+.related_posts_rpw_main_image img {
+
+position: relative;
+
+-webkit-box-shadow: 0 0 5px #666666;// Safari and chrome
+
+-khtml-box-shadow: 0 0 5px #666666;// Linux browsers
+
+behavior: url(ie-css3.htc);
+
+-moz-box-shadow: 0px 0px 5px #666666;
+
+box-shadow: 0px 0px 5px #666666;
+
+z-index: 2;
+
+behavior: url(http://www.toughdev.com/content/wp-content/plugins/advanced-css3-related-posts-widget/ie-css3.htc);
+
+}
+
+
+
+
+	.related_posts_rpw_main_image img {
+
+		-webkit-border-radius: 45px;// Safari and chrome
+		
+		-khtml-border-radius: 45px;// Linux browsers
+		
+		behavior: url(ie-css3.htc);
+		
+		-moz-border-radius: 45px;
+		
+		border-radius: 45px;
+		
+		behavior: url(http://www.toughdev.com/content/wp-content/plugins/advanced-css3-related-posts-widget/ie-css3.htc);}
+
+
+.imgshadow_light {
+
+    background: none repeat scroll 0 0 #FFFFFF;
+
+    border: 1px solid #777777;
+
+    box-shadow: 0 0 5px #666666;
+
+}
+
+.related_posts_rpw_time {
+
+	position: absolute;display: block;
+
+	color: #CCCCCC;direction: ltr;font: 13px/28px sans-serif;z-index: 1;right: 15px;top: 0px;
+
+	text-align: right;
+
+	width: 120px;
+
+}
+
+#related_posts_rpw h3{
+
+	text-align:left;
+
+	direction:ltr;
+
+	font-size: 14px;
+
+	border: medium none;
+
+	padding: 0px;
+
+	margin: 0px;
+
+}
+
+#related_posts_rpw ul h3{
+
+	width:88%;
+
+}
+#related_posts_rpw
+{
+	text-align: center;
+	display: table;
+}
+.related_posts_rpw_main_content {
+
+		direction:ltr;
+	text-align: ltr;
+
+}
+
+.related_posts_rpw_main_content p{
+
+	$rpw_image_direction = $rpw_related_posts_settings['rpw_image_direction'];
+
+	text-align:left;
+
+	color:#4c4c4c;
+	
+	$rpw_text_direction = $rpw_related_posts_settings['rpw_text_direction'];
+
+	direction:ltr;
+	
+	margin: 0px 0px 2px 0px;
+
+}
+
+#related_posts_rpw ul{
+
+	margin:0px;
+
+	padding: 0 8px;
+	
+	justify-content: flex-start  flex-end  center   space-between  space-around;
+}
+
+#related_posts_rpw li{
+
+	display: block;
+	border-bottom: 1px dotted #CCCCCC;
+	margin: 0 0 6px;
+
+	padding: 0 0 6px;
+
+
+}
+
+#related_posts_rpw li:after{
+
+	clear: both;
+
+	content: ".";
+
+	display: block;
+
+	height: 0;
+
+	line-height: 0;
+
+	visibility: hidden;
+
+}
+#related_posts_rpw li img{
+
+	border: 1px solid #EEEEEE;
+
+    //float: left;
+
+    margin-right: 2px;
+
+    padding: 3px;
+    
+    width: 40px;
+    
+    height: 40px;
+}
+
+#entry-meta-span {
+
+    background: none repeat scroll 0 0 #000000;
+
+    color: #CCCCCC;
+
+    display: block;
+
+    font-size: 11px;
+
+    height: 20px;
+
+    margin: -95px 470px 0;
+
+    opacity: 0.55;
+
+    position: relative;
+
+    text-align: center;
+
+    width: 100%;
+
+    z-index: 99;
+
+    border-radius: 15px 15px 15px 15px;
+
+    -moz-border-radius: 15px 15px 15px 15px;
+
+    -webkit-border-radius: 15px 15px 15px 15px;
+
+    -khtmlborder-radius: 15px 15px 15px 15px;
+
+}
+
+.credit-span,.credit-span a{
+
+color:#8B8B8B;
+
+font-size: 9pt;
+
+text-align:right;
+
+text-decoration:none;
+
+}
+
+//#related_posts_rpw li:hover{background:#F9F9F9;-moz-transition: all 0.3s ease-out 0s;}
+
+</style>
+
+<link rel='stylesheet' type='text/css' media='all' href='http://www.toughdev.com/content?action=display_custom_css_code' >          <style>
+          .has-post-thumbnail img.wp-post-image{ display: none !important; }
+          </style>		<script type="text/javascript">
+            var _statcounter = _statcounter || [];
+            _statcounter.push({"tags": {"author": "mdanh2002"}});
+        </script>
+	           <script language="JavaScript">
+            var wppt_url = "http://www.toughdev.com/content/wp-content/plugins/pricing-table/";
+        </script>
+    <script>
+		jQuery( document ).ready( function( $ ){
+			$p = $( '#url' ).parent();
+			$( '#url, label[for=url]' ).remove();
+			$p
+				.filter( function() { return $( this ).text().trim().length; } )
+				.remove()
+			;
+		});
+	</script><script type='text/javascript'>
+                    var cwpCustomBarIcon = '';
+                    var isSetToPro = '';
+                    var trackcolor = '#ebebeb';
+                </script>
+<link rel='dns-prefetch' href='//i0.wp.com'>
+<link rel='dns-prefetch' href='//i1.wp.com'>
+<link rel='dns-prefetch' href='//i2.wp.com'>
+<style type='text/css'>img#wpstats{display:none}</style><link rel="shortcut icon" href="http://www.toughdev.com/content/wp-content/uploads/2016/10/favicon.png" type="image/x-icon" />	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+				<!-- WordPress Popular Posts v3.3.4 -->
+				<script type="text/javascript">
+
+					var sampling_active = 0;
+					var sampling_rate   = 100;
+					var do_request = false;
+
+					if ( !sampling_active ) {
+						do_request = true;
+					} else {
+						var num = Math.floor(Math.random() * sampling_rate) + 1;
+						do_request = ( 1 === num );
+					}
+
+					if ( do_request ) {
+
+						/* Create XMLHttpRequest object and set variables */
+						var xhr = ( window.XMLHttpRequest )
+						  ? new XMLHttpRequest()
+						  : new ActiveXObject( "Microsoft.XMLHTTP" ),
+						url = 'http://www.toughdev.com/content/wp-admin/admin-ajax.php',
+						params = 'action=update_views_ajax&token=a25ad3b500&wpp_id=2263';
+						/* Set request method and target URL */
+						xhr.open( "POST", url, true );
+						/* Set request header */
+						xhr.setRequestHeader( "Content-type", "application/x-www-form-urlencoded" );
+						/* Hook into onreadystatechange */
+						xhr.onreadystatechange = function() {
+							if ( 4 === xhr.readyState && 200 === xhr.status ) {
+								if ( window.console && window.console.log ) {
+									window.console.log( xhr.responseText );
+								}
+							}
+						};
+						/* Send request */
+						xhr.send( params );
+
+					}
+
+				</script>
+				<!-- End WordPress Popular Posts v3.3.4 -->
+				<style type="text/css" id="syntaxhighlighteranchor"></style>
+
+<style id="custom-css-css">/*
+Welcome to Custom CSS!
+
+CSS (Cascading Style Sheets) is a kind of code that tells the browser how
+to render a web page. You may delete these comments and get started with
+your customizations.
+
+By default, your stylesheet will be loaded after the theme stylesheets,
+which means that your rules can take precedence and override the theme CSS
+rules. Just write here what you want to change, you don't need to copy all
+your theme's stylesheet content.
+*/</style>
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Experimenting with the WTV020 voice playback module"><meta name="twitter:description" content="I recently bought a WTV020 module from eBay, advertised as &#039;MP3 VOICE SD CARD VOICE MODULE U-DISK AUDIO PLAYER WTV020-SD&#039;&hellip;">
+<meta name="twitter:partner" content="tfwp"></head>
+
+<body class="single single-post postid-2263 single-format-standard  wide">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header clearfix">
+		<div id="header-text-nav-container" class="clearfix">
+         
+			
+			<div class="inner-wrap">
+
+				<div id="header-text-nav-wrap" class="clearfix">
+					<div id="header-left-section">
+												<div id="header-text" class="">
+                                             <h3 id="site-title">
+                           <a href="http://www.toughdev.com/content/" title="ToughDev" rel="home">ToughDev</a>
+                        </h3>
+                     							                        <p id="site-description">We Love Technical Sharing!</p>
+                     <!-- #site-description -->
+						</div><!-- #header-text -->
+					</div><!-- #header-left-section -->
+					<div id="header-right-section">
+									    	</div><!-- #header-right-section -->
+
+			   </div><!-- #header-text-nav-wrap -->
+
+			</div><!-- .inner-wrap -->
+
+			
+			<nav id="site-navigation" class="main-navigation clearfix" role="navigation">
+				<div class="inner-wrap clearfix">
+					               <h4 class="menu-toggle"></h4>
+               <div class="menu-primary-container"><ul id="menu-menu-1" class="menu"><li id="menu-item-966" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-966"><a href="http://www.toughdev.com/content/">Home</a></li>
+<li id="menu-item-2797" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2797"><a href="http://www.toughdev.com/content/category/development/software/">Software Development</a></li>
+<li id="menu-item-2798" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2798"><a href="http://www.toughdev.com/content/category/electronics/hardware/">Hardware</a></li>
+<li id="menu-item-2799" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2799"><a href="http://www.toughdev.com/content/category/research/vintage-computing/">Vintage Computing</a></li>
+<li id="menu-item-2801" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2801"><a href="http://www.toughdev.com/content/terms-of-use">Terms Of Use</a></li>
+</ul></div>                              				</div>
+			</nav>
+
+		</div><!-- #header-text-nav-container -->
+
+		
+	</header>
+			<div id="main" class="clearfix">
+		<div class="inner-wrap clearfix">
+	
+	<div id="primary">
+		<div id="content" class="clearfix">
+
+			
+				
+<article id="post-2263" class="post-2263 post type-post status-publish format-standard has-post-thumbnail hentry category-hardware">
+	
+   
+         <div class="featured-image">
+                           </div>
+   
+   <div class="article-content clearfix">
+
+   
+   <div class="above-entry-meta"><span class="cat-links"><a href="http://www.toughdev.com/content/category/electronics/hardware/"  rel="category tag">Hardware</a>&nbsp;</span></div>
+      <header class="entry-header">
+   		<h1 class="entry-title">
+   			Experimenting with the WTV020 voice playback module   		</h1>
+   	</header>
+
+   	<div class="below-entry-meta">
+      <span class="posted-on"><a href="http://www.toughdev.com/content/2013/03/experimenting-with-the-wtv020-voice-playback-module/" title="1:03 am" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2013-03-21T01:03:00+00:00">March 21, 2013</time></a></span>
+      <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.toughdev.com/content/author/toughdev/" title="ToughDev">ToughDev</a></span></span>
+
+               <span class="comments"><a href="http://www.toughdev.com/content/2013/03/experimenting-with-the-wtv020-voice-playback-module/#respond" title="Comment on Experimenting with the WTV020 voice playback module"><i class="fa fa-comment"></i> 0 Comment</a></span>
+      </div>
+   	<div class="entry-content clearfix">
+   		
+<div class="post-ratings" data-post="2263">
+	
+	<div class="rating" data-post="2263" data-rating="0" data-readonly="0"></div>
+
+	<div class="rating-meta">
+		<strong>0.00</strong> avg. rating (<strong>0</strong>% score) - <strong class="votes">0</strong> votes	</div>
+
+</div><p>I recently bought a WTV020 module from eBay, advertised as &#8216;MP3 VOICE SD CARD VOICE MODULE U-DISK AUDIO PLAYER WTV020-SD&#8217; in one of the ads, in the hope that it would allow me to develop my own SD-card MP3 player using a PIC18/PIC24 micro-controller. Unfortunately, I was in for a disappointment as soon as I read the datasheet&#8230;</p>
+<p>The module works on 3.3V and has two operating modes. The first is a propietary serial mode where commands are sent via a 2-line (DATA, CLOCK) serial connection. And the second mode is referred to the datasheet as an &#8216;MP3&#8242; mode, which allows the usage of the module for playback without the need of a micro-controller:</p>
+<div style="clear: both; text-align: center;"><a href="http://i2.wp.com/4.bp.blogspot.com/-Zm7SBNAfaGo/Uf_YfZLqUrI/AAAAAAAAAUY/BmP6lmi1cCg/s1600/serialmp3.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://i1.wp.com/4.bp.blogspot.com/-Zm7SBNAfaGo/Uf_YfZLqUrI/AAAAAAAAAUY/BmP6lmi1cCg/s1600/serialmp3.png?w=800" data-recalc-dims="1" /></a></div>
+<p>Basically this mode allows the module to be operated directly just by connecting signals to the volume, next/previous, play/pause pins. The module would look up the supported tracks (either WAV or AD4) on the SD card and play them in order. This mode makes the module look like an MP3 player (or so the seller thought), and therefore the item is advertised as an MP3 module! There is actually no support for playback of an MP3-formatted file, as mentioned in the item title. Should I consider this false advertising?</p>
+<p>Anyway, after an initial disappoinment, I proceed with testing nevertheless and below are some of my observations:
+<ol>
+<li>Audio playback is via pulse width modulation (PWM), hence the quality is poor. Adequate for low quality voice, but definitely not for music.&nbsp;</li>
+<li>Only small size SD cards (32MB, 64MB, 128MB) seem to work well. Cards with larger capacity (256MB and above) tend to work inconsistently or do not work at all.</li>
+<li>Despite the schematic showing a direct connection with a speaker from the SPK+ and SPK- pins, you&#8217;ll definitely need an amplifier such as LM386 (or a <a href="http://en.wikipedia.org/wiki/Crystal_earpiece">crystal earpiece</a>), before you&#8217;ll be able to hear anything. </li>
+</ol>
+<p>I have not yet had the time to try the serial mode for playback on this module yet. Or perhaps my time should be better spent on figuring out how to get a free sample of the &#8216;real&#8217; <span><a href="http://www.st.com/web/catalog/sense_power/FM125/CL935/SC527/PF66143">STA013 </a>MP3 player IC from STMicroelectronics and get it to work. All of my attempts to submit a free samples order, however, have been rejected.&nbsp;</span></p>
+<p><b><span>See also:</span></b><br /><span><a href="http://www.toughdev.com/2013/10/interfacing-vs1053-audio-encoderdecoder.html">Interfacing VS1053 audio encoder/decoder module with PIC using SPI</a> </span></p>
+<div class='apss-social-share apss-theme-1 clearfix' >
+
+
+				<div class='apss-facebook apss-single-icon'>
+					<a rel='nofollow' title="Share on Facebook" target='_blank' href='https://www.facebook.com/sharer/sharer.php?u=http://www.toughdev.com/content/2013/03/experimenting-with-the-wtv020-voice-playback-module/'>
+						<div class='apss-icon-block clearfix'>
+							<i class='fa fa-facebook'></i>
+							<span class='apss-social-text'>Share on Facebook</span>
+							<span class='apss-share'>Share</span>
+						</div>
+											</a>
+				</div>
+								<div class='apss-twitter apss-single-icon'>
+					<a rel='nofollow' title="Share on Twitter" target='_blank' href="https://twitter.com/intent/tweet?text=Experimenting%20with%20the%20WTV020%20voice%20playback%20module&amp;url=http%3A%2F%2Fwww.toughdev.com%2Fcontent%2F2013%2F03%2Fexperimenting-with-the-wtv020-voice-playback-module%2F&amp;">
+						<div class='apss-icon-block clearfix'>
+							<i class='fa fa-twitter'></i>
+							<span class='apss-social-text'>Share on Twitter</span><span class='apss-share'>Tweet</span>
+						</div>
+											</a>
+				</div>
+								<div class='apss-google-plus apss-single-icon'>
+					<a rel='nofollow' title="Share on Google Plus" target='_blank' href='https://plus.google.com/share?url=http://www.toughdev.com/content/2013/03/experimenting-with-the-wtv020-voice-playback-module/'>
+						<div class='apss-icon-block clearfix'>
+							<i class='fa fa-google-plus'></i>
+							<span class='apss-social-text'>Share on Google Plus</span>
+							<span class='apss-share'>Share</span>
+						</div>
+											</a>
+				</div>
+				
+				<div class='apss-pinterest apss-single-icon'>
+					<a rel='nofollow' title="Share on Pinterest" href='javascript:pinIt();'>
+						<div class='apss-icon-block clearfix'>
+							<i class='fa fa-pinterest'></i>
+							<span class='apss-social-text'>Share on Pinterest</span>
+							<span class='apss-share'>Share</span>
+						</div>
+						
+					</a>
+				</div>
+				
+				<div class='apss-linkedin apss-single-icon'>
+					<a rel='nofollow' title="Share on LinkedIn" target='_blank' href='http://www.linkedin.com/shareArticle?mini=true&amp;title=Experimenting%20with%20the%20WTV020%20voice%20playback%20module&amp;url=http://www.toughdev.com/content/2013/03/experimenting-with-the-wtv020-voice-playback-module/&amp;summary=I recently bought a WTV020 module from eBay, advertised as 'MP3 VOICE SD CARD VOICE MODULE U-DISK AU...'>
+						<div class='apss-icon-block clearfix'><i class='fa fa-linkedin'></i>
+							<span class='apss-social-text'>Share on LinkedIn</span>
+							<span class='apss-share'>Share</span>
+						</div>
+											</a>
+				</div>
+								<div class='apss-digg apss-single-icon'>
+					<a rel='nofollow' title="Share on Digg" target='_blank' href='http://digg.com/submit?phase=2%20&amp;url=http://www.toughdev.com/content/2013/03/experimenting-with-the-wtv020-voice-playback-module/&amp;title=Experimenting%20with%20the%20WTV020%20voice%20playback%20module'>
+						<div class='apss-icon-block clearfix'>
+							<i class='fa fa-digg'></i>
+							<span class='apss-social-text'>Share on Digg</span>
+							<span class='apss-share'>Share</span>
+						</div>
+					</a>
+				</div>
+
+				</div>
+<div class="post-ratings" data-post="2263">
+	
+	<div class="rating" data-post="2263" data-rating="0" data-readonly="0"></div>
+
+	<div class="rating-meta">
+		<strong>0.00</strong> avg. rating (<strong>0</strong>% score) - <strong class="votes">0</strong> votes	</div>
+
+</div>   	</div>
+
+   </div>
+
+	</article>
+			
+		</div><!-- #content -->
+
+      
+		<ul class="default-wp-page clearfix">
+			<li class="previous"><a href="http://www.toughdev.com/content/2013/02/3cx-call-data-record-cdr-output-file-format/" rel="prev"><span class="meta-nav">&larr;</span> 3CX Call Data Record (CDR) output file format</a></li>
+			<li class="next"><a href="http://www.toughdev.com/content/2013/04/ramsey-tv6c-analog-television-transmitter-kit/" rel="next">Ramsey TV6C Analog Television Transmitter Kit <span class="meta-nav">&rarr;</span></a></li>
+		</ul>
+	
+               <div class="author-box">
+            <div class="author-img"><img src="http://i1.wp.com/www.toughdev.com/content/wp-content/uploads/2015/03/sunset.png?fit=100%2C100" width="" height="" alt="ToughDev" class="avatar avatar-100 wp-user-avatar wp-user-avatar-100 alignnone photo" /></div>
+               <h4 class="author-name">ToughDev</h4>
+               <p class="author-description">A tough developer who likes to work on just about anything, from software development to electronics, and share his knowledge with the rest of the world.</p>
+         </div>
+      
+      
+      
+<div id="comments" class="comments-area">
+
+	
+	
+	
+									<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/content/2013/03/experimenting-with-the-wtv020-voice-playback-module/#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="http://www.toughdev.com/content/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+																			<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p>							<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" aria-describedby="email-notes" aria-required='true' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" /></p>
+												<p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-describedby="form-allowed-tags" aria-required="true"></textarea></p>						<p class="form-allowed-tags" id="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></p>						<p class="form-submit">
+							<input name="submit" type="submit" id="submit" class="submit" value="Post Comment" />
+							<input type='hidden' name='comment_post_ID' value='2263' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+						<div class="g-recaptcha" data-sitekey="6Lfo6QITAAAAAADkJRWx3ooUSGESGrf2arrDz_82" data-theme="standard"></div><script type="text/javascript"src="https://www.google.com/recaptcha/api.js?hl=en"></script>            <div id="recaptcha-submit-btn-area">&nbsp;</div>
+            <noscript>
+            <style type='text/css'>#submit {display:none;}</style>
+            <input name="submit" type="submit" id="submit-alt" tabindex="6"
+                value="Submit Comment"/> 
+            </noscript><p class="comment-subscription-form"><input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-label" for="subscribe_comments">Notify me of follow-up comments by email.</label></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog">Notify me of new posts by email.</label></p>					</form>
+							</div><!-- #respond -->
+			
+</div><!-- #comments -->
+	</div><!-- #primary -->
+
+	
+<div id="secondary">
+			
+		<aside id="search-2" class="widget widget_search clearfix"><form action="http://www.toughdev.com/content/" class="search-form searchform clearfix" method="get">
+   <div class="search-wrap">
+      <input type="text" placeholder="Search" class="s field" name="s">
+      <button class="search-icon" type="submit"></button>
+   </div>
+</form><!-- .searchform --></aside><aside id="facebook-like-box" class="widget widget_flb clearfix"><h3 class="widget-title"><span></span></h3><iframe src="http://www.facebook.com/plugins/fan.php?id=368730756639229&amp;width=300&amp;connections=10&amp;stream=false&amp;header=false&amp;locale=en_US" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:300px; height:220px"></iframe></aside><aside id="enhancedtextwidget-9" class="widget widget_text enhanced-text-widget clearfix"><div class="textwidget widget-text"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- minhdanh2002_main_Blog1_300x250_as -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-1480532782670969"
+     data-ad-slot="2038167451"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></aside><aside id="enhancedtextwidget-7" class="widget widget_text enhanced-text-widget clearfix"><div class="textwidget widget-text"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- link_ad -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:90px"
+     data-ad-client="ca-pub-1480532782670969"
+     data-ad-slot="1861540658"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></aside><aside id="enhancedtextwidget-12" class="widget widget_text enhanced-text-widget clearfix"><div class="textwidget widget-text"><a class="twitter-timeline" data-chrome="nofooter transparent" data-width="320" data-height="320" href="https://twitter.com/mrtoughdev">Tweets by mrtoughdev</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br/>
+<a href="https://twitter.com/mrtoughdev" class="twitter-follow-button" data-show-count="false">Follow @mrtoughdev</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div></aside><aside id="recent-comments-2" class="widget widget_recent_comments clearfix"><h3 class="widget-title"><span>Recent Comments</span></h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Massimo</span> on <a href="http://www.toughdev.com/content/2018/05/3cx-call-control-api-on-3cx-phone-system-version-15/comment-page-1/#comment-160226">3CX Call Control API on 3CX Phone System version 15</a></li><li class="recentcomments"><span class="comment-author-link">NJA</span> on <a href="http://www.toughdev.com/content/2015/03/exploring-amd-geode-lx-tr2350-mini-x86-compatible-motherboard/comment-page-1/#comment-160205">AMD Geode LX TR2350 mini x86-compatible motherboard</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.toughdev.com' rel='external nofollow' class='url'>ToughDev</a></span> on <a href="http://www.toughdev.com/content/2015/03/exploring-amd-geode-lx-tr2350-mini-x86-compatible-motherboard/comment-page-1/#comment-160204">AMD Geode LX TR2350 mini x86-compatible motherboard</a></li><li class="recentcomments"><span class="comment-author-link">NJA</span> on <a href="http://www.toughdev.com/content/2015/03/exploring-amd-geode-lx-tr2350-mini-x86-compatible-motherboard/comment-page-1/#comment-160196">AMD Geode LX TR2350 mini x86-compatible motherboard</a></li><li class="recentcomments"><span class="comment-author-link">isa adpater</span> on <a href="http://www.toughdev.com/content/2017/08/habey-bis-6620-intel-atom-z510-fanless-embedded-pc/comment-page-1/#comment-160160">Habey BIS-6620 Intel Atom Z510 Fanless Embedded PC</a></li></ul></aside><aside id="arpw-widget-3" class="widget arpw-widget-random clearfix"><h3 class="widget-title"><span>Random</span></h3><div class="arpw-random-post "><ul class="arpw-ul"><li class="arpw-li arpw-clearfix"><a class="arpw-title" href="http://www.toughdev.com/content/2015/04/exploring-ibm-bluemix-part-1-creating-your-first-web-app/" rel="bookmark">Exploring IBM Bluemix &#8211; Part 1: Creating your first web app</a></li><li class="arpw-li arpw-clearfix"><a class="arpw-title" href="http://www.toughdev.com/content/2011/09/blogspot-bug-google-share-button-and-google-friend-connect-widget/" rel="bookmark">Blogspot bug: Google+ Share button and Google Friend Connect widget</a></li><li class="arpw-li arpw-clearfix"><a class="arpw-title" href="http://www.toughdev.com/content/2010/07/intercept-incoming-sms-message-on-htc-phones-with-htc-sense/" rel="bookmark">Intercept incoming SMS message on HTC Phones with HTC Sense</a></li><li class="arpw-li arpw-clearfix"><a class="arpw-title" href="http://www.toughdev.com/content/2009/04/useful-conversion-in-c/" rel="bookmark">Useful Conversion in C++</a></li><li class="arpw-li arpw-clearfix"><a class="arpw-title" href="http://www.toughdev.com/content/2013/07/converting-an-outlook-form-template-oft-to-a-net-windows-form-in-visual-studio/" rel="bookmark">Converting an Outlook Form Template (OFT) to a .NET Windows form in Visual Studio</a></li></ul></div><!-- Generated by https://wordpress.org/plugins/advanced-random-posts-widget/ --></aside><aside id="enhancedtextwidget-10" class="widget widget_text enhanced-text-widget clearfix"><div class="textwidget widget-text"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- link_ad -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:90px"
+     data-ad-client="ca-pub-1480532782670969"
+     data-ad-slot="1861540658"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></aside><aside id="meta-2" class="widget widget_meta clearfix"><h3 class="widget-title"><span>Tools</span></h3>			<ul>
+						<li><a href="http://www.toughdev.com/content/wp-login.php">Log in</a></li>
+			<li><a href="http://www.toughdev.com/content/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://www.toughdev.com/content/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+</aside><aside id="enhancedtextwidget-2" class="widget widget_text enhanced-text-widget clearfix"><div class="textwidget widget-text"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- minhdanh2002_main_Blog1_300x250_as -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-1480532782670969"
+     data-ad-slot="2038167451"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<br/>
+<br/>
+<a href="http://www.ontoplist.com/blogs/toughdev-we-love-technical-sharing_586914ba17eb1/" target="_blank"><img src="http://www.ontoplist.com/images/ontoplist30.png?id=586914ba17eb1" alt="ToughDev - We Love Technical Sharing! - Blog Directory OnToplist.com" border="0" /></a>
+<br/>
+<br/>
+<a target="_blank" href="http://www.blogtopsites.com/"><img style="border:none;" src="http://www.blogtopsites.com/v_225377.gif" alt="blog search engine" /></a><br /><a target="_blank" href="http://www.blogtopsites.com" style="font-size:10px;">blog search engine</a></div></aside>
+	</div>
+	
+
+		</div><!-- .inner-wrap -->
+	</div><!-- #main -->
+         <div class="advertisement_above_footer">
+         <div class="inner-wrap">
+            <aside id="enhancedtextwidget-5" class="widget widget_text enhanced-text-widget clearfix"><div class="textwidget widget-text"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- text_responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1480532782670969"
+     data-ad-slot="9384807456"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<br/>
+<br/></div></aside>         </div>
+      </div>
+   			<footer id="colophon" class="clearfix">
+			
+			<div class="footer-socket-wrapper clearfix">
+				<div class="inner-wrap">
+					<div class="footer-socket-area">
+                  <div class="footer-socket-right-section">
+   						                  </div>
+                  <div class="footer-socket-left-sectoin">
+   						<div class="copyright">Copyright &copy; 2019 <a href="http://www.toughdev.com/content/" title="ToughDev" ><span>ToughDev</span></a>. All rights reserved.<br>Theme: ColorMag by <a href="http://themegrill.com/themes/colormag" target="_blank" title="ThemeGrill" rel="designer"><span>ThemeGrill</span></a>. Powered by <a href="http://wordpress.org" target="_blank" title="WordPress"><span>WordPress</span></a>.</div>                  </div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<a href="#masthead" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+	</div><!-- #page -->
+	    <!-- Start of StatCounter Code -->
+    <script>
+    <!-- 
+        var sc_project=5892721; 
+        var sc_security="004d1333"; 
+        var scJsHost = (("https:" == document.location.protocol) ?
+        "https://secure." : "http://www.");
+    //-->
+document.write("<sc"+"ript src='" +scJsHost +"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web analytics" href="https://statcounter.com/"><img class="statcounter" src="https://c.statcounter.com/5892721/0/004d1333/0/" alt="web analytics" /></a></div></noscript>   
+    <!-- End of StatCounter Code -->
+        <script language="JavaScript">
+            jQuery(function(){
+                jQuery(".wppttip").tipTip({defaultPosition:'bottom'});
+            });
+
+        </script>
+    	<style type="text/css">
+
+
+		@media (min-width: 820px) {
+			#review-statistics .review-wrap-up .review-wu-left .rev-wu-image, #review-statistics .review-wrap-up .review-wu-left .review-wu-grade { height:173.2px;}
+
+			#review-statistics .review-wrap-up .review-wu-left .review-wu-grade .cwp-review-chart .cwp-review-percentage {
+
+				margin-top: 16.32%;
+			}
+
+			#review-statistics .review-wrap-up .review-wu-left .review-wu-grade .cwp-review-chart span {
+				font-size: 35px;
+			}
+
+			
+		}
+		
+		#review-statistics .review-wrap-up div.cwpr-review-top { border-top: 5px solid #3BAEDA;  }
+		.user-comments-grades .comment-meta-grade-bar,
+		#review-statistics  .review-wu-bars ul li{
+			background: #E1E2E0;
+		}
+
+		#review-statistics .rev-option.customBarIcon ul li {
+			color: #E1E2E0;
+		}
+
+	
+		#review-statistics .review-wrap-up .review-wu-right ul li,#review-statistics  .review-wu-bars h3, .review-wu-bars span,#review-statistics .review-wrap-up .cwpr-review-top .cwp-item-category a{
+			color:  #3D3D3D;
+		}
+		#review-statistics .review-wrap-up .review-wu-right .pros h2 {
+			color:  #8DC153;
+		}
+		#review-statistics .review-wrap-up .review-wu-right .cons h2{
+			color:  #C15353;
+		}
+		div.affiliate-button a{
+			border:  2px solid  #3BAEDA;
+		}
+		div.affiliate-button a:hover{
+			border:  2px solid  #3BAEDA;
+		}
+		div.affiliate-button a{
+			background:  #ffffff;
+		}
+		div.affiliate-button a:hover{
+			background:  #3BAEDA;
+		}
+		div.affiliate-button a span{
+			color:  #3BAEDA;
+		}
+		div.affiliate-button a:hover span{
+			color:  #FFFFFF;
+		}
+				div.affiliate-button a span {
+			background:url("http://www.toughdev.com/content/wp-content/plugins/wp-product-review/images/cart-icon.png") no-repeat left center;
+		}
+		div.affiliate-button a:hover span{
+			background:url("http://www.toughdev.com/content/wp-content/plugins/wp-product-review/images/cart-icon-hover.png") no-repeat left center;
+		}
+		
+			</style>
+	<script type="text/javascript">
+		var c1 = "#FF7F66";
+		var c2 = "#FFCE55";
+		var c3 = "#50C1E9";
+		var c4 = "#8DC153";
+	</script>
+		<div style="display:none">
+	<div class="grofile-hash-map-5df33389bc926fcc2f98714ea45cfda3">
+	</div>
+	</div>
+            <script type="text/javascript">
+            var sub = document.getElementById('submit');
+            document.getElementById('recaptcha-submit-btn-area').appendChild (sub);
+            document.getElementById('submit').tabIndex = 6;
+            if ( typeof _recaptcha_wordpress_savedcomment != 'undefined') {
+                document.getElementById('comment').value = 
+                    _recaptcha_wordpress_savedcomment;
+            }
+            </script><script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ap_form_required_message = "This field is required";
+var ap_captcha_error_message = "Sum is not correct.";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/accesspress-anonymous-post/js/frontend.js?ver=2.5.1'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/accesspress-instagram-feed/js/lightbox.js?ver=2.8.1'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/accesspress-instagram-feed/js/isotope.pkgd.min.js?ver=2.2.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var frontend_ajax_object = {"ajax_url":"http:\/\/www.toughdev.com\/content\/wp-admin\/admin-ajax.php","ajax_nonce":"293b444e53"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/accesspress-social-share/js/frontend.js?ver=4.0.6'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.toughdev.com\/content\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.4'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201940'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2019Octaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.1.27'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/themes/colormag/js/jquery.bxslider.min.js?ver=4.1.2'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/themes/colormag/js/colormag-slider-setting.js?ver=4.1.27'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/themes/colormag/js/navigation.js?ver=4.1.27'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/themes/colormag/js/fitvids/jquery.fitvids.js?ver=20150311'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/themes/colormag/js/fitvids/fitvids-setting.js?ver=20150311'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var post_ratings = {"ajaxURL":"http:\/\/www.toughdev.com\/content\/wp-admin\/admin-ajax.php","nonce":"72876e88ad","path":"http:\/\/www.toughdev.com\/content\/wp-content\/plugins\/post-ratings\/assets\/images\/","number":"5"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/post-ratings/js/post-ratings.js?ver=3.0'></script>
+<script type='text/javascript' src='http://www.toughdev.com/content/wp-content/plugins/post-ratings/assets/jquery.raty.js?ver=3.0'></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+jQuery(document).ready( function($) {
+	$("ul.menu").not(":has(li)").closest('div').prev('h3.widget-title').hide();
+});
+/* ]]> */
+</script><script type='text/javascript' src='http://stats.wp.com/e-201940.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.4',blog:'87062442',post:'2263',tz:'8'} ]);
+	_stq.push([ 'clickTrackerInit', '87062442', '2263' ]);
+</script>
+</body>
+</html>
+<!-- Dynamic page generated in 1.194 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2019-10-02 10:30:21 -->
+
+<!-- super cache -->
