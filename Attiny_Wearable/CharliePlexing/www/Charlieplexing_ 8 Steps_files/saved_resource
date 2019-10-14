@@ -1,0 +1,21 @@
+
+var ftGUID_3623389="42110F5074CE91";
+var ftConfID_3623389="0";
+var ftParams_3623389="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_ifb=1&ft_domain=www.instructables.com&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.instructables.com%2Fid%2FControlling-20-Leds-from-5-Arduino-pins-using-Cha%2F&ft_section=__49152643421200883831022484286383636289&cachebuster=542660.8623698406";
+var ftKeyword_3623389="";
+var ftCustom_3623389="";
+var ftSection_3623389="__49152643421200883831022484286383636289";
+var ftSegment_3623389="";
+var ftSegmentList_3623389=[];
+var ftRuleMatch_3623389="0";
+var ftTimestamp_3623389="1570914178";
+var ftImp3623389 = {};
+ftImp3623389.privacy = "x";
+ftImp3623389.guidAge = "91";
+ftImp3623389.impID = "6FC04F77-C8FC-E171-7069-A5A9E38F58EB";
+ftImp3623389.duid = "FT:42110F5074CE91";
+
+ftImp3623389.ft_tpplid = "";
+ftImp3623389.ft_c = {};
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/362/3623389/2560382/js/j-3623389-2560382.js" id="ftscript_m3623389" name="ftscript_m3623389"></scr'+'ipt>');

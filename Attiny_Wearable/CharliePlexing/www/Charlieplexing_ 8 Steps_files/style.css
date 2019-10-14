@@ -1,0 +1,1494 @@
+/*v9*/
+/* @font-face {
+    font-family: 'FuturaND';
+    src: url('fonts/futura.woff');
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'TradeGothic';
+    src: url('fonts/TradeGothicforNike365-BdCn.woff');
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: "Helvetica Neue LT W05_55 Roman";
+    src: url("fonts/08edde9d-c27b-4731-a27f-d6cd9b01cd06.woff");
+    font-weight: 400;
+    font-style: normal;
+} */
+@font-face {
+            font-family: 'FuturaND';
+            src: url('fonts/371DFC_1_0.eot');
+            src: url('fonts/371DFC_1_0.eot?#iefix') format('embedded-opentype'),
+                 url('fonts/371DFC_1_0.woff2') format('woff2'),
+                 url('fonts/371DFC_1_0.woff') format('woff'),
+                 url('fonts/371DFC_1_0.ttf') format('truetype'),
+                 url('fonts/371DFC_1_0.svg#371DFC_1_0') format('svg');
+        }
+        
+        @font-face {
+            font-family: 'TradeGothic';
+            src: url('fonts/371DFC_4_0.eot');
+            src: url('fonts/371DFC_4_0.eot?#iefix') format('embedded-opentype'),
+                 url('fonts/371DFC_4_0.woff2') format('woff2'),
+                 url('fonts/371DFC_4_0.woff') format('woff'),
+                 url('fonts/371DFC_4_0.ttf') format('truetype'),
+                 url('fonts/371DFC_4_0.svg#371DFC_4_0') format('svg');
+        }
+        @font-face {
+            font-family: 'Helvetica Neue LT W05_55 Roman';
+            src: url('fonts/Helvetica LT_0.eot');
+            src: url('fonts/Helvetica LT_0.eot?#iefix') format('embedded-opentype'),
+                 url('fonts/Helvetica LT_0.woff2') format('woff2'),
+                 url('fonts/HelveticaLT.woff') format('woff'),
+                 url('fonts/HelveticaLT.ttf') format('truetype'),
+                 url('fonts/HelveticaLT.svg#HelveticaLT') format('svg');
+        }
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+div {
+    filter: none;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+    image-rendering: optimizeQuality;
+    image-rendering: smooth;
+
+
+
+
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#footer_ {
+    width: 300px;
+    height: 100%;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #262626;
+    background-image: url('logo_arrows.png');
+    background-size: 100%;
+}
+
+.background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.backup {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.xm {
+    position: absolute;
+    width: 108%;
+    height: auto;
+    top:50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+/*@media all and (-ms-high-contrast:none) {
+
+    *::-ms-backdrop,
+    .xm {
+        left: -2px;
+        width: 100%;
+    }
+    *::-ms-backdrop,
+    #xm1, #xmc1 {
+        left: 0px;
+        height: 170%;
+    }
+}*/
+
+.pix {
+    overflow: hidden;
+}
+
+p.name {
+    position: absolute;
+    text-transform: uppercase;
+    /*top: 13px;*/
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 200px;
+    max-height: 20px;
+    font-family: 'TradeGothic';
+    font-size: 15px;
+    color: #FFFFFF;
+    /*overflow: hidden;*/
+    border: 1px solid transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.name span {
+    font-family: "Helvetica Neue LT W05_55 Roman";
+    font-size: 0.6em;
+    line-height: 1;
+    display: block;
+    padding-top: 5px;
+}
+
+.verticalAlign {
+    position: relative;
+    top: 50%;
+    -webkit-transform: perspective(1px) translateY(-50%);
+    transform: perspective(1px) translateY(-50%);
+}
+
+#priceContainer {
+    position: absolute;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    top: 0px;
+}
+
+p.category {
+    position: absolute;
+    top: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 200px;
+    max-height: 19px;
+    font-family: 'Helvetica', Arial;
+    font-size: 10px;
+    color: #FFFFFF;
+    /*overflow: hidden;*/
+    border: 1px solid transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div.product {
+    position: absolute;
+    top: 32px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 225px;
+    height: 11px;
+    font-family: 'Helvetica', Arial;
+    color: #FFFFFF;
+    font-size: 11px;
+    /*overflow: hidden;*/
+}
+
+div.price {
+    position: absolute;
+    text-transform: uppercase;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 225px;
+    font-family: "Helvetica Neue LT W05_55 Roman";
+    font-size: 12px;
+    color: #FFFFFF;
+    /*overflow: hidden;*/
+    margin-top: 5px;
+}
+
+.price span {
+    text-decoration: line-through;
+}
+
+` .ab {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.op0 {
+    opacity: 0;
+}
+
+#p1,
+#p21 {
+    clip: rect(0px, 200px, 40px, 0px);
+}
+
+#p1_price {
+    clip: rect(0px, 200px, 40px, 0px);
+}
+
+#p2,
+#p3,
+#p22,
+#p23 {
+    /*background: red;*/
+    clip: rect(40px, 200px, 40px, 0px);
+}
+
+#p2_price,
+#p3_price {
+    /*background: green;*/
+    clip: rect(40px, 200px, 40px, 0px);
+}
+
+img {
+    top: 0px;
+    left: -10%;
+    position: absolute;
+    height: 110%;
+}
+
+.pix {
+    overflow: hidden;
+}
+.report{
+    display: none;
+}
+#load {
+
+    width: 300px;
+    height: 600px;
+    background: #262626;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+
+}
+
+#cta {
+    position: absolute;
+    width: 100px;
+    height: 23px;
+    background: white;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 66px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    border-radius: 2px 2px 2px 2px;
+    color: #262626;
+
+}
+
+#cta p {
+
+
+    font-family: 'TradeGothic';
+    font-size: 13px;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+
+    margin-top: -1px;
+    color: #262626;
+    position: relative;
+    top: 50%;
+
+    -webkit-transform: translateY(-50%);
+
+    -ms-transform: translateY(-50%);
+
+    transform: translateY(-50%);
+
+    max-width: 90px;
+    max-height: 15px;
+
+    border: 1px solid transparent;
+}
+
+#banner {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+
+    width: 300px;
+    cursor: pointer;
+    height: 600px;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    background: #f5f5f5;
+    border: 1px solid #262626;
+}
+
+#container {
+
+    width: 300px;
+    height: 600px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    background: #f5f5f5;
+}
+
+#one {
+    width: 149px;
+    height: 175px;
+    background: #f5f5f5;
+    position: absolute;
+
+    left: 0px;
+    overflow: hidden;
+
+    -webkit-box-pack: center;
+
+    -webkit-justify-content: center;
+
+    -ms-flex-pack: center;
+
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#one .content {
+    width: 149px;
+    height: 56%;
+    background: #f5f5f5;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    overflow: hidden;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*background: url('http://splashpreviews.com/jobs/358788/im3.jpg');*/
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#oneclone {
+    width: 300px;
+    height: 300px;
+    background: #f5f5f5;
+    position: absolute;
+    left: -300px;
+    top: 177px;
+    overflow: hidden;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /*border:3px solid red;*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /*background-attachment: fix;*/
+
+}
+
+#oneclone .content {
+    width: 300px;
+    height: 56%;
+    background: #f5f5f5;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*background: url('http://splashpreviews.com/jobs/358788/im3.jpg');*/
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#two {
+    width: 149px;
+    height: 175px;
+    background: #f5f5f5;
+    position: absolute;
+    left: 151px;
+    top: 0;
+    overflow: hidden;
+    /*display: flex;*/
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* align horizontal */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* align vertical */
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    /*background-size:auto;*/
+
+    background-attachment: fix;
+    z-index: 10;
+}
+
+#two_content {
+    width: 149px;
+    height: 175px;
+    background: #f5f5f5;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    overflow: hidden;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* align horizontal */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* align vertical */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*background: url('http://splashpreviews.com/jobs/358788/im2.jpg');*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    /*background-size:auto;*/
+    background-attachment: fix;
+    z-index: 10;
+}
+
+#twoclone {
+    width: 300px;
+    height: 300px;
+    background: #f5f5f5;
+    position: absolute;
+    left: -300px;
+    top: 177px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* align horizontal */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* align vertical */
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto;
+    /*background: url('http://splashpreviews.com/jobs/358788/im2.jpg');*/
+
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    -webkit-background-size: cover;
+
+    background-size: cover;
+    background-attachment: fix;
+    z-index: 10;
+}
+
+
+#three {
+    width: 300px;
+    height: 300px;
+    background: #f5f5f5;
+    position: absolute;
+    left: 0px;
+    top: 177px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* align horizontal */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* align vertical */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto;
+    /*background: url('http://splashpreviews.com/jobs/358788/im1.jpg');*/
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fix;
+    z-index: 6;
+}
+
+#threeclone {
+    width: 300px;
+    height: 300px;
+    background: #f5f5f5;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* align horizontal */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* align vertical */
+    /*border:3px solid green;*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*background: url('http://splashpreviews.com/jobs/358788/im1.jpg');*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fix;
+    z-index: 6;
+}
+
+
+#four {
+    width: 149px;
+    height: 175px;
+    background: #f5f5f5;
+    position: absolute;
+    left: -150px;
+    top: 0px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fix;
+    z-index: 20;
+
+
+}
+
+#four .content {
+    width: 149px;
+    height: 56%;
+    background: #f5f5f5;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    overflow: hidden;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*background: url('http://splashpreviews.com/jobs/358788/im3_red.jpg');*/
+    background-position: center center;
+    -webkit-background-size: 150px 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fourclone {
+    width: 300px;
+    height: 300px;
+    background: #f5f5f5;
+    position: absolute;
+    left: -300px;
+    top: 177px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* align horizontal */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+
+
+
+
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fix;
+
+}
+
+#fourclone .content {
+    width: 300px;
+    height: 56%;
+    background: #f5f5f5;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+
+    -webkit-box-pack: center;
+
+    -webkit-justify-content: center;
+
+    -ms-flex-pack: center;
+
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+    /* background: url('http://splashpreviews.com/jobs/358788/im3_red.jpg');*/
+
+
+
+
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+#five {
+    width: 149px;
+    height: 175px;
+    background: #f5f5f5;
+    position: absolute;
+    left: 300px;
+    top: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fix;
+}
+
+#five .content {
+    width: 149px;
+    height: 175px;
+    background: #f5f5f5;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fix;
+}
+
+
+#fiveclone {
+    width: 300px;
+    height: 300px;
+    background: #f5f5f5;
+    position: absolute;
+    left: -300px;
+    top: 177px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* align horizontal */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* align vertical */
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    -webkit-background-size: cover;
+
+    background-size: cover;
+    background-attachment: fix;
+    z-index: 10;
+}
+
+#six {
+    width: 300px;
+    height: 300px;
+    background: #f5f5f5;
+    position: absolute;
+    left: 300px;
+    top: 177px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* align horizontal */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* align vertical */
+    /*border:3px solid blue;*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fix;
+    z-index: 10;
+}
+
+#sixclone {
+    width: 300px;
+    height: 300px;
+    background: #f5f5f5;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* align horizontal */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* align vertical */
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    -webkit-background-size: cover;
+
+    background-size: cover;
+    background-attachment: fix;
+    z-index: 6
+}
+
+/* */
+
+
+#seven {
+    width: 149px;
+    height: 175px;
+    background: #f5f5f5;
+    position: absolute;
+    left: -150px;
+    top: 0px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fix;
+    z-index: 20;
+
+}
+
+#seven .content {
+
+    width: 149px;
+    height: 56%;
+    background: #f5f5f5;
+    position: absolute;
+
+    left: 0px;
+    top: 0;
+    overflow: hidden;
+
+    -webkit-box-pack: center;
+
+    -webkit-justify-content: center;
+
+    -ms-flex-pack: center;
+
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+#sevenclone {
+    width: 300px;
+    height: 300px;
+    background: #f5f5f5;
+    position: absolute;
+    left: -300px;
+    top: 177px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* align horizontal */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+
+
+
+
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fix;
+
+}
+
+#sevenclone .content {
+    width: 300px;
+    height: 56%;
+    background: #f5f5f5;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+
+    -webkit-box-pack: center;
+
+    -webkit-justify-content: center;
+
+    -ms-flex-pack: center;
+
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+#eight {
+    width: 149px;
+    height: 175px;
+    background: #f5f5f5;
+    position: absolute;
+    left: 300px;
+    top: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fix;
+}
+
+#eight .content {
+    width: 149px;
+    height: 175px;
+    background: #f5f5f5;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+    /*background: url('https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/ohqmm7jlsqmympoyr2ar/sportswear-t-shirt-LSG446.jpg');*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fix;
+}
+
+
+#eightclone {
+    width: 300px;
+    height: 300px;
+    background: #f5f5f5;
+    position: absolute;
+    left: -300px;
+    top: 177px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* align horizontal */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* align vertical */
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto;
+    /*background: url('https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/ohqmm7jlsqmympoyr2ar/sportswear-t-shirt-LSG446.jpg');*/
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    -webkit-background-size: cover;
+
+    background-size: cover;
+    background-attachment: fix;
+    z-index: 10;
+}
+
+#nine {
+    width: 300px;
+    height: 300px;
+    background: #f5f5f5;
+    position: absolute;
+    left: 300px;
+    top: 177px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* align horizontal */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* align vertical */
+    /*border:3px solid blue;*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    -webkit-background-size: cover;
+
+    background-size: cover;
+    background-attachment: fix;
+    z-index: 10;
+}
+
+#nineclone {
+    width: 300px;
+    height: 300px;
+    background: #f5f5f5;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* align horizontal */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* align vertical */
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+    /*background: url('https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/eq5tbao9a6pymczcnzxi/sportswear-t-shirt-LSG446.jpg');*/
+
+
+
+
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    -webkit-background-size: cover;
+
+    background-size: cover;
+    background-attachment: fix;
+    z-index: 6
+}
+
+
+
+/* */
+
+.strap {
+    width: 100%;
+    height: 44%;
+    background: #262626;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid #f5f5f5;
+    font-family: FuturaND;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    z-index: 30;
+
+}
+
+.strap p {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-48%);
+    -ms-transform: translateY(-48%);
+    transform: translateY(-48%);
+    max-height: 50px;
+    max-width: 140px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.sale {
+    background-color: #e76029;
+    font-size: 20px;
+}
+
+/*#two strap {
+ opacity:0;
+}*/
+
+
+
+#two .strap,
+#five .strap,
+#eight .strap {
+    bottom: -45%;
+}
+
+
+#foot {
+    position: absolute;
+
+    bottom: 0px;
+    width: 300px;
+    height: 120px;
+}
+
+
+
+#right {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    left: 30px;
+    top: 22px;
+    z-index: 100;
+    cursor: pointer;
+
+}
+
+#left {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    left: 254px;
+    top: 22px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#controls {
+    position: absolute;
+    left: 350px;
+    top: 20px;
+}
