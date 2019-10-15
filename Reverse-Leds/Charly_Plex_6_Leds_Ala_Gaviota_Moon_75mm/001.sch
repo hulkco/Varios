@@ -195,7 +195,7 @@ F 3 "" H 10750 1125 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Digispark:Conn_01x06_x03 J2
+L 001-rescue:Conn_01x06_x03-Digispark J2
 U 1 1 5DA5B104
 P 1825 1900
 F 0 "J2" H 1775 3025 50  0000 L CNN
