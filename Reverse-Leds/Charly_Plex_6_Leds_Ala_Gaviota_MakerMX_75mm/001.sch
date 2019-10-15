@@ -97,12 +97,12 @@ $EndComp
 $Comp
 L 001-rescue:PCB-Reverse_mount_leds U2
 U 1 1 5D927C25
-P 10325 1600
-F 0 "U2" H 10424 1646 50  0000 L CNN
-F 1 "Firma" H 10424 1555 50  0000 L CNN
-F 2 "Reverse_Mount_Leds:firma_Cu_Mask" H 10325 1600 50  0001 C CNN
-F 3 "" H 10325 1600 50  0001 C CNN
-	1    10325 1600
+P 10000 1575
+F 0 "U2" H 10099 1621 50  0000 L CNN
+F 1 "Firma" H 10099 1530 50  0000 L CNN
+F 2 "Reverse_Mount_Leds:firma_Cu_Mask" H 10000 1575 50  0001 C CNN
+F 3 "" H 10000 1575 50  0001 C CNN
+	1    10000 1575
 	1    0    0    -1  
 $EndComp
 Text Label 1200 1450 2    50   ~ 0
@@ -231,12 +231,12 @@ NoConn ~ 2125 2100
 $Comp
 L 001-rescue:PCB-Reverse_mount_leds U1
 U 1 1 5DA40039
-P 10325 1350
-F 0 "U1" H 10424 1396 50  0000 L CNN
-F 1 "PCB" H 10424 1305 50  0000 L CNN
-F 2 "Reverse_Mount_Leds:Moon_6_Leds_75_2" H 10325 1350 50  0001 C CNN
-F 3 "" H 10325 1350 50  0001 C CNN
-	1    10325 1350
+P 10000 1325
+F 0 "U1" H 10099 1371 50  0000 L CNN
+F 1 "PCB" H 10099 1280 50  0000 L CNN
+F 2 "Reverse_Mount_Leds:Moon_6_Leds_75_2" H 10000 1325 50  0001 C CNN
+F 3 "" H 10000 1325 50  0001 C CNN
+	1    10000 1325
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -349,5 +349,27 @@ F 2 "Reverse_Mount_Leds:SunLed_PLCC_Reverse-2" H 7050 1625 50  0001 C CNN
 F 3 "~" H 7050 1625 50  0001 C CNN
 	1    7050 1625
 	0    -1   -1   0   
+$EndComp
+$Comp
+L 001-rescue:PCB-Reverse_mount_leds U?
+U 1 1 5DA53F91
+P 10000 2075
+F 0 "U?" H 10099 2121 50  0000 L CNN
+F 1 "Firma" H 10099 2030 50  0000 L CNN
+F 2 "Reverse_Mount_Leds:firma_Cu_Mask" H 10000 2075 50  0001 C CNN
+F 3 "" H 10000 2075 50  0001 C CNN
+	1    10000 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L 001-rescue:PCB-Reverse_mount_leds U?
+U 1 1 5DA53F9B
+P 10000 1825
+F 0 "U?" H 10099 1871 50  0000 L CNN
+F 1 "PCB" H 10099 1780 50  0000 L CNN
+F 2 "Reverse_Mount_Leds:Moon_6_Leds_75_2" H 10000 1825 50  0001 C CNN
+F 3 "" H 10000 1825 50  0001 C CNN
+	1    10000 1825
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
