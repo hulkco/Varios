@@ -1,4 +1,4 @@
-16363312641749543
+16377455491268477
 Attiny85
 Attiny85_Socket_Castell_Down
 Through hole straight socket strip, 1x4, 2.54mm pitch
@@ -27,6 +27,69 @@ Integrated Circuit
 0
 8
 8
+Attiny85_01
+Attiny85_Socket_Castell_Down
+Through hole straight socket strip, 1x4, 2.54mm pitch
+Through hole socket strip THT 1x4 2.54mm single row
+0
+8
+4
+Attiny85_01
+Attiny85_Socket_Castell_Square_Down
+Through hole straight socket strip, 1x4, 2.54mm pitch
+Through hole socket strip THT 1x4 2.54mm single row
+0
+8
+4
+Attiny85_01
+Attiny85_Socket_Castell_Square_Up
+Through hole straight socket strip, 1x4, 2.54mm pitch
+Through hole socket strip THT 1x4 2.54mm single row
+0
+8
+4
+Attiny85_01
+Attiny85_Socket_Castell_Up
+Through hole straight socket strip, 1x4, 2.54mm pitch
+Through hole socket strip THT 1x4 2.54mm single row
+0
+8
+4
+Attiny85_01
+Firma_New
+
+
+0
+0
+0
+Attiny85_01
+Heart
+
+
+0
+0
+0
+Attiny85_01
+Heart_Firma
+
+
+0
+0
+0
+Attiny85_01
+SOT127P798X216-8N
+8S2
+Integrated Circuit
+0
+8
+8
+Attiny85_01
+firma_Cu_Mask
+Imported from Firma.svg
+svg2mod
+0
+0
+0
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)

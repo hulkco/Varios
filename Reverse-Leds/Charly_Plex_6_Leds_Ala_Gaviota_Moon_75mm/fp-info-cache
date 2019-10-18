@@ -1,4 +1,32 @@
-16353871395616801
+16363312788765543
+Attiny85
+Attiny85_Socket_Castell_Down
+Through hole straight socket strip, 1x4, 2.54mm pitch
+Through hole socket strip THT 1x4 2.54mm single row
+0
+8
+4
+Attiny85
+Attiny85_Socket_Castell_Up
+Through hole straight socket strip, 1x4, 2.54mm pitch
+Through hole socket strip THT 1x4 2.54mm single row
+0
+8
+4
+Attiny85
+Castell_1x04_P2.54mm_Vertical
+Castell, 1x04, 2.54mm pitch, single row
+Castell 1x04 2.54mm single row
+0
+4
+4
+Attiny85
+SOT127P798X216-8N
+8S2
+Integrated Circuit
+0
+8
+8
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50603,6 +50631,13 @@ Through hole socket strip THT 1x15 2.54mm single row
 30
 30
 Nano_33
+NANO_33_Socket
+Through hole straight socket strip, 1x15, 2.54mm pitch
+Through hole socket strip THT 1x15 2.54mm single row
+0
+30
+30
+Nano_33
 NANO_33_Socket_Castell
 Through hole straight socket strip, 1x15, 2.54mm pitch
 Through hole socket strip THT 1x15 2.54mm single row
@@ -59604,6 +59639,13 @@ SOP SO
 0
 24
 24
+Package_SO
+SOT127P798X216-8N
+8S2
+Integrated Circuit
+0
+8
+8
 Package_SO
 SSO-4_6.7x5.1mm_P2.54mm_Clearance8mm
 4-Lead Plastic Stretched Small Outline (SSO/Stretched SO), see https://www.vishay.com/docs/84299/vor1142b4.pdf
