@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MKRWiFi1010V2.0-eagle-import)(type Legacy)(uri ${KIPRJMOD}/MKRWiFi1010V2.0-eagle-import.lib)(options "")(descr ""))
+  (lib (name MKRWiFi1010V2.0-rescue)(type Legacy)(uri ${KIPRJMOD}/MKRWiFi1010V2.0-rescue.lib)(options "")(descr ""))
+)

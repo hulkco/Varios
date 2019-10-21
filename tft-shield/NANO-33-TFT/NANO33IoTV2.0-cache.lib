@@ -93,11 +93,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x15
+# NANO33IoTV2.0-rescue_Conn_01x15-Connector_Generic
 #
-DEF Connector_Generic_Conn_01x15 J 0 40 Y N 1 F N
+DEF NANO33IoTV2.0-rescue_Conn_01x15-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 800 50 H V C CNN
-F1 "Connector_Generic_Conn_01x15" 0 -800 50 H V C CNN
+F1 "NANO33IoTV2.0-rescue_Conn_01x15-Connector_Generic" 0 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

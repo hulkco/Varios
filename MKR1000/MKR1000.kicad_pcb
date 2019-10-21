@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 44)
+    (drawings 45)
     (tracks 0)
     (zones 0)
-    (modules 12)
+    (modules 11)
     (nets 29)
   )
 
@@ -1650,23 +1650,18 @@
       (xy -0.670295 -1.003168) (xy -0.853124 -0.853124) (xy -1.003168 -0.670295) (xy -1.114661 -0.461708)) (layer F.Mask) (width 0))
   )
 
-  (module MKRFoxShield_v2:FRAME (layer Top) (tedit 0) (tstamp 5B60DEE6)
-    (at 84.455 139.7)
-    (path /5B60DF55/46144B51)
-    (fp_text reference FRAME1 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
+  (dimension 20.320001 (width 0.15) (layer F.SilkS)
+    (gr_text "20.320 mm" (at 196.807744 104.993621 -89.97879323) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Page 1" (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
-    )
-    (fp_text user "Reference Designs ARE PROVIDED \"AS IS\" AND \"WITH ALL FAULTS. Arduino LLC DISCLAIMS ALL OTHER WARRANTIES, EXPRESS OR IMPLIED,\nREGARDING PRODUCTS, INCLUDING BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A \nPARTICULAR PURPOSE \nArduino LLC may make changes to specifications and product descriptions at any time, without notice. The Customer must not\nrely on the absence or characteristics of any features or instructions marked \"reserved\" or \"undefined.\" Arduino LLC reserves\nthese for future definition and shall have no responsibility whatsoever for conflicts or incompatibilities arising from future changes to them.\nThe product information on the Web Site or Materials is subject to change without notice. Do not finalize a design with this info" (at 0 17.78) (layer F.Fab)
-      (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
-    )
-    (fp_text user "Reference Designs ARE PROVIDED \"AS IS\" AND \"WITH ALL FAULTS. Arduino LLC DISCLAIMS ALL OTHER WARRANTIES, EXPRESS OR IMPLIED,\nREGARDING PRODUCTS, INCLUDING BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A \nPARTICULAR PURPOSE \nArduino LLC may make changes to specifications and product descriptions at any time, without notice. The Customer must not\nrely on the absence or characteristics of any features or instructions marked \"reserved\" or \"undefined.\" Arduino LLC reserves\nthese for future definition and shall have no responsibility whatsoever for conflicts or incompatibilities arising from future changes to them.\nThe product information on the Web Site or Materials is subject to change without notice. Do not finalize a design with this info" (at 0 17.78) (layer F.Fab)
-      (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
-    )
+    (feature1 (pts (xy 169.842279 94.8436) (xy 196.090405 94.833885)))
+    (feature2 (pts (xy 169.8498 115.1636) (xy 196.097926 115.153885)))
+    (crossbar (pts (xy 195.511505 115.154102) (xy 195.503984 94.834102)))
+    (arrow1a (pts (xy 195.503984 94.834102) (xy 196.090822 95.960389)))
+    (arrow1b (pts (xy 195.503984 94.834102) (xy 194.91798 95.960823)))
+    (arrow2a (pts (xy 195.511505 115.154102) (xy 196.097509 114.027381)))
+    (arrow2b (pts (xy 195.511505 115.154102) (xy 194.924667 114.027815)))
   )
-
   (gr_line (start 180.687479 117.5036) (end 116.937479 117.5036) (layer Edge.Cuts) (width 0.15) (tstamp C164830))
   (gr_line (start 114.687479 115.2536) (end 114.687479 94.7536) (layer Edge.Cuts) (width 0.15) (tstamp C163BB0))
   (gr_line (start 116.937479 92.5036) (end 180.687479 92.5036) (layer Edge.Cuts) (width 0.15) (tstamp C162CB0))
@@ -1747,18 +1742,4 @@
     (effects (font (size 0.9652 0.9652) (thickness 0.08128)) (justify left bottom))
   )
 
-  (zone (net 0) (net_name "") (layer LFSignals) (tstamp 11C907C0) (hatch edge 0.508)
-    (priority 6)
-    (connect_pads (clearance 0))
-    (min_thickness 0.254)
-    (fill (arc_segments 32) (thermal_gap 0.304) (thermal_bridge_width 0.304))
-    (polygon
-      (pts
-        (xy 114.687479 113.0036) (xy 114.687479 96.9536) (xy 119.137479 96.9536) (xy 119.137479 92.5036) (xy 135.487479 92.5036)
-        (xy 135.487479 96.5036) (xy 142.787479 96.5036) (xy 142.787479 92.5036) (xy 145.987479 92.5036) (xy 145.987479 96.1036)
-        (xy 168.212479 96.1036) (xy 168.212479 112.5036) (xy 168.212479 113.9036) (xy 135.487479 113.9036) (xy 135.487479 117.5036)
-        (xy 119.187479 117.5036) (xy 119.187479 113.0036)
-      )
-    )
-  )
 )
