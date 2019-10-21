@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Charly_Plex_6_Leds_Ala_Gaviota_Moon_75mm)(type KiCad)(uri ${KIPRJMOD}/Charly_Plex_6_Leds_Ala_Gaviota_Moon_75mm.pretty)(options "")(descr ""))
+  (lib (name Moon_75mm_Gaviota)(type KiCad)(uri ${KIPRJMOD}/Moon_75mm_Gaviota.pretty)(options "")(descr ""))
+)
