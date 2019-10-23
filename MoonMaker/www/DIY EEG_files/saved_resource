@@ -1,0 +1,9 @@
+Adform=window.Adform||{};
+Adform.host="https://a2.adform.net";
+Adform.shost="https://s2.adform.net";
+Adform.scriptBase=Adform.shost+"/banners/scripts/";
+Adform.cache="620";
+Adform.ADFBannerData={"URL":"https://a2.adform.net/adfserve/?bn=33385674","CREFURL":"https%3a%2f%2faax-us-east.amazon-adsystem.com%2fe%2fdtb%2fadmi%3fb%3dIgiD5cMXjNKUADCycPcGs-cAAAFt9hzVcAEAAAvyAZE4Jto%26rnd%3d5821540607461571792149768%26pp%3d1lp2tq8%26p%3d1a41s00%26crid%3d437103_2_S","BN":33385674};
+if(!Adform.ADFBannerParams)Adform.ADFBannerParams=[];
+Adform.ADFBannerParams.push(Adform.ADFBannerData);
+typeof Adform.ADFUtilInstance=="undefined"?document.write('<scr'+'ipt type="text/javascript" src="https://s2.adform.net/stoat/620/s2.adform.net/bootstrap.js"></scr'+'ipt>'):new Adform.ADFBanner();

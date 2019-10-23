@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Cerebro_001)(type KiCad)(uri ${KIPRJMOD}/Cerebro_001.pretty)(options "")(descr ""))
+)
