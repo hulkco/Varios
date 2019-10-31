@@ -1,4 +1,18 @@
-16333467273930240
+16336612351694385
+001
+1pin_Nano
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+1
+1
+001
+Socket_Strip_Arduino_1x15
+Through hole socket strip
+socket strip
+0
+15
+15
 Attiny85
 Attiny85_Socket_Castell_Down
 Through hole straight socket strip, 1x4, 2.54mm pitch
