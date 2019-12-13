@@ -2,4 +2,5 @@
   (lib (name Tiny-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Tiny-eagle-import.lib)(options "")(descr ""))
   (lib (name Tiny-cache)(type Legacy)(uri ${KIPRJMOD}/Tiny-cache.lib)(options "")(descr ""))
   (lib (name Codi_Coin)(type Legacy)(uri ${KIPRJMOD}/Codi_Coin.lib)(options "")(descr ""))
+  (lib (name Tiny-rescue)(type Legacy)(uri ${KIPRJMOD}/Tiny-rescue.lib)(options "")(descr ""))
 )
