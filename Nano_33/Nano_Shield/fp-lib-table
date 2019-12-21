@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Nano_33)(type KiCad)(uri ${KIPRJMOD}/Nano_33.pretty)(options "")(descr ""))
+  (lib (name Nano_Shield)(type KiCad)(uri ${KIPRJMOD}/Nano_Shield.pretty)(options "")(descr ""))
+)
