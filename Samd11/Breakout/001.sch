@@ -1,0 +1,356 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:ATSAMD11C14A-SSUT IC2
+U 1 1 5DFE6907
+P 4875 3025
+F 0 "IC2" H 5775 3290 50  0000 C CNN
+F 1 "ATSAMD11C14A-SSUT" H 5775 3199 50  0000 C CNN
+F 2 "SamD11_Breakout:SOIC127P600X175-14N" H 6525 3125 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/ATSAMD11C14A-SSUT.pdf" H 6525 3025 50  0001 L CNN
+F 4 "MICROCHIP - ATSAMD11C14A-SSUT - MCU, 32BIT, CORTEX-M0+, 48MHZ, SOIC-14" H 6525 2925 50  0001 L CNN "Description"
+F 5 "1.75" H 6525 2825 50  0001 L CNN "Height"
+F 6 "556-ATSAMD11C14ASSUT" H 6525 2725 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=556-ATSAMD11C14ASSUT" H 6525 2625 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Microchip" H 6525 2525 50  0001 L CNN "Manufacturer_Name"
+F 9 "ATSAMD11C14A-SSUT" H 6525 2425 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4875 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 3025 4750 3025
+Wire Wire Line
+	4875 3125 4750 3125
+Wire Wire Line
+	4875 3225 4750 3225
+Wire Wire Line
+	4875 3325 4750 3325
+Wire Wire Line
+	4875 3425 4750 3425
+Wire Wire Line
+	4875 3525 4750 3525
+Wire Wire Line
+	4875 3625 4750 3625
+Wire Wire Line
+	6800 3025 6675 3025
+Wire Wire Line
+	6800 3125 6675 3125
+Wire Wire Line
+	6800 3425 6675 3425
+Wire Wire Line
+	6800 3525 6675 3525
+Wire Wire Line
+	6800 3625 6675 3625
+Wire Wire Line
+	5050 4250 4925 4250
+Wire Wire Line
+	5050 4350 4925 4350
+Wire Wire Line
+	5050 4450 4925 4450
+Wire Wire Line
+	5050 4550 4925 4550
+Wire Wire Line
+	5050 4650 4925 4650
+Wire Wire Line
+	5050 4750 4925 4750
+Wire Wire Line
+	5050 4150 4925 4150
+Wire Wire Line
+	6600 4250 6475 4250
+Wire Wire Line
+	6600 4350 6475 4350
+Wire Wire Line
+	6600 4450 6475 4450
+Wire Wire Line
+	6600 4550 6475 4550
+Wire Wire Line
+	6600 4650 6475 4650
+Wire Wire Line
+	6600 4750 6475 4750
+Wire Wire Line
+	6600 4150 6475 4150
+Text Label 4750 3025 2    50   ~ 0
+PA05
+Text Label 4750 3125 2    50   ~ 0
+PA08
+Text Label 4750 3225 2    50   ~ 0
+PA09
+Text Label 4750 3325 2    50   ~ 0
+PA14
+Text Label 4750 3425 2    50   ~ 0
+PA15
+Text Label 4750 3525 2    50   ~ 0
+PA28
+Text Label 4750 3625 2    50   ~ 0
+PA30
+Text Label 6800 3025 0    50   ~ 0
+PA04
+Text Label 6800 3125 0    50   ~ 0
+PA02
+Text Label 6800 3425 0    50   ~ 0
+PA25
+Text Label 6800 3525 0    50   ~ 0
+PA24
+Text Label 6800 3625 0    50   ~ 0
+PA31
+Text Label 5050 4150 0    50   ~ 0
+PA05
+Text Label 5050 4250 0    50   ~ 0
+PA08
+Text Label 5050 4350 0    50   ~ 0
+PA09
+Text Label 5050 4450 0    50   ~ 0
+PA14
+Text Label 5050 4550 0    50   ~ 0
+PA15
+Text Label 5050 4650 0    50   ~ 0
+PA28
+Text Label 5050 4750 0    50   ~ 0
+PA30
+Text Label 6475 4250 2    50   ~ 0
+PA04
+Text Label 6475 4350 2    50   ~ 0
+PA02
+Text Label 6475 4450 2    50   ~ 0
+PA25
+Text Label 6475 4550 2    50   ~ 0
+PA24
+Text Label 6475 4650 2    50   ~ 0
+PA31
+Text Notes 6050 4650 0    50   ~ 0
+SWDIO
+Text Notes 5250 4750 0    50   ~ 0
+SWCLK
+Text Notes 5250 4650 0    50   ~ 0
+RESET
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E0A5401
+P 10925 800
+F 0 "#FLG0101" H 10925 875 50  0001 C CNN
+F 1 "PWR_FLAG" H 10925 973 50  0000 C CNN
+F 2 "" H 10925 800 50  0001 C CNN
+F 3 "~" H 10925 800 50  0001 C CNN
+	1    10925 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10925 800  10925 925 
+$Comp
+L power:GND #PWR0101
+U 1 1 5E0B2FAB
+P 10925 925
+F 0 "#PWR0101" H 10925 675 50  0001 C CNN
+F 1 "GND" H 10930 752 50  0000 C CNN
+F 2 "" H 10925 925 50  0001 C CNN
+F 3 "" H 10925 925 50  0001 C CNN
+	1    10925 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small_ALT D1
+U 1 1 5E0CFB41
+P 5800 2175
+F 0 "D1" H 5800 2410 50  0000 C CNN
+F 1 "POWER" H 5800 2319 50  0000 C CNN
+F 2 "SamD11_Breakout:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5800 2175 50  0001 C CNN
+F 3 "~" V 5800 2175 50  0001 C CNN
+	1    5800 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2175 5575 2175
+$Comp
+L Device:R_Small R1
+U 1 1 5E0E631B
+P 5475 2175
+F 0 "R1" V 5279 2175 50  0000 C CNN
+F 1 "1K" V 5370 2175 50  0000 C CNN
+F 2 "SamD11_Breakout:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5475 2175 50  0001 C CNN
+F 3 "~" H 5475 2175 50  0001 C CNN
+	1    5475 2175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5375 2175 5250 2175
+$Comp
+L Device:LED_Small_ALT D2
+U 1 1 5E0F37D7
+P 5800 2550
+F 0 "D2" H 5800 2785 50  0000 C CNN
+F 1 "LED" H 5800 2694 50  0000 C CNN
+F 2 "SamD11_Breakout:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5800 2550 50  0001 C CNN
+F 3 "~" V 5800 2550 50  0001 C CNN
+	1    5800 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2550 5575 2550
+$Comp
+L Device:R_Small R2
+U 1 1 5E0F37E5
+P 5475 2550
+F 0 "R2" V 5279 2550 50  0000 C CNN
+F 1 "1K" V 5370 2550 50  0000 C CNN
+F 2 "SamD11_Breakout:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5475 2550 50  0001 C CNN
+F 3 "~" H 5475 2550 50  0001 C CNN
+	1    5475 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5375 2550 5250 2550
+Text Notes 5275 4450 0    50   ~ 0
+I2C
+Text Notes 5275 4550 0    50   ~ 0
+I2C
+Text Notes 5975 4550 0    50   ~ 0
+USB_DM
+Text Notes 5975 4450 0    50   ~ 0
+USB_DP
+Text Label 6025 2550 0    50   ~ 0
+PA05
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5E000281
+P 10475 925
+F 0 "#FLG01" H 10475 1000 50  0001 C CNN
+F 1 "PWR_FLAG" H 10475 1098 50  0000 C CNN
+F 2 "" H 10475 925 50  0001 C CNN
+F 3 "~" H 10475 925 50  0001 C CNN
+	1    10475 925 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10475 925  10475 800 
+Wire Wire Line
+	5900 2175 6025 2175
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5E01820C
+P 10475 800
+F 0 "#PWR01" H 10475 650 50  0001 C CNN
+F 1 "+3.3V" H 10490 973 50  0000 C CNN
+F 2 "" H 10475 800 50  0001 C CNN
+F 3 "" H 10475 800 50  0001 C CNN
+	1    10475 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5E0491DE
+P 7100 3225
+F 0 "#PWR0102" H 7100 3075 50  0001 C CNN
+F 1 "+3.3V" H 7115 3398 50  0000 C CNN
+F 2 "" H 7100 3225 50  0001 C CNN
+F 3 "" H 7100 3225 50  0001 C CNN
+	1    7100 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6675 3225 7100 3225
+$Comp
+L power:+3.3V #PWR07
+U 1 1 5E07910F
+P 6025 2175
+F 0 "#PWR07" H 6025 2025 50  0001 C CNN
+F 1 "+3.3V" V 6040 2303 50  0000 L CNN
+F 2 "" H 6025 2175 50  0001 C CNN
+F 3 "" H 6025 2175 50  0001 C CNN
+	1    6025 2175
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR03
+U 1 1 5E07C002
+P 6475 4150
+F 0 "#PWR03" H 6475 4000 50  0001 C CNN
+F 1 "+3.3V" H 6350 4300 50  0000 L CNN
+F 2 "" H 6475 4150 50  0001 C CNN
+F 3 "" H 6475 4150 50  0001 C CNN
+	1    6475 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5E080541
+P 6475 4750
+F 0 "#PWR04" H 6475 4500 50  0001 C CNN
+F 1 "GND" H 6480 4577 50  0000 C CNN
+F 2 "" H 6475 4750 50  0001 C CNN
+F 3 "" H 6475 4750 50  0001 C CNN
+	1    6475 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2550 6025 2550
+$Comp
+L Connector_Generic:Conn_01x07 J2
+U 1 1 5E0D8F16
+P 6800 4450
+F 0 "J2" H 6775 4850 50  0000 L CNN
+F 1 "Conn_01x07" H 6880 4401 50  0001 L CNN
+F 2 "SamD11_Breakout:PinHeader_1x07_P2.54mm_Vertical" H 6800 4450 50  0001 C CNN
+F 3 "~" H 6800 4450 50  0001 C CNN
+	1    6800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 J1
+U 1 1 5E0E6EF4
+P 4725 4450
+F 0 "J1" H 4700 4850 50  0000 L CNN
+F 1 "Conn_01x07" H 4805 4401 50  0001 L CNN
+F 2 "SamD11_Breakout:PinHeader_1x07_P2.54mm_Vertical" H 4725 4450 50  0001 C CNN
+F 3 "~" H 4725 4450 50  0001 C CNN
+	1    4725 4450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6675 3325 7100 3325
+$Comp
+L power:GND #PWR02
+U 1 1 5E10E788
+P 7100 3325
+F 0 "#PWR02" H 7100 3075 50  0001 C CNN
+F 1 "GND" H 7105 3152 50  0000 C CNN
+F 2 "" H 7100 3325 50  0001 C CNN
+F 3 "" H 7100 3325 50  0001 C CNN
+	1    7100 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5E122CCD
+P 5250 2550
+F 0 "#PWR06" H 5250 2300 50  0001 C CNN
+F 1 "GND" H 5255 2377 50  0000 C CNN
+F 2 "" H 5250 2550 50  0001 C CNN
+F 3 "" H 5250 2550 50  0001 C CNN
+	1    5250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5E1232ED
+P 5250 2175
+F 0 "#PWR05" H 5250 1925 50  0001 C CNN
+F 1 "GND" H 5255 2002 50  0000 C CNN
+F 2 "" H 5250 2175 50  0001 C CNN
+F 3 "" H 5250 2175 50  0001 C CNN
+	1    5250 2175
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
