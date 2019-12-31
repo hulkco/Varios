@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name SamD11_Breakout)(type KiCad)(uri ${KIPRJMOD}/SamD11_Breakout.pretty)(options "")(descr ""))
+)

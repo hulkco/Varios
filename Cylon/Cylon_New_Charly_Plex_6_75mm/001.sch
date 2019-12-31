@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:001-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -184,7 +183,7 @@ $EndComp
 Wire Wire Line
 	10750 1250 10750 1125
 $Comp
-L wickerlib:VIN #PWR01
+L 001-rescue:VIN-wickerlib #PWR01
 U 1 1 5DA054F6
 P 10750 1125
 F 0 "#PWR01" H 10750 975 50  0001 C CNN
