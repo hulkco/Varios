@@ -1,0 +1,293 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:ATTINY85-20SU IC1
+U 1 1 5DFE7C1B
+P 5450 2000
+F 0 "IC1" H 6050 2265 50  0000 C CNN
+F 1 "ATTINY85-20SU" H 6050 2174 50  0000 C CNN
+F 2 "Attiny85_Breakout:SOT127P798X216-8N" H 6500 2100 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/ATTINY85-20SU.pdf" H 6500 2000 50  0001 L CNN
+F 4 "MICROCHIP - ATTINY85-20SU - MICROCONTROLLER MCU, 8 BIT, ATTINY, 20MHZ, SOIC-8" H 6500 1900 50  0001 L CNN "Description"
+F 5 "2.16" H 6500 1800 50  0001 L CNN "Height"
+F 6 "556-ATTINY85-20SU" H 6500 1700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=556-ATTINY85-20SU" H 6500 1600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Microchip" H 6500 1500 50  0001 L CNN "Manufacturer_Name"
+F 9 "ATTINY85-20SU" H 6500 1400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5450 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2000 6775 2000
+Wire Wire Line
+	6650 2100 6775 2100
+Wire Wire Line
+	6650 2200 6775 2200
+Wire Wire Line
+	5450 2000 5325 2000
+Wire Wire Line
+	5450 2100 5325 2100
+Wire Wire Line
+	5450 2200 5325 2200
+Wire Wire Line
+	5450 2300 5325 2300
+Wire Wire Line
+	4700 3175 4575 3175
+Wire Wire Line
+	4700 3275 4575 3275
+Wire Wire Line
+	4700 3375 4575 3375
+Wire Wire Line
+	4700 3475 4575 3475
+Wire Wire Line
+	7700 3175 7575 3175
+Wire Wire Line
+	7700 3275 7575 3275
+Wire Wire Line
+	7700 3375 7575 3375
+Text Label 5325 2000 2    50   ~ 0
+RESET-PB5
+Text Label 5325 2100 2    50   ~ 0
+PB3
+Text Label 5325 2200 2    50   ~ 0
+PB4
+Text Label 5325 2300 2    50   ~ 0
+GND
+Text Label 6775 2000 0    50   ~ 0
+MOSI-PB0
+Text Label 6775 2100 0    50   ~ 0
+MISO-PB1
+Text Label 6775 2200 0    50   ~ 0
+SCK-PB2
+Wire Wire Line
+	7700 3075 7575 3075
+Wire Wire Line
+	4700 3075 4575 3075
+Text Label 4700 3175 0    50   ~ 0
+RESET-PB5
+Text Label 4700 3275 0    50   ~ 0
+PB3
+Text Label 4700 3375 0    50   ~ 0
+PB4
+Text Label 7575 3375 2    50   ~ 0
+MOSI-PB0
+Text Label 7575 3275 2    50   ~ 0
+MISO-PB1
+Text Label 7575 3175 2    50   ~ 0
+SCK-PB2
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E0A5401
+P 10700 1375
+F 0 "#FLG0101" H 10700 1450 50  0001 C CNN
+F 1 "PWR_FLAG" H 10700 1548 50  0000 C CNN
+F 2 "" H 10700 1375 50  0001 C CNN
+F 3 "~" H 10700 1375 50  0001 C CNN
+	1    10700 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5E0A5EA3
+P 10250 1500
+F 0 "#FLG0102" H 10250 1575 50  0001 C CNN
+F 1 "PWR_FLAG" H 10250 1673 50  0000 C CNN
+F 2 "" H 10250 1500 50  0001 C CNN
+F 3 "~" H 10250 1500 50  0001 C CNN
+	1    10250 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10700 1375 10700 1500
+Wire Wire Line
+	10250 1500 10250 1375
+$Comp
+L power:GND #PWR0101
+U 1 1 5E0B2FAB
+P 10700 1500
+F 0 "#PWR0101" H 10700 1250 50  0001 C CNN
+F 1 "GND" H 10705 1327 50  0000 C CNN
+F 2 "" H 10700 1500 50  0001 C CNN
+F 3 "" H 10700 1500 50  0001 C CNN
+	1    10700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small_ALT D1
+U 1 1 5E0CFB41
+P 6200 2925
+F 0 "D1" H 6200 3160 50  0000 C CNN
+F 1 "POWER" H 6200 3069 50  0000 C CNN
+F 2 "Attiny85_Breakout:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6200 2925 50  0001 C CNN
+F 3 "~" V 6200 2925 50  0001 C CNN
+	1    6200 2925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2925 5975 2925
+Text Label 5650 2925 2    50   ~ 0
+GND
+$Comp
+L Device:R_Small R1
+U 1 1 5E0E631B
+P 5875 2925
+F 0 "R1" V 5679 2925 50  0000 C CNN
+F 1 "1K" V 5770 2925 50  0000 C CNN
+F 2 "Attiny85_Breakout:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5875 2925 50  0001 C CNN
+F 3 "~" H 5875 2925 50  0001 C CNN
+	1    5875 2925
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5775 2925 5650 2925
+$Comp
+L Device:LED_Small_ALT D2
+U 1 1 5E0F37D7
+P 6200 3650
+F 0 "D2" H 6200 3885 50  0000 C CNN
+F 1 "LED" H 6200 3794 50  0000 C CNN
+F 2 "Attiny85_Breakout:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6200 3650 50  0001 C CNN
+F 3 "~" V 6200 3650 50  0001 C CNN
+	1    6200 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3650 6425 3650
+Wire Wire Line
+	6100 3650 5975 3650
+Text Label 5650 3650 2    50   ~ 0
+GND
+$Comp
+L Device:R_Small R2
+U 1 1 5E0F37E5
+P 5875 3650
+F 0 "R2" V 5679 3650 50  0000 C CNN
+F 1 "1K" V 5770 3650 50  0000 C CNN
+F 2 "Attiny85_Breakout:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5875 3650 50  0001 C CNN
+F 3 "~" H 5875 3650 50  0001 C CNN
+	1    5875 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5775 3650 5650 3650
+Text Label 6425 3650 0    50   ~ 0
+MOSI-PB0
+Wire Wire Line
+	6300 2925 6425 2925
+$Comp
+L power:+5V #PWR02
+U 1 1 5E018E8A
+P 10250 1375
+F 0 "#PWR02" H 10250 1225 50  0001 C CNN
+F 1 "+5V" H 10265 1548 50  0000 C CNN
+F 2 "" H 10250 1375 50  0001 C CNN
+F 3 "" H 10250 1375 50  0001 C CNN
+	1    10250 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 5E04FA5E
+P 7225 2300
+F 0 "#PWR03" H 7225 2150 50  0001 C CNN
+F 1 "+5V" H 7240 2473 50  0000 C CNN
+F 2 "" H 7225 2300 50  0001 C CNN
+F 3 "" H 7225 2300 50  0001 C CNN
+	1    7225 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2300 7225 2300
+$Comp
+L power:+5V #PWR04
+U 1 1 5E0542BA
+P 7575 3075
+F 0 "#PWR04" H 7575 2925 50  0001 C CNN
+F 1 "+5V" H 7590 3248 50  0000 C CNN
+F 2 "" H 7575 3075 50  0001 C CNN
+F 3 "" H 7575 3075 50  0001 C CNN
+	1    7575 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR06
+U 1 1 5E073E3E
+P 6425 2925
+F 0 "#PWR06" H 6425 2775 50  0001 C CNN
+F 1 "+5V" V 6440 3053 50  0000 L CNN
+F 2 "" H 6425 2925 50  0001 C CNN
+F 3 "" H 6425 2925 50  0001 C CNN
+	1    6425 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 5E00BC6C
+P 7900 3275
+F 0 "J2" H 7980 3317 50  0000 L CNN
+F 1 "Conn_01x05" H 7980 3226 50  0000 L CNN
+F 2 "Attiny85_Breakout:PinHeader_1x05_P2.54mm_Vertical" H 7900 3275 50  0001 C CNN
+F 3 "~" H 7900 3275 50  0001 C CNN
+	1    7900 3275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 3475 7575 3475
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 5E012889
+P 4375 3275
+F 0 "J1" H 4375 3600 50  0000 C CNN
+F 1 "Conn_01x05" H 4675 3275 50  0000 C CNN
+F 2 "Attiny85_Breakout:PinHeader_1x05_P2.54mm_Vertical" H 4375 3275 50  0001 C CNN
+F 3 "~" H 4375 3275 50  0001 C CNN
+	1    4375 3275
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR08
+U 1 1 5E01EA0A
+P 7575 3475
+F 0 "#PWR08" H 7575 3325 50  0001 C CNN
+F 1 "+5V" H 7590 3648 50  0000 C CNN
+F 2 "" H 7575 3475 50  0001 C CNN
+F 3 "" H 7575 3475 50  0001 C CNN
+	1    7575 3475
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5E020F80
+P 4700 3475
+F 0 "#PWR07" H 4700 3225 50  0001 C CNN
+F 1 "GND" H 4705 3302 50  0000 C CNN
+F 2 "" H 4700 3475 50  0001 C CNN
+F 3 "" H 4700 3475 50  0001 C CNN
+	1    4700 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5E02232A
+P 4700 3075
+F 0 "#PWR05" H 4700 2825 50  0001 C CNN
+F 1 "GND" H 4705 2902 50  0000 C CNN
+F 2 "" H 4700 3075 50  0001 C CNN
+F 3 "" H 4700 3075 50  0001 C CNN
+	1    4700 3075
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
