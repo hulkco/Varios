@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name D1_mini)(type KiCad)(uri "$(KIPRJMOD)/lib/D1_mini.pretty")(options "")(descr ""))
+  (lib (name WeMos_Shield_Greynaga)(type KiCad)(uri ${KIPRJMOD}/WeMos_Shield_Greynaga.pretty)(options "")(descr ""))
+  (lib (name LORA_BREAKOUT)(type KiCad)(uri ${KIPRJMOD}/LORA_BREAKOUT.pretty)(options "")(descr ""))
+)
