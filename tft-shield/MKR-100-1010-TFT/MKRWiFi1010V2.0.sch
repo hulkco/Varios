@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:MKRWiFi1010V2.0-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MKR-Familiy:MKR-1000 J?
+L MKRWiFi1010V2.0-rescue:MKR-1000-MKR-Familiy J?
 U 1 1 5DAEEFF7
 P 10275 1475
 F 0 "J?" H 10275 2740 50  0000 C CNN

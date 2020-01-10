@@ -110,31 +110,31 @@ Text Label 10900 2075 0    50   ~ 0
 Text Label 10900 2175 0    50   ~ 0
 5V
 Text Label 9650 2175 2    50   ~ 0
-5V
+D5
 Text Label 9650 2075 2    50   ~ 0
-5V
+D4
 Text Label 9650 1975 2    50   ~ 0
-5V
+D3
 Text Label 9650 1875 2    50   ~ 0
-5V
+D2
 Text Label 9650 1775 2    50   ~ 0
-5V
+D1
 Text Label 9650 1675 2    50   ~ 0
-5V
+D0
 Text Label 9650 1575 2    50   ~ 0
-5V
+A6
 Text Label 9650 1475 2    50   ~ 0
-5V
+A5
 Text Label 9650 1375 2    50   ~ 0
-5V
+A4
 Text Label 9650 1275 2    50   ~ 0
-5V
+A3
 Text Label 9650 1175 2    50   ~ 0
-5V
+A2
 Text Label 9650 1075 2    50   ~ 0
-5V
+A1
 Text Label 9650 975  2    50   ~ 0
-5V
+A0
 Text Label 9650 875  2    50   ~ 0
-5V
+AREF
 $EndSCHEMATC

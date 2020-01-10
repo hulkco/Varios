@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:hccg-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -666,7 +665,7 @@ MOSI
 Text GLabel 6250 4350 2    39   Input ~ 0
 CLK
 $Comp
-L hccg-rescue:SAMD21_MOD-RESCUE-hccg U4
+L samd21_mod:SAMD21_MOD U4
 U 1 1 5AF54837
 P 11250 5250
 F 0 "U4" H 11250 4250 60  0000 C CNN
