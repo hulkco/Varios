@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name AP2112k)(type Legacy)(uri ${KIPRJMOD}/project_libs/AP2112k.lib)(options "")(descr ""))
+  (lib (name crystal_tiny)(type Legacy)(uri ${KIPRJMOD}/project_libs/crystal_tiny.lib)(options "")(descr ""))
+  (lib (name samd21_mod)(type Legacy)(uri ${KIPRJMOD}/project_libs/samd21_mod.lib)(options "")(descr ""))
+  (lib (name usb_micro)(type Legacy)(uri ${KIPRJMOD}/project_libs/usb_micro.lib)(options "")(descr ""))
+)
