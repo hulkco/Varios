@@ -1,4 +1,4 @@
-16981531058683056
+16991003155015123
 Attiny85_Breakout
 Breakout_Attiny85_01
 
@@ -51484,6 +51484,41 @@ Yellow 5381 Series LED
 0
 2
 2
+MazMaker
+Breakout_Attiny85_01
+
+
+0
+0
+0
+MazMaker
+MS88SF2
+
+
+0
+28
+28
+MazMaker
+PinSocket_1x13
+Through hole straight socket strip, 1x13, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x13 2.54mm single row
+0
+13
+13
+MazMaker
+SKB501_Footprint
+
+
+0
+26
+26
+MazMaker
+SOT127P798X216-8N
+8S2
+Integrated Circuit
+0
+8
+8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -51589,6 +51624,13 @@ raspberry pi zero through hole
 0
 40
 40
+Module
+SKB501_Footprint
+
+
+0
+26
+26
 Module
 ST_Morpho_Connector_144_STLink
 ST Morpho Connector 144 With STLink

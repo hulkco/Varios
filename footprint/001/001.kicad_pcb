@@ -178,11 +178,6 @@
     (pad 8 thru_hole oval (at 0 8.89) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
     (pad 9 thru_hole oval (at 0 10.16) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
     (pad 10 thru_hole oval (at 0 11.43) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3D/001.wrl
-      (offset (xyz -0.6 -11.2 0))
-      (scale (xyz 0.3739 0.3739 0.3739))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Capacitor_SMD:C_01005_0402Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5E16BA77)

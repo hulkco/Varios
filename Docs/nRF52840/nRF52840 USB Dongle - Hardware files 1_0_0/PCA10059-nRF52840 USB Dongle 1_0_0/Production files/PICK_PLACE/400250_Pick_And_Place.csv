@@ -1,0 +1,65 @@
+Altium Designer Pick and Place Locations
+D:\Applications\hardware\pca10059\trunk\production_files\400250_pick_and_place.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       19.12.17
+Time:       22:12
+Revision:   13485
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"R2","10k","TopLayer","RESC0603X03L_C","14.6050","4.7752","360","Resistor, ±1%, 0.05W"
+"Fid2","Fiducial mark","TopLayer","Fiducial","7.1628","-2.1590","0","Fiducial Mark"
+"C27","100nF","TopLayer","CAPC0603X03L_C","13.5128","4.4577","270","Capacitor, X5R, ±10%"
+"C29","N.C.","BottomLayer","CAPC1005X04L","8.2550","5.5626","180","Not mounted"
+"C28","N.C.","BottomLayer","CAPC1005X04L","10.7950","5.5626","180","Not mounted"
+"P1","Pin Header 2x5, 1.27mm","BottomLayer","HDR_2x5-SMD-1.27mm-NC","23.8760","0.0000","270","Pin Header 2x5, 1.27mm (50mil), SMD, Keying Shroud"
+"C4","1.0pF","TopLayer","CAPC0603X03L_C","10.9220","-1.3462","90","Capacitor, NP0, ±5%"
+"R1","0R","TopLayer","RESC0603X03L_C","6.3754","-4.8768","180","Resistor, ±5%, 0.05W"
+"C26","1.5pF","TopLayer","CAPC0603X03L_C","5.5118","-4.5720","270","Capacitor, NP0, ±0.1pF"
+"C25","N.C.","TopLayer","CAPC0603X03L_C","7.2390","-4.5720","90","Not mounted"
+"C14","1.0µF","TopLayer","CAPC1608X06L","23.3426","-3.1750","270","Capacitor, X7R, ±10%"
+"C15","1.0µF","TopLayer","CAPC1608X06L","19.5112","-4.9650","360","Capacitor, X7R, ±10%"
+"X2","32.768kHz","TopLayer","XTAL_2012","25.6540","-1.8796","270","XTAL SMD 2012, 32.768kHz, 9pF, ±20ppm"
+"C3","1.0pF","TopLayer","CAPC0603X03L_C","12.5934","-1.2754","90","Capacitor, NP0, ±5%"
+"L1","3.9nH","TopLayer","INDC0603X03L_C","11.7387","-0.7707","180","Inductor, 400mA, ±0.1nH"
+"C2","12pF","TopLayer","CAPC0603X03L_C","13.5676","-4.3046","270","Capacitor, NP0, ±2%"
+"C7","100nF","TopLayer","CAPC0603X03L_C","17.3990","4.1295","360","Capacitor, X5R, ±10%"
+"C10","N.C.","TopLayer","CAPC0603X03L_C","12.3230","-2.2218","360","Not mounted"
+"C9","820pF","TopLayer","CAPC0603X03L_C","12.9794","0.8636","90","Capacitor, X7R, ±10%"
+"X1","32MHz","TopLayer","BT-XTAL_2016","11.9674","-4.3554","360","XTAL SMD 2016, 32MHz, Cl=8pF, Tol: ±10ppm, Stab: ±10ppm"
+"C1","12pF","TopLayer","CAPC0603X03L_C","10.3672","-4.4062","90","Capacitor, NP0, ±2%"
+"C8","100nF","TopLayer","CAPC0603X03L_C","14.9606","4.1295","360","Capacitor, X5R, ±10%"
+"C6","4.7µF","TopLayer","CAPC1608X06L","25.0952","2.3261","90","Capacitor, X5R, ±10%"
+"C5","100nF","TopLayer","CAPC0603X03L_C","22.4282","-1.3061","360","Capacitor, X5R, ±10%"
+"L2","10µH","TopLayer","INDC1608X06L","22.1742","-3.1750","90","Inductor, 80mA, ±10%"
+"L3","15nH","TopLayer","INDC1005X04L","21.7678","-4.8621","360","Inductor, 320mA, ±5%"
+"C11","100pF","TopLayer","CAPC0603X03L_C","12.3230","-2.8060","180","Capacitor, NP0, ±2%"
+"C17","12pF","TopLayer","CAPC0603X03L_C","24.4094","-1.1791","270","Capacitor, NP0, ±2%"
+"C18","12pF","TopLayer","CAPC0603X03L_C","25.6032","-3.3782","180","Capacitor, NP0, ±2%"
+"C19","4.7µF","TopLayer","CAPC1005X04L","21.3360","3.8354","270","Capacitor, X5R, ±20%"
+"C20","4.7µF","TopLayer","CAPC1608X06L","22.8092","3.3421","90","Capacitor, X5R, ±10%"
+"C12","100nF","TopLayer","CAPC0603X03L_C","14.5836","-4.1014","180","Capacitor, X5R, ±10%"
+"C13","N.C.","TopLayer","CAPC0603X03L_C","16.2854","-4.1014","360","Not mounted"
+"L4","10µH","TopLayer","INDC1608X06L","23.9522","3.2151","270","Inductor, 80mA, ±10%"
+"R3","220R","TopLayer","RESC0603X03L_C","26.6954","0.3048","360","Resistor, ±1%, 0.05W"
+"LD1","L0603G","TopLayer","LED_0603_G","28.1940","-4.0640","360","LED, Green, 0603, 573nm, Vf=2.0V, 24mcd, - 40 to +85°C"
+"FB2","120R/0.85A","TopLayer","INDC0603X03L_C","31.3181","-5.5119","180","Ferrite Bead, 120 Ohm @ 100MHz, 850mA, 150 mOhm Max"
+"FB1","120R/0.85A","TopLayer","INDC0603X03L_C","29.4893","-2.1337","180","Ferrite Bead, 120 Ohm @ 100MHz, 850mA, 150 mOhm Max"
+"D1","PRTR5V0U2X","TopLayer","SOT190P230X110-4L","30.4800","0.0000","90","Ultra low capacitance double rail-to-rail ESD protection diode"
+"C22","100nF","TopLayer","CAPC0603X03L_C","28.3718","-2.1336","0","Capacitor, X5R, ±10%"
+"C24","100nF","TopLayer","CAPC0603X03L_C","29.3116","1.8288","0","Capacitor, X5R, ±10%"
+"C23","4.7µF","TopLayer","CAPC1005X04L","29.3370","2.5908","0","Capacitor, X5R, ±20%"
+"C21","10nF","TopLayer","CAPC0603X03L_C","29.4894","-2.7178","360","Capacitor, X7R, ±10%"
+"Fid1","Fiducial mark","TopLayer","Fiducial_Square","36.0000","4.0000","0","Fiducial Mark"
+"LD2","LED RGB","TopLayer","LED_RGB_0603","28.1940","4.0640","90","RGB LED 1.60 mm x 0.80 mm SMD"
+"R4","1k2","TopLayer","RESC0603X03L_C","26.6954","1.1515","360","Resistor, ±1%, 0.05W"
+"R6","390R","TopLayer","RESC0603X03L_C","26.6954","2.8448","360","Resistor, ±1%, 0.05W"
+"C16","47nF","TopLayer","CAPC0603X03L_C","19.9390","-4.1148","180","Capacitor, X5R, ±10%"
+"U1","nRF52840-QIAA","TopLayer","AQFN50P700X700X85_HS-74N","17.1450","0.0000","180","Multi-protocol Bluetooth Low Energy, IEEE 802.15.4, ANT and 2.4GHz proprietary system-on-chip"
+"SW1","PB SW","TopLayer","C&K_PTS810","10.6172","2.8702","270","Tactile Switch, SPNO, SMD, 260gf, 4.2x3.2x2.5mm"
+"SW2","PTS840 GK SMTR LFS","TopLayer","EVQP7A/J/B/K","7.1882","2.8702","270","Microminiature SMT Switch, Side Actuated"
+"R5","2k2","TopLayer","RESC0603X03L_C","26.6954","1.9981","360","Resistor, ±1%, 0.05W"
