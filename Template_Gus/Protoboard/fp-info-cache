@@ -1,4 +1,4 @@
-16962629585350509
+16979926237590550
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -46094,27 +46094,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-Feather_Nano_Brealout
-PinHeader_1x12_P2.54mm_Vertical
-Through hole straight pin header, 1x12, 2.54mm pitch, single row
-Through hole pin header THT 1x12 2.54mm single row
-0
-12
-12
-Feather_Nano_Brealout
-PinHeader_1x16_P2.54mm_Vertical
-Through hole straight pin header, 1x16, 2.54mm pitch, single row
-Through hole pin header THT 1x16 2.54mm single row
-0
-16
-16
-Feather_Nano_Brealout
-PinSocket_1x15_P2.54mm_Vertical
-Through hole straight socket strip, 1x15, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x15 2.54mm single row
-0
-15
-15
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -51400,6 +51379,41 @@ Yellow 5381 Series LED
 0
 2
 2
+MazMaker
+Breakout_Attiny85_01
+
+
+0
+0
+0
+MazMaker
+MS88SF2
+
+
+0
+28
+28
+MazMaker
+PinSocket_1x13
+Through hole straight socket strip, 1x13, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x13 2.54mm single row
+0
+13
+13
+MazMaker
+SKB501_Footprint
+
+
+0
+26
+26
+MazMaker
+SOT127P798X216-8N
+8S2
+Integrated Circuit
+0
+8
+8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -51505,6 +51519,13 @@ raspberry pi zero through hole
 0
 40
 40
+Module
+SKB501_Footprint
+
+
+0
+26
+26
 Module
 ST_Morpho_Connector_144_STLink
 ST Morpho Connector 144 With STLink
@@ -52275,6 +52296,20 @@ net tie
 0
 4
 4
+Nordic_Module
+MS88SF2
+
+
+0
+28
+28
+Nordic_Module
+SKB501_Footprint
+
+
+0
+26
+26
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -66009,6 +66044,48 @@ Potentiometer vertical Vishay T73YP
 0
 3
 3
+Protoboard
+Breadboard_Friendly_Template_400
+Socket_1x30_P2.54mm_Protoboard
+Socket_1x30_P2.54mm_Protoboard
+0
+350
+30
+Protoboard
+Breadboard_Friendly_Template_800
+Socket_1x30_P2.54mm_Protoboard
+Socket_1x30_P2.54mm_Protoboard
+0
+700
+30
+Protoboard
+Socket_1x05_P2.54mm_Vertical
+Socket_1x05_P2.54mm_Vertical
+Socket_1x05_P2.54mm_Vertical
+0
+5
+5
+Protoboard
+Socket_1x30_P2.54mm_Protoboard
+Socket_1x30_P2.54mm_Protoboard
+Socket_1x30_P2.54mm_Protoboard
+0
+360
+30
+Protoboard
+Socket_10x30_P2.54mm_Protoboard
+Socket_1x30_P2.54mm_Protoboard
+Socket_1x30_P2.54mm_Protoboard
+0
+300
+30
+Protoboard
+Socket_10x30_P2.54mm_Protoboard_2
+Socket_1x30_P2.54mm_Protoboard
+Socket_1x30_P2.54mm_Protoboard
+0
+350
+30
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
