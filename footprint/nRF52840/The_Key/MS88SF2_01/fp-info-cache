@@ -1,32 +1,4 @@
-16948870089537405
-Attiny85
-Attiny85_Socket_Castell_Down
-Through hole straight socket strip, 1x4, 2.54mm pitch
-Through hole socket strip THT 1x4 2.54mm single row
-0
-8
-4
-Attiny85
-Attiny85_Socket_Castell_Up
-Through hole straight socket strip, 1x4, 2.54mm pitch
-Through hole socket strip THT 1x4 2.54mm single row
-0
-8
-4
-Attiny85
-Castell_1x04_P2.54mm_Vertical
-Castell, 1x04, 2.54mm pitch, single row
-Castell 1x04 2.54mm single row
-0
-4
-4
-Attiny85
-SOT127P798X216-8N
-8S2
-Integrated Circuit
-0
-8
-8
+16975264320809165
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6441,13 +6413,6 @@ Power Jack
 3
 Connector_BarrelJack
 BarrelJack_Horizontal
-DC Barrel Jack
-Power Jack
-0
-3
-3
-Connector_BarrelJack
-BarrelJack_Horizontal_copy
 DC Barrel Jack
 Power Jack
 0
@@ -41727,6 +41692,13 @@ connector TE MATE-N-LOK top entry ATA PATA IDE 5.25 inch floppy drive power
 4
 4
 Connector_USB
+U254051N4BH806
+U254-051N-4BH806-2
+Connector
+0
+9
+9
+Connector_USB
 USB3_A_Molex_48393-001
 USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)
 USB 3.0 type A right angle
@@ -42433,6 +42405,69 @@ connector
 0
 4
 4
+Connector_Wuerth
+Wuerth_WR-WTB_64800211622_1x02_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800211622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+2
+2
+Connector_Wuerth
+Wuerth_WR-WTB_64800311622_1x03_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800311622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+3
+3
+Connector_Wuerth
+Wuerth_WR-WTB_64800411622_1x04_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800411622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+4
+4
+Connector_Wuerth
+Wuerth_WR-WTB_64800511622_1x05_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800511622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+5
+5
+Connector_Wuerth
+Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800611622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+6
+6
+Connector_Wuerth
+Wuerth_WR-WTB_64800711622_1x07_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800711622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+7
+7
+Connector_Wuerth
+Wuerth_WR-WTB_64800811622_1x08_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800811622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+8
+8
+Connector_Wuerth
+Wuerth_WR-WTB_64800911622_1x09_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800911622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+9
+9
+Connector_Wuerth
+Wuerth_WR-WTB_64801011622_1x10_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64801011622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+10
+10
 Converter_ACDC
 Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical
 ACDC-Converter, 3W, CUI PBO-3, THT https://www.cui.com/product/resource/pbo-3.pdf
@@ -45709,13 +45744,6 @@ LCD 16x2 Alphanumeric 16pin
 0
 22
 18
-Display
-TFT_0.96_SPI
-
-
-0
-13
-13
 Display
 WC1602A
 LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
@@ -50777,13 +50805,6 @@ LED
 0
 2
 2
-LED_SMD
-SunLed_PLCC_Reverse-2
-LED PLCC-2 SMD package
-LED PLCC-2 SMD
-0
-2
-2
 LED_THT
 LED_BL-FL7680RGB
 'Piranha' RGB LED, through hole, common anode, 7.62x7.62mm, BGRA pin order, https://cdn-shop.adafruit.com/datasheets/BL-FL7680RGB.pdf
@@ -51379,6 +51400,41 @@ Through hole socket strip THT 1x14 2.54mm single row
 0
 14
 14
+MazMaker
+Breakout_Attiny85_01
+
+
+0
+0
+0
+MazMaker
+MS88SF2
+
+
+0
+28
+28
+MazMaker
+PinSocket_1x13
+Through hole straight socket strip, 1x13, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x13 2.54mm single row
+0
+13
+13
+MazMaker
+SKB501_Footprint
+
+
+0
+26
+26
+MazMaker
+SOT127P798X216-8N
+8S2
+Integrated Circuit
+0
+8
+8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -51450,13 +51506,6 @@ PocketBeagle
 72
 72
 Module
-Digispark_SMD_Reverse
-
-
-0
-9
-9
-Module
 Maple_Mini
 Maple Mini, http://docs.leaflabs.com/static.leaflabs.com/pub/leaflabs/maple-docs/0.0.12/hardware/maple-mini.html
 Maple Mini
@@ -51492,7 +51541,7 @@ raspberry pi zero through hole
 40
 40
 Module
-SKB501_Nordic_nRF52840_Module
+SKB501_Footprint
 
 
 0
@@ -51512,20 +51561,6 @@ ST Morpho Connector 144 STLink
 0
 148
 148
-Module
-Serpente_SMD_Reverse
-
-
-0
-10
-10
-Module
-Serpente_THT_Reverse
-
-
-0
-10
-10
 Module
 WEMOS_D1_mini_light
 16-pin module, column spacing 22.86 mm (900 mils), https://wiki.wemos.cc/products:d1:d1_mini, https://c1.staticflickr.com/1/734/31400410271_f278b087db_z.jpg
@@ -52198,34 +52233,6 @@ mounting hole 8.4mm m8
 0
 9
 1
-Nano_33
-NANO_33_Footprint_SMD_Castell
-Through hole straight socket strip, 1x15, 2.54mm pitch
-Through hole socket strip THT 1x15 2.54mm single row
-0
-30
-30
-Nano_33
-NANO_33_Single_Socket
-Through hole straight socket strip, 1x15, 2.54mm pitch
-Through hole socket strip THT 1x15 2.54mm single row
-0
-30
-30
-Nano_33
-NANO_33_Socket
-Through hole straight socket strip, 1x15, 2.54mm pitch
-Through hole socket strip THT 1x15 2.54mm single row
-0
-30
-30
-Nano_33
-NANO_33_Socket_Castell
-Through hole straight socket strip, 1x15, 2.54mm pitch
-Through hole socket strip THT 1x15 2.54mm single row
-0
-90
-30
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -52310,6 +52317,20 @@ net tie
 0
 4
 4
+Nordic_Module
+MS88SF2
+
+
+0
+28
+28
+Nordic_Module
+SKB501_Footprint
+
+
+0
+26
+26
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -53549,6 +53570,13 @@ Maxim_WLP-12
 0
 12
 12
+Package_BGA
+Microchip_TFBGA-196_11x11mm_Layout14x14_P0.75mm_SMD
+TFBGA-196, 11.0x11.0mm, 196 Ball, 14x14 Layout, 0.75mm Pitch, http://ww1.microchip.com/downloads/en/DeviceDoc/SAMA5D2-Series-Data-Sheet-DS60001476C.pdf#page=2956
+BGA 196 0.75
+0
+196
+196
 Package_BGA
 TFBGA-64_5x5mm_Layout8x8_P0.5mm
 TFBGA-64, 8x8 raster, 5x5mm package, pitch 0.5mm; see section 6.3 of http://www.st.com/resource/en/datasheet/stm32f100v8.pdf
@@ -61621,13 +61649,6 @@ SOP SO
 24
 24
 Package_SO
-SOT127P798X216-8N
-8S2
-Integrated Circuit
-0
-8
-8
-Package_SO
 SSO-4_6.7x5.1mm_P2.54mm_Clearance8mm
 4-Lead Plastic Stretched Small Outline (SSO/Stretched SO), see https://www.vishay.com/docs/84299/vor1142b4.pdf
 SSO Stretched SO SOIC 2.54
@@ -68732,48 +68753,6 @@ rotary encoder
 0
 5
 4
-SamacSys_Parts
-2894
-2894-3
-Hardware
-0
-3
-3
-SamacSys_Parts
-NE555DR
-D (R-PDSO-G8)
-Integrated Circuit
-0
-8
-8
-SamacSys_Parts
-PTS636SK43SMTRLFS
-PTS636 SK43 SMTR LFS-2
-Switch
-0
-2
-2
-SamacSys_Parts
-PTS645V(31)
-PTS647SM38SMTR2LFS-2
-Switch
-0
-4
-4
-SamacSys_Parts
-SOIC127P600X175-14N
-14-pin SOIC150
-Integrated Circuit
-0
-14
-14
-SamacSys_Parts
-SOT127P798X216-8N
-8S2
-Integrated Circuit
-0
-8
-8
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
