@@ -1,4 +1,4 @@
-17003425391162129
+16975264320809165
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44225,20 +44225,6 @@ THT ceramic resonator filter DSS6
 0
 3
 3
-D1_mini
-D1_mini_Pin_Header
-Through hole pin header
-pin header
-0
-8
-8
-D1_mini
-OSHW
-OSHW
-Symbol, OSHW-Logo, Silk Screen,
-0
-0
-0
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -51393,104 +51379,62 @@ Yellow 5381 Series LED
 0
 2
 2
-LORA_BREAKOUT
-C_0805_2012Metric_Pad1.29x1.40mm_HandSolder
-Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor handsolder
+MS88SF2_01
+MS88SF2
+
+
 0
-2
-2
-LORA_BREAKOUT
-D1_mini_Pin_Header
-Through hole pin header
-pin header
+28
+28
+MS88SF2_01
+PinSocket_1x13
+Through hole straight socket strip, 1x13, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x13 2.54mm single row
+0
+13
+13
+MS88SF2_01
+PinSocket_1x14
+Through hole straight socket strip, 1x14, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x14 2.54mm single row
+0
+14
+14
+MazMaker
+Breakout_Attiny85_01
+
+
+0
+0
+0
+MazMaker
+MS88SF2
+
+
+0
+28
+28
+MazMaker
+PinSocket_1x13
+Through hole straight socket strip, 1x13, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x13 2.54mm single row
+0
+13
+13
+MazMaker
+SKB501_Footprint
+
+
+0
+26
+26
+MazMaker
+SOT127P798X216-8N
+8S2
+Integrated Circuit
 0
 8
 8
-LORA_BREAKOUT
-Feather_CU
-
-
-0
-0
-0
-LORA_BREAKOUT
-Firma_New
-
-
-0
-0
-0
-LORA_BREAKOUT
-HOPERF_RFM9XW_SMD_WeMos
- Low Power Long Range Transceiver Module SMD-16 http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
- Low Power Long Range Transceiver Module
-0
-16
-16
-LORA_BREAKOUT
-KiCad-Logo2_6mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-LORA_BREAKOUT
-OSHW-Logo2_7.3x6mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-LORA_BREAKOUT
-OSHW-Logo2_9.8x8mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-LORA_BREAKOUT
-PinSocket_1x01_P2.54mm_WeMos
-Through hole straight socket strip, 1x01, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x01 2.54mm single row
-0
-1
-1
-LORA_BREAKOUT
-PinSocket_1x04_P2.54mm_WeMos
-Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x04 2.54mm single row
-0
-4
-4
-LORA_BREAKOUT
-SMA_EDGELAUNCH_UFL_WeMos_Lora
-
-
-0
-5
-5
-LORA_BREAKOUT
-firma_Cu_Mask
-Imported from Firma.svg
-svg2mod
-0
-0
-0
-LORA_BREAKOUT
-ttn_logo3
-Imported from ttn_logo.svg
-svg2mod
-0
-0
-0
-LORA_BREAKOUT
-ttn_logoCu1
-Imported from ttn_logo.svg
-svg2mod
-0
-0
-0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -51596,6 +51540,13 @@ raspberry pi zero through hole
 0
 40
 40
+Module
+SKB501_Footprint
+
+
+0
+26
+26
 Module
 ST_Morpho_Connector_144_STLink
 ST Morpho Connector 144 With STLink
@@ -52366,6 +52317,20 @@ net tie
 0
 4
 4
+Nordic_Module
+MS88SF2
+
+
+0
+28
+28
+Nordic_Module
+SKB501_Footprint
+
+
+0
+26
+26
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -75382,94 +75347,3 @@ varistor SIOV
 0
 2
 2
-WeMos_Shield_Greynaga
-C_0805_2012Metric_Pad1.29x1.40mm_HandSolder
-Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-WeMos_Shield_Greynaga
-D1_mini_Pin_Header
-Through hole pin header
-pin header
-0
-8
-8
-WeMos_Shield_Greynaga
-HOPERF_RFM9XW_SMD_WeMos
- Low Power Long Range Transceiver Module SMD-16 http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
- Low Power Long Range Transceiver Module
-0
-16
-16
-WeMos_Shield_Greynaga
-KiCad-Logo2_6mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-WeMos_Shield_Greynaga
-OSHW-Logo2_7.3x6mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-WeMos_Shield_Greynaga
-OSHW-Logo2_9.8x8mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-WeMos_Shield_Greynaga
-PinSocket_1x01_P2.54mm_WeMos
-Through hole straight socket strip, 1x01, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x01 2.54mm single row
-0
-1
-1
-WeMos_Shield_Greynaga
-PinSocket_1x04_P2.54mm_WeMos
-Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x04 2.54mm single row
-0
-4
-4
-WeMos_Shield_Greynaga
-SMA_EDGELAUNCH_UFL_WeMos_Lora
-
-
-0
-5
-5
-WeMos_Shield_Greynaga
-greynaga6-2-Cooper
-
-
-0
-0
-0
-WeMos_Shield_Greynaga
-greynaga6-2-Mask
-
-
-0
-0
-0
-WeMos_Shield_Greynaga
-ttn_logo3
-Imported from ttn_logo.svg
-svg2mod
-0
-0
-0
-WeMos_Shield_Greynaga
-ttn_logoCu1
-Imported from ttn_logo.svg
-svg2mod
-0
-0
-0
