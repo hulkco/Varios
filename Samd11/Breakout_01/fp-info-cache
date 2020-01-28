@@ -1,4 +1,109 @@
-16984684752275769
+16991003155015123
+Attiny85_Breakout
+Breakout_Attiny85_01
+
+
+0
+0
+0
+Attiny85_Breakout
+C_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Attiny85_Breakout
+Firma_New
+
+
+0
+0
+0
+Attiny85_Breakout
+Heart
+
+
+0
+0
+0
+Attiny85_Breakout
+Heart_Firma
+
+
+0
+0
+0
+Attiny85_Breakout
+LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+Attiny85_Breakout
+PinHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+Attiny85_Breakout
+PinHeader_1x05_P2.54mm_Vertical
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+Attiny85_Breakout
+PinHeader_1x12_P2.54mm_Vertical
+Through hole straight pin header, 1x12, 2.54mm pitch, single row
+Through hole pin header THT 1x12 2.54mm single row
+0
+12
+12
+Attiny85_Breakout
+R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Attiny85_Breakout
+SOIC127P600X175-14N
+14-pin SOIC150
+Integrated Circuit
+0
+14
+14
+Attiny85_Breakout
+SOT127P798X216-8N
+8S2
+Integrated Circuit
+0
+8
+8
+Attiny85_Breakout
+Socket_10x30_P2.54mm_Protoboard_2
+Socket_1x30_P2.54mm_Protoboard
+Socket_1x30_P2.54mm_Protoboard
+0
+350
+30
+Attiny85_Breakout
+SolderJumper-Dual_P1.3mm_Bridged
+
+solder jumper closed
+0
+3
+3
+Attiny85_Breakout
+firma_Cu_Mask
+Imported from Firma.svg
+svg2mod
+0
+0
+0
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51379,6 +51484,41 @@ Yellow 5381 Series LED
 0
 2
 2
+MazMaker
+Breakout_Attiny85_01
+
+
+0
+0
+0
+MazMaker
+MS88SF2
+
+
+0
+28
+28
+MazMaker
+PinSocket_1x13
+Through hole straight socket strip, 1x13, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x13 2.54mm single row
+0
+13
+13
+MazMaker
+SKB501_Footprint
+
+
+0
+26
+26
+MazMaker
+SOT127P798X216-8N
+8S2
+Integrated Circuit
+0
+8
+8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -51484,6 +51624,13 @@ raspberry pi zero through hole
 0
 40
 40
+Module
+SKB501_Footprint
+
+
+0
+26
+26
 Module
 ST_Morpho_Connector_144_STLink
 ST Morpho Connector 144 With STLink
@@ -68676,125 +68823,6 @@ rotary encoder
 0
 5
 4
-SamD11_Breakout
-Back_SAMD11
-
-
-0
-0
-0
-SamD11_Breakout
-Firma_New
-
-
-0
-0
-0
-SamD11_Breakout
-Heart
-
-
-0
-0
-0
-SamD11_Breakout
-Heart_Firma
-
-
-0
-0
-0
-SamD11_Breakout
-Heart_SAMD11
-
-
-0
-0
-0
-SamD11_Breakout
-LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder
-LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED handsolder
-0
-2
-2
-SamD11_Breakout
-PinHeader_1x07_P2.54mm_Vertical
-Through hole straight pin header, 1x07, 2.54mm pitch, single row
-Through hole pin header THT 1x07 2.54mm single row
-0
-7
-7
-SamD11_Breakout
-PinHeader_1x12_P2.54mm_Vertical
-Through hole straight pin header, 1x12, 2.54mm pitch, single row
-Through hole pin header THT 1x12 2.54mm single row
-0
-12
-12
-SamD11_Breakout
-PinHeader_2x03_P2.54mm_Vertical_SMD
-surface-mounted straight pin header, 2x03, 2.54mm pitch, double rows
-Surface mounted pin header SMD 2x03 2.54mm double row
-0
-6
-6
-SamD11_Breakout
-R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
-Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-resistor handsolder
-0
-2
-2
-SamD11_Breakout
-SOIC127P600X175-14N
-14-pin SOIC150
-Integrated Circuit
-0
-14
-14
-SamD11_Breakout
-SOT127P798X216-8N
-8S2
-Integrated Circuit
-0
-8
-8
-SamD11_Breakout
-Samd21_Breakout_2
-
-
-0
-15
-15
-SamD11_Breakout
-Samd21_Breakout_3
-
-
-0
-0
-0
-SamD11_Breakout
-Socket_10x30_P2.54mm_Protoboard_2
-Socket_1x30_P2.54mm_Protoboard
-Socket_1x30_P2.54mm_Protoboard
-0
-350
-30
-SamD11_Breakout
-SolderJumper-Dual_P1.3mm_Bridged
-
-solder jumper closed
-0
-3
-3
-SamD11_Breakout
-firma_Cu_Mask
-Imported from Firma.svg
-svg2mod
-0
-0
-0
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Star_Shield)(type KiCad)(uri ${KIPRJMOD}/Star_Shield.pretty)(options "")(descr ""))
+)
