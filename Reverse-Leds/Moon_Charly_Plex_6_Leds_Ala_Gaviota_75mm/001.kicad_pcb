@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.4-e60b266~84~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -15,8 +15,8 @@
     (31 B.Cu signal)
     (34 B.Paste user)
     (35 F.Paste user)
-    (36 B.SilkS user hide)
-    (37 F.SilkS user hide)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (44 Edge.Cuts user)

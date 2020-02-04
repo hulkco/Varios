@@ -97,12 +97,12 @@ $EndComp
 $Comp
 L 001-rescue:PCB-Reverse_mount_leds U2
 U 1 1 5D927C25
-P 9925 1925
-F 0 "U2" H 10024 1971 50  0000 L CNN
-F 1 "Firma" H 10024 1880 50  0000 L CNN
-F 2 "Moon_75mm_Gaviota:firma_Cu_Mask" H 9925 1925 50  0001 C CNN
-F 3 "" H 9925 1925 50  0001 C CNN
-	1    9925 1925
+P 9900 2300
+F 0 "U2" H 9999 2346 50  0000 L CNN
+F 1 "Firma" H 9999 2255 50  0000 L CNN
+F 2 "Moon_75mm_Gaviota:firma_Cu_Mask" H 9900 2300 50  0001 C CNN
+F 3 "" H 9900 2300 50  0001 C CNN
+	1    9900 2300
 	1    0    0    -1  
 $EndComp
 Text Label 2625 1675 2    50   ~ 0
@@ -230,12 +230,12 @@ NoConn ~ 3550 2325
 $Comp
 L 001-rescue:PCB-Reverse_mount_leds U1
 U 1 1 5DA40039
-P 9925 1675
-F 0 "U1" H 10024 1721 50  0000 L CNN
-F 1 "PCB" H 10024 1630 50  0000 L CNN
-F 2 "Moon_75mm_Gaviota:Moon_6_Leds_75_2" H 9925 1675 50  0001 C CNN
-F 3 "" H 9925 1675 50  0001 C CNN
-	1    9925 1675
+P 9900 2050
+F 0 "U1" H 9999 2096 50  0000 L CNN
+F 1 "PCB" H 9999 2005 50  0000 L CNN
+F 2 "Moon_75mm_Gaviota:Moon_6_Leds_75_2" H 9900 2050 50  0001 C CNN
+F 3 "" H 9900 2050 50  0001 C CNN
+	1    9900 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -360,34 +360,34 @@ Flags
 $Comp
 L 001-rescue:PCB-Reverse_mount_leds U3
 U 1 1 5DA98B61
-P 10450 1675
-F 0 "U3" H 10549 1721 50  0000 L CNN
-F 1 "Oshpark_logo" H 10549 1630 50  0000 L CNN
-F 2 "Moon_75mm_Gaviota:OSHpark-1-1200" H 10450 1675 50  0001 C CNN
-F 3 "" H 10450 1675 50  0001 C CNN
-	1    10450 1675
+P 10425 2050
+F 0 "U3" H 10524 2096 50  0000 L CNN
+F 1 "Oshpark_logo" H 10524 2005 50  0000 L CNN
+F 2 "Moon_75mm_Gaviota:OSHpark-1-1200" H 10425 2050 50  0001 C CNN
+F 3 "" H 10425 2050 50  0001 C CNN
+	1    10425 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L 001-rescue:PCB-Reverse_mount_leds U4
 U 1 1 5DA98FA3
-P 10450 1950
-F 0 "U4" H 10549 1996 50  0000 L CNN
-F 1 "Oshpark_Purple" H 10549 1905 50  0000 L CNN
-F 2 "Moon_75mm_Gaviota:OSHpark-2-1800" H 10450 1950 50  0001 C CNN
-F 3 "" H 10450 1950 50  0001 C CNN
-	1    10450 1950
+P 10425 2325
+F 0 "U4" H 10524 2371 50  0000 L CNN
+F 1 "Oshpark_Purple" H 10524 2280 50  0000 L CNN
+F 2 "Moon_75mm_Gaviota:OSHpark-2-1800" H 10425 2325 50  0001 C CNN
+F 3 "" H 10425 2325 50  0001 C CNN
+	1    10425 2325
 	1    0    0    -1  
 $EndComp
 $Comp
 L 001-rescue:PCB-Reverse_mount_leds U5
 U 1 1 5DA99272
-P 9925 2175
-F 0 "U5" H 10024 2221 50  0000 L CNN
-F 1 "OSHW_Silk" H 10024 2130 50  0000 L CNN
-F 2 "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen" H 9925 2175 50  0001 C CNN
-F 3 "" H 9925 2175 50  0001 C CNN
-	1    9925 2175
+P 9900 2550
+F 0 "U5" H 9999 2596 50  0000 L CNN
+F 1 "OSHW_Silk" H 9999 2505 50  0000 L CNN
+F 2 "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen" H 9900 2550 50  0001 C CNN
+F 3 "" H 9900 2550 50  0001 C CNN
+	1    9900 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -458,4 +458,6 @@ Connection ~ 8050 1425
 Connection ~ 7750 1425
 Wire Wire Line
 	7750 1425 7750 1900
+Text Notes 9725 1825 0    89   ~ 18
+PCB Art & Logos
 $EndSCHEMATC
