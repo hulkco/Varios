@@ -1,4 +1,4 @@
-16975264320809165
+16979997482329091
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -10961,6 +10961,13 @@ connector JAE MXM
 0
 280
 279
+Connector_JST
+JST-PH_S2B-PH-SM4-TB
+
+
+0
+4
+4
 Connector_JST
 JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical
 JST ACH series connector, BM01B-ACHSS-A-GAN-ETF (http://www.jst-mfg.com/product/pdf/eng/eACH.pdf), generated with kicad-footprint-generator
@@ -41727,6 +41734,13 @@ USB A Vertical
 7
 5
 Connector_USB
+USB_A_Plug_PCB
+
+
+0
+4
+4
+Connector_USB
 USB_A_Stewart_SS-52100-001_Horizontal
 USB A connector https://belfuse.com/resources/drawings/stewartconnector/dr-stw-ss-52100-001.pdf
 USB_A Female Connector receptacle
@@ -51379,27 +51393,6 @@ Yellow 5381 Series LED
 0
 2
 2
-MS88SF2_01
-MS88SF2
-
-
-0
-28
-28
-MS88SF2_01
-PinSocket_1x13
-Through hole straight socket strip, 1x13, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x13 2.54mm single row
-0
-13
-13
-MS88SF2_01
-PinSocket_1x14
-Through hole straight socket strip, 1x14, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x14 2.54mm single row
-0
-14
-14
 MazMaker
 Breakout_Attiny85_01
 
@@ -52233,6 +52226,34 @@ mounting hole 8.4mm m8
 0
 9
 1
+Nano_33
+NANO_33_Footprint_SMD_Castell
+Through hole straight socket strip, 1x15, 2.54mm pitch
+Through hole socket strip THT 1x15 2.54mm single row
+0
+30
+30
+Nano_33
+NANO_33_SMD_Socket
+surface-mounted NANO
+Surface mounted socket NANO
+0
+30
+30
+Nano_33
+NANO_33_Socket
+Through hole straight socket strip, 1x15, 2.54mm pitch
+Through hole socket strip THT 1x15 2.54mm single row
+0
+30
+30
+Nano_33
+NANO_33_Socket_Castell
+Through hole straight socket strip, 1x15, 2.54mm pitch
+Through hole socket strip THT 1x15 2.54mm single row
+0
+90
+30
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads

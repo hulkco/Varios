@@ -1,102 +1,4 @@
-16979953575165056
-Attiny85_Breakout
-C_1206_3216Metric_Pad1.42x1.75mm_HandSolder
-Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-Attiny85_Breakout
-Firma_New
-
-
-0
-0
-0
-Attiny85_Breakout
-Heart
-
-
-0
-0
-0
-Attiny85_Breakout
-Heart_Firma
-
-
-0
-0
-0
-Attiny85_Breakout
-LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder
-LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED handsolder
-0
-2
-2
-Attiny85_Breakout
-PinHeader_1x04_P2.54mm_Vertical
-Through hole straight pin header, 1x04, 2.54mm pitch, single row
-Through hole pin header THT 1x04 2.54mm single row
-0
-4
-4
-Attiny85_Breakout
-PinHeader_1x05_P2.54mm_Vertical
-Through hole straight pin header, 1x05, 2.54mm pitch, single row
-Through hole pin header THT 1x05 2.54mm single row
-0
-5
-5
-Attiny85_Breakout
-PinHeader_1x12_P2.54mm_Vertical
-Through hole straight pin header, 1x12, 2.54mm pitch, single row
-Through hole pin header THT 1x12 2.54mm single row
-0
-12
-12
-Attiny85_Breakout
-R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
-Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-resistor handsolder
-0
-2
-2
-Attiny85_Breakout
-SOIC127P600X175-14N
-14-pin SOIC150
-Integrated Circuit
-0
-14
-14
-Attiny85_Breakout
-SOT127P798X216-8N
-8S2
-Integrated Circuit
-0
-8
-8
-Attiny85_Breakout
-Socket_10x30_P2.54mm_Protoboard_2
-Socket_1x30_P2.54mm_Protoboard
-Socket_1x30_P2.54mm_Protoboard
-0
-350
-30
-Attiny85_Breakout
-SolderJumper-Dual_P1.3mm_Bridged
-
-solder jumper closed
-0
-3
-3
-Attiny85_Breakout
-firma_Cu_Mask
-Imported from Firma.svg
-svg2mod
-0
-0
-0
+17013014606001781
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -11059,6 +10961,13 @@ connector JAE MXM
 0
 280
 279
+Connector_JST
+JST-PH_S2B-PH-SM4-TB
+
+
+0
+4
+4
 Connector_JST
 JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical
 JST ACH series connector, BM01B-ACHSS-A-GAN-ETF (http://www.jst-mfg.com/product/pdf/eng/eACH.pdf), generated with kicad-footprint-generator
@@ -41825,6 +41734,13 @@ USB A Vertical
 7
 5
 Connector_USB
+USB_A_Plug_PCB
+
+
+0
+4
+4
+Connector_USB
 USB_A_Stewart_SS-52100-001_Horizontal
 USB A connector https://belfuse.com/resources/drawings/stewartconnector/dr-stw-ss-52100-001.pdf
 USB_A Female Connector receptacle
@@ -44323,6 +44239,153 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+Cylon_New_Charly_Plex_6_75mm
+Cylon_001
+
+
+0
+0
+0
+Cylon_New_Charly_Plex_6_75mm
+Cylon_New_001
+
+
+0
+0
+0
+Cylon_New_Charly_Plex_6_75mm
+Digispark_SMD_Reverse
+
+
+0
+9
+9
+Cylon_New_Charly_Plex_6_75mm
+JST-S2B-PH-SM4-TB
+
+
+0
+4
+4
+Cylon_New_Charly_Plex_6_75mm
+KiCad-Logo2_5mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Cylon_New_Charly_Plex_6_75mm
+LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+Cylon_New_Charly_Plex_6_75mm
+Moon_6_Leds_75_2
+
+
+0
+0
+0
+Cylon_New_Charly_Plex_6_75mm
+Moon_ATtiny85
+
+
+0
+0
+0
+Cylon_New_Charly_Plex_6_75mm
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+Cylon_New_Charly_Plex_6_75mm
+OSHW-Logo2_9.8x8mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Cylon_New_Charly_Plex_6_75mm
+OSHpark-1-1200
+
+
+0
+0
+0
+Cylon_New_Charly_Plex_6_75mm
+OSHpark-2-1800
+
+
+0
+0
+0
+Cylon_New_Charly_Plex_6_75mm
+R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Cylon_New_Charly_Plex_6_75mm
+S8211R
+
+
+0
+3
+2
+Cylon_New_Charly_Plex_6_75mm
+SOT127P798X216-8N
+8S2
+Integrated Circuit
+0
+8
+8
+Cylon_New_Charly_Plex_6_75mm
+SW_Push_1P1T_NO_6x6mm_H9.5mm
+tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
+tact sw push 6mm smd
+0
+4
+2
+Cylon_New_Charly_Plex_6_75mm
+SW_Push_1P1T_NO_CK_KMR2
+CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf
+tactile switch kmr2
+0
+4
+2
+Cylon_New_Charly_Plex_6_75mm
+SW_Push_1P1T_NO_CK_KSC6xxJ
+CK components KSC6 tactile switch https://www.ckswitches.com/media/1972/ksc6.pdf
+tactile switch ksc6
+0
+4
+2
+Cylon_New_Charly_Plex_6_75mm
+SW_Push_PTS647_4.5mm
+
+
+0
+4
+4
+Cylon_New_Charly_Plex_6_75mm
+SunLed_PLCC_Reverse-2
+LED PLCC-2 SMD package
+LED PLCC-2 SMD
+0
+2
+2
+Cylon_New_Charly_Plex_6_75mm
+firma_Cu_Mask
+Imported from Firma.svg
+svg2mod
+0
+0
+0
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -51477,6 +51540,41 @@ Yellow 5381 Series LED
 0
 2
 2
+MazMaker
+Breakout_Attiny85_01
+
+
+0
+0
+0
+MazMaker
+MS88SF2
+
+
+0
+28
+28
+MazMaker
+PinSocket_1x13
+Through hole straight socket strip, 1x13, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x13 2.54mm single row
+0
+13
+13
+MazMaker
+SKB501_Footprint
+
+
+0
+26
+26
+MazMaker
+SOT127P798X216-8N
+8S2
+Integrated Circuit
+0
+8
+8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -51582,6 +51680,13 @@ raspberry pi zero through hole
 0
 40
 40
+Module
+SKB501_Footprint
+
+
+0
+26
+26
 Module
 ST_Morpho_Connector_144_STLink
 ST Morpho Connector 144 With STLink
@@ -52268,6 +52373,34 @@ mounting hole 8.4mm m8
 0
 9
 1
+Nano_33
+NANO_33_Footprint_SMD_Castell
+Through hole straight socket strip, 1x15, 2.54mm pitch
+Through hole socket strip THT 1x15 2.54mm single row
+0
+30
+30
+Nano_33
+NANO_33_SMD_Socket
+surface-mounted NANO
+Surface mounted socket NANO
+0
+30
+30
+Nano_33
+NANO_33_Socket
+Through hole straight socket strip, 1x15, 2.54mm pitch
+Through hole socket strip THT 1x15 2.54mm single row
+0
+30
+30
+Nano_33
+NANO_33_Socket_Castell
+Through hole straight socket strip, 1x15, 2.54mm pitch
+Through hole socket strip THT 1x15 2.54mm single row
+0
+90
+30
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -52352,6 +52485,20 @@ net tie
 0
 4
 4
+Nordic_Module
+MS88SF2
+
+
+0
+28
+28
+Nordic_Module
+SKB501_Footprint
+
+
+0
+26
+26
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
