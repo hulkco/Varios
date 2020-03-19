@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name MF-Jalisco)(type KiCad)(uri ${KIPRJMOD}/MF-Jalisco.pretty)(options "")(descr ""))
+  (lib (name lober)(type KiCad)(uri ${KIPRJMOD}/lober.pretty)(options "")(descr ""))
+)

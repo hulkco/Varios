@@ -1,0 +1,214 @@
+EESchema Schematic File Version 4
+LIBS:001-cache
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev "1"
+Comp ""
+Comment1 "Designed for OSH Park 2 Layer Prototype"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 5D499934
+P 3775 2075
+F 0 "D1" H 3768 2291 50  0000 C CNN
+F 1 "LED" H 3768 2200 50  0000 C CNN
+F 2 "MF-Jalisco:LED_D5.0mm_FlatTop" H 3775 2075 50  0001 C CNN
+F 3 "~" H 3775 2075 50  0001 C CNN
+	1    3775 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5D4B32CA
+P 3775 2425
+F 0 "D2" H 3768 2641 50  0000 C CNN
+F 1 "LED" H 3768 2550 50  0000 C CNN
+F 2 "MF-Jalisco:LED_D5.0mm_FlatTop" H 3775 2425 50  0001 C CNN
+F 3 "~" H 3775 2425 50  0001 C CNN
+	1    3775 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L MF-Jalisco:MF-Jalisco U1
+U 1 1 5D4BB244
+P 5475 2125
+F 0 "U1" H 5644 2171 50  0000 L CNN
+F 1 "MF-Jalisco" H 5644 2080 50  0000 L CNN
+F 2 "MF-Jalisco:MF-Jalisco_50mm" H 5475 2125 50  0001 C CNN
+F 3 "" H 5475 2125 50  0001 C CNN
+	1    5475 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L 001-rescue:Battery_3V_Coin-Device BT1
+U 1 1 5D4D1E6A
+P 3750 2875
+F 0 "BT1" V 4025 2875 50  0000 C CNN
+F 1 "Battery_3V_Coin" V 4100 2875 50  0000 C CNN
+F 2 "MF-Jalisco:CR1220-Jalisco" V 3750 2935 50  0001 C CNN
+F 3 "~" V 3750 2935 50  0001 C CNN
+	1    3750 2875
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5D4D9F7F
+P 3075 2975
+F 0 "#PWR02" H 3075 2725 50  0001 C CNN
+F 1 "GND" H 3080 2802 50  0000 C CNN
+F 2 "" H 3075 2975 50  0001 C CNN
+F 3 "" H 3075 2975 50  0001 C CNN
+	1    3075 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR01
+U 1 1 5D4DAF55
+P 4375 1950
+F 0 "#PWR01" H 4375 1800 50  0001 C CNN
+F 1 "+3V3" H 4390 2123 50  0000 C CNN
+F 2 "" H 4375 1950 50  0001 C CNN
+F 3 "" H 4375 1950 50  0001 C CNN
+	1    4375 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MF-Jalisco:MF-Jalisco U2
+U 1 1 5D674ECB
+P 5475 2525
+F 0 "U2" H 5644 2571 50  0000 L CNN
+F 1 "Firma" H 5644 2480 50  0000 L CNN
+F 2 "MF-Jalisco:firma_Cu_Mask" H 5475 2525 50  0001 C CNN
+F 3 "" H 5475 2525 50  0001 C CNN
+	1    5475 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L MF-Jalisco:MF-Jalisco U3
+U 1 1 5D67241A
+P 5475 2900
+F 0 "U3" H 5644 2946 50  0000 L CNN
+F 1 "PinBase" H 5644 2855 50  0000 L CNN
+F 2 "MF-Jalisco:PinBase" H 5475 2900 50  0001 C CNN
+F 3 "" H 5475 2900 50  0001 C CNN
+	1    5475 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4375 2075 4375 2425
+Wire Wire Line
+	3925 2075 4375 2075
+Connection ~ 4375 2075
+Wire Wire Line
+	4375 2075 4375 1950
+Wire Wire Line
+	3925 2425 4375 2425
+Connection ~ 4375 2425
+Wire Wire Line
+	3075 2075 3625 2075
+Wire Wire Line
+	3075 2075 3075 2425
+Wire Wire Line
+	3625 2425 3075 2425
+Connection ~ 3075 2425
+Wire Wire Line
+	4375 2875 3950 2875
+Wire Wire Line
+	3550 2875 3075 2875
+Wire Wire Line
+	3075 2975 3075 2875
+Connection ~ 3075 2875
+$Comp
+L power:+3V3 #PWR03
+U 1 1 5DA31856
+P 6900 2275
+F 0 "#PWR03" H 6900 2125 50  0001 C CNN
+F 1 "+3V3" H 6915 2448 50  0000 C CNN
+F 2 "" H 6900 2275 50  0001 C CNN
+F 3 "" H 6900 2275 50  0001 C CNN
+	1    6900 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5DA325CA
+P 7250 2475
+F 0 "#PWR04" H 7250 2225 50  0001 C CNN
+F 1 "GND" H 7255 2302 50  0000 C CNN
+F 2 "" H 7250 2475 50  0001 C CNN
+F 3 "" H 7250 2475 50  0001 C CNN
+	1    7250 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5DA33128
+P 6900 2475
+F 0 "#FLG02" H 6900 2550 50  0001 C CNN
+F 1 "PWR_FLAG" H 6725 2650 50  0000 L CNN
+F 2 "" H 6900 2475 50  0001 C CNN
+F 3 "~" H 6900 2475 50  0001 C CNN
+	1    6900 2475
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5DA34748
+P 7250 2275
+F 0 "#FLG01" H 7250 2350 50  0001 C CNN
+F 1 "PWR_FLAG" H 7075 2450 50  0000 L CNN
+F 2 "" H 7250 2275 50  0001 C CNN
+F 3 "~" H 7250 2275 50  0001 C CNN
+	1    7250 2275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 2475 7250 2275
+Wire Wire Line
+	6900 2275 6900 2475
+Wire Wire Line
+	4375 2425 4375 2875
+Wire Wire Line
+	3075 2425 3075 2875
+$Comp
+L MF-Jalisco:MF-Jalisco U?
+U 1 1 5DA3F20E
+P 5475 3300
+F 0 "U?" H 5644 3346 50  0000 L CNN
+F 1 "Xcircuito" H 5644 3255 50  0000 L CNN
+F 2 "MF-Jalisco:MF-Jalisco_Logo_PatrocinioX_50mmsvg" H 5475 3300 50  0001 C CNN
+F 3 "" H 5475 3300 50  0001 C CNN
+	1    5475 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MF-Jalisco:MF-Jalisco U?
+U 1 1 5DA3FAD3
+P 5475 3650
+F 0 "U?" H 5644 3696 50  0000 L CNN
+F 1 "Start" H 5644 3605 50  0000 L CNN
+F 2 "MF-Jalisco:MF-Jalisco_Logo_PatrocinioStar_50mmsvg" H 5475 3650 50  0001 C CNN
+F 3 "" H 5475 3650 50  0001 C CNN
+	1    5475 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MF-Jalisco:MF-Jalisco U?
+U 1 1 5DA3FF4A
+P 5475 4050
+F 0 "U?" H 5644 4096 50  0000 L CNN
+F 1 "MF-Jalisco" H 5644 4005 50  0000 L CNN
+F 2 "MF-Jalisco:MF-Jalisco_Logo_50mmsvg" H 5475 4050 50  0001 C CNN
+F 3 "" H 5475 4050 50  0001 C CNN
+	1    5475 4050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
