@@ -1,0 +1,550 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR015
+U 1 1 5BB89DC5
+P 3560 1530
+F 0 "#PWR015" H 3560 1280 50  0001 C CNN
+F 1 "GND" H 3560 1380 50  0000 C CNN
+F 2 "" H 3560 1530 50  0000 C CNN
+F 3 "" H 3560 1530 50  0000 C CNN
+	1    3560 1530
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3190 1530 3560 1530
+Text Notes 8920 4050 0    89   ~ 18
+SAO 1.69bis
+Text Notes 2630 1235 0    89   ~ 18
+SWD PORT
+Wire Wire Line
+	2460 1530 2460 1500
+Wire Wire Line
+	2690 1530 2460 1530
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J2
+U 1 1 5BB5EF14
+P 2890 1530
+F 0 "J2" H 2940 1747 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 2940 1656 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD" H 2890 1530 50  0001 C CNN
+F 3 "~" H 2890 1530 50  0001 C CNN
+	1    2890 1530
+	1    0    0    -1  
+$EndComp
+Text Label 3190 1630 0    50   ~ 0
+SWCLK
+Text Label 2690 1630 2    50   ~ 0
+SWDIO
+$Comp
+L power:+3.3V #PWR016
+U 1 1 5BB866B1
+P 2460 1500
+F 0 "#PWR016" H 2460 1350 50  0001 C CNN
+F 1 "+3.3V" H 2475 1673 50  0000 C CNN
+F 2 "" H 2460 1500 50  0001 C CNN
+F 3 "" H 2460 1500 50  0001 C CNN
+	1    2460 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2960 6895 2960 6955
+Wire Wire Line
+	2850 6895 2960 6895
+$Comp
+L power:GND #PWR08
+U 1 1 5BB747B9
+P 2960 6955
+F 0 "#PWR08" H 2960 6705 50  0001 C CNN
+F 1 "GND" H 2960 6805 50  0000 C CNN
+F 2 "" H 2960 6955 50  0000 C CNN
+F 3 "" H 2960 6955 50  0000 C CNN
+	1    2960 6955
+	1    0    0    -1  
+$EndComp
+Text Label 2450 6895 2    60   ~ 0
+RESET
+$Comp
+L Switch:SW_DPST_x2 SW1
+U 1 1 5BB741E9
+P 2650 6895
+F 0 "SW1" H 2650 7130 50  0000 C CNN
+F 1 "SW_DPST_x2" H 2650 7039 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 2650 6895 50  0001 C CNN
+F 3 "" H 2650 6895 50  0001 C CNN
+F 4 "B3U-1000P-B" H 2650 6895 50  0001 C CNN "manf#"
+	1    2650 6895
+	1    0    0    -1  
+$EndComp
+Text Label 1685 7400 3    50   ~ 0
+LED
+Wire Wire Line
+	1065 7390 1065 7450
+$Comp
+L power:GND #PWR018
+U 1 1 5BB3A8AB
+P 1065 7450
+F 0 "#PWR018" H 1065 7200 50  0001 C CNN
+F 1 "GND" H 1065 7300 50  0000 C CNN
+F 2 "" H 1065 7450 50  0000 C CNN
+F 3 "" H 1065 7450 50  0000 C CNN
+	1    1065 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1685 6510 1685 6670
+Wire Wire Line
+	1065 6500 1065 6670
+$Comp
+L power:+3.3V #PWR019
+U 1 1 5BB2CAF8
+P 1685 6510
+F 0 "#PWR019" H 1685 6360 50  0001 C CNN
+F 1 "+3.3V" H 1700 6683 50  0000 C CNN
+F 2 "" H 1685 6510 50  0001 C CNN
+F 3 "" H 1685 6510 50  0001 C CNN
+	1    1685 6510
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR017
+U 1 1 5BB2C9F6
+P 1065 6500
+F 0 "#PWR017" H 1065 6350 50  0001 C CNN
+F 1 "+3.3V" H 1080 6673 50  0000 C CNN
+F 2 "" H 1065 6500 50  0001 C CNN
+F 3 "" H 1065 6500 50  0001 C CNN
+	1    1065 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1065 6970 1065 7090
+Wire Wire Line
+	1685 6970 1685 7100
+$Comp
+L Device:R R2
+U 1 1 5BB1D85A
+P 1685 7250
+F 0 "R2" H 1755 7296 50  0000 L CNN
+F 1 "330" H 1755 7205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1615 7250 50  0001 C CNN
+F 3 "~" H 1685 7250 50  0001 C CNN
+F 4 "ESR03EZPJ331" H 1685 7250 50  0001 C CNN "manf#"
+	1    1685 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5BB1D679
+P 1065 7240
+F 0 "R1" H 1135 7286 50  0000 L CNN
+F 1 "330" H 1135 7195 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 995 7240 50  0001 C CNN
+F 3 "~" H 1065 7240 50  0001 C CNN
+F 4 "ESR03EZPJ331" H 1065 7240 50  0001 C CNN "manf#"
+	1    1065 7240
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5BB1D525
+P 1685 6820
+F 0 "D2" V 1723 6703 50  0000 R CNN
+F 1 "LED" V 1632 6703 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1685 6820 50  0001 C CNN
+F 3 "~" H 1685 6820 50  0001 C CNN
+F 4 "APT2012SGC" V 1685 6820 50  0001 C CNN "manf#"
+	1    1685 6820
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5BB1D4DB
+P 1065 6820
+F 0 "D1" V 1103 6703 50  0000 R CNN
+F 1 "POWER" V 1012 6703 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1065 6820 50  0001 C CNN
+F 3 "~" H 1065 6820 50  0001 C CNN
+F 4 "AP2012EC" V 1065 6820 50  0001 C CNN "manf#"
+	1    1065 6820
+	0    -1   -1   0   
+$EndComp
+$Comp
+L badgelife_shitty_addon_v169bis:Badgelife_sao_connector_v169bis X?
+U 1 1 5E51FA4C
+P 9290 4610
+F 0 "X?" V 8825 4610 50  0000 C CNN
+F 1 "Badgelife_sao_connector_v169bis" V 8916 4610 50  0000 C CNN
+F 2 "badgelife_sao_v169bis:Badgelife-SAOv169-BADGE-2x3" H 9290 4810 50  0001 C CNN
+F 3 "" H 9290 4810 50  0001 C CNN
+	1    9290 4610
+	0    1    1    0   
+$EndComp
+Text Notes 4290 6900 0    89   ~ 18
+PCB Art & Logos
+$Comp
+L 001-rescue:PCB-Reverse_mount_leds U5
+U 1 1 5DA99272
+P 4465 7625
+F 0 "U5" H 4564 7671 50  0000 L CNN
+F 1 "OSHW_Silk" H 4564 7580 50  0000 L CNN
+F 2 "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen" H 4465 7625 50  0001 C CNN
+F 3 "" H 4465 7625 50  0001 C CNN
+	1    4465 7625
+	1    0    0    -1  
+$EndComp
+$Comp
+L 001-rescue:PCB-Reverse_mount_leds U4
+U 1 1 5DA98FA3
+P 4990 7400
+F 0 "U4" H 5089 7446 50  0000 L CNN
+F 1 "Oshpark_Purple" H 5089 7355 50  0000 L CNN
+F 2 "Moon_75mm_Gaviota:OSHpark-2-1800" H 4990 7400 50  0001 C CNN
+F 3 "" H 4990 7400 50  0001 C CNN
+	1    4990 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 001-rescue:PCB-Reverse_mount_leds U3
+U 1 1 5DA98B61
+P 4990 7125
+F 0 "U3" H 5089 7171 50  0000 L CNN
+F 1 "Oshpark_logo" H 5089 7080 50  0000 L CNN
+F 2 "Moon_75mm_Gaviota:OSHpark-1-1200" H 4990 7125 50  0001 C CNN
+F 3 "" H 4990 7125 50  0001 C CNN
+	1    4990 7125
+	1    0    0    -1  
+$EndComp
+Text Notes 9425 790  0    89   ~ 18
+Flags
+Text Notes 780  1250 0    89   ~ 18
+LIPO Battery
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5DA423B6
+P 1335 1455
+F 0 "J1" H 1415 1447 50  0000 L CNN
+F 1 "Conn_01x02" H 1415 1356 50  0000 L CNN
+F 2 "Moon_75mm_Gaviota:JST-S2B-PH-SM4-TB" H 1335 1455 50  0001 C CNN
+F 3 "~" H 1335 1455 50  0001 C CNN
+	1    1335 1455
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 5DA2BBA7
+P 6870 4765
+F 0 "D6" H 6970 4615 50  0000 C CNN
+F 1 "LED" H 6720 4615 50  0000 C CNN
+F 2 "Moon_75mm_Gaviota:SunLed_PLCC_Reverse-2" H 6870 4765 50  0001 C CNN
+F 3 "~" H 6870 4765 50  0001 C CNN
+	1    6870 4765
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5DA2C1E7
+P 6445 4790
+F 0 "D5" H 6545 4640 50  0000 C CNN
+F 1 "LED" H 6295 4640 50  0000 C CNN
+F 2 "Moon_75mm_Gaviota:SunLed_PLCC_Reverse-2" H 6445 4790 50  0001 C CNN
+F 3 "~" H 6445 4790 50  0001 C CNN
+	1    6445 4790
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5DA2B62C
+P 5920 5065
+F 0 "D4" H 6020 4915 50  0000 C CNN
+F 1 "LED" H 5770 4915 50  0000 C CNN
+F 2 "Moon_75mm_Gaviota:SunLed_PLCC_Reverse-2" H 5920 5065 50  0001 C CNN
+F 3 "~" H 5920 5065 50  0001 C CNN
+	1    5920 5065
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5DA2C9DE
+P 5595 5065
+F 0 "D3" H 5695 4915 50  0000 C CNN
+F 1 "LED" H 5445 4915 50  0000 C CNN
+F 2 "Moon_75mm_Gaviota:SunLed_PLCC_Reverse-2" H 5595 5065 50  0001 C CNN
+F 3 "~" H 5595 5065 50  0001 C CNN
+	1    5595 5065
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5DA2AE55
+P 5145 4515
+F 0 "D2" H 5245 4365 50  0000 C CNN
+F 1 "LED" H 4995 4365 50  0000 C CNN
+F 2 "Moon_75mm_Gaviota:SunLed_PLCC_Reverse-2" H 5145 4515 50  0001 C CNN
+F 3 "~" H 5145 4515 50  0001 C CNN
+	1    5145 4515
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5DA459D2
+P 1010 1555
+F 0 "#PWR02" H 1010 1305 50  0001 C CNN
+F 1 "GND" H 1015 1382 50  0000 C CNN
+F 2 "" H 1010 1555 50  0001 C CNN
+F 3 "" H 1010 1555 50  0001 C CNN
+	1    1010 1555
+	1    0    0    -1  
+$EndComp
+Text Label 1010 1455 2    50   ~ 0
+VCC
+Wire Wire Line
+	1135 1455 1010 1455
+Wire Wire Line
+	1135 1555 1010 1555
+$Comp
+L 001-rescue:PCB-Reverse_mount_leds U1
+U 1 1 5DA40039
+P 4465 7125
+F 0 "U1" H 4564 7171 50  0000 L CNN
+F 1 "PCB" H 4564 7080 50  0000 L CNN
+F 2 "Moon_75mm_Gaviota:Moon_6_Leds_75_2" H 4465 7125 50  0001 C CNN
+F 3 "" H 4465 7125 50  0001 C CNN
+	1    4465 7125
+	1    0    0    -1  
+$EndComp
+Text Label 4320 5365 2    50   ~ 0
+PB_4
+Text Label 4320 4790 2    50   ~ 0
+PB_1
+Text Label 4320 4215 2    50   ~ 0
+PB_0
+$Comp
+L 001-rescue:VIN-wickerlib #PWR01
+U 1 1 5DA054F6
+P 10050 1140
+F 0 "#PWR01" H 10050 990 50  0001 C CNN
+F 1 "VIN" H 10065 1313 50  0000 C CNN
+F 2 "" H 10050 1140 50  0000 C CNN
+F 3 "" H 10050 1140 50  0000 C CNN
+	1    10050 1140
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 1265 10050 1140
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 5DA04141
+P 10050 1265
+F 0 "#FLG03" H 10050 1340 50  0001 C CNN
+F 1 "PWR_FLAG" H 10050 1438 50  0000 C CNN
+F 2 "" H 10050 1265 50  0001 C CNN
+F 3 "~" H 10050 1265 50  0001 C CNN
+	1    10050 1265
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6870 4215 6870 4615
+Wire Wire Line
+	6445 4215 6445 4640
+Wire Wire Line
+	4795 4215 4795 4365
+Wire Wire Line
+	5145 4215 5145 4365
+Wire Wire Line
+	5145 4665 5145 4790
+Wire Wire Line
+	4795 4665 4795 4790
+Wire Wire Line
+	6445 4215 6870 4215
+Connection ~ 6445 4215
+Connection ~ 5145 4215
+Wire Wire Line
+	5145 4215 6445 4215
+Connection ~ 5920 5365
+Wire Wire Line
+	5920 5365 6445 5365
+Wire Wire Line
+	6445 5365 6870 5365
+Connection ~ 6445 5365
+Wire Wire Line
+	6445 4940 6445 5365
+Wire Wire Line
+	6870 5365 6870 4915
+Connection ~ 5595 5365
+Wire Wire Line
+	5920 5365 5595 5365
+Wire Wire Line
+	5920 5215 5920 5365
+Wire Wire Line
+	4320 5365 5595 5365
+Wire Wire Line
+	5595 5215 5595 5365
+Connection ~ 5595 4790
+Wire Wire Line
+	5920 4790 5595 4790
+Wire Wire Line
+	5920 4915 5920 4790
+Connection ~ 5145 4790
+Wire Wire Line
+	5595 4790 5145 4790
+Wire Wire Line
+	5595 4915 5595 4790
+Wire Wire Line
+	4795 4790 5145 4790
+Connection ~ 4795 4790
+Wire Wire Line
+	4320 4790 4795 4790
+Wire Wire Line
+	4795 4215 5145 4215
+Connection ~ 4795 4215
+Wire Wire Line
+	4320 4215 4795 4215
+$Comp
+L 001-rescue:PCB-Reverse_mount_leds U2
+U 1 1 5D927C25
+P 4465 7375
+F 0 "U2" H 4564 7421 50  0000 L CNN
+F 1 "Firma" H 4564 7330 50  0000 L CNN
+F 2 "Moon_75mm_Gaviota:firma_Cu_Mask" H 4465 7375 50  0001 C CNN
+F 3 "" H 4465 7375 50  0001 C CNN
+	1    4465 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR09
+U 1 1 5D91B027
+P 9625 1140
+F 0 "#PWR09" H 9625 990 50  0001 C CNN
+F 1 "VCC" H 9642 1313 50  0000 C CNN
+F 2 "" H 9625 1140 50  0001 C CNN
+F 3 "" H 9625 1140 50  0001 C CNN
+	1    9625 1140
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5D6B6DFF
+P 4795 4515
+F 0 "D1" H 4895 4365 50  0000 C CNN
+F 1 "LED" H 4645 4365 50  0000 C CNN
+F 2 "Moon_75mm_Gaviota:SunLed_PLCC_Reverse-2" H 4795 4515 50  0001 C CNN
+F 3 "~" H 4795 4515 50  0001 C CNN
+	1    4795 4515
+	0    1    1    0   
+$EndComp
+Text Notes 5070 3990 0    89   ~ 18
+Charlie Plexing
+Wire Wire Line
+	9625 1265 9625 1140
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5D932C92
+P 9625 1265
+F 0 "#FLG02" H 9625 1340 50  0001 C CNN
+F 1 "PWR_FLAG" H 9625 1438 50  0000 C CNN
+F 2 "" H 9625 1265 50  0001 C CNN
+F 3 "~" H 9625 1265 50  0001 C CNN
+	1    9625 1265
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9225 1140 9225 1265
+$Comp
+L power:GND #PWR04
+U 1 1 5D930D3A
+P 9225 1265
+F 0 "#PWR04" H 9225 1015 50  0001 C CNN
+F 1 "GND" H 9230 1092 50  0000 C CNN
+F 2 "" H 9225 1265 50  0001 C CNN
+F 3 "" H 9225 1265 50  0001 C CNN
+	1    9225 1265
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5D92F7A7
+P 9225 1140
+F 0 "#FLG01" H 9225 1215 50  0001 C CNN
+F 1 "PWR_FLAG" H 9225 1313 50  0000 C CNN
+F 2 "" H 9225 1140 50  0001 C CNN
+F 3 "~" H 9225 1140 50  0001 C CNN
+	1    9225 1140
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1625 4875 1625
+Wire Wire Line
+	4750 1525 4875 1525
+Text Notes 4945 945  0    89   ~ 18
+nrf52840 Dongle
+Wire Wire Line
+	4750 1825 4875 1825
+Wire Wire Line
+	4750 1925 4875 1925
+Wire Wire Line
+	4750 2025 4875 2025
+Wire Wire Line
+	4750 2125 4875 2125
+Wire Wire Line
+	4750 2225 4875 2225
+Wire Wire Line
+	4750 2325 4875 2325
+Wire Wire Line
+	4750 2425 4875 2425
+Wire Wire Line
+	6200 2725 6075 2725
+Wire Wire Line
+	6200 2525 6075 2525
+Wire Wire Line
+	6200 2425 6075 2425
+Wire Wire Line
+	6200 2325 6075 2325
+Wire Wire Line
+	6200 2225 6075 2225
+Wire Wire Line
+	6200 2125 6075 2125
+Wire Wire Line
+	6200 2025 6075 2025
+Wire Wire Line
+	6200 1925 6075 1925
+Wire Wire Line
+	6200 1825 6075 1825
+Wire Wire Line
+	6200 1325 6075 1325
+Wire Wire Line
+	6200 1525 6075 1525
+$Comp
+L NRF52840-DONGLE:NRF52840-DONGLE U?
+U 1 1 5E76B4E8
+P 5475 2025
+F 0 "U?" H 5475 2990 50  0000 C CNN
+F 1 "NRF52840-DONGLE" H 5475 2899 50  0000 C CNN
+F 2 "MODULE_NRF52840-DONGLE" H 5475 2025 50  0001 L BNN
+F 3 "N/A" H 5475 2025 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 5475 2025 50  0001 L BNN "Field4"
+F 5 "1.1" H 5475 2025 50  0001 L BNN "Field5"
+F 6 "Nordic semiconductor" H 5475 2025 50  0001 L BNN "Field6"
+	1    5475 2025
+	1    0    0    -1  
+$EndComp
+Text Label 6200 1325 0    50   ~ 0
+VCC
+Text Label 4750 1525 2    50   ~ 0
+SWCLK
+Text Label 4750 1625 2    50   ~ 0
+SWDIO
+$EndSCHEMATC

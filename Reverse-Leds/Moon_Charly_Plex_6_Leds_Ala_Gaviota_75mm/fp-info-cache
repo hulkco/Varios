@@ -1,4 +1,4 @@
-17005146203882731
+17011417351776755
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51499,12 +51499,26 @@ PocketBeagle
 72
 72
 Module
+MODULE_NRF52840-DONGLE
+
+
+0
+22
+22
+Module
 Maple_Mini
 Maple Mini, http://docs.leaflabs.com/static.leaflabs.com/pub/leaflabs/maple-docs/0.0.12/hardware/maple-mini.html
 Maple Mini
 0
 40
 40
+Module
+NRF52840-DONGLE_SMD
+
+
+0
+22
+22
 Module
 Onion_Omega2+
 https://onion.io/omega2/
@@ -75480,3 +75494,17 @@ varistor SIOV
 0
 2
 2
+badgelife_sao_v169bis
+Badgelife-SAOv169-BADGE-2x3
+Through hole straight IDC box header, 2x03, 2.54mm pitch, double rows
+Through hole IDC box header THT 2x03 2.54mm double row
+0
+6
+6
+badgelife_sao_v169bis
+Badgelife-SAOv169-SAO-2x3
+Through hole straight IDC box header, 2x03, 2.54mm pitch, double rows
+Through hole IDC box header THT 2x03 2.54mm double row
+0
+6
+6
