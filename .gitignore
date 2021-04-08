@@ -6,8 +6,12 @@
 *.bck
 *.kicad_pcb-bak
 
+
 # Netlist files (exported from Eeschema)
 *.net
 
 # Autorouter files (exported from Pcbnew)
 .dsn
+
+#MacOs Temporary files
+*.DS_Storage
