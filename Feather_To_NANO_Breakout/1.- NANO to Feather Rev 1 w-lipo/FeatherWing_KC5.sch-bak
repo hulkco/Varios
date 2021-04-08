@@ -608,12 +608,12 @@ $EndComp
 Wire Wire Line
 	4275 4950 4475 4950
 $Comp
-L Device:Jumper_NC_Small JP?
+L Device:Jumper_NC_Small JP1
 U 1 1 5E2A9A17
 P 4575 4950
-F 0 "JP?" H 4575 4875 50  0000 C CNN
+F 0 "JP1" H 4575 4875 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 4575 5071 50  0001 C CNN
-F 2 "" H 4575 4950 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 4575 4950 50  0001 C CNN
 F 3 "~" H 4575 4950 50  0001 C CNN
 	1    4575 4950
 	1    0    0    -1  

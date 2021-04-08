@@ -457,7 +457,7 @@ NoConn ~ 5325 2250
 NoConn ~ 5325 5150
 NoConn ~ 4675 4850
 $Comp
-L Graphic:Extra U1
+L FeatherWing_KC5-rescue:Extra-Graphic U1
 U 1 1 5E2BEF7F
 P 7075 1800
 F 0 "U1" H 7215 1846 50  0000 L CNN
@@ -468,7 +468,7 @@ F 3 "" H 7075 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Extra U2
+L FeatherWing_KC5-rescue:Extra-Graphic U2
 U 1 1 5E2BF776
 P 7075 2100
 F 0 "U2" H 7215 2146 50  0000 L CNN
@@ -479,7 +479,7 @@ F 3 "" H 7075 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Extra U3
+L FeatherWing_KC5-rescue:Extra-Graphic U3
 U 1 1 5E2BFB4E
 P 7075 2400
 F 0 "U3" H 7215 2446 50  0000 L CNN
@@ -490,7 +490,7 @@ F 3 "" H 7075 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Extra U4
+L FeatherWing_KC5-rescue:Extra-Graphic U4
 U 1 1 5E2C0E92
 P 7075 2700
 F 0 "U4" H 7215 2746 50  0000 L CNN
@@ -501,7 +501,7 @@ F 3 "" H 7075 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Extra U5
+L FeatherWing_KC5-rescue:Extra-Graphic U5
 U 1 1 5E2C0E9C
 P 7075 3000
 F 0 "U5" H 7215 3046 50  0000 L CNN
@@ -512,7 +512,7 @@ F 3 "" H 7075 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Extra U6
+L FeatherWing_KC5-rescue:Extra-Graphic U6
 U 1 1 5E2C0EA6
 P 7075 3300
 F 0 "U6" H 7215 3346 50  0000 L CNN
@@ -551,7 +551,7 @@ $EndComp
 Text Label 2925 3450 2    50   ~ 0
 VIN
 $Comp
-L Graphic:Extra U7
+L FeatherWing_KC5-rescue:Extra-Graphic U7
 U 1 1 5E2696B4
 P 7925 1775
 F 0 "U7" H 8065 1821 50  0000 L CNN
@@ -562,7 +562,7 @@ F 3 "" H 7925 1775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Extra U8
+L FeatherWing_KC5-rescue:Extra-Graphic U8
 U 1 1 5E269B67
 P 7950 2400
 F 0 "U8" H 8090 2446 50  0000 L CNN
@@ -573,7 +573,7 @@ F 3 "" H 7950 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Extra U9
+L FeatherWing_KC5-rescue:Extra-Graphic U9
 U 1 1 5E26B47E
 P 7950 2700
 F 0 "U9" H 8090 2746 50  0000 L CNN
@@ -584,7 +584,7 @@ F 3 "" H 7950 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Extra U10
+L FeatherWing_KC5-rescue:Extra-Graphic U10
 U 1 1 5E26CA20
 P 7950 3000
 F 0 "U10" H 8090 3046 50  0000 L CNN
@@ -595,7 +595,7 @@ F 3 "" H 7950 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Extra U11
+L FeatherWing_KC5-rescue:Extra-Graphic U11
 U 1 1 5E26D0ED
 P 7950 3300
 F 0 "U11" H 8090 3346 50  0000 L CNN
