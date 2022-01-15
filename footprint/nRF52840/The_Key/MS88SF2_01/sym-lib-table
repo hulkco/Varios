@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name MS88SF2_01-rescue)(type Legacy)(uri ${KIPRJMOD}/MS88SF2_01-rescue.lib)(options "")(descr ""))
-)
