@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name 001-rescue)(type Legacy)(uri /home/greynaga/Github/Varios/Reverse-Leds/Moon_Charly_Plex_6_Leds_Ala_Gaviota_75mm/001-rescue.lib)(options "")(descr ""))
+  (lib (name Bast-Pro-Mini-M0-rescue)(type Legacy)(uri "/home/greynaga/Github/Bast-Pro-Mini-M0 (copy)/Hw/Bast-Pro-Mini-M0-rescue.lib")(options "")(descr ""))
+  (lib (name ArduinoBadge)(type Legacy)(uri /home/greynaga/Github/Arduino_NANO_Badge/001_OSHPARK_Patrocinio/ArduinoBadge.lib)(options "")(descr ""))
+)

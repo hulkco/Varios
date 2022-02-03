@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~84~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~86~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.6096)
+    (last_trace_width 0.25)
     (user_trace_width 0.1524)
     (user_trace_width 0.2032)
     (user_trace_width 0.4)
@@ -466,7 +466,7 @@
   (gr_line (start 165.735 114.935) (end 149.225 114.935) (layer Edge.Cuts) (width 0.05) (tstamp 5DFF3508))
   (gr_line (start 167.64 97.79) (end 167.64 113.03) (layer Edge.Cuts) (width 0.05) (tstamp 5DFF350B))
   (dimension 17.78 (width 0.12) (layer F.SilkS) (tstamp 5DFF28F9)
-    (gr_text "17.780 mm" (at 157.48 86.995) (layer F.SilkS) (tstamp 5DFFB787)
+    (gr_text "17.780 mm" (at 157.48 86.995) (layer F.SilkS) (tstamp 5DFF28F9)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 166.37 97.79) (xy 166.37 87.678579)))
@@ -497,7 +497,7 @@
   (gr_arc (start 165.735 97.79) (end 167.64 97.79) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DFF33CD))
   (gr_arc (start 149.225 97.79) (end 149.225 95.885) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DFF34AE))
   (dimension 8.89 (width 0.12) (layer F.SilkS) (tstamp 5DFF8CD2)
-    (gr_text "8.890 mm" (at 153.035 118.11) (layer F.SilkS) (tstamp 5DFFB77E)
+    (gr_text "8.890 mm" (at 153.035 118.11) (layer F.SilkS) (tstamp 5DFF8CD2)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 157.48 97.79) (xy 157.48 117.426421)))

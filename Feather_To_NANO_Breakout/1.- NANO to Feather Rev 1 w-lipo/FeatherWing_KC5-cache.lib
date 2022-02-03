@@ -173,11 +173,11 @@ X 2 2 100 0 40 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Graphic_Extra
+# FeatherWing_KC5-rescue_Extra-Graphic
 #
-DEF Graphic_Extra U 0 40 Y Y 1 F N
+DEF FeatherWing_KC5-rescue_Extra-Graphic U 0 40 Y Y 1 F N
 F0 "U" 0 200 50 H V C CNN
-F1 "Graphic_Extra" 0 -200 50 H V C CNN
+F1 "FeatherWing_KC5-rescue_Extra-Graphic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
